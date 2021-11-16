@@ -1,7 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:qr_4_all/views/read_example.dart';
-import 'package:qr_4_all/views/write_example.dart';
 
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -11,7 +10,6 @@ Future main() async {
 class MyApp extends StatelessWidget {
   final Future<FirebaseApp> _fbApp = Firebase.initializeApp();
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -64,15 +62,6 @@ class MyHomePage extends StatelessWidget {
                       ));
                 },
                 child: Text("ReadExaple")),
-            // ElevatedButton(
-            //     onPressed: () {
-            //       Navigator.push(
-            //           context,
-            //           MaterialPageRoute(
-            //             builder: (context) => WriteExamples(),
-            //           ));
-            //     },
-            //     child: Text("Write example"))
           ],
         ),
       ),
