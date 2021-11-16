@@ -1,6 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:qr_4_all/views/read_example.dart';
+import 'package:qr_4_all/views/menu_screen.dart';
 
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -24,11 +24,11 @@ class MyApp extends StatelessWidget {
           builder: (context, snapshot) {
             if (snapshot.hasError) {
               print('You have an error');
-              return Text('Something went wrong');
+              return const Text('Something went wrong');
             } else if (snapshot.hasData) {
-              return MyHomePage(title: "LoadingScreen");
+              return const MyHomePage(title: "LoadingScreen");
             } else {
-              return Center(
+              return const Center(
                 child: CircularProgressIndicator(),
               );
             }
@@ -60,10 +60,10 @@ class MyHomePage extends StatelessWidget {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => ReadExamples(),
+                        builder: (context) => const MenuScreen(),
                       ));
                 },
-                child: Text("Go to first Screen")),
+                child: const Text("Go to Menu Screen")),
           ],
         ),
       ),

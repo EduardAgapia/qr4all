@@ -2,28 +2,32 @@ import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:qr_4_all/domain/gal.dart';
-import 'package:qr_4_all/views/turistic-areas/views/trails/views/trail_screen.dart';
+import 'package:qr_4_all/views/turistic-areas/views/info/util_info_screen.dart';
+import 'package:qr_4_all/views/turistic-areas/views/about_screen.dart';
+import 'package:qr_4_all/views/turistic-areas/views/calendar/calendar_screen.dart';
+import 'package:qr_4_all/views/turistic-areas/views/objectives/objectives_screen.dart';
+import 'package:qr_4_all/views/turistic-areas/views/trails/trails_screen.dart';
 
-class TrailsScreen extends StatefulWidget {
-  _TrailsScreenState createState() => _TrailsScreenState();
+class ZoneScreen extends StatefulWidget {
+  _ZoneScreenState createState() => _ZoneScreenState();
 }
 
-class _TrailsScreenState extends State<TrailsScreen> {
+class _ZoneScreenState extends State<ZoneScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text("Lista Trasee"),
+        title: const Text("Zona Specifica"),
       ),
       body: Center(
         child: GridView.count(
           primary: false,
-          childAspectRatio: 350 / 100,
-          padding: const EdgeInsets.fromLTRB(10, 25, 10, 5),
+          childAspectRatio: 265 / 100,
+          padding: const EdgeInsets.fromLTRB(10, 5, 10, 5),
           //Todo: dynamic values with respect for phone specs
           crossAxisSpacing: 5,
-          mainAxisSpacing: 15,
+          mainAxisSpacing: 5,
           crossAxisCount: 1,
           children: <Widget>[
             Container(
@@ -37,11 +41,11 @@ class _TrailsScreenState extends State<TrailsScreen> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => TrailScreen(),
+                        builder: (context) => AboutScreen(),
                       ));
                 },
                 child: Container(
-                  padding: const EdgeInsets.fromLTRB(0, 90, 0, 0),
+                  padding: const EdgeInsets.fromLTRB(0, 115, 0, 0),
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
@@ -53,7 +57,7 @@ class _TrailsScreenState extends State<TrailsScreen> {
                     height: 10,
                     child: const Align(
                       alignment: Alignment.bottomCenter,
-                      child: Text("Traseul Strengarului"),
+                      child: Text("Despre"),
                     ),
                     decoration: const BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(15.0)),
@@ -73,11 +77,11 @@ class _TrailsScreenState extends State<TrailsScreen> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => TrailScreen(),
+                        builder: (context) => CalendarScreen(),
                       ));
                 },
                 child: Container(
-                  padding: const EdgeInsets.fromLTRB(0, 90, 0, 0),
+                  padding: const EdgeInsets.fromLTRB(0, 115, 0, 0),
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
@@ -89,7 +93,7 @@ class _TrailsScreenState extends State<TrailsScreen> {
                     height: 10,
                     child: const Align(
                       alignment: Alignment.bottomCenter,
-                      child: Text("Traseu imaginar"),
+                      child: Text("Calendar Electronic"),
                     ),
                     decoration: const BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(15.0)),
@@ -109,11 +113,11 @@ class _TrailsScreenState extends State<TrailsScreen> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => TrailScreen(),
+                        builder: (context) => TrailsScreen(),
                       ));
                 },
                 child: Container(
-                  padding: const EdgeInsets.fromLTRB(0, 90, 0, 0),
+                  padding: const EdgeInsets.fromLTRB(0, 115, 0, 0),
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
@@ -125,7 +129,7 @@ class _TrailsScreenState extends State<TrailsScreen> {
                     height: 10,
                     child: const Align(
                       alignment: Alignment.bottomCenter,
-                      child: Text("Traseu nemarginit"),
+                      child: Text("Trasee"),
                     ),
                     decoration: const BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(15.0)),
@@ -145,11 +149,11 @@ class _TrailsScreenState extends State<TrailsScreen> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => TrailScreen(),
+                        builder: (context) => ObjectivesScreen(),
                       ));
                 },
                 child: Container(
-                  padding: const EdgeInsets.fromLTRB(0, 90, 0, 0),
+                  padding: const EdgeInsets.fromLTRB(0, 115, 0, 0),
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
@@ -161,7 +165,7 @@ class _TrailsScreenState extends State<TrailsScreen> {
                     height: 10,
                     child: const Align(
                       alignment: Alignment.bottomCenter,
-                      child: Text("Traseul necugetatului"),
+                      child: Text("Obiective Turistice"),
                     ),
                     decoration: const BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(15.0)),
@@ -181,11 +185,11 @@ class _TrailsScreenState extends State<TrailsScreen> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => TrailScreen(),
+                        builder: (context) => UtilInfoScreen(),
                       ));
                 },
                 child: Container(
-                  padding: const EdgeInsets.fromLTRB(0, 90, 0, 0),
+                  padding: const EdgeInsets.fromLTRB(0, 115, 0, 0),
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
@@ -197,7 +201,7 @@ class _TrailsScreenState extends State<TrailsScreen> {
                     height: 10,
                     child: const Align(
                       alignment: Alignment.bottomCenter,
-                      child: Text("Traeu K"),
+                      child: Text("Informatii utile"),
                     ),
                     decoration: const BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(15.0)),
