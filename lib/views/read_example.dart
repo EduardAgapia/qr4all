@@ -24,16 +24,218 @@ class _ReadExampleState extends State<ReadExamples> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Read examples"),
+        centerTitle: true,
+        title: const Text("Zone Turistice"),
       ),
       body: Center(
-        child: Padding(
-          padding: const EdgeInsets.only(top: 15.0),
-          child: Column(
-            children: [
-              Text(_displayText),
-            ],
-          ),
+        child: GridView.count(
+          primary: false,
+          childAspectRatio: 6 / 10,
+          padding: const EdgeInsets.fromLTRB(10, 60, 10, 60),
+          //Todo: dynamic values with respect for phone specs
+          crossAxisSpacing: 3,
+          mainAxisSpacing: 3,
+          crossAxisCount: 3,
+          children: <Widget>[
+            Container(
+              padding: const EdgeInsets.fromLTRB(0, 180, 0, 0),
+              //Todo: dynamic values with respect for phone specs
+              child: Container(
+                width: double.infinity,
+                height: 10,
+                decoration: const BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                  color: Color.fromARGB(100, 255, 255, 255),
+                ),
+                alignment: Alignment.bottomCenter,
+                child: const Align(
+                  alignment: Alignment.center,
+                  child: Text("Belcesti-Focuri"),
+                ),
+              ),
+              decoration: const BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                  image: DecorationImage(
+                      image: AssetImage("assets/gals/iasi.png"),
+                      fit: BoxFit.cover)),
+            ),
+            Container(
+              padding: const EdgeInsets.fromLTRB(0, 180, 0, 0),
+              //Todo: dynamic values with respect for phone specs
+              child: Container(
+                width: double.infinity,
+                height: 10,
+                decoration: const BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                  color: Color.fromARGB(100, 255, 255, 255),
+                ),
+                alignment: Alignment.bottomCenter,
+                child: const Align(
+                  alignment: Alignment.center,
+                  child: Text("Belcesti-Focuri"),
+                ),
+              ),
+              decoration: const BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                  image: DecorationImage(
+                      image: AssetImage("assets/gals/iasi.png"),
+                      fit: BoxFit.cover)),
+            ),
+            Container(
+              padding: const EdgeInsets.fromLTRB(0, 180, 0, 0),
+              //Todo: dynamic values with respect for phone specs
+              child: Container(
+                width: double.infinity,
+                height: 10,
+                decoration: const BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                  color: Color.fromARGB(100, 255, 255, 255),
+                ),
+                alignment: Alignment.bottomCenter,
+                child: const Align(
+                  alignment: Alignment.center,
+                  child: Text("Belcesti-Focuri"),
+                ),
+              ),
+              decoration: const BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                  image: DecorationImage(
+                      image: AssetImage("assets/gals/iasi.png"),
+                      fit: BoxFit.cover)),
+            ),
+            Container(
+              padding: const EdgeInsets.fromLTRB(0, 180, 0, 0),
+              //Todo: dynamic values with respect for phone specs
+              child: Container(
+                width: double.infinity,
+                height: 10,
+                decoration: const BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                  color: Color.fromARGB(100, 255, 255, 255),
+                ),
+                alignment: Alignment.bottomCenter,
+                child: const Align(
+                  alignment: Alignment.center,
+                  child: Text("Belcesti-Focuri"),
+                ),
+              ),
+              decoration: const BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                  image: DecorationImage(
+                      image: AssetImage("assets/gals/iasi.png"),
+                      fit: BoxFit.cover)),
+            ),
+            Container(
+              padding: const EdgeInsets.fromLTRB(0, 180, 0, 0),
+              //Todo: dynamic values with respect for phone specs
+              child: Container(
+                width: double.infinity,
+                height: 10,
+                decoration: const BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                  color: Color.fromARGB(100, 255, 255, 255),
+                ),
+                alignment: Alignment.bottomCenter,
+                child: const Align(
+                  alignment: Alignment.center,
+                  child: Text("Belcesti-Focuri"),
+                ),
+              ),
+              decoration: const BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                  image: DecorationImage(
+                      image: AssetImage("assets/gals/iasi.png"),
+                      fit: BoxFit.cover)),
+            ),
+            Container(
+              padding: const EdgeInsets.fromLTRB(0, 180, 0, 0),
+              //Todo: dynamic values with respect for phone specs
+              child: Container(
+                width: double.infinity,
+                height: 10,
+                decoration: const BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                  color: Color.fromARGB(100, 255, 255, 255),
+                ),
+                alignment: Alignment.bottomCenter,
+                child: const Align(
+                  alignment: Alignment.center,
+                  child: Text("Belcesti-Focuri"),
+                ),
+              ),
+              decoration: const BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                  image: DecorationImage(
+                      image: AssetImage("assets/gals/iasi.png"),
+                      fit: BoxFit.cover)),
+            ),
+            Container(
+              padding: const EdgeInsets.fromLTRB(0, 180, 0, 0),
+              //Todo: dynamic values with respect for phone specs
+              child: Container(
+                width: double.infinity,
+                height: 10,
+                decoration: const BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                  color: Color.fromARGB(100, 255, 255, 255),
+                ),
+                alignment: Alignment.bottomCenter,
+                child: const Align(
+                  alignment: Alignment.center,
+                  child: Text("Belcesti-Focuri"),
+                ),
+              ),
+              decoration: const BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                  image: DecorationImage(
+                      image: AssetImage("assets/gals/iasi.png"),
+                      fit: BoxFit.cover)),
+            ),
+            Container(
+              padding: const EdgeInsets.fromLTRB(0, 180, 0, 0),
+              //Todo: dynamic values with respect for phone specs
+              child: Container(
+                width: double.infinity,
+                height: 10,
+                decoration: const BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                  color: Color.fromARGB(100, 255, 255, 255),
+                ),
+                alignment: Alignment.bottomCenter,
+                child: const Align(
+                  alignment: Alignment.center,
+                  child: Text("Belcesti-Focuri"),
+                ),
+              ),
+              decoration: const BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                  image: DecorationImage(
+                      image: AssetImage("assets/gals/iasi.png"),
+                      fit: BoxFit.cover)),
+            ),
+            Container(
+              padding: const EdgeInsets.fromLTRB(0, 180, 0, 0),
+              //Todo: dynamic values with respect for phone specs
+              child: Container(
+                width: double.infinity,
+                height: 10,
+                decoration: const BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                  color: Color.fromARGB(100, 255, 255, 255),
+                ),
+                alignment: Alignment.bottomCenter,
+                child: const Align(
+                  alignment: Alignment.center,
+                  child: Text("Belcesti-Focuri"),
+                ),
+              ),
+              decoration: const BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                  image: DecorationImage(
+                      image: AssetImage("assets/gals/iasi.png"),
+                      fit: BoxFit.cover)),
+            ),
+          ],
         ),
       ),
     );

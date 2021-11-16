@@ -28,12 +28,9 @@ class Objective {
 
   String fancyDescription() {
     return 'Obiectivul ' +
-        this.name + '\n'  +
-        ' situat pe ' +
-        this.location + '\n'  +
-        ' are urmatorul program: ' +
-        this.programm + '\n'  +
-        ' cu descrierea: ' +
-        this.description + '\n' ;
+        name + '\n'  + ' situat pe ' +
+        location + '\n'  + ' are urmatorul program: ' +
+        programm + '\n'  + ' cu descrierea: ' +
+        description + '\n' ;
   }
 }

@@ -27,16 +27,9 @@ class Event {
 
   String fancyDescription() {
     return 'Evenimentul ' +
-        this.name +
-        '\n' +
-        ' va avea loc la ' +
-        this.location +
-        '\n' +
-        ' in intervalul orar ' +
-        this.programm +
-        '\n' +
-        ' cu tema: ' +
-        this.description +
-        '\n';
+        name + '\n' + ' va avea loc la ' +
+        location + '\n' + ' in intervalul orar ' +
+        programm + '\n' + ' cu tema: ' +
+        description + '\n';
   }
 }

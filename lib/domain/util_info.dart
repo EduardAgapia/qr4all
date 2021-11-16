@@ -31,21 +31,14 @@ class UtilInfo {
   }
 
   String fancyDescription() {
-    return 'Politia - ' +
-        this.police + '\n'  +
-        'Restaurant- ' +
-        this.restaurant + '\n'  +
-        'Farmacie- ' +
-        this.drugs + '\n'  +
-        'Hotel- ' +
-        this.hotel + '\n'  +
-        'Spital- ' +
-        this.hospital + '\n'  +
-        'Primarie- ' +
-        this.mayor + '\n'  +
-        'Benzinarie- ' +
-        this.gasStation + '\n'  +
-        'Vulcanizare- ' +
-        this.serviceAuto + '\n' ;
+    return
+        'Politia - '  + police + '\n'  +
+        'Restaurant- '+ restaurant + '\n'  +
+        'Farmacie- '  + drugs + '\n'  +
+        'Hotel- '     + hotel + '\n'  +
+        'Spital- '    + hospital + '\n'  +
+        'Primarie- '  + mayor + '\n'  +
+        'Benzinarie- '+ gasStation + '\n'  +
+        'Vulcanizare-'+ serviceAuto + '\n' ;
   }
 }

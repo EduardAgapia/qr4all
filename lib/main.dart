@@ -13,9 +13,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Flutter Demo',
+        title: 'QR4ALL app',
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          primarySwatch: Colors.blue,
+          primaryColor: Colors.blueGrey,
+          primarySwatch: Colors.green,
         ),
         home: FutureBuilder(
           future: _fbApp,
@@ -24,7 +26,7 @@ class MyApp extends StatelessWidget {
               print('You have an error');
               return Text('Something went wrong');
             } else if (snapshot.hasData) {
-              return MyHomePage(title: "My amazing app!");
+              return MyHomePage(title: "LoadingScreen");
             } else {
               return Center(
                 child: CircularProgressIndicator(),
@@ -44,6 +46,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: Text(title),
       ),
       body: Padding(
@@ -51,7 +54,6 @@ class MyHomePage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text("Check out my example"),
             SizedBox(height: 6, width: MediaQuery.of(context).size.width),
             ElevatedButton(
                 onPressed: () {
@@ -61,7 +63,7 @@ class MyHomePage extends StatelessWidget {
                         builder: (context) => ReadExamples(),
                       ));
                 },
-                child: Text("ReadExaple")),
+                child: Text("Go to first Screen")),
           ],
         ),
       ),

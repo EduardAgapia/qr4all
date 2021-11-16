@@ -12,7 +12,7 @@ class Gal {
   late UtilInfo utils;
 
   static Gal fromRTDB(Map<String, dynamic> data) {
-    Gal gal = new Gal();
+    Gal gal = Gal();
     gal.name = data['name'] ?? 'Suck it!';
     gal.events = Event.getList(data);
     gal.objectives = Objective.getList(data);
@@ -23,15 +23,10 @@ class Gal {
 
   String fancyDescription() {
     return 'GAL-ul ' +
-        this.name +
-        '\n' +
-        this.events[0].fancyDescription() +
-        '\n' +
-        this.objectives[0].fancyDescription() +
-        '\n' +
-        this.trails[0].fancyDescription() +
-        '\n' +
-        this.utils.fancyDescription() +
-        '\n';
+        name + '\n' +
+        events[0].fancyDescription() + '\n' +
+        objectives[0].fancyDescription() + '\n' +
+        trails[0].fancyDescription() + '\n' +
+        utils.fancyDescription() + '\n';
   }
 }
