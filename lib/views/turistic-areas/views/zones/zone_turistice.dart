@@ -1,5 +1,3 @@
-import 'dart:async';
-
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -48,18 +46,55 @@ class _ReadExampleState extends State<ZoneTuristice> {
               ),
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => ZoneScreen(),
-                      ));
+                  showModalBottomSheet(
+                      context: context,
+                      builder: (context) {
+                        return Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            ListTile(
+                              leading: Icon(Icons.home),
+                              title: Text('Pagina Gal'),
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => ZoneScreen(),
+                                    ));
+                              },
+                            ),
+                            ListTile(
+                              leading:Icon(Icons.dangerous),
+                              title: Text('Placeholder'),
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => const Placeholder(),
+                                    ));
+                              },
+                            ),
+                            ListTile(
+                              leading: Icon(Icons.dangerous),
+                              title: Text('Placeholder'),
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => const Placeholder(),
+                                    ));
+                              },
+                            ),
+                          ],
+                        );
+                      });
                 },
                 child: Container(
                   padding: const EdgeInsets.fromLTRB(0, 180, 0, 0),
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
-                          image: AssetImage("assets/gals/iasi.png"),
+                          image: AssetImage("assets/gals/belcesti.png"),
                           fit: BoxFit.cover)),
                   child: Container(
                     padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
@@ -84,18 +119,56 @@ class _ReadExampleState extends State<ZoneTuristice> {
               ),
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => ZoneScreen(),
-                      ));
+
+                  showModalBottomSheet(
+                      context: context,
+                      builder: (context) {
+                        return Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            ListTile(
+                              leading: Icon(Icons.home),
+                              title: Text('Pagina Gal'),
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => ZoneScreen(),
+                                    ));
+                              },
+                            ),
+                            ListTile(
+                              leading:Icon(Icons.dangerous),
+                              title: Text('Placeholder'),
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => const Placeholder(),
+                                    ));
+                              },
+                            ),
+                            ListTile(
+                              leading: Icon(Icons.dangerous),
+                              title: Text('Placeholder'),
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => const Placeholder(),
+                                    ));
+                              },
+                            ),
+                          ],
+                        );
+                      });
                 },
                 child: Container(
                   padding: const EdgeInsets.fromLTRB(0, 180, 0, 0),
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
-                          image: AssetImage("assets/gals/iasi.png"),
+                          image: AssetImage("assets/gals/pascani.png"),
                           fit: BoxFit.cover)),
                   child: Container(
                     padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
@@ -103,7 +176,7 @@ class _ReadExampleState extends State<ZoneTuristice> {
                     height: 10,
                     child: const Align(
                       alignment: Alignment.bottomCenter,
-                      child: Text("Belcesti-Focuri"),
+                      child: Text("Codrii Pascanilor"),
                     ),
                     decoration: const BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(15.0)),
@@ -120,11 +193,49 @@ class _ReadExampleState extends State<ZoneTuristice> {
               ),
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => ZoneScreen(),
-                      ));
+
+                  showModalBottomSheet(
+                      context: context,
+                      builder: (context) {
+                        return Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            ListTile(
+                              leading: Icon(Icons.home),
+                              title: Text('Pagina Gal'),
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => ZoneScreen(),
+                                    ));
+                              },
+                            ),
+                            ListTile(
+                              leading:Icon(Icons.dangerous),
+                              title: Text('Placeholder'),
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => const Placeholder(),
+                                    ));
+                              },
+                            ),
+                            ListTile(
+                              leading: Icon(Icons.dangerous),
+                              title: Text('Placeholder'),
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => const Placeholder(),
+                                    ));
+                              },
+                            ),
+                          ],
+                        );
+                      });
                 },
                 child: Container(
                   padding: const EdgeInsets.fromLTRB(0, 180, 0, 0),
@@ -139,7 +250,7 @@ class _ReadExampleState extends State<ZoneTuristice> {
                     height: 10,
                     child: const Align(
                       alignment: Alignment.bottomCenter,
-                      child: Text("Belcesti-Focuri"),
+                      child: Text("Colinele Iasilor"),
                     ),
                     decoration: const BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(15.0)),
@@ -156,18 +267,56 @@ class _ReadExampleState extends State<ZoneTuristice> {
               ),
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => ZoneScreen(),
-                      ));
+
+                  showModalBottomSheet(
+                      context: context,
+                      builder: (context) {
+                        return Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            ListTile(
+                              leading: Icon(Icons.home),
+                              title: Text('Pagina Gal'),
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => ZoneScreen(),
+                                    ));
+                              },
+                            ),
+                            ListTile(
+                              leading:Icon(Icons.dangerous),
+                              title: Text('Placeholder'),
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => const Placeholder(),
+                                    ));
+                              },
+                            ),
+                            ListTile(
+                              leading: Icon(Icons.dangerous),
+                              title: Text('Placeholder'),
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => const Placeholder(),
+                                    ));
+                              },
+                            ),
+                          ],
+                        );
+                      });
                 },
                 child: Container(
                   padding: const EdgeInsets.fromLTRB(0, 180, 0, 0),
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
-                          image: AssetImage("assets/gals/iasi.png"),
+                          image: AssetImage("assets/gals/bohotin.png"),
                           fit: BoxFit.cover)),
                   child: Container(
                     padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
@@ -175,7 +324,7 @@ class _ReadExampleState extends State<ZoneTuristice> {
                     height: 10,
                     child: const Align(
                       alignment: Alignment.bottomCenter,
-                      child: Text("Belcesti-Focuri"),
+                      child: Text("Dealurile-Bohotinului"),
                     ),
                     decoration: const BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(15.0)),
@@ -192,18 +341,56 @@ class _ReadExampleState extends State<ZoneTuristice> {
               ),
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => ZoneScreen(),
-                      ));
+
+                  showModalBottomSheet(
+                      context: context,
+                      builder: (context) {
+                        return Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            ListTile(
+                              leading: Icon(Icons.home),
+                              title: Text('Pagina Gal'),
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => ZoneScreen(),
+                                    ));
+                              },
+                            ),
+                            ListTile(
+                              leading:Icon(Icons.dangerous),
+                              title: Text('Placeholder'),
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => const Placeholder(),
+                                    ));
+                              },
+                            ),
+                            ListTile(
+                              leading: Icon(Icons.dangerous),
+                              title: Text('Placeholder'),
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => const Placeholder(),
+                                    ));
+                              },
+                            ),
+                          ],
+                        );
+                      });
                 },
                 child: Container(
                   padding: const EdgeInsets.fromLTRB(0, 180, 0, 0),
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
-                          image: AssetImage("assets/gals/iasi.png"),
+                          image: AssetImage("assets/gals/rediu.png"),
                           fit: BoxFit.cover)),
                   child: Container(
                     padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
@@ -211,7 +398,7 @@ class _ReadExampleState extends State<ZoneTuristice> {
                     height: 10,
                     child: const Align(
                       alignment: Alignment.bottomCenter,
-                      child: Text("Belcesti-Focuri"),
+                      child: Text("Rediu-Prajeni"),
                     ),
                     decoration: const BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(15.0)),
@@ -228,18 +415,56 @@ class _ReadExampleState extends State<ZoneTuristice> {
               ),
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => ZoneScreen(),
-                      ));
+
+                  showModalBottomSheet(
+                      context: context,
+                      builder: (context) {
+                        return Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            ListTile(
+                              leading: Icon(Icons.home),
+                              title: Text('Pagina Gal'),
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => ZoneScreen(),
+                                    ));
+                              },
+                            ),
+                            ListTile(
+                              leading:Icon(Icons.dangerous),
+                              title: Text('Placeholder'),
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => const Placeholder(),
+                                    ));
+                              },
+                            ),
+                            ListTile(
+                              leading: Icon(Icons.dangerous),
+                              title: Text('Placeholder'),
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => const Placeholder(),
+                                    ));
+                              },
+                            ),
+                          ],
+                        );
+                      });
                 },
                 child: Container(
                   padding: const EdgeInsets.fromLTRB(0, 180, 0, 0),
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
-                          image: AssetImage("assets/gals/iasi.png"),
+                          image: AssetImage("assets/gals/siret.png"),
                           fit: BoxFit.cover)),
                   child: Container(
                     padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
@@ -247,7 +472,7 @@ class _ReadExampleState extends State<ZoneTuristice> {
                     height: 10,
                     child: const Align(
                       alignment: Alignment.bottomCenter,
-                      child: Text("Belcesti-Focuri"),
+                      child: Text("Siret-Moldova"),
                     ),
                     decoration: const BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(15.0)),
@@ -264,18 +489,56 @@ class _ReadExampleState extends State<ZoneTuristice> {
               ),
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => ZoneScreen(),
-                      ));
+
+                  showModalBottomSheet(
+                      context: context,
+                      builder: (context) {
+                        return Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            ListTile(
+                              leading: Icon(Icons.home),
+                              title: Text('Pagina Gal'),
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => ZoneScreen(),
+                                    ));
+                              },
+                            ),
+                            ListTile(
+                              leading:Icon(Icons.dangerous),
+                              title: Text('Placeholder'),
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => const Placeholder(),
+                                    ));
+                              },
+                            ),
+                            ListTile(
+                              leading: Icon(Icons.dangerous),
+                              title: Text('Placeholder'),
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => const Placeholder(),
+                                    ));
+                              },
+                            ),
+                          ],
+                        );
+                      });
                 },
                 child: Container(
                   padding: const EdgeInsets.fromLTRB(0, 180, 0, 0),
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
-                          image: AssetImage("assets/gals/iasi.png"),
+                          image: AssetImage("assets/gals/stefan.png"),
                           fit: BoxFit.cover)),
                   child: Container(
                     padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
@@ -283,7 +546,7 @@ class _ReadExampleState extends State<ZoneTuristice> {
                     height: 10,
                     child: const Align(
                       alignment: Alignment.bottomCenter,
-                      child: Text("Belcesti-Focuri"),
+                      child: Text("Stefan cel Mare"),
                     ),
                     decoration: const BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(15.0)),
@@ -300,18 +563,56 @@ class _ReadExampleState extends State<ZoneTuristice> {
               ),
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => ZoneScreen(),
-                      ));
+
+                  showModalBottomSheet(
+                      context: context,
+                      builder: (context) {
+                        return Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            ListTile(
+                              leading: Icon(Icons.home),
+                              title: Text('Pagina Gal'),
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => ZoneScreen(),
+                                    ));
+                              },
+                            ),
+                            ListTile(
+                              leading:Icon(Icons.dangerous),
+                              title: Text('Placeholder'),
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => const Placeholder(),
+                                    ));
+                              },
+                            ),
+                            ListTile(
+                              leading: Icon(Icons.dangerous),
+                              title: Text('Placeholder'),
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => const Placeholder(),
+                                    ));
+                              },
+                            ),
+                          ],
+                        );
+                      });
                 },
                 child: Container(
                   padding: const EdgeInsets.fromLTRB(0, 180, 0, 0),
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
-                          image: AssetImage("assets/gals/iasi.png"),
+                          image: AssetImage("assets/gals/stejari.png"),
                           fit: BoxFit.cover)),
                   child: Container(
                     padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
@@ -319,7 +620,7 @@ class _ReadExampleState extends State<ZoneTuristice> {
                     height: 10,
                     child: const Align(
                       alignment: Alignment.bottomCenter,
-                      child: Text("Belcesti-Focuri"),
+                      child: Text("Stejarii Argintii"),
                     ),
                     decoration: const BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(15.0)),
@@ -336,18 +637,56 @@ class _ReadExampleState extends State<ZoneTuristice> {
               ),
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => ZoneScreen(),
-                      ));
+
+                  showModalBottomSheet(
+                      context: context,
+                      builder: (context) {
+                        return Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            ListTile(
+                              leading: Icon(Icons.home),
+                              title: Text('Pagina Gal'),
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => ZoneScreen(),
+                                    ));
+                              },
+                            ),
+                            ListTile(
+                              leading:Icon(Icons.dangerous),
+                              title: Text('Placeholder'),
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => const Placeholder(),
+                                    ));
+                              },
+                            ),
+                            ListTile(
+                              leading: Icon(Icons.dangerous),
+                              title: Text('Placeholder'),
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => const Placeholder(),
+                                    ));
+                              },
+                            ),
+                          ],
+                        );
+                      });
                 },
                 child: Container(
                   padding: const EdgeInsets.fromLTRB(0, 180, 0, 0),
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
-                          image: AssetImage("assets/gals/iasi.png"),
+                          image: AssetImage("assets/gals/prut.png"),
                           fit: BoxFit.cover)),
                   child: Container(
                     padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
@@ -355,7 +694,7 @@ class _ReadExampleState extends State<ZoneTuristice> {
                     height: 10,
                     child: const Align(
                       alignment: Alignment.bottomCenter,
-                      child: Text("Belcesti-Focuri"),
+                      child: Text("Valea prutului"),
                     ),
                     decoration: const BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(15.0)),

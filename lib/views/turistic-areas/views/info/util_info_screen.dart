@@ -1,7 +1,5 @@
-import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:qr_4_all/domain/gal.dart';
 import 'package:qr_4_all/views/turistic-areas/views/info/view/info.dart';
 
 class UtilInfoScreen extends StatefulWidget {
@@ -45,7 +43,7 @@ class _UtilInfoScreenState extends State<UtilInfoScreen> {
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
-                          image: AssetImage("assets/gals/iasi.png"),
+                          image: AssetImage("assets/gals/restaurant.png"),
                           fit: BoxFit.cover)),
                   child: Container(
                     padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
@@ -81,7 +79,7 @@ class _UtilInfoScreenState extends State<UtilInfoScreen> {
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
-                          image: AssetImage("assets/gals/iasi.png"),
+                          image: AssetImage("assets/gals/drugstore.png"),
                           fit: BoxFit.cover)),
                   child: Container(
                     padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
@@ -117,7 +115,7 @@ class _UtilInfoScreenState extends State<UtilInfoScreen> {
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
-                          image: AssetImage("assets/gals/iasi.png"),
+                          image: AssetImage("assets/gals/hotel.png"),
                           fit: BoxFit.cover)),
                   child: Container(
                     padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
@@ -153,7 +151,7 @@ class _UtilInfoScreenState extends State<UtilInfoScreen> {
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
-                          image: AssetImage("assets/gals/iasi.png"),
+                          image: AssetImage("assets/gals/hospital.png"),
                           fit: BoxFit.cover)),
                   child: Container(
                     padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
@@ -189,7 +187,7 @@ class _UtilInfoScreenState extends State<UtilInfoScreen> {
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
-                          image: AssetImage("assets/gals/iasi.png"),
+                          image: AssetImage("assets/gals/hall.png"),
                           fit: BoxFit.cover)),
                   child: Container(
                     padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
@@ -225,7 +223,7 @@ class _UtilInfoScreenState extends State<UtilInfoScreen> {
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
-                          image: AssetImage("assets/gals/iasi.png"),
+                          image: AssetImage("assets/gals/gas.png"),
                           fit: BoxFit.cover)),
                   child: Container(
                     padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
@@ -261,7 +259,7 @@ class _UtilInfoScreenState extends State<UtilInfoScreen> {
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
-                          image: AssetImage("assets/gals/iasi.png"),
+                          image: AssetImage("assets/gals/police.png"),
                           fit: BoxFit.cover)),
                   child: Container(
                     padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
@@ -297,7 +295,7 @@ class _UtilInfoScreenState extends State<UtilInfoScreen> {
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
-                          image: AssetImage("assets/gals/iasi.png"),
+                          image: AssetImage("assets/gals/service.png"),
                           fit: BoxFit.cover)),
                   child: Container(
                     padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),

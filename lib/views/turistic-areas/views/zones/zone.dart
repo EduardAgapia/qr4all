@@ -1,10 +1,8 @@
-import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:qr_4_all/domain/gal.dart';
-import 'package:qr_4_all/views/turistic-areas/views/info/util_info_screen.dart';
 import 'package:qr_4_all/views/turistic-areas/views/about_screen.dart';
 import 'package:qr_4_all/views/turistic-areas/views/calendar/calendar_screen.dart';
+import 'package:qr_4_all/views/turistic-areas/views/info/util_info_screen.dart';
 import 'package:qr_4_all/views/turistic-areas/views/objectives/objectives_screen.dart';
 import 'package:qr_4_all/views/turistic-areas/views/trails/trails_screen.dart';
 
@@ -85,7 +83,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
-                          image: AssetImage("assets/gals/iasi.png"),
+                          image: AssetImage("assets/gals/events.png"),
                           fit: BoxFit.cover)),
                   child: Container(
                     padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
@@ -121,7 +119,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
-                          image: AssetImage("assets/gals/iasi.png"),
+                          image: AssetImage("assets/gals/trails.png"),
                           fit: BoxFit.cover)),
                   child: Container(
                     padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
@@ -157,7 +155,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
-                          image: AssetImage("assets/gals/iasi.png"),
+                          image: AssetImage("assets/gals/objs.png"),
                           fit: BoxFit.cover)),
                   child: Container(
                     padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
@@ -193,7 +191,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
-                          image: AssetImage("assets/gals/iasi.png"),
+                          image: AssetImage("assets/gals/infos.png"),
                           fit: BoxFit.cover)),
                   child: Container(
                     padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),

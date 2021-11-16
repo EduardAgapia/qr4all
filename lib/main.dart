@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:qr_4_all/views/menu_screen.dart';
@@ -19,21 +21,7 @@ class MyApp extends StatelessWidget {
           primaryColor: Colors.blueGrey,
           primarySwatch: Colors.green,
         ),
-        home: FutureBuilder(
-          future: _fbApp,
-          builder: (context, snapshot) {
-            if (snapshot.hasError) {
-              print('You have an error');
-              return const Text('Something went wrong');
-            } else if (snapshot.hasData) {
-              return const MyHomePage(title: "LoadingScreen");
-            } else {
-              return const Center(
-                child: CircularProgressIndicator(),
-              );
-            }
-          },
-        ));
+        home: const MyHomePage(title: "LoadingScreen"));
   }
 }
 
@@ -45,26 +33,30 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        centerTitle: true,
-        title: Text(title),
-      ),
-      body: Padding(
-        padding: const EdgeInsets.all(12.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            SizedBox(height: 6, width: MediaQuery.of(context).size.width),
-            ElevatedButton(
-                onPressed: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const MenuScreen(),
-                      ));
-                },
-                child: const Text("Go to Menu Screen")),
-          ],
+      body: GestureDetector(
+        onTap: () {
+          Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const MenuScreen(),
+              ));
+        },
+        child: Container(
+          decoration: const BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage("assets/gals/anotherDeal.png"),
+                  fit: BoxFit.cover)),
+          child: const Align(
+            alignment: Alignment.center,
+            child: Text(
+              "QR4ALL",
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 55,
+                fontWeight: FontWeight.w900,
+              ),
+            ),
+          ),
         ),
       ),
     );
