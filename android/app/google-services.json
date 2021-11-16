@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "313405157012",
+    "firebase_url": "https://qr4all-28bf4-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "qr4all-28bf4",
+    "storage_bucket": "qr4all-28bf4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313405157012:android:e7c2d4ec3166857217ce81",
+        "android_client_info": {
+          "package_name": "com.gal.colineleIasului.qr_4_all"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313405157012-iecekdg9c81alqt4efgl8iskl3jc04pf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl-LpNFEwjViYcEqNuVWPnmzAKgPuidlw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313405157012-iecekdg9c81alqt4efgl8iskl3jc04pf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
