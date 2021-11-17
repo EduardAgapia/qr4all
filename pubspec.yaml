@@ -19,6 +19,7 @@ dependencies:
   firebase_database: 7.1.1
   cloud_firestore: ^2.5.3
   google_maps_flutter: ^2.1.0
+  carousel_slider: ^4.0.0
 
 dev_dependencies:
   flutter_test:
@@ -35,3 +36,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/gals/
+    - assets/gals/icons/arrow.png
+    - assets/gals/icons/www.png
+    - assets/gals/icons/mech.png
+    - assets/gals/icons/insta.png
