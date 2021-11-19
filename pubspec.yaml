@@ -36,7 +36,11 @@ flutter:
   uses-material-design: true
   assets:
     - assets/gals/
+    - assets/gals/icons/obj.png
+    - assets/gals/icons/qr.png
     - assets/gals/icons/arrow.png
     - assets/gals/icons/www.png
     - assets/gals/icons/mech.png
     - assets/gals/icons/insta.png
+    - assets/gals/icons/date.png
+    - assets/gals/icons/direction.png

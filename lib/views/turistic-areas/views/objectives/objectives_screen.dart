@@ -28,9 +28,17 @@ class _ObjectivesScreenState extends State<ObjectivesScreen> {
           children: <Widget>[
             Container(
               //Todo: dynamic values with respect for phone specs
-              decoration: const BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                color: Color.fromARGB(0, 255, 255, 255),
+              decoration: BoxDecoration(
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.lightGreen.withOpacity(0.7),
+                    spreadRadius: 2,
+                    blurRadius: 5,
+                    offset: const Offset(0, 5),
+                  ),
+                ],
+                borderRadius: const BorderRadius.all(Radius.circular(15.0)),
+                color: const Color.fromARGB(0, 255, 255, 255),
               ),
               child: GestureDetector(
                 onTap: () {
@@ -41,32 +49,72 @@ class _ObjectivesScreenState extends State<ObjectivesScreen> {
                       ));
                 },
                 child: Container(
-                  padding: const EdgeInsets.fromLTRB(0, 90, 0, 0),
                   decoration: const BoxDecoration(
-                      borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                      image: DecorationImage(
-                          image: AssetImage("assets/gals/iasi.png"),
-                          fit: BoxFit.cover)),
-                  child: Container(
-                    padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                    width: double.infinity,
-                    height: 10,
-                    child: const Align(
-                      alignment: Alignment.bottomCenter,
-                      child: Text("Obiectivul Strengarului"),
-                    ),
-                    decoration: const BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                        color: Color.fromARGB(200, 255, 255, 255)),
+                    borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                    color: Colors.lightGreen,
+                  ),
+                  child: ListView(
+                    scrollDirection: Axis.horizontal,
+                    children: <Widget>[
+                      Container(
+                        height: 75,
+                        width: 100,
+                        decoration: const BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                          color: Colors.black,
+                          image: DecorationImage(
+                              image: AssetImage("assets/gals/objs.png"),
+                              fit: BoxFit.cover),
+                        ),
+                      ),
+                      const SizedBox(width: 10),
+                      const Align(
+                        alignment: Alignment.center,
+                        child: Text(
+                          " NUME Obiectiv \n \n PROGRAM 08:00 - 16:00",
+                          style: TextStyle(
+                            fontSize: 17,
+                            color: Colors.black,
+                            fontWeight: FontWeight.w900,
+                          ),
+                        ),
+                      ),
+                      Container(
+                        width: 100,
+                        decoration: const BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                          color: Colors.lightGreen,
+                          image: DecorationImage(
+                              image: AssetImage("assets/gals/icons/qr.png"),
+                              fit: BoxFit.fill),
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ),
             ),
+            //ToDo: Make it dynamic and delete all that is under
+
+
+
+
+
+
+
             Container(
               //Todo: dynamic values with respect for phone specs
-              decoration: const BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                color: Color.fromARGB(0, 255, 255, 255),
+              decoration: BoxDecoration(
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.lightGreen.withOpacity(0.7),
+                    spreadRadius: 2,
+                    blurRadius: 5,
+                    offset: const Offset(0, 5),
+                  ),
+                ],
+                borderRadius: const BorderRadius.all(Radius.circular(15.0)),
+                color: const Color.fromARGB(0, 255, 255, 255),
               ),
               child: GestureDetector(
                 onTap: () {
@@ -77,32 +125,63 @@ class _ObjectivesScreenState extends State<ObjectivesScreen> {
                       ));
                 },
                 child: Container(
-                  padding: const EdgeInsets.fromLTRB(0, 90, 0, 0),
                   decoration: const BoxDecoration(
-                      borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                      image: DecorationImage(
-                          image: AssetImage("assets/gals/iasi.png"),
-                          fit: BoxFit.cover)),
-                  child: Container(
-                    padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                    width: double.infinity,
-                    height: 10,
-                    child: const Align(
-                      alignment: Alignment.bottomCenter,
-                      child: Text("Obiectivul imaginar"),
-                    ),
-                    decoration: const BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                        color: Color.fromARGB(200, 255, 255, 255)),
+                    borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                    color: Colors.lightGreen,
+                  ),
+                  child: ListView(
+                    scrollDirection: Axis.horizontal,
+                    children: <Widget>[
+                      Container(
+                        height: 75,
+                        width: 100,
+                        decoration: const BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                          color: Colors.black,
+                          image: DecorationImage(
+                              image: AssetImage("assets/gals/objs.png"),
+                              fit: BoxFit.cover),
+                        ),
+                      ),
+                      const SizedBox(width: 10),
+                      const Align(
+                        alignment: Alignment.center,
+                        child: Text(
+                          " NUME Obiectiv \n \n PROGRAM 08:00 - 16:00",
+                          style: TextStyle(
+                            fontSize: 17,
+                            color: Colors.black,
+                            fontWeight: FontWeight.w900,
+                          ),
+                        ),
+                      ),
+                      Container(
+                        width: 100,
+                        decoration: const BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                          color: Colors.lightGreen,
+                          image: DecorationImage(
+                              image: AssetImage("assets/gals/icons/qr.png"),
+                              fit: BoxFit.fill),
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ),
-            ),
-            Container(
+            ),Container(
               //Todo: dynamic values with respect for phone specs
-              decoration: const BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                color: Color.fromARGB(0, 255, 255, 255),
+              decoration: BoxDecoration(
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.lightGreen.withOpacity(0.7),
+                    spreadRadius: 2,
+                    blurRadius: 5,
+                    offset: const Offset(0, 5),
+                  ),
+                ],
+                borderRadius: const BorderRadius.all(Radius.circular(15.0)),
+                color: const Color.fromARGB(0, 255, 255, 255),
               ),
               child: GestureDetector(
                 onTap: () {
@@ -113,32 +192,63 @@ class _ObjectivesScreenState extends State<ObjectivesScreen> {
                       ));
                 },
                 child: Container(
-                  padding: const EdgeInsets.fromLTRB(0, 90, 0, 0),
                   decoration: const BoxDecoration(
-                      borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                      image: DecorationImage(
-                          image: AssetImage("assets/gals/iasi.png"),
-                          fit: BoxFit.cover)),
-                  child: Container(
-                    padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                    width: double.infinity,
-                    height: 10,
-                    child: const Align(
-                      alignment: Alignment.bottomCenter,
-                      child: Text("Obiectivul nemarginit"),
-                    ),
-                    decoration: const BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                        color: Color.fromARGB(200, 255, 255, 255)),
+                    borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                    color: Colors.lightGreen,
+                  ),
+                  child: ListView(
+                    scrollDirection: Axis.horizontal,
+                    children: <Widget>[
+                      Container(
+                        height: 75,
+                        width: 100,
+                        decoration: const BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                          color: Colors.black,
+                          image: DecorationImage(
+                              image: AssetImage("assets/gals/objs.png"),
+                              fit: BoxFit.cover),
+                        ),
+                      ),
+                      const SizedBox(width: 10),
+                      const Align(
+                        alignment: Alignment.center,
+                        child: Text(
+                          " NUME Obiectiv \n \n PROGRAM 08:00 - 16:00",
+                          style: TextStyle(
+                            fontSize: 17,
+                            color: Colors.black,
+                            fontWeight: FontWeight.w900,
+                          ),
+                        ),
+                      ),
+                      Container(
+                        width: 100,
+                        decoration: const BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                          color: Colors.lightGreen,
+                          image: DecorationImage(
+                              image: AssetImage("assets/gals/icons/qr.png"),
+                              fit: BoxFit.fill),
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ),
-            ),
-            Container(
+            ),Container(
               //Todo: dynamic values with respect for phone specs
-              decoration: const BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                color: Color.fromARGB(0, 255, 255, 255),
+              decoration: BoxDecoration(
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.lightGreen.withOpacity(0.7),
+                    spreadRadius: 2,
+                    blurRadius: 5,
+                    offset: const Offset(0, 5),
+                  ),
+                ],
+                borderRadius: const BorderRadius.all(Radius.circular(15.0)),
+                color: const Color.fromARGB(0, 255, 255, 255),
               ),
               child: GestureDetector(
                 onTap: () {
@@ -149,32 +259,63 @@ class _ObjectivesScreenState extends State<ObjectivesScreen> {
                       ));
                 },
                 child: Container(
-                  padding: const EdgeInsets.fromLTRB(0, 90, 0, 0),
                   decoration: const BoxDecoration(
-                      borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                      image: DecorationImage(
-                          image: AssetImage("assets/gals/iasi.png"),
-                          fit: BoxFit.cover)),
-                  child: Container(
-                    padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                    width: double.infinity,
-                    height: 10,
-                    child: const Align(
-                      alignment: Alignment.bottomCenter,
-                      child: Text("Obiectivul necugetatului"),
-                    ),
-                    decoration: const BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                        color: Color.fromARGB(200, 255, 255, 255)),
+                    borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                    color: Colors.lightGreen,
+                  ),
+                  child: ListView(
+                    scrollDirection: Axis.horizontal,
+                    children: <Widget>[
+                      Container(
+                        height: 75,
+                        width: 100,
+                        decoration: const BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                          color: Colors.black,
+                          image: DecorationImage(
+                              image: AssetImage("assets/gals/objs.png"),
+                              fit: BoxFit.cover),
+                        ),
+                      ),
+                      const SizedBox(width: 10),
+                      const Align(
+                        alignment: Alignment.center,
+                        child: Text(
+                          " NUME Obiectiv \n \n PROGRAM 08:00 - 16:00",
+                          style: TextStyle(
+                            fontSize: 17,
+                            color: Colors.black,
+                            fontWeight: FontWeight.w900,
+                          ),
+                        ),
+                      ),
+                      Container(
+                        width: 100,
+                        decoration: const BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                          color: Colors.lightGreen,
+                          image: DecorationImage(
+                              image: AssetImage("assets/gals/icons/qr.png"),
+                              fit: BoxFit.fill),
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ),
-            ),
-            Container(
+            ),Container(
               //Todo: dynamic values with respect for phone specs
-              decoration: const BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                color: Color.fromARGB(0, 255, 255, 255),
+              decoration: BoxDecoration(
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.lightGreen.withOpacity(0.7),
+                    spreadRadius: 2,
+                    blurRadius: 5,
+                    offset: const Offset(0, 5),
+                  ),
+                ],
+                borderRadius: const BorderRadius.all(Radius.circular(15.0)),
+                color: const Color.fromARGB(0, 255, 255, 255),
               ),
               child: GestureDetector(
                 onTap: () {
@@ -185,23 +326,315 @@ class _ObjectivesScreenState extends State<ObjectivesScreen> {
                       ));
                 },
                 child: Container(
-                  padding: const EdgeInsets.fromLTRB(0, 90, 0, 0),
                   decoration: const BoxDecoration(
-                      borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                      image: DecorationImage(
-                          image: AssetImage("assets/gals/iasi.png"),
-                          fit: BoxFit.cover)),
-                  child: Container(
-                    padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                    width: double.infinity,
-                    height: 10,
-                    child: const Align(
-                      alignment: Alignment.bottomCenter,
-                      child: Text("Obiectiv K"),
-                    ),
-                    decoration: const BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                        color: Color.fromARGB(200, 255, 255, 255)),
+                    borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                    color: Colors.lightGreen,
+                  ),
+                  child: ListView(
+                    scrollDirection: Axis.horizontal,
+                    children: <Widget>[
+                      Container(
+                        height: 75,
+                        width: 100,
+                        decoration: const BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                          color: Colors.black,
+                          image: DecorationImage(
+                              image: AssetImage("assets/gals/objs.png"),
+                              fit: BoxFit.cover),
+                        ),
+                      ),
+                      const SizedBox(width: 10),
+                      const Align(
+                        alignment: Alignment.center,
+                        child: Text(
+                          " NUME Obiectiv \n \n PROGRAM 08:00 - 16:00",
+                          style: TextStyle(
+                            fontSize: 17,
+                            color: Colors.black,
+                            fontWeight: FontWeight.w900,
+                          ),
+                        ),
+                      ),
+                      Container(
+                        width: 100,
+                        decoration: const BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                          color: Colors.lightGreen,
+                          image: DecorationImage(
+                              image: AssetImage("assets/gals/icons/qr.png"),
+                              fit: BoxFit.fill),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),Container(
+              //Todo: dynamic values with respect for phone specs
+              decoration: BoxDecoration(
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.lightGreen.withOpacity(0.7),
+                    spreadRadius: 2,
+                    blurRadius: 5,
+                    offset: const Offset(0, 5),
+                  ),
+                ],
+                borderRadius: const BorderRadius.all(Radius.circular(15.0)),
+                color: const Color.fromARGB(0, 255, 255, 255),
+              ),
+              child: GestureDetector(
+                onTap: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => ObjectiveScreen(),
+                      ));
+                },
+                child: Container(
+                  decoration: const BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                    color: Colors.lightGreen,
+                  ),
+                  child: ListView(
+                    scrollDirection: Axis.horizontal,
+                    children: <Widget>[
+                      Container(
+                        height: 75,
+                        width: 100,
+                        decoration: const BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                          color: Colors.black,
+                          image: DecorationImage(
+                              image: AssetImage("assets/gals/objs.png"),
+                              fit: BoxFit.cover),
+                        ),
+                      ),
+                      const SizedBox(width: 10),
+                      const Align(
+                        alignment: Alignment.center,
+                        child: Text(
+                          " NUME Obiectiv \n \n PROGRAM 08:00 - 16:00",
+                          style: TextStyle(
+                            fontSize: 17,
+                            color: Colors.black,
+                            fontWeight: FontWeight.w900,
+                          ),
+                        ),
+                      ),
+                      Container(
+                        width: 100,
+                        decoration: const BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                          color: Colors.lightGreen,
+                          image: DecorationImage(
+                              image: AssetImage("assets/gals/icons/qr.png"),
+                              fit: BoxFit.fill),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),Container(
+              //Todo: dynamic values with respect for phone specs
+              decoration: BoxDecoration(
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.lightGreen.withOpacity(0.7),
+                    spreadRadius: 2,
+                    blurRadius: 5,
+                    offset: const Offset(0, 5),
+                  ),
+                ],
+                borderRadius: const BorderRadius.all(Radius.circular(15.0)),
+                color: const Color.fromARGB(0, 255, 255, 255),
+              ),
+              child: GestureDetector(
+                onTap: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => ObjectiveScreen(),
+                      ));
+                },
+                child: Container(
+                  decoration: const BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                    color: Colors.lightGreen,
+                  ),
+                  child: ListView(
+                    scrollDirection: Axis.horizontal,
+                    children: <Widget>[
+                      Container(
+                        height: 75,
+                        width: 100,
+                        decoration: const BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                          color: Colors.black,
+                          image: DecorationImage(
+                              image: AssetImage("assets/gals/objs.png"),
+                              fit: BoxFit.cover),
+                        ),
+                      ),
+                      const SizedBox(width: 10),
+                      const Align(
+                        alignment: Alignment.center,
+                        child: Text(
+                          " NUME Obiectiv \n \n PROGRAM 08:00 - 16:00",
+                          style: TextStyle(
+                            fontSize: 17,
+                            color: Colors.black,
+                            fontWeight: FontWeight.w900,
+                          ),
+                        ),
+                      ),
+                      Container(
+                        width: 100,
+                        decoration: const BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                          color: Colors.lightGreen,
+                          image: DecorationImage(
+                              image: AssetImage("assets/gals/icons/qr.png"),
+                              fit: BoxFit.fill),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),Container(
+              //Todo: dynamic values with respect for phone specs
+              decoration: BoxDecoration(
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.lightGreen.withOpacity(0.7),
+                    spreadRadius: 2,
+                    blurRadius: 5,
+                    offset: const Offset(0, 5),
+                  ),
+                ],
+                borderRadius: const BorderRadius.all(Radius.circular(15.0)),
+                color: const Color.fromARGB(0, 255, 255, 255),
+              ),
+              child: GestureDetector(
+                onTap: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => ObjectiveScreen(),
+                      ));
+                },
+                child: Container(
+                  decoration: const BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                    color: Colors.lightGreen,
+                  ),
+                  child: ListView(
+                    scrollDirection: Axis.horizontal,
+                    children: <Widget>[
+                      Container(
+                        height: 75,
+                        width: 100,
+                        decoration: const BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                          color: Colors.black,
+                          image: DecorationImage(
+                              image: AssetImage("assets/gals/objs.png"),
+                              fit: BoxFit.cover),
+                        ),
+                      ),
+                      const SizedBox(width: 10),
+                      const Align(
+                        alignment: Alignment.center,
+                        child: Text(
+                          " NUME Obiectiv \n \n PROGRAM 08:00 - 16:00",
+                          style: TextStyle(
+                            fontSize: 17,
+                            color: Colors.black,
+                            fontWeight: FontWeight.w900,
+                          ),
+                        ),
+                      ),
+                      Container(
+                        width: 100,
+                        decoration: const BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                          color: Colors.lightGreen,
+                          image: DecorationImage(
+                              image: AssetImage("assets/gals/icons/qr.png"),
+                              fit: BoxFit.fill),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),Container(
+              //Todo: dynamic values with respect for phone specs
+              decoration: BoxDecoration(
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.lightGreen.withOpacity(0.7),
+                    spreadRadius: 2,
+                    blurRadius: 5,
+                    offset: const Offset(0, 5),
+                  ),
+                ],
+                borderRadius: const BorderRadius.all(Radius.circular(15.0)),
+                color: const Color.fromARGB(0, 255, 255, 255),
+              ),
+              child: GestureDetector(
+                onTap: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => ObjectiveScreen(),
+                      ));
+                },
+                child: Container(
+                  decoration: const BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                    color: Colors.lightGreen,
+                  ),
+                  child: ListView(
+                    scrollDirection: Axis.horizontal,
+                    children: <Widget>[
+                      Container(
+                        height: 75,
+                        width: 100,
+                        decoration: const BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                          color: Colors.black,
+                          image: DecorationImage(
+                              image: AssetImage("assets/gals/objs.png"),
+                              fit: BoxFit.cover),
+                        ),
+                      ),
+                      const SizedBox(width: 10),
+                      const Align(
+                        alignment: Alignment.center,
+                        child: Text(
+                          " NUME Obiectiv \n \n PROGRAM 08:00 - 16:00",
+                          style: TextStyle(
+                            fontSize: 17,
+                            color: Colors.black,
+                            fontWeight: FontWeight.w900,
+                          ),
+                        ),
+                      ),
+                      Container(
+                        width: 100,
+                        decoration: const BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                          color: Colors.lightGreen,
+                          image: DecorationImage(
+                              image: AssetImage("assets/gals/icons/qr.png"),
+                              fit: BoxFit.fill),
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ),

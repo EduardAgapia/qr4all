@@ -1,5 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:qr_4_all/views/turistic-areas/views/dummy_map.dart';
+import 'package:qr_4_all/views/turistic-areas/views/dummy_map.dart';
+import 'package:qr_4_all/views/turistic-areas/views/dummy_map.dart';
+import 'package:qr_4_all/views/turistic-areas/views/dummy_map.dart';
+import 'package:qr_4_all/views/turistic-areas/views/dummy_map.dart';
+import 'package:qr_4_all/views/turistic-areas/views/dummy_map.dart';
+import 'package:qr_4_all/views/turistic-areas/views/dummy_map.dart';
 import 'package:qr_4_all/views/turistic-areas/views/info/view/info.dart';
 
 class UtilInfoScreen extends StatefulWidget {
@@ -35,7 +42,7 @@ class _UtilInfoScreenState extends State<UtilInfoScreen> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => InfoScreen(),
+                        builder: (context) => const Dummy(),
                       ));
                 },
                 child: Container(
@@ -71,7 +78,7 @@ class _UtilInfoScreenState extends State<UtilInfoScreen> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => InfoScreen(),
+                        builder: (context) => const Dummy(),
                       ));
                 },
                 child: Container(
@@ -107,7 +114,7 @@ class _UtilInfoScreenState extends State<UtilInfoScreen> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => InfoScreen(),
+                        builder: (context) => const Dummy(),
                       ));
                 },
                 child: Container(
@@ -143,7 +150,7 @@ class _UtilInfoScreenState extends State<UtilInfoScreen> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => InfoScreen(),
+                        builder: (context) => const Dummy(),
                       ));
                 },
                 child: Container(
@@ -179,7 +186,7 @@ class _UtilInfoScreenState extends State<UtilInfoScreen> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => InfoScreen(),
+                        builder: (context) => const Dummy(),
                       ));
                 },
                 child: Container(
@@ -215,7 +222,7 @@ class _UtilInfoScreenState extends State<UtilInfoScreen> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => InfoScreen(),
+                        builder: (context) => const Dummy(),
                       ));
                 },
                 child: Container(
@@ -251,7 +258,7 @@ class _UtilInfoScreenState extends State<UtilInfoScreen> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => InfoScreen(),
+                        builder: (context) => const Dummy(),
                       ));
                 },
                 child: Container(
@@ -287,7 +294,7 @@ class _UtilInfoScreenState extends State<UtilInfoScreen> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => InfoScreen(),
+                        builder: (context) => const Dummy(),
                       ));
                 },
                 child: Container(

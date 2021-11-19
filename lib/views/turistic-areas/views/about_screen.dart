@@ -1,4 +1,3 @@
-import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -9,8 +8,6 @@ class AboutScreen extends StatefulWidget {
 class _AboutScreenState extends State<AboutScreen> {
   @override
   Widget build(BuildContext context) {
-    final double iconSize = MediaQuery.of(context).size.width / 24;
-
     return Scaffold(
       body: Column(
         mainAxisSize: MainAxisSize.min,
@@ -19,10 +16,18 @@ class _AboutScreenState extends State<AboutScreen> {
             padding: const EdgeInsets.fromLTRB(0, 250, 0, 0),
             height: MediaQuery.of(context).size.height / 3,
             width: double.infinity,
-            decoration: const BoxDecoration(
-              borderRadius: BorderRadius.all(Radius.circular(35.0)),
+            decoration: BoxDecoration(
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.lightGreen.withOpacity(0.7),
+                  spreadRadius: 2,
+                  blurRadius: 5,
+                  offset: const Offset(0, 5),
+                ),
+              ],
+              borderRadius: const BorderRadius.all(Radius.circular(15.0)),
               color: Colors.lightGreen,
-              image: DecorationImage(
+              image: const DecorationImage(
                   image: AssetImage("assets/gals/iasi.png"), fit: BoxFit.cover),
             ),
             child: Container(
@@ -64,7 +69,7 @@ class _AboutScreenState extends State<AboutScreen> {
                     color: Colors.white,
                     image: DecorationImage(
                         image: AssetImage("assets/gals/icons/hospital.png"),
-                        fit: BoxFit.cover),
+                        fit: BoxFit.fill),
                   ),
                 ),
                 const SizedBox(width: 10),
@@ -76,7 +81,7 @@ class _AboutScreenState extends State<AboutScreen> {
                     color: Colors.white,
                     image: DecorationImage(
                         image: AssetImage("assets/gals/icons/insta.png"),
-                        fit: BoxFit.cover),
+                        fit: BoxFit.fill),
                   ),
                 ),
                 const SizedBox(width: 10),
@@ -88,7 +93,7 @@ class _AboutScreenState extends State<AboutScreen> {
                     color: Colors.white,
                     image: DecorationImage(
                         image: AssetImage("assets/gals/icons/arrow.png"),
-                        fit: BoxFit.cover),
+                        fit: BoxFit.fill),
                   ),
                 ),
                 const SizedBox(width: 10),
@@ -100,7 +105,7 @@ class _AboutScreenState extends State<AboutScreen> {
                     color: Colors.white,
                     image: DecorationImage(
                         image: AssetImage("assets/gals/icons/mech.png"),
-                        fit: BoxFit.cover),
+                        fit: BoxFit.fill),
                   ),
                 ),
                 const SizedBox(width: 10),
@@ -112,7 +117,7 @@ class _AboutScreenState extends State<AboutScreen> {
                     color: Colors.white,
                     image: DecorationImage(
                         image: AssetImage("assets/gals/icons/www.png"),
-                        fit: BoxFit.cover),
+                        fit: BoxFit.fill),
                   ),
                 ),
               ],
