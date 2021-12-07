@@ -2,13 +2,22 @@ import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:qr_4_all/domain/gal.dart';
+import 'package:qr_4_all/domain/trail.dart';
 import 'package:qr_4_all/views/turistic-areas/views/dummy_map.dart';
 
 class TrailScreen extends StatefulWidget {
-  _TrailScreenState createState() => _TrailScreenState();
+  final Trail trail;
+
+  TrailScreen({required this.trail, Key? key}) : super(key: key);
+
+  _TrailScreenState createState() => _TrailScreenState(trail: trail);
 }
 
 class _TrailScreenState extends State<TrailScreen> {
+  final Trail trail;
+
+  _TrailScreenState({required this.trail});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -33,11 +42,11 @@ class _TrailScreenState extends State<TrailScreen> {
                     borderRadius: BorderRadius.all(Radius.circular(15.0)),
                     color: Color.fromARGB(100, 0, 143, 105),
                   ),
-                  child: Column(children: const <Widget>[
+                  child: Column(children: <Widget>[
                     ListTile(
                       title: Text(
-                        '\n Nume Traseu',
-                        style: TextStyle(
+                        '\n' + trail.name.toString(),
+                        style: const TextStyle(
                           color: Colors.white,
                           fontSize: 23,
                           fontWeight: FontWeight.w800,
@@ -45,8 +54,8 @@ class _TrailScreenState extends State<TrailScreen> {
                         textAlign: TextAlign.center,
                       ),
                       subtitle: Text(
-                        ' Program traseu',
-                        style: TextStyle(
+                        trail.programm.toString(),
+                        style: const TextStyle(
                           color: Colors.white,
                           fontSize: 18,
                           fontWeight: FontWeight.w800,
@@ -68,8 +77,8 @@ class _TrailScreenState extends State<TrailScreen> {
                     ),
                     child: Column(
                       children: [
-                        const ListTile(
-                          title: Text(
+                        ListTile(
+                          title: const Text(
                             '\n Descriere \n',
                             style: TextStyle(
                               color: Colors.white,
@@ -79,16 +88,8 @@ class _TrailScreenState extends State<TrailScreen> {
                             textAlign: TextAlign.left,
                           ),
                           subtitle: Text(
-                            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, '
-                            'sed do eiusmod tempor incididunt ut labore et dolore '
-                            'magna aliqua. Ut enim ad minim veniam, quis nostrud'
-                            ' exercitation ullamco laboris nisi ut aliquip ex ea '
-                            'commodo consequat. Duis aute irure dolor in reprehenderit '
-                            'in voluptate velit esse cillum dolore eu fugiat nulla '
-                            'pariatur. Excepteur sint occaecat cupidatat non proident,'
-                            ' sunt in culpa qui officia deserunt mollit anim id est '
-                            'laborum.',
-                            style: TextStyle(
+                            trail.description.toString(),
+                            style: const TextStyle(
                               color: Colors.white,
                               fontSize: 17,
                             ),
@@ -122,11 +123,11 @@ class _TrailScreenState extends State<TrailScreen> {
                                       scrollDirection: Axis.horizontal,
                                       children: [
                                         const SizedBox(height: 20),
-                                        const Align(
+                                        Align(
                                           alignment: Alignment.centerLeft,
                                           child: Text(
-                                            "   LOCATIE",
-                                            style: TextStyle(
+                                           trail.location.toString(),
+                                            style: const TextStyle(
                                               color: Colors.white,
                                               fontWeight: FontWeight.w900,
                                               fontSize: 19,

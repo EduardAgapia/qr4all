@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:qr_4_all/domain/gal.dart';
 import 'package:qr_4_all/views/turistic-areas/views/about_screen.dart';
 import 'package:qr_4_all/views/turistic-areas/views/calendar/calendar_screen.dart';
 import 'package:qr_4_all/views/turistic-areas/views/info/util_info_screen.dart';
@@ -7,16 +8,23 @@ import 'package:qr_4_all/views/turistic-areas/views/objectives/objectives_screen
 import 'package:qr_4_all/views/turistic-areas/views/trails/trails_screen.dart';
 
 class ZoneScreen extends StatefulWidget {
-  _ZoneScreenState createState() => _ZoneScreenState();
+  final Gal gal;
+  ZoneScreen({required this.gal, Key? key}) : super(key: key);
+
+  @override
+  _ZoneScreenState createState() => _ZoneScreenState(gal: gal);
 }
 
 class _ZoneScreenState extends State<ZoneScreen> {
+  final Gal gal;
+  _ZoneScreenState({required this.gal});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text("Zona Specifica"),
+        title: Text(gal.name.toString()),
       ),
       body: Center(
         child: GridView.count(
@@ -39,7 +47,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => AboutScreen(),
+                        builder: (context) => AboutScreen(gal: gal),
                       ));
                 },
                 child: Container(
@@ -75,7 +83,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => CalendarScreen(),
+                        builder: (context) => CalendarScreen(events: gal.events),
                       ));
                 },
                 child: Container(
@@ -111,7 +119,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => TrailsScreen(),
+                        builder: (context) => TrailsScreen(trails: gal.trails),
                       ));
                 },
                 child: Container(
@@ -147,7 +155,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => ObjectivesScreen(),
+                        builder: (context) => ObjectivesScreen(objectives: gal.objectives),
                       ));
                 },
                 child: Container(
@@ -183,7 +191,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => UtilInfoScreen(),
+                        builder: (context) => UtilInfoScreen(utilInfo: gal.utils),
                       ));
                 },
                 child: Container(

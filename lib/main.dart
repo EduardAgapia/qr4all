@@ -21,13 +21,13 @@ class MyApp extends StatelessWidget {
           primaryColor: Colors.blueGrey,
           primarySwatch: Colors.green,
         ),
-        home: const MyHomePage(title: "LoadingScreen"));
+        home: MyHomePage(title: "LoadingScreen"));
   }
+
 }
 
 class MyHomePage extends StatelessWidget {
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
-
+  MyHomePage({Key? key, required this.title}) : super(key: key);
   final String title;
 
   @override
@@ -38,7 +38,9 @@ class MyHomePage extends StatelessWidget {
           Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => const MenuScreen(),
+                builder: (context) {
+                  return MenuScreen();
+                },
               ));
         },
         child: Container(

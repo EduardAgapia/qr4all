@@ -1,15 +1,22 @@
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:qr_4_all/domain/event.dart';
 import 'package:qr_4_all/domain/gal.dart';
 
 import '../../dummy_map.dart';
 
 class EventScreen extends StatefulWidget {
-  _EventScreenState createState() => _EventScreenState();
+  final Evenimente event;
+  const EventScreen({required this.event, Key? key}) : super(key: key);
+
+  _EventScreenState createState() => _EventScreenState(event: event);
 }
 
 class _EventScreenState extends State<EventScreen> {
+  final Evenimente event;
+  _EventScreenState({required this.event});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -38,11 +45,11 @@ class _EventScreenState extends State<EventScreen> {
               padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
               width: double.infinity,
               height: 2,
-              child: const Align(
+              child: Align(
                 alignment: Alignment.bottomCenter,
                 child: Text(
-                  "Nume Eveniment",
-                  style: TextStyle(
+                  event.name.toString(),
+                  style: const TextStyle(
                     color: Colors.black,
                     fontSize: 15,
                     fontWeight: FontWeight.w900,
@@ -74,8 +81,7 @@ class _EventScreenState extends State<EventScreen> {
                     height: 75,
                     width: 75,
                     decoration: const BoxDecoration(
-                      borderRadius:
-                      BorderRadius.all(Radius.circular(15.0)),
+                      borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       color: Colors.black,
                       image: DecorationImage(
                           image: AssetImage("assets/gals/icons/arrow.png"),
@@ -83,11 +89,11 @@ class _EventScreenState extends State<EventScreen> {
                     ),
                   ),
                   const SizedBox(width: 15),
-                  const Align(
+                  Align(
                     alignment: Alignment.center,
                     child: Text(
-                      "LOCATIE eveniment",
-                      style: TextStyle(
+                      event.location.toString(),
+                      style: const TextStyle(
                         color: Colors.black,
                         fontWeight: FontWeight.w600,
                       ),
@@ -112,8 +118,7 @@ class _EventScreenState extends State<EventScreen> {
                   height: 75,
                   width: 75,
                   decoration: const BoxDecoration(
-                    borderRadius:
-                    BorderRadius.all(Radius.circular(15.0)),
+                    borderRadius: BorderRadius.all(Radius.circular(15.0)),
                     color: Colors.black,
                     image: DecorationImage(
                         image: AssetImage("assets/gals/icons/date.png"),
@@ -121,11 +126,13 @@ class _EventScreenState extends State<EventScreen> {
                   ),
                 ),
                 const SizedBox(width: 15),
-                const Align(
+                Align(
                   alignment: Alignment.center,
                   child: Text(
-                    " NUME eveniment \n PROGRAM eveniment",
-                    style: TextStyle(
+                    event.location.toString() +
+                        "\n" +
+                        event.programm.toString(),
+                    style: const TextStyle(
                       color: Colors.black,
                       fontWeight: FontWeight.w600,
                     ),
@@ -146,7 +153,7 @@ class _EventScreenState extends State<EventScreen> {
                 borderRadius: BorderRadius.all(Radius.circular(25.0)),
                 color: Colors.lightGreen,
               ),
-              child: Column(children: const <Widget>[
+              child: Column(children: <Widget>[
                 ListTile(
                   title: Text(
                     '\n Descriere \n',
@@ -157,22 +164,7 @@ class _EventScreenState extends State<EventScreen> {
                     ),
                   ),
                   subtitle: Text(
-                    '"Sed ut perspiciatis unde omnis iste natus error sit '
-                    'voluptatem accusantium doloremque laudantium, totam rem'
-                    ' aperiam, eaque ipsa quae ab illo inventore veritatis '
-                    'et quasi architecto beatae vitae dicta sunt explicabo. '
-                    'Nemo enim ipsam voluptatem quia voluptas sit aspernatur '
-                    'aut odit aut fugit, sed quia consequuntur magni dolores'
-                    ' eos qui ratione voluptatem sequi nesciunt. Neque porro'
-                    ' quisquam est, qui dolorem ipsum quia dolor sit amet,'
-                    ' consectetur, adipisci velit, sed quia non numquam eius'
-                    ' modi tempora incidunt ut labore et dolore magnam aliquam '
-                    'quaerat voluptatem. Ut enim ad minima veniam, quis nostrum '
-                    'exercitationem ullam corporis suscipit laboriosam, nisi '
-                    'ut aliquid ex ea commodi consequatur? Quis autem vel eum'
-                    ' iure reprehenderit qui in ea voluptate velit esse quam '
-                    'nihil molestiae consequatur, vel illum qui dolorem eum'
-                    ' fugiat quo voluptas nulla pariatur?"',
+                    event.description.toString(),
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 14,

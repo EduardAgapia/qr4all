@@ -1,11 +1,16 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:qr_4_all/domain/gal.dart';
 
 class AboutScreen extends StatefulWidget {
-  _AboutScreenState createState() => _AboutScreenState();
+  final Gal gal;
+  AboutScreen({required this.gal, Key? key}) : super(key: key);
+  _AboutScreenState createState() => _AboutScreenState(gal: gal);
 }
 
 class _AboutScreenState extends State<AboutScreen> {
+  final Gal gal;
+  _AboutScreenState({required this.gal});
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -34,10 +39,10 @@ class _AboutScreenState extends State<AboutScreen> {
               padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
               width: double.infinity,
               height: 2,
-              child: const Align(
+              child: Align(
                 alignment: Alignment.bottomCenter,
                 child: Text(
-                  "Nume Oras",
+                  gal.name.toString(),
                   style: TextStyle(
                     color: Colors.black,
                     fontSize: 15,

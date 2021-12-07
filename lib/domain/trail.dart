@@ -1,8 +1,8 @@
 class Trail {
-  late String name;
-  late String programm;
-  late String location;
-  late String description;
+  String? name;
+  String? programm;
+  String? location;
+  String? description;
 
   Trail(
       {required this.name,
@@ -23,13 +23,5 @@ class Trail {
     Trail trail = fromRTDB(data);
     trailList.add(trail);
     return trailList;
-  }
-
-  String fancyDescription() {
-    return 'Traseul ' +
-        name + '\n'  + ' situat pe ' +
-        location + '\n'  + ' are urmatorul program: ' +
-        programm + '\n'  + ' cu descrierea: ' +
-        description + '\n' ;
   }
 }

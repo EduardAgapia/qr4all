@@ -2,14 +2,21 @@ import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:qr_4_all/domain/gal.dart';
+import 'package:qr_4_all/domain/objective.dart';
 
 import '../../dummy_map.dart';
 
 class ObjectiveScreen extends StatefulWidget {
-  _ObjectiveScreenState createState() => _ObjectiveScreenState();
+  final Objective objective;
+  ObjectiveScreen({required this.objective, Key? key}) : super(key: key);
+
+  _ObjectiveScreenState createState() => _ObjectiveScreenState(objective: objective);
 }
 
 class _ObjectiveScreenState extends State<ObjectiveScreen> {
+  final Objective objective;
+  _ObjectiveScreenState({required this.objective});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -34,11 +41,11 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                     borderRadius: BorderRadius.all(Radius.circular(15.0)),
                     color: Color.fromARGB(150, 0, 143, 105),
                   ),
-                  child: Column(children: const <Widget>[
+                  child: Column(children: <Widget>[
                     ListTile(
                       title: Text(
-                        'Nume Traseu',
-                        style: TextStyle(
+                        objective.name.toString(),
+                        style: const TextStyle(
                           color: Colors.white,
                           fontSize: 23,
                           fontWeight: FontWeight.w800,
@@ -46,8 +53,8 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                         textAlign: TextAlign.center,
                       ),
                       subtitle: Text(
-                        ' Program traseu',
-                        style: TextStyle(
+                        objective.programm.toString(),
+                        style: const TextStyle(
                           color: Colors.white,
                           fontSize: 18,
                           fontWeight: FontWeight.w800,
@@ -91,11 +98,11 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                           ),
                         ),
                         const SizedBox(width: 15),
-                        const Align(
+                        Align(
                           alignment: Alignment.center,
                           child: Text(
-                            "LOCATIE Obiectiv",
-                            style: TextStyle(
+                            objective.location.toString(),
+                            style: const TextStyle(
                               color: Colors.white,
                               fontSize: 20,
                               fontWeight: FontWeight.w900,
@@ -117,8 +124,8 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                     ),
                     child: Column(
                       children: [
-                        const ListTile(
-                          title: Text(
+                        ListTile(
+                          title: const Text(
                             '\n Descriere \n',
                             style: TextStyle(
                               color: Colors.white,
@@ -128,16 +135,8 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                             textAlign: TextAlign.left,
                           ),
                           subtitle: Text(
-                            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, '
-                            'sed do eiusmod tempor incididunt ut labore et dolore '
-                            'magna aliqua. Ut enim ad minim veniam, quis nostrud'
-                            ' exercitation ullamco laboris nisi ut aliquip ex ea '
-                            'commodo consequat. Duis aute irure dolor in reprehenderit '
-                            'in voluptate velit esse cillum dolore eu fugiat nulla '
-                            'pariatur. Excepteur sint occaecat cupidatat non proident,'
-                            ' sunt in culpa qui officia deserunt mollit anim id est '
-                            'laborum.',
-                            style: TextStyle(
+                            objective.description.toString(),
+                            style: const TextStyle(
                               color: Colors.white,
                               fontSize: 17,
                             ),

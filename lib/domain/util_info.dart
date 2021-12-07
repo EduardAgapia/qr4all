@@ -1,12 +1,12 @@
 class UtilInfo {
-  late String police;
-  late String restaurant;
-  late String drugs;
-  late String hotel;
-  late String hospital;
-  late String mayor;
-  late String gasStation;
-  late String serviceAuto;
+  String? police;
+  String? restaurant;
+  String? drugs;
+  String? hotel;
+  String? hospital;
+  String? mayor;
+  String? gasStation;
+  String? serviceAuto;
 
   UtilInfo(
       {required this.police,
@@ -30,15 +30,4 @@ class UtilInfo {
         serviceAuto: data['utils']['serviceAuto'] ?? 'ia cucu');
   }
 
-  String fancyDescription() {
-    return
-        'Politia - '  + police + '\n'  +
-        'Restaurant- '+ restaurant + '\n'  +
-        'Farmacie- '  + drugs + '\n'  +
-        'Hotel- '     + hotel + '\n'  +
-        'Spital- '    + hospital + '\n'  +
-        'Primarie- '  + mayor + '\n'  +
-        'Benzinarie- '+ gasStation + '\n'  +
-        'Vulcanizare-'+ serviceAuto + '\n' ;
-  }
 }

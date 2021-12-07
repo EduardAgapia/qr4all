@@ -1,19 +1,18 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:qr_4_all/domain/util_info.dart';
 import 'package:qr_4_all/views/turistic-areas/views/dummy_map.dart';
-import 'package:qr_4_all/views/turistic-areas/views/dummy_map.dart';
-import 'package:qr_4_all/views/turistic-areas/views/dummy_map.dart';
-import 'package:qr_4_all/views/turistic-areas/views/dummy_map.dart';
-import 'package:qr_4_all/views/turistic-areas/views/dummy_map.dart';
-import 'package:qr_4_all/views/turistic-areas/views/dummy_map.dart';
-import 'package:qr_4_all/views/turistic-areas/views/dummy_map.dart';
-import 'package:qr_4_all/views/turistic-areas/views/info/view/info.dart';
 
 class UtilInfoScreen extends StatefulWidget {
-  _UtilInfoScreenState createState() => _UtilInfoScreenState();
+  final UtilInfo utilInfo;
+  UtilInfoScreen({required this.utilInfo, Key? key}) : super(key: key);
+  _UtilInfoScreenState createState() => _UtilInfoScreenState(utilInfo: utilInfo);
 }
 
 class _UtilInfoScreenState extends State<UtilInfoScreen> {
+  final UtilInfo utilInfo;
+  _UtilInfoScreenState({required this.utilInfo});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -1,14 +1,26 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:qr_4_all/domain/gal.dart';
 import 'package:qr_4_all/views/turistic-areas/views/zones/zone_turistice.dart';
 
 class MenuScreen extends StatefulWidget {
   const MenuScreen({Key? key}) : super(key: key);
 
+  @override
   _MenuScreenState createState() => _MenuScreenState();
 }
 
 class _MenuScreenState extends State<MenuScreen> {
+  List<Gal> galList = List.empty(growable: true);
+
+  @override
+  void initState() {
+    super.initState();
+    setState(() {
+      galList =  Gal.performSingleFetch();
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -22,7 +34,7 @@ class _MenuScreenState extends State<MenuScreen> {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => ZoneTuristice(),
+                  builder: (context) => ZoneTuristice(galList: galList),
                 ),
               );
             },
