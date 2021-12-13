@@ -8,6 +8,7 @@ import 'package:qr_4_all/views/turistic-areas/views/calendar/views/event_screen.
 
 class CalendarScreen extends StatefulWidget {
   final List<Evenimente> events;
+
   const CalendarScreen({required this.events, Key? key}) : super(key: key);
 
   _CalendarScreenState createState() => _CalendarScreenState(events: events);
@@ -15,6 +16,7 @@ class CalendarScreen extends StatefulWidget {
 
 class _CalendarScreenState extends State<CalendarScreen> {
   final List<Evenimente> events;
+
   _CalendarScreenState({required this.events});
 
   @override
@@ -37,13 +39,14 @@ class _CalendarScreenState extends State<CalendarScreen> {
           const SizedBox(height: 15),
           Flexible(
             child: GridView.count(
+              primary: false,
+              childAspectRatio: 39 / 10,
               padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
               //Todo: dynamic values with respect for phone specs
-              childAspectRatio: MediaQuery.of(context).size.height / 161,
               mainAxisSpacing: 10,
               crossAxisCount: 1,
-              children: <Widget>[
-                GestureDetector(
+              children: List.generate(events.length, (index) {
+                return GestureDetector(
                   onTap: () {
                     Navigator.push(
                       context,
@@ -69,7 +72,7 @@ class _CalendarScreenState extends State<CalendarScreen> {
                           ),
                         ),
                         const SizedBox(width: 15),
-                         Align(
+                        Align(
                           alignment: Alignment.center,
                           child: Text(
                             events[0].name.toString() +
@@ -95,13 +98,14 @@ class _CalendarScreenState extends State<CalendarScreen> {
                             offset: const Offset(0, 5),
                           ),
                         ],
-                        borderRadius: const BorderRadius.all(Radius.circular(15.0)),
+                        borderRadius:
+                            const BorderRadius.all(Radius.circular(15.0)),
                         color: Colors.lightGreen),
                   ),
-                ),
-              ],
+                );
+              }),
             ),
-          ),
+          )
         ],
       ),
     );
