@@ -1,16 +1,25 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:qr_4_all/domain/gal.dart';
+import 'package:qr_4_all/views/turistic-areas/views/google_map.dart';
+import 'package:qr_4_all/views/turistic-areas/views/google_map.dart';
+import 'package:qr_4_all/views/turistic-areas/views/google_map.dart';
+import 'package:qr_4_all/views/turistic-areas/views/google_map.dart';
+import 'package:qr_4_all/views/turistic-areas/views/google_map.dart';
 
 class AboutScreen extends StatefulWidget {
   final Gal gal;
+
   AboutScreen({required this.gal, Key? key}) : super(key: key);
+
   _AboutScreenState createState() => _AboutScreenState(gal: gal);
 }
 
 class _AboutScreenState extends State<AboutScreen> {
   final Gal gal;
+
   _AboutScreenState({required this.gal});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -66,63 +75,123 @@ class _AboutScreenState extends State<AboutScreen> {
             child: ListView(
               scrollDirection: Axis.horizontal,
               children: [
-                Container(
-                  height: double.infinity,
-                  width: MediaQuery.of(context).size.width / 6,
-                  decoration: const BoxDecoration(
-                    borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                    color: Colors.white,
-                    image: DecorationImage(
-                        image: AssetImage("assets/gals/icons/hospital.png"),
-                        fit: BoxFit.fill),
+                GestureDetector(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) {
+                          return Map();
+                        },
+                      ),
+                    );
+                  },
+                  child: Container(
+                    height: double.infinity,
+                    width: MediaQuery.of(context).size.width / 6,
+                    decoration: const BoxDecoration(
+                      borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                      color: Colors.white,
+                      image: DecorationImage(
+                          image: AssetImage("assets/gals/icons/hospital.png"),
+                          fit: BoxFit.fill),
+                    ),
                   ),
                 ),
                 const SizedBox(width: 10),
-                Container(
-                  height: double.infinity,
-                  width: MediaQuery.of(context).size.width / 6,
-                  decoration: const BoxDecoration(
-                    borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                    color: Colors.white,
-                    image: DecorationImage(
-                        image: AssetImage("assets/gals/icons/insta.png"),
-                        fit: BoxFit.fill),
+                GestureDetector(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) {
+                          return Map();
+                        },
+                      ),
+                    );
+                  },
+                  child: Container(
+                    height: double.infinity,
+                    width: MediaQuery.of(context).size.width / 6,
+                    decoration: const BoxDecoration(
+                      borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                      color: Colors.white,
+                      image: DecorationImage(
+                          image: AssetImage("assets/gals/icons/insta.png"),
+                          fit: BoxFit.fill),
+                    ),
                   ),
                 ),
                 const SizedBox(width: 10),
-                Container(
-                  height: double.infinity,
-                  width: MediaQuery.of(context).size.width / 6,
-                  decoration: const BoxDecoration(
-                    borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                    color: Colors.white,
-                    image: DecorationImage(
-                        image: AssetImage("assets/gals/icons/arrow.png"),
-                        fit: BoxFit.fill),
+                GestureDetector(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) {
+                          return Map();
+                        },
+                      ),
+                    );
+                  },
+                  child: Container(
+                    height: double.infinity,
+                    width: MediaQuery.of(context).size.width / 6,
+                    decoration: const BoxDecoration(
+                      borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                      color: Colors.white,
+                      image: DecorationImage(
+                          image: AssetImage("assets/gals/icons/arrow.png"),
+                          fit: BoxFit.fill),
+                    ),
                   ),
                 ),
                 const SizedBox(width: 10),
-                Container(
-                  height: double.infinity,
-                  width: MediaQuery.of(context).size.width / 6,
-                  decoration: const BoxDecoration(
-                    borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                    color: Colors.white,
-                    image: DecorationImage(
-                        image: AssetImage("assets/gals/icons/mech.png"),
-                        fit: BoxFit.fill),
+                GestureDetector(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) {
+                          return Map();
+                        },
+                      ),
+                    );
+                  },
+                  child: Container(
+                    height: double.infinity,
+                    width: MediaQuery.of(context).size.width / 6,
+                    decoration: const BoxDecoration(
+                      borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                      color: Colors.white,
+                      image: DecorationImage(
+                          image: AssetImage("assets/gals/icons/mech.png"),
+                          fit: BoxFit.fill),
+                    ),
                   ),
                 ),
                 const SizedBox(width: 10),
-                Container(
-                  height: double.infinity,
-                  width: MediaQuery.of(context).size.width / 6,
-                  decoration: const BoxDecoration(
-                    borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                    color: Colors.white,
-                    image: DecorationImage(
-                        image: AssetImage("assets/gals/icons/www.png"),
-                        fit: BoxFit.fill),
+                GestureDetector(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) {
+                          return Map();
+                        },
+                      ),
+                    );
+                  },
+                  child: Container(
+                    height: double.infinity,
+                    width: MediaQuery.of(context).size.width / 6,
+                    decoration: const BoxDecoration(
+                      borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                      color: Colors.white,
+                      image: DecorationImage(
+                          image: AssetImage("assets/gals/icons/www.png"),
+                          fit: BoxFit.fill),
+                    ),
                   ),
                 ),
               ],

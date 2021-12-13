@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:qr_4_all/domain/gal.dart';
 import 'package:qr_4_all/domain/objective.dart';
 
-import '../../dummy_map.dart';
+import '../../google_map.dart';
 
 class ObjectiveScreen extends StatefulWidget {
   final Objective objective;
@@ -77,7 +77,7 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => const Dummy(),
+                          builder: (context) => const Map(),
                         ),
                       );
                     },
@@ -156,7 +156,7 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => const Dummy(),
+                                  builder: (context) => const Map(),
                                 ),
                               );
                             },

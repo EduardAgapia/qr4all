@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:qr_4_all/domain/event.dart';
 import 'package:qr_4_all/domain/gal.dart';
 
-import '../../dummy_map.dart';
+import '../../google_map.dart';
 
 class EventScreen extends StatefulWidget {
   final Evenimente event;
@@ -70,7 +70,7 @@ class _EventScreenState extends State<EventScreen> {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const Dummy(),
+                    builder: (context) => const Map(),
                   ),
                 );
               },

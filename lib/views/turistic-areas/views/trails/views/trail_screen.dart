@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:qr_4_all/domain/gal.dart';
 import 'package:qr_4_all/domain/trail.dart';
-import 'package:qr_4_all/views/turistic-areas/views/dummy_map.dart';
+import 'package:qr_4_all/views/turistic-areas/views/google_map.dart';
 
 class TrailScreen extends StatefulWidget {
   final Trail trail;
@@ -115,7 +115,7 @@ class _TrailScreenState extends State<TrailScreen> {
                                       Navigator.push(
                                         context,
                                         MaterialPageRoute(
-                                          builder: (context) => const Dummy(),
+                                          builder: (context) => const Map(),
                                         ),
                                       );
                                     },
@@ -162,7 +162,7 @@ class _TrailScreenState extends State<TrailScreen> {
                                       Navigator.push(
                                         context,
                                         MaterialPageRoute(
-                                          builder: (context) => const Dummy(),
+                                          builder: (context) => const Map(),
                                         ),
                                       );
                                     },
