@@ -14,6 +14,7 @@ class _PlaceholderState extends State<Placeholder> {
       appBar: AppBar(
         centerTitle: true,
         title: const Text("Placeholder Screen"),
+        automaticallyImplyLeading: false,
       ),
       body: Container(
         decoration: const BoxDecoration(

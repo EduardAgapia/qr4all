@@ -43,7 +43,7 @@ class _AboutScreenState extends State<AboutScreen> {
                 alignment: Alignment.bottomCenter,
                 child: Text(
                   gal.name.toString(),
-                  style: TextStyle(
+                  style: const TextStyle(
                     color: Colors.black,
                     fontSize: 15,
                     fontWeight: FontWeight.w900,

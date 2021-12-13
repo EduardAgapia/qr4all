@@ -24,6 +24,7 @@ class _TrailsScreenState extends State<TrailsScreen> {
       appBar: AppBar(
         centerTitle: true,
         title: const Text("Lista Trasee"),
+        automaticallyImplyLeading: false,
       ),
       body: Column(
         children: <Widget>[
@@ -75,6 +76,16 @@ class _TrailsScreenState extends State<TrailsScreen> {
                               fontWeight: FontWeight.w600,
                               fontSize: 12,
                             ),
+                          ),
+                        ),
+                        Container(
+                          width: 100,
+                          decoration: const BoxDecoration(
+                            borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                            color: Colors.lightGreen,
+                            image: DecorationImage(
+                                image: AssetImage("assets/gals/icons/qr.png"),
+                                fit: BoxFit.fill),
                           ),
                         ),
                       ],

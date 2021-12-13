@@ -25,6 +25,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
       appBar: AppBar(
         centerTitle: true,
         title: Text(gal.name.toString()),
+        automaticallyImplyLeading: false,
       ),
       body: Center(
         child: GridView.count(

@@ -14,6 +14,7 @@ class _InfoScreenState extends State<InfoScreen> {
       appBar: AppBar(
         centerTitle: true,
         title: const Text("Info Presentation Screen"),
+        automaticallyImplyLeading: false,
       ),
       body: Padding(
         padding: const EdgeInsets.all(12.0),

@@ -22,14 +22,11 @@ class _ReadExampleState extends State<ZoneTuristice> {
 
   @override
   Widget build(BuildContext context) {
-    // debugPrint('check:');
-    // debugPrint(Gal.galList.length.toString());
-    // debugPrint('check:');
-    // debugPrint(Gal.galList[0].name);
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
         title: const Text("Zone Turistice"),
+        automaticallyImplyLeading: false,
       ),
       body: Center(
         child: GridView.count(

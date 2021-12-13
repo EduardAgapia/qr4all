@@ -19,6 +19,7 @@ class _UtilInfoScreenState extends State<UtilInfoScreen> {
       appBar: AppBar(
         centerTitle: true,
         title: const Text("Informatii utile"),
+        automaticallyImplyLeading: false,
       ),
       body: Center(
         child: GridView.count(
