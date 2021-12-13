@@ -51,7 +51,7 @@ class _CalendarScreenState extends State<CalendarScreen> {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => EventScreen(event: events[0]),
+                        builder: (context) => EventScreen(event: events[index]),
                       ),
                     );
                   },
@@ -75,12 +75,12 @@ class _CalendarScreenState extends State<CalendarScreen> {
                         Align(
                           alignment: Alignment.center,
                           child: Text(
-                            events[0].name.toString() +
+                            events[index].name.toString() +
                                 "\n" +
-                                events[0].programm.toString() +
+                                events[index].programm.toString() +
                                 "\n" +
-                                events[0].location.toString(),
-                            style: TextStyle(
+                                events[index].location.toString(),
+                            style: const TextStyle(
                               color: Colors.black,
                               fontWeight: FontWeight.w600,
                               fontSize: 12,
