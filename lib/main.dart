@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:ui';
 
 import 'package:firebase_core/firebase_core.dart';
@@ -21,14 +22,21 @@ class MyApp extends StatelessWidget {
           primaryColor: Colors.blueGrey,
           primarySwatch: Colors.green,
         ),
-        home: MyHomePage(title: "LoadingScreen"));
+        home: Home());
   }
-
 }
 
-class MyHomePage extends StatelessWidget {
-  MyHomePage({Key? key, required this.title}) : super(key: key);
-  final String title;
+class Home extends StatefulWidget {
+  @override
+  MyHomePage createState() => new MyHomePage();
+}
+
+class MyHomePage extends State<Home> {
+  final String title =  "LoadingScreen";
+
+  initState() {
+    Timer(const Duration(seconds: 1), onClose);
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -36,12 +44,13 @@ class MyHomePage extends StatelessWidget {
       body: GestureDetector(
         onTap: () {
           Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) {
-                  return MenuScreen();
-                },
-              ));
+            context,
+            MaterialPageRoute(
+              builder: (context) {
+                return MenuScreen();
+              },
+            ),
+          );
         },
         child: Container(
           decoration: const BoxDecoration(
@@ -62,5 +71,18 @@ class MyHomePage extends StatelessWidget {
         ),
       ),
     );
+  }
+  void onClose() {
+    Navigator.of(context).pushReplacement(PageRouteBuilder(
+        maintainState: true,
+        opaque: true,
+        pageBuilder: (context, _, __) => MenuScreen(),
+        transitionDuration: const Duration(milliseconds: 500),
+        transitionsBuilder: (context, anim1, anim2, child) {
+          return FadeTransition(
+            child: child,
+            opacity: anim1,
+          );
+        }));
   }
 }
