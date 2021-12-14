@@ -77,9 +77,10 @@ class _EventScreenState extends State<EventScreen> {
               child: ListView(
                 scrollDirection: Axis.horizontal,
                 children: <Widget>[
+                  const SizedBox(width: 10),
                   Container(
-                    height: 75,
-                    width: 75,
+                    height: MediaQuery.of(context).size.height / 15,
+                    width: MediaQuery.of(context).size.width / 11,
                     decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
@@ -113,9 +114,10 @@ class _EventScreenState extends State<EventScreen> {
             child: ListView(
               scrollDirection: Axis.horizontal,
               children: <Widget>[
+                const SizedBox(width: 10),
                 Container(
-                  height: 75,
-                  width: 75,
+                  height: MediaQuery.of(context).size.height / 14,
+                  width: MediaQuery.of(context).size.width / 9,
                   decoration: const BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(15.0)),
                     image: DecorationImage(
