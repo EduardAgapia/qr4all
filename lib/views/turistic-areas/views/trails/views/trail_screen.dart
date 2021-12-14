@@ -95,106 +95,68 @@ class _TrailScreenState extends State<TrailScreen> {
                             ),
                           ),
                         ),
-                        const SizedBox(height: 120),
-                        Flexible(
-                          child: ListView(
-                              scrollDirection: Axis.horizontal,
-                              children: [
-                                const SizedBox(width: 10),
-                                Container(
-                                  height: 60,
-                                  width:
-                                      MediaQuery.of(context).size.width / 2.18,
-                                  decoration: const BoxDecoration(
-                                    borderRadius:
-                                        BorderRadius.all(Radius.circular(25.0)),
-                                    color: Color.fromARGB(230, 0, 143, 105),
-                                  ),
-                                  child: GestureDetector(
-                                    onTap: () {
-                                      Navigator.push(
-                                        context,
-                                        MaterialPageRoute(
-                                          builder: (context) => const Map(),
-                                        ),
-                                      );
-                                    },
-                                    child: ListView(
-                                      scrollDirection: Axis.horizontal,
-                                      children: [
-                                        const SizedBox(height: 20),
-                                        Align(
-                                          alignment: Alignment.centerLeft,
-                                          child: Text(
-                                           trail.location.toString(),
-                                            style: const TextStyle(
-                                              color: Colors.white,
-                                              fontWeight: FontWeight.w900,
-                                              fontSize: 19,
-                                            ),
+                        SizedBox(height: 15),
+                        Align(
+                          child: SizedBox(
+                            height: MediaQuery.of(context).size.height / 11,
+                            width: MediaQuery.of(context).size.width,
+                            child: ListView(
+                                scrollDirection: Axis.horizontal,
+                                children: [
+                                  const SizedBox(width: 90),
+                                  Container(
+                                    width: MediaQuery.of(context).size.width / 4,
+                                    decoration: const BoxDecoration(
+                                      borderRadius:
+                                          BorderRadius.all(Radius.circular(25.0)),
+                                    ),
+                                    child: GestureDetector(
+                                      onTap: () {
+                                        Navigator.push(
+                                          context,
+                                          MaterialPageRoute(
+                                            builder: (context) => const Map(),
                                           ),
+                                        );
+                                      },
+                                      child: Container(
+                                        decoration: const BoxDecoration(
+                                          image: DecorationImage(
+                                              image: AssetImage(
+                                                  "assets/gals/icons/arrow.png"),
+                                              fit: BoxFit.contain),
                                         ),
-                                        const SizedBox(width: 10),
-                                        Container(
-                                          width: 70,
-                                          decoration: const BoxDecoration(
-                                            image: DecorationImage(
-                                                image: AssetImage(
-                                                    "assets/gals/icons/arrow.png"),
-                                                fit: BoxFit.fill),
-                                          ),
-                                        )
-                                      ],
+                                      ),
                                     ),
                                   ),
-                                ),
-                                const SizedBox(width: 10),
-                                Container(
-                                  width:
-                                      MediaQuery.of(context).size.width / 2.18,
-                                  decoration: const BoxDecoration(
-                                    borderRadius:
-                                        BorderRadius.all(Radius.circular(25.0)),
-                                    color: Color.fromARGB(230, 0, 143, 105),
-                                  ),
-                                  child: GestureDetector(
-                                    onTap: () {
-                                      Navigator.push(
-                                        context,
-                                        MaterialPageRoute(
-                                          builder: (context) => const Map(),
-                                        ),
-                                      );
-                                    },
-                                    child: ListView(
-                                      scrollDirection: Axis.horizontal,
-                                      children: const [
-                                        SizedBox(height: 20),
-                                        Align(
-                                          alignment: Alignment.centerLeft,
-                                          child: Text(
-                                            "  Descarca harta traseului",
-                                            style: TextStyle(
-                                              color: Colors.white,
-                                              fontWeight: FontWeight.w900,
-                                              fontSize: 19,
-                                            ),
+                                  const SizedBox(width: 10),
+                                  Container(
+                                    width: MediaQuery.of(context).size.width / 4,
+                                    decoration: const BoxDecoration(
+                                      borderRadius:
+                                          BorderRadius.all(Radius.circular(25.0)),
+                                    ),
+                                    child: GestureDetector(
+                                      onTap: () {
+                                        Navigator.push(
+                                          context,
+                                          MaterialPageRoute(
+                                            builder: (context) => const Map(),
                                           ),
+                                        );
+                                      },
+                                      child: Container(
+                                        decoration: const BoxDecoration(
+                                          image: DecorationImage(
+                                              image: AssetImage(
+                                                  "assets/gals/icons/map.png"),
+                                              fit: BoxFit.contain),
                                         ),
-                                        // Container(
-                                        //   width: 75,
-                                        //   decoration: const BoxDecoration(
-                                        //     image: DecorationImage(
-                                        //         image: AssetImage(
-                                        //             "assets/gals/icons/qr.png"),
-                                        //         fit: BoxFit.fill),
-                                        //   ),
-                                        // )
-                                      ],
+                                      ),
                                     ),
                                   ),
-                                ),
-                              ]),
+                                ]),
+                          ),
                         ),
                       ],
                     ),
