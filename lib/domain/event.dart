@@ -22,6 +22,15 @@ class Evenimente {
     List<Evenimente> eventList = List.empty(growable: true);
     Evenimente event = fromRTDB(data);
     eventList.add(event);
+    eventList.add(event);
+    eventList.add(event);
+    eventList.add(event);
+    eventList.add(event);
+    eventList.add(event);
+    eventList.add(event);
+    eventList.add(event);
+    eventList.add(event);
+    eventList.add(event);
     return eventList;
   }
 }

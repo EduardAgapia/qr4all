@@ -22,6 +22,17 @@ class Trail {
     List<Trail> trailList = List.empty(growable: true);
     Trail trail = fromRTDB(data);
     trailList.add(trail);
+    trailList.add(trail);
+    trailList.add(trail);
+    trailList.add(trail);
+    trailList.add(trail);
+    trailList.add(trail);
+    trailList.add(trail);
+    trailList.add(trail);
+    trailList.add(trail);
+    trailList.add(trail);
+    trailList.add(trail);
+    trailList.add(trail);
     return trailList;
   }
 }

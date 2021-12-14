@@ -23,6 +23,16 @@ class Objective {
     List<Objective> objList = List.empty(growable: true);
     Objective objective = fromRTDB(data);
     objList.add(objective);
+    objList.add(objective);
+    objList.add(objective);
+    objList.add(objective);
+    objList.add(objective);
+    objList.add(objective);
+    objList.add(objective);
+    objList.add(objective);
+    objList.add(objective);
+    objList.add(objective);
+
     return objList;
   }
 }

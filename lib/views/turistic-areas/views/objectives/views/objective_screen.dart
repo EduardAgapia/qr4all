@@ -1,7 +1,6 @@
-import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:qr_4_all/domain/gal.dart';
+import 'package:qr_4_all/scanner.dart';
 import 'package:qr_4_all/domain/objective.dart';
 
 import '../../google_map.dart';
@@ -146,7 +145,7 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                         Container(
                           height: 90,
                           width: MediaQuery.of(context).size.width / 2,
-                          decoration: const BoxDecoration(
+                          decoration:  BoxDecoration(
                             borderRadius:
                                 BorderRadius.all(Radius.circular(25.0)),
                             color: Color.fromARGB(0, 0, 143, 105),
@@ -156,7 +155,7 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => const Map(),
+                                  builder: (context) => const QRViewExample(),
                                 ),
                               );
                             },
