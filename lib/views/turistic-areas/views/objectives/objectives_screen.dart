@@ -79,6 +79,9 @@ class _ObjectivesScreenState extends State<ObjectivesScreen> {
                             ),
                           ),
                         ),
+                        const SizedBox(
+                          width: 35,
+                        ),
                         Container(
                           width: 100,
                           decoration: const BoxDecoration(
@@ -87,7 +90,7 @@ class _ObjectivesScreenState extends State<ObjectivesScreen> {
                             color: Colors.lightGreen,
                             image: DecorationImage(
                                 image: AssetImage("assets/gals/icons/qr.png"),
-                                fit: BoxFit.fill),
+                                fit: BoxFit.contain),
                           ),
                         ),
                       ],

@@ -85,7 +85,7 @@ class _TrailsScreenState extends State<TrailsScreen> {
                             color: Colors.lightGreen,
                             image: DecorationImage(
                                 image: AssetImage("assets/gals/icons/qr.png"),
-                                fit: BoxFit.fill),
+                                fit: BoxFit.contain),
                           ),
                         ),
                       ],

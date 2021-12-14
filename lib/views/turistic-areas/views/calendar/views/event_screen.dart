@@ -84,7 +84,7 @@ class _EventScreenState extends State<EventScreen> {
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
                           image: AssetImage("assets/gals/icons/arrow.png"),
-                          fit: BoxFit.fill),
+                          fit: BoxFit.contain),
                     ),
                   ),
                   const SizedBox(width: 15),
@@ -120,7 +120,7 @@ class _EventScreenState extends State<EventScreen> {
                     borderRadius: BorderRadius.all(Radius.circular(15.0)),
                     image: DecorationImage(
                         image: AssetImage("assets/gals/icons/date.png"),
-                        fit: BoxFit.fill),
+                        fit: BoxFit.contain),
                   ),
                 ),
                 const SizedBox(width: 15),

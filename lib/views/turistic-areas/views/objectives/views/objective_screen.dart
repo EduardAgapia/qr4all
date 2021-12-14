@@ -92,7 +92,7 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                             image: DecorationImage(
                                 image:
                                     AssetImage("assets/gals/icons/arrow.png"),
-                                fit: BoxFit.fill),
+                                fit: BoxFit.contain),
                           ),
                         ),
                         const SizedBox(width: 15),
@@ -179,7 +179,7 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                                     image: DecorationImage(
                                         image: AssetImage(
                                             "assets/gals/icons/qr.png"),
-                                        fit: BoxFit.fill),
+                                        fit: BoxFit.contain),
                                   ),
                                 ),
                               ],

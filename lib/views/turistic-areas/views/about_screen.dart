@@ -142,7 +142,7 @@ class _AboutScreenState extends State<AboutScreen> {
                       color: Colors.white,
                       image: DecorationImage(
                           image: AssetImage("assets/gals/icons/arrow.png"),
-                          fit: BoxFit.fill),
+                          fit: BoxFit.contain),
                     ),
                   ),
                 ),
