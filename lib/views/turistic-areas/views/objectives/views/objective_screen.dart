@@ -89,7 +89,6 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                           decoration: const BoxDecoration(
                             borderRadius:
                                 BorderRadius.all(Radius.circular(15.0)),
-                            color: Colors.black,
                             image: DecorationImage(
                                 image:
                                     AssetImage("assets/gals/icons/arrow.png"),

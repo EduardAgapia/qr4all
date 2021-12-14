@@ -82,7 +82,6 @@ class _EventScreenState extends State<EventScreen> {
                     width: 75,
                     decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                      color: Colors.black,
                       image: DecorationImage(
                           image: AssetImage("assets/gals/icons/arrow.png"),
                           fit: BoxFit.fill),
@@ -119,7 +118,6 @@ class _EventScreenState extends State<EventScreen> {
                   width: 75,
                   decoration: const BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                    color: Colors.black,
                     image: DecorationImage(
                         image: AssetImage("assets/gals/icons/date.png"),
                         fit: BoxFit.fill),
