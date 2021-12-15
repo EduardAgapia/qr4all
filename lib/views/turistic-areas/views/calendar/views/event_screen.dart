@@ -4,10 +4,12 @@ import 'package:flutter/material.dart';
 import 'package:qr_4_all/domain/event.dart';
 import 'package:qr_4_all/domain/gal.dart';
 
+import '../../../../../map.dart';
 import '../../google_map.dart';
 
 class EventScreen extends StatefulWidget {
   final Evenimente event;
+
   const EventScreen({required this.event, Key? key}) : super(key: key);
 
   _EventScreenState createState() => _EventScreenState(event: event);
@@ -15,6 +17,7 @@ class EventScreen extends StatefulWidget {
 
 class _EventScreenState extends State<EventScreen> {
   final Evenimente event;
+
   _EventScreenState({required this.event});
 
   @override
@@ -67,28 +70,31 @@ class _EventScreenState extends State<EventScreen> {
             width: MediaQuery.of(context).size.width - 25,
             child: GestureDetector(
               onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const Map(),
-                  ),
-                );
+                MapUtils.openMap(47.152177, 27.585772);
               },
               child: ListView(
                 scrollDirection: Axis.horizontal,
                 children: <Widget>[
                   const SizedBox(width: 10),
                   Container(
-                    height: MediaQuery.of(context).size.height / 15,
                     width: MediaQuery.of(context).size.width / 11,
                     decoration: const BoxDecoration(
-                      borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                      borderRadius: BorderRadius.only(
+                          topLeft: Radius.circular(10.0),
+                          bottomLeft: Radius.circular(10.0)),
                       image: DecorationImage(
                           image: AssetImage("assets/gals/icons/arrow.png"),
                           fit: BoxFit.contain),
                     ),
                   ),
-                  const SizedBox(width: 15),
+                  const SizedBox(width: 5),
+                  Container(
+                    width: MediaQuery.of(context).size.width / 99,
+                    decoration: const BoxDecoration(
+                      color: Colors.green,
+                    ),
+                  ),
+                  const SizedBox(width: 10),
                   Align(
                     alignment: Alignment.center,
                     child: Text(
@@ -116,16 +122,24 @@ class _EventScreenState extends State<EventScreen> {
               children: <Widget>[
                 const SizedBox(width: 10),
                 Container(
-                  height: MediaQuery.of(context).size.height / 14,
-                  width: MediaQuery.of(context).size.width / 9,
+                  width: MediaQuery.of(context).size.width / 11,
                   decoration: const BoxDecoration(
-                    borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                    borderRadius: BorderRadius.only(
+                        topLeft: Radius.circular(10.0),
+                        bottomLeft: Radius.circular(10.0)),
                     image: DecorationImage(
                         image: AssetImage("assets/gals/icons/date.png"),
-                        fit: BoxFit.contain),
+                        fit: BoxFit.scaleDown),
                   ),
                 ),
-                const SizedBox(width: 15),
+                const SizedBox(width: 5),
+                Container(
+                  width: MediaQuery.of(context).size.width / 99,
+                  decoration: const BoxDecoration(
+                    color: Colors.green,
+                  ),
+                ),
+                const SizedBox(width: 10),
                 Align(
                   alignment: Alignment.center,
                   child: Text(

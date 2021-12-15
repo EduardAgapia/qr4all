@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:qr_4_all/scanner.dart';
 import 'package:qr_4_all/domain/objective.dart';
 
+import '../../../../../map.dart';
 import '../../google_map.dart';
 
 class ObjectiveScreen extends StatefulWidget {
@@ -75,12 +76,7 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                     ),
                     child: GestureDetector(
                       onTap: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => const Map(),
-                          ),
-                        );
+                        MapUtils.openMap(47.152177, 27.585772);
                       },
                       child: ListView(
                         scrollDirection: Axis.horizontal,

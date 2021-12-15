@@ -5,6 +5,8 @@ import 'package:qr_4_all/domain/gal.dart';
 import 'package:qr_4_all/domain/trail.dart';
 import 'package:qr_4_all/views/turistic-areas/views/google_map.dart';
 
+import '../../../../../map.dart';
+
 class TrailScreen extends StatefulWidget {
   final Trail trail;
 
@@ -105,19 +107,15 @@ class _TrailScreenState extends State<TrailScreen> {
                                 children: [
                                   const SizedBox(width: 90),
                                   Container(
-                                    width: MediaQuery.of(context).size.width / 4,
+                                    width:
+                                        MediaQuery.of(context).size.width / 4,
                                     decoration: const BoxDecoration(
-                                      borderRadius:
-                                          BorderRadius.all(Radius.circular(25.0)),
+                                      borderRadius: BorderRadius.all(
+                                          Radius.circular(25.0)),
                                     ),
                                     child: GestureDetector(
                                       onTap: () {
-                                        Navigator.push(
-                                          context,
-                                          MaterialPageRoute(
-                                            builder: (context) => const Map(),
-                                          ),
-                                        );
+                                        MapUtils.openMap(47.152177, 27.585772);
                                       },
                                       child: Container(
                                         decoration: const BoxDecoration(
@@ -131,10 +129,11 @@ class _TrailScreenState extends State<TrailScreen> {
                                   ),
                                   const SizedBox(width: 10),
                                   Container(
-                                    width: MediaQuery.of(context).size.width / 4,
+                                    width:
+                                        MediaQuery.of(context).size.width / 4,
                                     decoration: const BoxDecoration(
-                                      borderRadius:
-                                          BorderRadius.all(Radius.circular(25.0)),
+                                      borderRadius: BorderRadius.all(
+                                          Radius.circular(25.0)),
                                     ),
                                     child: GestureDetector(
                                       onTap: () {

@@ -3,14 +3,20 @@ import 'package:flutter/material.dart';
 import 'package:qr_4_all/domain/util_info.dart';
 import 'package:qr_4_all/views/turistic-areas/views/google_map.dart';
 
+import '../../../../map.dart';
+
 class UtilInfoScreen extends StatefulWidget {
   final UtilInfo utilInfo;
+
   UtilInfoScreen({required this.utilInfo, Key? key}) : super(key: key);
-  _UtilInfoScreenState createState() => _UtilInfoScreenState(utilInfo: utilInfo);
+
+  _UtilInfoScreenState createState() =>
+      _UtilInfoScreenState(utilInfo: utilInfo);
 }
 
 class _UtilInfoScreenState extends State<UtilInfoScreen> {
   final UtilInfo utilInfo;
+
   _UtilInfoScreenState({required this.utilInfo});
 
   @override
@@ -39,11 +45,7 @@ class _UtilInfoScreenState extends State<UtilInfoScreen> {
               ),
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const Map(),
-                      ));
+                  MapUtils.openMap(47.152177, 27.585772);
                 },
                 child: Container(
                   padding: const EdgeInsets.fromLTRB(0, 155, 0, 0),
@@ -75,11 +77,7 @@ class _UtilInfoScreenState extends State<UtilInfoScreen> {
               ),
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const Map(),
-                      ));
+                  MapUtils.openMap(47.152177, 27.585772);
                 },
                 child: Container(
                   padding: const EdgeInsets.fromLTRB(0, 155, 0, 0),
@@ -111,11 +109,7 @@ class _UtilInfoScreenState extends State<UtilInfoScreen> {
               ),
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const Map(),
-                      ));
+                  MapUtils.openMap(47.152177, 27.585772);
                 },
                 child: Container(
                   padding: const EdgeInsets.fromLTRB(0, 155, 0, 0),
@@ -147,11 +141,7 @@ class _UtilInfoScreenState extends State<UtilInfoScreen> {
               ),
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const Map(),
-                      ));
+                  MapUtils.openMap(47.152177, 27.585772);
                 },
                 child: Container(
                   padding: const EdgeInsets.fromLTRB(0, 155, 0, 0),
@@ -183,11 +173,7 @@ class _UtilInfoScreenState extends State<UtilInfoScreen> {
               ),
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const Map(),
-                      ));
+                  MapUtils.openMap(47.152177, 27.585772);
                 },
                 child: Container(
                   padding: const EdgeInsets.fromLTRB(0, 155, 0, 0),
@@ -219,11 +205,7 @@ class _UtilInfoScreenState extends State<UtilInfoScreen> {
               ),
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const Map(),
-                      ));
+                  MapUtils.openMap(47.152177, 27.585772);
                 },
                 child: Container(
                   padding: const EdgeInsets.fromLTRB(0, 155, 0, 0),
@@ -255,11 +237,7 @@ class _UtilInfoScreenState extends State<UtilInfoScreen> {
               ),
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const Map(),
-                      ));
+                  MapUtils.openMap(47.152177, 27.585772);
                 },
                 child: Container(
                   padding: const EdgeInsets.fromLTRB(0, 155, 0, 0),
@@ -291,11 +269,7 @@ class _UtilInfoScreenState extends State<UtilInfoScreen> {
               ),
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const Map(),
-                      ));
+                  MapUtils.openMap(47.152177, 27.585772);
                 },
                 child: Container(
                   padding: const EdgeInsets.fromLTRB(0, 155, 0, 0),

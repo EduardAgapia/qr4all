@@ -2,10 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:qr_4_all/domain/gal.dart';
 import 'package:qr_4_all/views/turistic-areas/views/google_map.dart';
-import 'package:qr_4_all/views/turistic-areas/views/google_map.dart';
-import 'package:qr_4_all/views/turistic-areas/views/google_map.dart';
-import 'package:qr_4_all/views/turistic-areas/views/google_map.dart';
-import 'package:qr_4_all/views/turistic-areas/views/google_map.dart';
+
+import '../../../map.dart';
 
 class AboutScreen extends StatefulWidget {
   final Gal gal;
@@ -77,14 +75,7 @@ class _AboutScreenState extends State<AboutScreen> {
               children: [
                 GestureDetector(
                   onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) {
-                          return Map();
-                        },
-                      ),
-                    );
+                    MapUtils.openMap(47.152177, 27.585772);
                   },
                   child: Container(
                     height: double.infinity,
@@ -101,14 +92,7 @@ class _AboutScreenState extends State<AboutScreen> {
                 const SizedBox(width: 10),
                 GestureDetector(
                   onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) {
-                          return Map();
-                        },
-                      ),
-                    );
+                    MapUtils.openMap(47.152177, 27.585772);
                   },
                   child: Container(
                     height: double.infinity,
@@ -125,14 +109,7 @@ class _AboutScreenState extends State<AboutScreen> {
                 const SizedBox(width: 10),
                 GestureDetector(
                   onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) {
-                          return Map();
-                        },
-                      ),
-                    );
+                    MapUtils.openMap(47.152177, 27.585772);
                   },
                   child: Container(
                     height: double.infinity,
@@ -149,14 +126,7 @@ class _AboutScreenState extends State<AboutScreen> {
                 const SizedBox(width: 10),
                 GestureDetector(
                   onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) {
-                          return Map();
-                        },
-                      ),
-                    );
+                    MapUtils.openMap(47.152177, 27.585772);
                   },
                   child: Container(
                     height: double.infinity,
@@ -173,14 +143,7 @@ class _AboutScreenState extends State<AboutScreen> {
                 const SizedBox(width: 10),
                 GestureDetector(
                   onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) {
-                          return Map();
-                        },
-                      ),
-                    );
+                    MapUtils.openMap(47.152177, 27.585772);
                   },
                   child: Container(
                     height: double.infinity,
