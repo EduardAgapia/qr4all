@@ -1,3 +1,5 @@
+import 'package:flutter/cupertino.dart';
+
 class Evenimente {
   String? name;
   String? programm;
@@ -11,6 +13,8 @@ class Evenimente {
       required this.description});
 
   static Evenimente fromRTDB(Map<String, dynamic> data) {
+    var json  = data['events'];
+    debugPrint('------------------------------------------------>: $json');//deci se poate
     return Evenimente(
         name: data['events']['event1']['name'] ?? 'Do you rly whant it?',
         programm: data['events']['event1']['programm'] ?? 'Do you rly whant it?',

@@ -13,12 +13,43 @@ class MenuScreen extends StatefulWidget {
 
 class _MenuScreenState extends State<MenuScreen> {
   List<Gal> galList = List.empty(growable: true);
+  Set<Marker> _markers = {};
+
+  List<Marker> markers = [
+    Marker(
+        markerId: MarkerId('Pascani'), position: LatLng(47.249624, 26.720125)),
+    Marker(
+        markerId: MarkerId('Belcesti-Focuri'),
+        position: LatLng(47.216394, 27.148312)),
+    Marker(
+        markerId: MarkerId('DEalurile bohotinului'),
+        position: LatLng(46.947622, 27.986547)),
+    Marker(
+        markerId: MarkerId('Rediu-Prajeni'),
+        position: LatLng(47.232995, 27.500137)),
+    Marker(
+        markerId: MarkerId('Siret-Moldova'),
+        position: LatLng(47.362216, 26.689119)),
+    Marker(
+        markerId: MarkerId('Stefan cel Mare'),
+        position: LatLng(47.204105, 27.602336)),
+    Marker(
+        markerId: MarkerId('Stejarii Argintii'),
+        position: LatLng(47.144530, 27.520261)),
+    Marker(
+        markerId: MarkerId('Valea Prutului'),
+        position: LatLng(47.281021, 27.518267)),
+    Marker(
+        markerId: MarkerId('Colinele Iasului'),
+        position: LatLng(47.060847, 27.568177)),
+  ];
 
   @override
   void initState() {
     super.initState();
     setState(() {
       galList = Gal.performSingleFetch();
+      _markers.addAll(markers);
     });
   }
 
@@ -70,11 +101,12 @@ class _MenuScreenState extends State<MenuScreen> {
             ),
           ],
         ),
-        body: const GoogleMap(
+        body: GoogleMap(
+          markers: _markers,
           myLocationButtonEnabled: false,
           zoomControlsEnabled: false,
           initialCameraPosition:
-              CameraPosition(target: LatLng(47.157116, 27.586520), zoom: 9),
+              const CameraPosition(target: LatLng(47.208774, 27.150350), zoom: 9),
         ),
       ),
     );
