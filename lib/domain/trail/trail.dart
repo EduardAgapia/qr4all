@@ -5,13 +5,13 @@ part 'trail.g.dart';
 @JsonSerializable()
 class Trail {
   String? name;
-  String? programm;
+  String? program;
   String? location;
   String? description;
 
   Trail(
       {required this.name,
-      required this.programm,
+      required this.program,
       required this.location,
       required this.description});
 
@@ -22,7 +22,7 @@ class Trail {
   static Trail fromRTDB(Map<String, dynamic> data) {
     return Trail(
         name: data['trails']['trail1']['name'] ?? 'Do you rly whant it?',
-        programm: data['trails']['trail1']['programm'] ?? 'Do you rly whant it?',
+        program: data['trails']['trail1']['programm'] ?? 'Do you rly whant it?',
         location: data['trails']['trail1']['location'] ?? 'Do you rly whant it?',
         description: data['trails']['trail1']['description'] ?? 'Do you rly whant it?');
   }

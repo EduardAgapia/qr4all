@@ -3,16 +3,16 @@ import 'package:qr_4_all/domain/place/place.dart';
 
 part 'util.g.dart';
 
-@JsonSerializable(explicitToJson: true)
+@JsonSerializable()
 class Util {
-  Place police;
-  Place restaurant;
-  Place drugs;
-  Place hotel;
-  Place hospital;
-  Place mayor;
-  Place gasStation;
-  Place serviceAuto;
+  String? police;
+  String? restaurant;
+  String? drugs;
+  String? hotel;
+  String? hospital;
+  String? mayor;
+  String? gasStation;
+  String? serviceAuto;
 
   factory Util.fromJson(Map<String, dynamic> json) => _$UtilFromJson(json);
 

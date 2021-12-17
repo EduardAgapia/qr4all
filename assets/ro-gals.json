@@ -2,6 +2,7 @@
   "gals": [
     {
       "name": "Belcesti-Focuri",
+      "imgSrc": "assets/gals/belcesti.png",
       "events": [
         {
           "name": "Evenimentul numarul #1",
@@ -190,41 +191,34 @@
       ],
       "utils": [
         {
-          "type": "farmacie",
-          "location": ""
+          "farmacie": "farmacie"
         },
         {
-          "type": "benzinarie",
-          "location": ""
+          "benzinarie": "benzinarie"
         },
         {
-          "type": "spital",
-          "location": ""
+          "spital": "spital"
         },
         {
-          "type": "hotel",
-          "location": ""
+          "hotel": "hotel"
         },
         {
-          "type": "primarie",
-          "location": ""
+          "primarie": "primarie"
         },
         {
-          "type": "politie",
-          "location": ""
+          "politie": "politie"
         },
         {
-          "type": "restaurant",
-          "location": ""
+          "restaurant": "restaurant"
         },
         {
-          "type": "service",
-          "location": ""
+          "service": "service"
         }
       ]
     },
     {
       "name": "Codrii Pascanilor",
+      "imgSrc": "assets/gals/pascani.png",
       "events": [
         {
           "name": "Evenimentul numarul #1",
@@ -413,41 +407,34 @@
       ],
       "utils": [
         {
-          "type": "farmacie",
-          "location": ""
+          "farmacie": "farmacie"
         },
         {
-          "type": "benzinarie",
-          "location": ""
+          "benzinarie": "benzinarie"
         },
         {
-          "type": "spital",
-          "location": ""
+          "spital": "spital"
         },
         {
-          "type": "hotel",
-          "location": ""
+          "hotel": "hotel"
         },
         {
-          "type": "primarie",
-          "location": ""
+          "primarie": "primarie"
         },
         {
-          "type": "politie",
-          "location": ""
+          "politie": "politie"
         },
         {
-          "type": "restaurant",
-          "location": ""
+          "restaurant": "restaurant"
         },
         {
-          "type": "service",
-          "location": ""
+          "service": "service"
         }
       ]
     },
     {
       "name": "Dealurile Bohotinului",
+      "imgSrc": "assets/gals/bohotin.png",
       "events": [
         {
           "name": "Evenimentul numarul #1",
@@ -636,41 +623,34 @@
       ],
       "utils": [
         {
-          "type": "farmacie",
-          "location": ""
+          "farmacie": "farmacie"
         },
         {
-          "type": "benzinarie",
-          "location": ""
+          "benzinarie": "benzinarie"
         },
         {
-          "type": "spital",
-          "location": ""
+          "spital": "spital"
         },
         {
-          "type": "hotel",
-          "location": ""
+          "hotel": "hotel"
         },
         {
-          "type": "primarie",
-          "location": ""
+          "primarie": "primarie"
         },
         {
-          "type": "politie",
-          "location": ""
+          "politie": "politie"
         },
         {
-          "type": "restaurant",
-          "location": ""
+          "restaurant": "restaurant"
         },
         {
-          "type": "service",
-          "location": ""
+          "service": "service"
         }
       ]
     },
     {
       "name": "Rediu-prajeni",
+      "imgSrc": "assets/gals/rediu.png",
       "events": [
         {
           "name": "Evenimentul numarul #1",
@@ -859,41 +839,34 @@
       ],
       "utils": [
         {
-          "type": "farmacie",
-          "location": ""
+          "farmacie": "farmacie"
         },
         {
-          "type": "benzinarie",
-          "location": ""
+          "benzinarie": "benzinarie"
         },
         {
-          "type": "spital",
-          "location": ""
+          "spital": "spital"
         },
         {
-          "type": "hotel",
-          "location": ""
+          "hotel": "hotel"
         },
         {
-          "type": "primarie",
-          "location": ""
+          "primarie": "primarie"
         },
         {
-          "type": "politie",
-          "location": ""
+          "politie": "politie"
         },
         {
-          "type": "restaurant",
-          "location": ""
+          "restaurant": "restaurant"
         },
         {
-          "type": "service",
-          "location": ""
+          "service": "service"
         }
       ]
     },
     {
       "name": "Siret-Moldova",
+      "imgSrc": "assets/gals/siret.png",
       "events": [
         {
           "name": "Evenimentul numarul #1",
@@ -1082,41 +1055,34 @@
       ],
       "utils": [
         {
-          "type": "farmacie",
-          "location": ""
+          "farmacie": "farmacie"
         },
         {
-          "type": "benzinarie",
-          "location": ""
+          "benzinarie": "benzinarie"
         },
         {
-          "type": "spital",
-          "location": ""
+          "spital": "spital"
         },
         {
-          "type": "hotel",
-          "location": ""
+          "hotel": "hotel"
         },
         {
-          "type": "primarie",
-          "location": ""
+          "primarie": "primarie"
         },
         {
-          "type": "politie",
-          "location": ""
+          "politie": "politie"
         },
         {
-          "type": "restaurant",
-          "location": ""
+          "restaurant": "restaurant"
         },
         {
-          "type": "service",
-          "location": ""
+          "service": "service"
         }
       ]
     },
     {
       "name": "Stefan cel Mare",
+      "imgSrc": "assets/gals/stefan.png",
       "events": [
         {
           "name": "Evenimentul numarul #1",
@@ -1305,41 +1271,34 @@
       ],
       "utils": [
         {
-          "type": "farmacie",
-          "location": ""
+          "farmacie": "farmacie"
         },
         {
-          "type": "benzinarie",
-          "location": ""
+          "benzinarie": "benzinarie"
         },
         {
-          "type": "spital",
-          "location": ""
+          "spital": "spital"
         },
         {
-          "type": "hotel",
-          "location": ""
+          "hotel": "hotel"
         },
         {
-          "type": "primarie",
-          "location": ""
+          "primarie": "primarie"
         },
         {
-          "type": "politie",
-          "location": ""
+          "politie": "politie"
         },
         {
-          "type": "restaurant",
-          "location": ""
+          "restaurant": "restaurant"
         },
         {
-          "type": "service",
-          "location": ""
+          "service": "service"
         }
       ]
     },
     {
       "name": "Stejarii-Argintii",
+      "imgSrc": "assets/gals/stejari.png",
       "events": [
         {
           "name": "Evenimentul numarul #1",
@@ -1528,41 +1487,34 @@
       ],
       "utils": [
         {
-          "type": "farmacie",
-          "location": ""
+          "farmacie": "farmacie"
         },
         {
-          "type": "benzinarie",
-          "location": ""
+          "benzinarie": "benzinarie"
         },
         {
-          "type": "spital",
-          "location": ""
+          "spital": "spital"
         },
         {
-          "type": "hotel",
-          "location": ""
+          "hotel": "hotel"
         },
         {
-          "type": "primarie",
-          "location": ""
+          "primarie": "primarie"
         },
         {
-          "type": "politie",
-          "location": ""
+          "politie": "politie"
         },
         {
-          "type": "restaurant",
-          "location": ""
+          "restaurant": "restaurant"
         },
         {
-          "type": "service",
-          "location": ""
+          "service": "service"
         }
       ]
     },
     {
       "name": "Valuea Prutului",
+      "imgSrc": "assets/gals/prut.png",
       "events": [
         {
           "name": "Evenimentul numarul #1",
@@ -1751,41 +1703,34 @@
       ],
       "utils": [
         {
-          "type": "farmacie",
-          "location": ""
+          "farmacie": "farmacie"
         },
         {
-          "type": "benzinarie",
-          "location": ""
+          "benzinarie": "benzinarie"
         },
         {
-          "type": "spital",
-          "location": ""
+          "spital": "spital"
         },
         {
-          "type": "hotel",
-          "location": ""
+          "hotel": "hotel"
         },
         {
-          "type": "primarie",
-          "location": ""
+          "primarie": "primarie"
         },
         {
-          "type": "politie",
-          "location": ""
+          "politie": "politie"
         },
         {
-          "type": "restaurant",
-          "location": ""
+          "restaurant": "restaurant"
         },
         {
-          "type": "service",
-          "location": ""
+          "service": "service"
         }
       ]
     },
     {
       "name": "Colinele Iasului",
+      "imgSrc": "assets/gals/iasi.png",
       "events": [
         {
           "name": "Evenimentul numarul #1",
@@ -1974,36 +1919,28 @@
       ],
       "utils": [
         {
-          "type": "farmacie",
-          "location": ""
+          "farmacie": "farmacie"
         },
         {
-          "type": "benzinarie",
-          "location": ""
+          "benzinarie": "benzinarie"
         },
         {
-          "type": "spital",
-          "location": ""
+          "spital": "spital"
         },
         {
-          "type": "hotel",
-          "location": ""
+          "hotel": "hotel"
         },
         {
-          "type": "primarie",
-          "location": ""
+          "primarie": "primarie"
         },
         {
-          "type": "politie",
-          "location": ""
+          "politie": "politie"
         },
         {
-          "type": "restaurant",
-          "location": ""
+          "restaurant": "restaurant"
         },
         {
-          "type": "service",
-          "location": ""
+          "service": "service"
         }
       ]
     }

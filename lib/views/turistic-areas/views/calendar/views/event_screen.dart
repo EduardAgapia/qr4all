@@ -145,7 +145,7 @@ class _EventScreenState extends State<EventScreen> {
                   child: Text(
                     event.location.toString() +
                         "\n" +
-                        event.programm.toString(),
+                        event.program.toString(),
                     style: const TextStyle(
                       color: Colors.black,
                       fontWeight: FontWeight.w600,

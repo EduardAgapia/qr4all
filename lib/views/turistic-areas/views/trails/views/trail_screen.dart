@@ -54,7 +54,7 @@ class _TrailScreenState extends State<TrailScreen> {
                         textAlign: TextAlign.center,
                       ),
                       subtitle: Text(
-                        trail.programm.toString(),
+                        trail.program.toString(),
                         style: const TextStyle(
                           color: Colors.white,
                           fontSize: 18,

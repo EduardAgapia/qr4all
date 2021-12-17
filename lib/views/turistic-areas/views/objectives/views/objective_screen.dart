@@ -55,7 +55,7 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                           textAlign: TextAlign.center,
                         ),
                         subtitle: Text(
-                          objective.programm.toString(),
+                          objective.program.toString(),
                           style: const TextStyle(
                             color: Colors.white,
                             fontSize: 18,

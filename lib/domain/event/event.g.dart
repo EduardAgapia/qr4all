@@ -8,7 +8,7 @@ part of 'event.dart';
 
 Evenimente _$EvenimenteFromJson(Map<String, dynamic> json) => Evenimente(
       name: json['name'] as String?,
-      programm: json['programm'] as String?,
+      program: json['program'] as String?,
       location: json['location'] as String?,
       description: json['description'] as String?,
     );
@@ -16,7 +16,7 @@ Evenimente _$EvenimenteFromJson(Map<String, dynamic> json) => Evenimente(
 Map<String, dynamic> _$EvenimenteToJson(Evenimente instance) =>
     <String, dynamic>{
       'name': instance.name,
-      'programm': instance.programm,
+      'program': instance.program,
       'location': instance.location,
       'description': instance.description,
     };

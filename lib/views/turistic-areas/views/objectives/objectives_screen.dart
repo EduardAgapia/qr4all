@@ -69,7 +69,7 @@ class _ObjectivesScreenState extends State<ObjectivesScreen> {
                           child: Text(
                             objectives[index].name.toString() +
                                 "\n" +
-                                objectives[index].programm.toString() +
+                                objectives[index].program.toString() +
                                 "\n" +
                                 objectives[index].location.toString(),
                             style: const TextStyle(

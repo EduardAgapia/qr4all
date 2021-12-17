@@ -77,7 +77,7 @@ class _CalendarScreenState extends State<CalendarScreen> {
                           child: Text(
                             events[index].name.toString() +
                                 "\n" +
-                                events[index].programm.toString() +
+                                events[index].program.toString() +
                                 "\n" +
                                 events[index].location.toString(),
                             style: const TextStyle(

@@ -1,5 +1,8 @@
+import 'dart:convert';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:qr_4_all/domain/gal/gal.dart';
 import 'package:qr_4_all/views/turistic-areas/views/zones/zone_turistice.dart';
@@ -13,7 +16,16 @@ class MenuScreen extends StatefulWidget {
 
 class _MenuScreenState extends State<MenuScreen> {
   List<Gal> galList = List.empty(growable: true);
+  var _gals;
   Set<Marker> _markers = {};
+
+  Future<void> readJson() async {
+    final String response = await rootBundle.loadString('assets/ro-gals.json');
+    final Map<String, dynamic> data = await json.decode(response);
+    setState(() {
+      _gals = Gal.fromJson(data);
+    });
+  }
 
   List<Marker> markers = [
     Marker(
@@ -50,11 +62,13 @@ class _MenuScreenState extends State<MenuScreen> {
     setState(() {
       galList = Gal.performSingleFetch();
       _markers.addAll(markers);
+      readJson();
     });
   }
 
   @override
   Widget build(BuildContext context) {
+    debugPrint('~~~~~~~~~~~~>: $_gals');
     return WillPopScope(
       onWillPop: () async {
         return false;
@@ -65,7 +79,7 @@ class _MenuScreenState extends State<MenuScreen> {
           children: <Widget>[
             ListTile(
               leading: const Icon(Icons.home),
-              title: const Text('Meniul principal'),
+              title:  Text(_gals.toString()),
               onTap: () {
                 Navigator.push(
                   context,

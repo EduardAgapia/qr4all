@@ -6,13 +6,13 @@ part 'event.g.dart';
 @JsonSerializable()
 class Evenimente {
   String? name;
-  String? programm;
+  String? program;
   String? location;
   String? description;
 
   Evenimente(
       {required this.name,
-      required this.programm,
+      required this.program,
       required this.location,
       required this.description});
 
@@ -26,7 +26,7 @@ class Evenimente {
     debugPrint('------------------------------------------------>: $json');//deci se poate
     return Evenimente(
         name: data['events']['event1']['name'] ?? 'Do you rly whant it?',
-        programm: data['events']['event1']['programm'] ?? 'Do you rly whant it?',
+        program: data['events']['event1']['programm'] ?? 'Do you rly whant it?',
         location: data['events']['event1']['location'] ?? 'Do you rly whant it?',
         description: data['events']['event1']['description'] ?? 'Do you rly whant it?');
   }

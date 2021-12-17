@@ -66,7 +66,7 @@ class _TrailsScreenState extends State<TrailsScreen> {
                           child: Text(
                             trails[index].name.toString() +
                                 "\n" +
-                                trails[index].programm.toString() +
+                                trails[index].program.toString() +
                                 "\n" +
                                 trails[index].location.toString(),
                             style: const TextStyle(

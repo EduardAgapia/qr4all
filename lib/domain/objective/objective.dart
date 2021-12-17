@@ -5,13 +5,13 @@ part 'objective.g.dart';
 @JsonSerializable()
 class Objective {
   String? name;
-  String? programm;
+  String? program;
   String? location;
   String? description;
 
   Objective(
       {required this.name,
-      required this.programm,
+      required this.program,
       required this.location,
       required this.description});
 
@@ -23,7 +23,7 @@ class Objective {
     var data2 = data['objectives'];
     return Objective(
         name: data['objectives']['obj1']['name'] ?? 'Do you rly whant it?',
-        programm: data['objectives']['obj1']['programm'] ?? 'Do you rly whant it?',
+        program: data['objectives']['obj1']['programm'] ?? 'Do you rly whant it?',
         location: data['objectives']['obj1']['location'] ?? 'Do you rly whant it?',
         description: data['objectives']['obj1']['description'] ?? 'Do you rly whant it?');
   }
