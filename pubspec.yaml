@@ -26,12 +26,15 @@ dependencies:
   url_launcher: ^6.0.17
   flowder: ^0.2.0
   path_provider: ^2.0.8
+  json_annotation: ^4.3.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^1.0.0
   flutter_launcher_icons: ^0.9.2
+  build_runner: ^2.0.0
+  json_serializable: ^6.0.0
 
 flutter_icons:
   image_path: "assets/icon.png"

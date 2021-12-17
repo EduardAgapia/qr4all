@@ -1,3 +1,5 @@
+import 'package:qr_4_all/domain/place.dart';
+
 class UtilInfo {
   String? police;
   String? restaurant;
