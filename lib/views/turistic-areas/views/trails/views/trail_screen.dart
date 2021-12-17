@@ -1,7 +1,5 @@
-import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:qr_4_all/domain/gal.dart';
 import 'package:qr_4_all/domain/trail.dart';
 import 'package:qr_4_all/views/turistic-areas/views/google_map.dart';
 
@@ -97,7 +95,7 @@ class _TrailScreenState extends State<TrailScreen> {
                             ),
                           ),
                         ),
-                        SizedBox(height: 15),
+                        const SizedBox(height: 15),
                         Align(
                           child: SizedBox(
                             height: MediaQuery.of(context).size.height / 11,
@@ -108,7 +106,7 @@ class _TrailScreenState extends State<TrailScreen> {
                                   const SizedBox(width: 90),
                                   Container(
                                     width:
-                                        MediaQuery.of(context).size.width / 4,
+                                        MediaQuery.of(context).size.width / 9,
                                     decoration: const BoxDecoration(
                                       borderRadius: BorderRadius.all(
                                           Radius.circular(25.0)),
@@ -127,10 +125,31 @@ class _TrailScreenState extends State<TrailScreen> {
                                       ),
                                     ),
                                   ),
-                                  const SizedBox(width: 10),
+                                  const SizedBox(width: 33),
                                   Container(
                                     width:
-                                        MediaQuery.of(context).size.width / 4,
+                                        MediaQuery.of(context).size.width / 6,
+                                    decoration: const BoxDecoration(
+                                      borderRadius: BorderRadius.all(
+                                          Radius.circular(25.0)),
+                                    ),
+                                    child: GestureDetector(
+                                      onTap: () {
+                                        MapUtils.open();
+                                      },
+                                      child: Container(
+                                        decoration: const BoxDecoration(
+                                          image: DecorationImage(
+                                              image: AssetImage(
+                                                  "assets/gals/icons/map.png"),
+                                              fit: BoxFit.contain),
+                                        ),
+                                      ),
+                                    ),
+                                  ),   const SizedBox(width: 33),
+                                  Container(
+                                    width:
+                                        MediaQuery.of(context).size.width / 7,
                                     decoration: const BoxDecoration(
                                       borderRadius: BorderRadius.all(
                                           Radius.circular(25.0)),
@@ -148,7 +167,7 @@ class _TrailScreenState extends State<TrailScreen> {
                                         decoration: const BoxDecoration(
                                           image: DecorationImage(
                                               image: AssetImage(
-                                                  "assets/gals/icons/map.png"),
+                                                  "assets/gals/icons/download.png"),
                                               fit: BoxFit.contain),
                                         ),
                                       ),

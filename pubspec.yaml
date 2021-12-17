@@ -25,6 +25,7 @@ dependencies:
   qr_code_scanner: ^0.6.1
   url_launcher: ^6.0.17
   flowder: ^0.2.0
+  path_provider: ^2.0.8
 
 dev_dependencies:
   flutter_test:
@@ -46,6 +47,7 @@ flutter:
     - assets/gals/icons/arrow.png
     - assets/gals/icons/www.png
     - assets/gals/icons/mech.png
+    - assets/gals/icons/download.png
     - assets/gals/icons/map.png
     - assets/gals/icons/insta.png
     - assets/gals/icons/date.png
