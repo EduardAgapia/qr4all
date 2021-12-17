@@ -1,12 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:qr_4_all/domain/util_info.dart';
+import 'package:qr_4_all/domain/util.dart';
 import 'package:qr_4_all/views/turistic-areas/views/google_map.dart';
 
 import '../../../../map.dart';
 
 class UtilInfoScreen extends StatefulWidget {
-  final UtilInfo utilInfo;
+  final Util utilInfo;
 
   UtilInfoScreen({required this.utilInfo, Key? key}) : super(key: key);
 
@@ -15,7 +15,7 @@ class UtilInfoScreen extends StatefulWidget {
 }
 
 class _UtilInfoScreenState extends State<UtilInfoScreen> {
-  final UtilInfo utilInfo;
+  final Util utilInfo;
 
   _UtilInfoScreenState({required this.utilInfo});
 

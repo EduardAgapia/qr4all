@@ -1,3 +1,8 @@
+import 'package:json_annotation/json_annotation.dart';
+
+part 'trail.g.dart';
+
+@JsonSerializable()
 class Trail {
   String? name;
   String? programm;
@@ -9,6 +14,8 @@ class Trail {
       required this.programm,
       required this.location,
       required this.description});
+
+  factory Trail.fromJson(Map<String, dynamic> json) => _$TrailFromJson(json);
 
   static Trail fromRTDB(Map<String, dynamic> data) {
     return Trail(

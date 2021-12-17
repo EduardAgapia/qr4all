@@ -1,6 +1,9 @@
-import 'package:qr_4_all/domain/place.dart';
+import 'package:json_annotation/json_annotation.dart';
 
-class UtilInfo {
+part 'util.g.dart';
+
+@JsonSerializable()
+class Util {
   String? police;
   String? restaurant;
   String? drugs;
@@ -10,7 +13,9 @@ class UtilInfo {
   String? gasStation;
   String? serviceAuto;
 
-  UtilInfo(
+  factory Util.fromJson(Map<String, dynamic> json) => _$UtilFromJson(json);
+
+  Util(
       {required this.police,
       required this.restaurant,
       required this.drugs,
@@ -20,8 +25,8 @@ class UtilInfo {
       required this.gasStation,
       required this.serviceAuto});
 
-  factory UtilInfo.fromRTDB(Map<String, dynamic> data) {
-    return UtilInfo(
+  factory Util.fromRTDB(Map<String, dynamic> data) {
+    return Util(
         police: data['utils']['police'] ?? 'ia cucu',
         restaurant: data['utils']['restaurant'] ?? 'ia cucu',
         drugs: data['utils']['drugStore'] ?? 'ia cucu',
@@ -31,5 +36,4 @@ class UtilInfo {
         gasStation: data['utils']['gasStation'] ?? 'ia cucu',
         serviceAuto: data['utils']['serviceAuto'] ?? 'ia cucu');
   }
-
 }

@@ -1,5 +1,9 @@
 import 'package:flutter/cupertino.dart';
+import 'package:json_annotation/json_annotation.dart';
 
+part 'event.g.dart';
+
+@JsonSerializable()
 class Evenimente {
   String? name;
   String? programm;
@@ -11,6 +15,9 @@ class Evenimente {
       required this.programm,
       required this.location,
       required this.description});
+
+  factory Evenimente.fromJson(Map<String, dynamic> json) => _$EvenimenteFromJson(json);
+
 
   static Evenimente fromRTDB(Map<String, dynamic> data) {
     var json  = data['events'];

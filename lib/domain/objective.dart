@@ -1,3 +1,8 @@
+import 'package:json_annotation/json_annotation.dart';
+
+part 'objective.g.dart';
+
+@JsonSerializable()
 class Objective {
   String? name;
   String? programm;
@@ -9,6 +14,8 @@ class Objective {
       required this.programm,
       required this.location,
       required this.description});
+
+  factory Objective.fromJson(Map<String, dynamic> json) => _$ObjectiveFromJson(json);
 
   static Objective fromRTDB(Map<String, dynamic> data) {
     var data2 = data['objectives'];
