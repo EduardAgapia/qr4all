@@ -1,19 +1,22 @@
 import 'package:json_annotation/json_annotation.dart';
+import 'package:qr_4_all/domain/place/place.dart';
 
 part 'util.g.dart';
 
-@JsonSerializable()
+@JsonSerializable(explicitToJson: true)
 class Util {
-  String? police;
-  String? restaurant;
-  String? drugs;
-  String? hotel;
-  String? hospital;
-  String? mayor;
-  String? gasStation;
-  String? serviceAuto;
+  Place police;
+  Place restaurant;
+  Place drugs;
+  Place hotel;
+  Place hospital;
+  Place mayor;
+  Place gasStation;
+  Place serviceAuto;
 
   factory Util.fromJson(Map<String, dynamic> json) => _$UtilFromJson(json);
+
+  Map<String, dynamic> toJson() => _$UtilToJson(this);
 
   Util(
       {required this.police,

@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:qr_4_all/domain/gal.dart';
+import 'package:qr_4_all/domain/gal/gal.dart';
 import 'package:qr_4_all/views/turistic-areas/views/about_screen.dart';
 import 'package:qr_4_all/views/turistic-areas/views/calendar/calendar_screen.dart';
 import 'package:qr_4_all/views/turistic-areas/views/info/util_info_screen.dart';

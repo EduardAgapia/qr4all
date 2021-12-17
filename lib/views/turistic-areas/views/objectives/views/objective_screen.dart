@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:qr_4_all/scanner.dart';
-import 'package:qr_4_all/domain/objective.dart';
+import 'package:qr_4_all/domain/objective/objective.dart';
 
 import '../../../../../map.dart';
 import '../../google_map.dart';

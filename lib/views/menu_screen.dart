@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:qr_4_all/domain/gal.dart';
+import 'package:qr_4_all/domain/gal/gal.dart';
 import 'package:qr_4_all/views/turistic-areas/views/zones/zone_turistice.dart';
 
 class MenuScreen extends StatefulWidget {

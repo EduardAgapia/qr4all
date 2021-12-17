@@ -17,6 +17,8 @@ class Trail {
 
   factory Trail.fromJson(Map<String, dynamic> json) => _$TrailFromJson(json);
 
+  Map<String, dynamic> toJson() => _$TrailToJson(this);
+
   static Trail fromRTDB(Map<String, dynamic> data) {
     return Trail(
         name: data['trails']['trail1']['name'] ?? 'Do you rly whant it?',

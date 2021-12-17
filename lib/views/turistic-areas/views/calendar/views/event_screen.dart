@@ -1,8 +1,8 @@
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:qr_4_all/domain/event.dart';
-import 'package:qr_4_all/domain/gal.dart';
+import 'package:qr_4_all/domain/event/event.dart';
+import 'package:qr_4_all/domain/gal/gal.dart';
 
 import '../../../../../map.dart';
 import '../../google_map.dart';

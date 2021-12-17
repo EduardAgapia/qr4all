@@ -25,8 +25,8 @@ Map<String, dynamic> _$GalToJson(Gal instance) => <String, dynamic>{
       'name': instance.name,
       'imgSrc': instance.imgSrc,
       'description': instance.description,
-      'events': instance.events,
-      'objectives': instance.objectives,
-      'trails': instance.trails,
-      'utils': instance.utils,
+      'events': instance.events.map((e) => e.toJson()).toList(),
+      'objectives': instance.objectives.map((e) => e.toJson()).toList(),
+      'trails': instance.trails.map((e) => e.toJson()).toList(),
+      'utils': instance.utils.toJson(),
     };

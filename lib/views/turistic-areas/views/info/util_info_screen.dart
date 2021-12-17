@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:qr_4_all/domain/util.dart';
+import 'package:qr_4_all/domain/util/util.dart';
 import 'package:qr_4_all/views/turistic-areas/views/google_map.dart';
 
 import '../../../../map.dart';

@@ -1,8 +1,8 @@
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:qr_4_all/domain/gal.dart';
-import 'package:qr_4_all/domain/objective.dart';
+import 'package:qr_4_all/domain/gal/gal.dart';
+import 'package:qr_4_all/domain/objective/objective.dart';
 import 'package:qr_4_all/views/turistic-areas/views/objectives/views/objective_screen.dart';
 
 class ObjectivesScreen extends StatefulWidget {

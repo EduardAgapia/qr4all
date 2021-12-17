@@ -17,6 +17,8 @@ class Objective {
 
   factory Objective.fromJson(Map<String, dynamic> json) => _$ObjectiveFromJson(json);
 
+  Map<String, dynamic> toJson() => _$ObjectiveToJson(this);
+
   static Objective fromRTDB(Map<String, dynamic> data) {
     var data2 = data['objectives'];
     return Objective(

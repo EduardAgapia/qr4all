@@ -18,6 +18,8 @@ class Evenimente {
 
   factory Evenimente.fromJson(Map<String, dynamic> json) => _$EvenimenteFromJson(json);
 
+  Map<String, dynamic> toJson() => _$EvenimenteToJson(this);
+
 
   static Evenimente fromRTDB(Map<String, dynamic> data) {
     var json  = data['events'];

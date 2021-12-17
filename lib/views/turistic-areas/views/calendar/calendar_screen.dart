@@ -2,8 +2,8 @@ import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:qr_4_all/domain/event.dart';
-import 'package:qr_4_all/domain/gal.dart';
+import 'package:qr_4_all/domain/event/event.dart';
+import 'package:qr_4_all/domain/gal/gal.dart';
 import 'package:qr_4_all/views/turistic-areas/views/calendar/views/event_screen.dart';
 
 class CalendarScreen extends StatefulWidget {

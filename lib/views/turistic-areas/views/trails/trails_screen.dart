@@ -1,8 +1,6 @@
-import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:qr_4_all/domain/gal.dart';
-import 'package:qr_4_all/domain/trail.dart';
+import 'package:qr_4_all/domain/trail/trail.dart';
 import 'package:qr_4_all/views/turistic-areas/views/trails/views/trail_screen.dart';
 
 class TrailsScreen extends StatefulWidget {
