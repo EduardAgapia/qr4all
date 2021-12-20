@@ -1,4 +1,3 @@
-import 'package:firebase_database/firebase_database.dart';
 import 'package:json_annotation/json_annotation.dart';
 import 'package:qr_4_all/domain/event/event.dart';
 import 'package:qr_4_all/domain/objective/objective.dart';
@@ -9,7 +8,6 @@ part 'gal.g.dart';
 
 @JsonSerializable(explicitToJson: true)
 class Gal {
-  static DatabaseReference database = FirebaseDatabase.instance.reference();
 
   String? name;
   String? imgSrc;

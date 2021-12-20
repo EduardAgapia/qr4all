@@ -2,6 +2,7 @@
   "gals": [
     {
       "name": "Belcesti-Focuri",
+      "description": "Descrierea galului Belcesti-Focuri",
       "imgSrc": "assets/gals/belcesti.png",
       "events": [
         {
@@ -218,6 +219,7 @@
     },
     {
       "name": "Codrii Pascanilor",
+      "description": "Descrierea galului Codrii Pascanilor",
       "imgSrc": "assets/gals/pascani.png",
       "events": [
         {
@@ -434,6 +436,7 @@
     },
     {
       "name": "Dealurile Bohotinului",
+      "description": "Descrierea galului Dealurile Bohotinului",
       "imgSrc": "assets/gals/bohotin.png",
       "events": [
         {
@@ -634,6 +637,7 @@
     },
     {
       "name": "Rediu-prajeni",
+      "description": "Descrierea galului Rediu-Prajeni",
       "imgSrc": "assets/gals/rediu.png",
       "events": [
         {
@@ -834,6 +838,7 @@
     },
     {
       "name": "Siret-Moldova",
+      "description": "Descrierea galului Siret Moldova",
       "imgSrc": "assets/gals/siret.png",
       "events": [
         {
@@ -1034,6 +1039,7 @@
     },
     {
       "name": "Stefan cel Mare",
+      "description": "Descrierea galului Stefan cel Mare",
       "imgSrc": "assets/gals/stefan.png",
       "events": [
         {
@@ -1234,6 +1240,7 @@
     },
     {
       "name": "Stejarii-Argintii",
+      "description": "Descrierea galului Stejarii-Argintii",
       "imgSrc": "assets/gals/stejari.png",
       "events": [
         {
@@ -1434,6 +1441,7 @@
     },
     {
       "name": "Valuea Prutului",
+      "description": "Descrierea galului Valuea-Prutului",
       "imgSrc": "assets/gals/prut.png",
       "events": [
         {
@@ -1634,6 +1642,7 @@
     },
     {
       "name": "Colinele Iasului",
+      "description": "Descrierea galului Colinele Iasului",
       "imgSrc": "assets/gals/iasi.png",
       "events": [
         {
