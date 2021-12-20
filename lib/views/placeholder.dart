@@ -13,7 +13,7 @@ class _PlaceholderState extends State<Placeholder> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text("Placeholder Screen"),
+        title: const Text("Placeholder Screen"),// i18n
         automaticallyImplyLeading: false,
       ),
       body: Container(

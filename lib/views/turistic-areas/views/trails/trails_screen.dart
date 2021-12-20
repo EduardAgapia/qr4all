@@ -21,7 +21,7 @@ class _TrailsScreenState extends State<TrailsScreen> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text("Lista Trasee"),
+        title: const Text("Lista Trasee"),// i18n
         automaticallyImplyLeading: false,
       ),
       body: Column(

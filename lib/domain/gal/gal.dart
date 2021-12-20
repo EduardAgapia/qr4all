@@ -1,8 +1,8 @@
 import 'package:json_annotation/json_annotation.dart';
 import 'package:qr_4_all/domain/event/event.dart';
 import 'package:qr_4_all/domain/objective/objective.dart';
+import 'package:qr_4_all/domain/place/place.dart';
 import 'package:qr_4_all/domain/trail/trail.dart';
-import 'package:qr_4_all/domain/util/util.dart';
 
 part 'gal.g.dart';
 
@@ -15,7 +15,7 @@ class Gal {
   late List<Evenimente> events;
   late List<Objective> objectives;
   late List<Trail> trails;
-  // late Util util;
+  late List<Place> utils;
 
   Gal(
       {required this.name,
@@ -23,7 +23,8 @@ class Gal {
       required this.description,
       required this.events,
       required this.objectives,
-      required this.trails});
+      required this.trails,
+      required this.utils});
 
   factory Gal.fromJson(Map<String, dynamic> json) => _$GalFromJson(json);
 

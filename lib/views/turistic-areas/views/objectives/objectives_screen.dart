@@ -24,7 +24,7 @@ class _ObjectivesScreenState extends State<ObjectivesScreen> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text("Obiective turistice"),
+        title: const Text("Obiective turistice"),// i18n
         automaticallyImplyLeading: false,
       ),
       body: Column(

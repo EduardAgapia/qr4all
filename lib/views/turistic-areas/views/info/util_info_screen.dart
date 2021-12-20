@@ -1,12 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:qr_4_all/domain/util/util.dart';
-import 'package:qr_4_all/views/turistic-areas/views/google_map.dart';
-
+import 'package:qr_4_all/domain/place/place.dart';
 import '../../../../map.dart';
 
 class UtilInfoScreen extends StatefulWidget {
-  final Util utilInfo;
+  final List<Place> utilInfo;
 
   UtilInfoScreen({required this.utilInfo, Key? key}) : super(key: key);
 
@@ -15,7 +13,7 @@ class UtilInfoScreen extends StatefulWidget {
 }
 
 class _UtilInfoScreenState extends State<UtilInfoScreen> {
-  final Util utilInfo;
+  final List<Place> utilInfo;
 
   _UtilInfoScreenState({required this.utilInfo});
 
@@ -24,7 +22,7 @@ class _UtilInfoScreenState extends State<UtilInfoScreen> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text("Informatii utile"),
+        title: const Text("Informatii utile"),// i18n
         automaticallyImplyLeading: false,
       ),
       body: Center(
@@ -36,264 +34,43 @@ class _UtilInfoScreenState extends State<UtilInfoScreen> {
           crossAxisSpacing: 5,
           mainAxisSpacing: 5,
           crossAxisCount: 2,
-          children: <Widget>[
-            Container(
-              //Todo: dynamic values with respect for phone specs
-              decoration: const BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                color: Color.fromARGB(0, 255, 255, 255),
-              ),
-              child: GestureDetector(
-                onTap: () {
-                  MapUtils.openMap(47.152177, 27.585772);
-                },
-                child: Container(
-                  padding: const EdgeInsets.fromLTRB(0, 155, 0, 0),
-                  decoration: const BoxDecoration(
-                      borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                      image: DecorationImage(
-                          image: AssetImage("assets/gals/restaurant.png"),
-                          fit: BoxFit.cover)),
+          children: List.generate(
+            utilInfo.length,
+            (index) {
+              return Container(
+                decoration: const BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                  color: Color.fromARGB(0, 255, 255, 255),
+                ),
+                child: GestureDetector(
+                  onTap: () {
+                    MapUtils.openMap(utilInfo[index].latitude!.toDouble(),
+                        utilInfo[index].longitude!.toDouble());
+                  },
                   child: Container(
-                    padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                    width: double.infinity,
-                    height: 10,
-                    child: const Align(
-                      alignment: Alignment.bottomCenter,
-                      child: Text("Restaurant"),
-                    ),
-                    decoration: const BoxDecoration(
+                    padding: const EdgeInsets.fromLTRB(0, 155, 0, 0),
+                    decoration: BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                        color: Color.fromARGB(200, 255, 255, 255)),
+                        image: DecorationImage(
+                            image: AssetImage(utilInfo[index].image.toString()),
+                            fit: BoxFit.cover)),
+                    child: Container(
+                      padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
+                      width: double.infinity,
+                      height: 10,
+                      child: Align(
+                        alignment: Alignment.bottomCenter,
+                        child: Text(utilInfo[index].type.toString()),
+                      ),
+                      decoration: const BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                          color: Color.fromARGB(200, 255, 255, 255)),
+                    ),
                   ),
                 ),
-              ),
-            ),
-            Container(
-              //Todo: dynamic values with respect for phone specs
-              decoration: const BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                color: Color.fromARGB(0, 255, 255, 255),
-              ),
-              child: GestureDetector(
-                onTap: () {
-                  MapUtils.openMap(47.152177, 27.585772);
-                },
-                child: Container(
-                  padding: const EdgeInsets.fromLTRB(0, 155, 0, 0),
-                  decoration: const BoxDecoration(
-                      borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                      image: DecorationImage(
-                          image: AssetImage("assets/gals/drugstore.png"),
-                          fit: BoxFit.cover)),
-                  child: Container(
-                    padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                    width: double.infinity,
-                    height: 10,
-                    child: const Align(
-                      alignment: Alignment.bottomCenter,
-                      child: Text("Farmacii"),
-                    ),
-                    decoration: const BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                        color: Color.fromARGB(200, 255, 255, 255)),
-                  ),
-                ),
-              ),
-            ),
-            Container(
-              //Todo: dynamic values with respect for phone specs
-              decoration: const BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                color: Color.fromARGB(0, 255, 255, 255),
-              ),
-              child: GestureDetector(
-                onTap: () {
-                  MapUtils.openMap(47.152177, 27.585772);
-                },
-                child: Container(
-                  padding: const EdgeInsets.fromLTRB(0, 155, 0, 0),
-                  decoration: const BoxDecoration(
-                      borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                      image: DecorationImage(
-                          image: AssetImage("assets/gals/hotel.png"),
-                          fit: BoxFit.cover)),
-                  child: Container(
-                    padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                    width: double.infinity,
-                    height: 10,
-                    child: const Align(
-                      alignment: Alignment.bottomCenter,
-                      child: Text("Cazare"),
-                    ),
-                    decoration: const BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                        color: Color.fromARGB(200, 255, 255, 255)),
-                  ),
-                ),
-              ),
-            ),
-            Container(
-              //Todo: dynamic values with respect for phone specs
-              decoration: const BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                color: Color.fromARGB(0, 255, 255, 255),
-              ),
-              child: GestureDetector(
-                onTap: () {
-                  MapUtils.openMap(47.152177, 27.585772);
-                },
-                child: Container(
-                  padding: const EdgeInsets.fromLTRB(0, 155, 0, 0),
-                  decoration: const BoxDecoration(
-                      borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                      image: DecorationImage(
-                          image: AssetImage("assets/gals/hospital.png"),
-                          fit: BoxFit.cover)),
-                  child: Container(
-                    padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                    width: double.infinity,
-                    height: 10,
-                    child: const Align(
-                      alignment: Alignment.bottomCenter,
-                      child: Text("Spital"),
-                    ),
-                    decoration: const BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                        color: Color.fromARGB(200, 255, 255, 255)),
-                  ),
-                ),
-              ),
-            ),
-            Container(
-              //Todo: dynamic values with respect for phone specs
-              decoration: const BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                color: Color.fromARGB(0, 255, 255, 255),
-              ),
-              child: GestureDetector(
-                onTap: () {
-                  MapUtils.openMap(47.152177, 27.585772);
-                },
-                child: Container(
-                  padding: const EdgeInsets.fromLTRB(0, 155, 0, 0),
-                  decoration: const BoxDecoration(
-                      borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                      image: DecorationImage(
-                          image: AssetImage("assets/gals/hall.png"),
-                          fit: BoxFit.cover)),
-                  child: Container(
-                    padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                    width: double.infinity,
-                    height: 10,
-                    child: const Align(
-                      alignment: Alignment.bottomCenter,
-                      child: Text("Primarie"),
-                    ),
-                    decoration: const BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                        color: Color.fromARGB(200, 255, 255, 255)),
-                  ),
-                ),
-              ),
-            ),
-            Container(
-              //Todo: dynamic values with respect for phone specs
-              decoration: const BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                color: Color.fromARGB(0, 255, 255, 255),
-              ),
-              child: GestureDetector(
-                onTap: () {
-                  MapUtils.openMap(47.152177, 27.585772);
-                },
-                child: Container(
-                  padding: const EdgeInsets.fromLTRB(0, 155, 0, 0),
-                  decoration: const BoxDecoration(
-                      borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                      image: DecorationImage(
-                          image: AssetImage("assets/gals/gas.png"),
-                          fit: BoxFit.cover)),
-                  child: Container(
-                    padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                    width: double.infinity,
-                    height: 10,
-                    child: const Align(
-                      alignment: Alignment.bottomCenter,
-                      child: Text("Benzinarie"),
-                    ),
-                    decoration: const BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                        color: Color.fromARGB(200, 255, 255, 255)),
-                  ),
-                ),
-              ),
-            ),
-            Container(
-              //Todo: dynamic values with respect for phone specs
-              decoration: const BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                color: Color.fromARGB(0, 255, 255, 255),
-              ),
-              child: GestureDetector(
-                onTap: () {
-                  MapUtils.openMap(47.152177, 27.585772);
-                },
-                child: Container(
-                  padding: const EdgeInsets.fromLTRB(0, 155, 0, 0),
-                  decoration: const BoxDecoration(
-                      borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                      image: DecorationImage(
-                          image: AssetImage("assets/gals/police.png"),
-                          fit: BoxFit.cover)),
-                  child: Container(
-                    padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                    width: double.infinity,
-                    height: 10,
-                    child: const Align(
-                      alignment: Alignment.bottomCenter,
-                      child: Text("Politie"),
-                    ),
-                    decoration: const BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                        color: Color.fromARGB(200, 255, 255, 255)),
-                  ),
-                ),
-              ),
-            ),
-            Container(
-              //Todo: dynamic values with respect for phone specs
-              decoration: const BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                color: Color.fromARGB(0, 255, 255, 255),
-              ),
-              child: GestureDetector(
-                onTap: () {
-                  MapUtils.openMap(47.152177, 27.585772);
-                },
-                child: Container(
-                  padding: const EdgeInsets.fromLTRB(0, 155, 0, 0),
-                  decoration: const BoxDecoration(
-                      borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                      image: DecorationImage(
-                          image: AssetImage("assets/gals/service.png"),
-                          fit: BoxFit.cover)),
-                  child: Container(
-                    padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                    width: double.infinity,
-                    height: 10,
-                    child: const Align(
-                      alignment: Alignment.bottomCenter,
-                      child: Text("Service Auto"),
-                    ),
-                    decoration: const BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                        color: Color.fromARGB(200, 255, 255, 255)),
-                  ),
-                ),
-              ),
-            ),
-          ],
+              );
+            },
+          ),
         ),
       ),
     );

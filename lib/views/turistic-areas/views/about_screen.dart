@@ -170,7 +170,7 @@ class _AboutScreenState extends State<AboutScreen> {
             child: Column(children: <Widget>[
               ListTile(
                 title: const Text(
-                  '\nPlaceholder \n',
+                  '\nPlaceholder \n',// i18n
                   style: TextStyle(
                     color: Colors.black,
                     fontSize: 15,
@@ -198,7 +198,7 @@ class _AboutScreenState extends State<AboutScreen> {
               child: Column(children: <Widget>[
                 ListTile(
                   title: const Text(
-                    '\nPlaceholder \n',
+                    '\nPlaceholder \n',// i18n
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 15,

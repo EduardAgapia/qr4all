@@ -4,10 +4,13 @@ part 'place.g.dart';
 
 @JsonSerializable()
 class Place {
+  String? name;
   String? type;
-  String? location;
+  double? latitude;
+  double? longitude;
+  String? image;
 
-  Place(this.type, this.location);
+  Place(this.name, this.type, this.latitude, this.longitude, this.image);
 
   factory Place.fromJson(Map<String, dynamic> json) => _$PlaceFromJson(json);
 

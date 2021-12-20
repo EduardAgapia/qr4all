@@ -170,7 +170,7 @@ class _EventScreenState extends State<EventScreen> {
               child: Column(children: <Widget>[
                 ListTile(
                   title: Text(
-                    '\n Descriere \n',
+                    '\n Descriere \n',// i18n
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 15,

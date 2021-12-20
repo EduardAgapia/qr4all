@@ -13,7 +13,7 @@ class _InfoScreenState extends State<InfoScreen> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text("Info Presentation Screen"),
+        title: const Text("Info Presentation Screen"),// i18n
         automaticallyImplyLeading: false,
       ),
       body: Padding(
@@ -21,7 +21,7 @@ class _InfoScreenState extends State<InfoScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: const [
-            Text("Aici sunt detalii despre Info"),
+            Text("Aici sunt detalii despre Info"),// i18n
           ],
         ),
       ),

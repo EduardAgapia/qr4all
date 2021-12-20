@@ -77,7 +77,7 @@ class _MenuScreenState extends State<MenuScreen> {
           children: <Widget>[
             ListTile(
               leading: const Icon(Icons.home),
-              title: Text('Meniul Principal'),
+              title: Text('Meniul Principal'),// i18n
               onTap: () {
                 Navigator.push(
                   context,
@@ -89,7 +89,7 @@ class _MenuScreenState extends State<MenuScreen> {
             ),
             ListTile(
               leading: const Icon(Icons.dangerous),
-              title: const Text('Placeholder'),
+              title: const Text('Placeholder'),// i18n
               onTap: () {
                 Navigator.push(
                   context,
@@ -101,7 +101,7 @@ class _MenuScreenState extends State<MenuScreen> {
             ),
             ListTile(
               leading: const Icon(Icons.dangerous),
-              title: const Text('Placeholder'),
+              title: const Text('Placeholder'),// i18n
               onTap: () {
                 Navigator.push(
                   context,

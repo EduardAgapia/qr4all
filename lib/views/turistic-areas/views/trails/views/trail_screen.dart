@@ -78,7 +78,7 @@ class _TrailScreenState extends State<TrailScreen> {
                       children: [
                         ListTile(
                           title: const Text(
-                            '\n Descriere \n',
+                            '\n Descriere \n',// i18n
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 20,

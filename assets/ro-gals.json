@@ -192,28 +192,60 @@
       ],
       "utils": [
         {
-          "farmacie": "farmacie"
+          "name": "Nume farmacie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "farmacie",
+          "image": "assets/gals/drugstore.png"
         },
         {
-          "benzinarie": "benzinarie"
+          "name": "Nume benzinarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "benzinarie",
+          "image": "assets/gals/gas.png"
         },
         {
-          "spital": "spital"
+          "name": "Nume spital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "spital",
+          "image": "assets/gals/hospital.png"
         },
         {
-          "hotel": "hotel"
+          "name": "Nume hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hotel",
+          "image": "assets/gals/hotel.png"
         },
         {
-          "primarie": "primarie"
+          "name": "Nume primarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "primarie",
+          "image": "assets/gals/hall.png"
         },
         {
-          "politie": "politie"
+          "name": "Nume politie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "politie",
+          "image": "assets/gals/police.png"
         },
         {
-          "restaurant": "restaurant"
+          "name": "Nume restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "restaurant",
+          "image": "assets/gals/restaurant.png"
         },
         {
-          "service": "service"
+          "name": "Nume service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "service",
+          "image": "assets/gals/service.png"
         }
       ]
     },
@@ -409,28 +441,60 @@
       ],
       "utils": [
         {
-          "farmacie": "farmacie"
+          "name": "Nume farmacie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "farmacie",
+          "image": "assets/gals/drugstore.png"
         },
         {
-          "benzinarie": "benzinarie"
+          "name": "Nume benzinarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "benzinarie",
+          "image": "assets/gals/gas.png"
         },
         {
-          "spital": "spital"
+          "name": "Nume spital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "spital",
+          "image": "assets/gals/hospital.png"
         },
         {
-          "hotel": "hotel"
+          "name": "Nume hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hotel",
+          "image": "assets/gals/hotel.png"
         },
         {
-          "primarie": "primarie"
+          "name": "Nume primarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "primarie",
+          "image": "assets/gals/hall.png"
         },
         {
-          "politie": "politie"
+          "name": "Nume politie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "politie",
+          "image": "assets/gals/police.png"
         },
         {
-          "restaurant": "restaurant"
+          "name": "Nume restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "restaurant",
+          "image": "assets/gals/restaurant.png"
         },
         {
-          "service": "service"
+          "name": "Nume service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "service",
+          "image": "assets/gals/service.png"
         }
       ]
     },
@@ -625,14 +689,62 @@
         }
       ],
       "utils": [
-        "farmacie",
-        "benzinarie",
-        "spital",
-        "hotel",
-        "primarie",
-        "politie",
-        "restaurant",
-        "service"
+        {
+          "name": "Nume farmacie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "farmacie",
+          "image": "assets/gals/drugstore.png"
+        },
+        {
+          "name": "Nume benzinarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "benzinarie",
+          "image": "assets/gals/gas.png"
+        },
+        {
+          "name": "Nume spital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "spital",
+          "image": "assets/gals/hospital.png"
+        },
+        {
+          "name": "Nume hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hotel",
+          "image": "assets/gals/hotel.png"
+        },
+        {
+          "name": "Nume primarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "primarie",
+          "image": "assets/gals/hall.png"
+        },
+        {
+          "name": "Nume politie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "politie",
+          "image": "assets/gals/police.png"
+        },
+        {
+          "name": "Nume restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "restaurant",
+          "image": "assets/gals/restaurant.png"
+        },
+        {
+          "name": "Nume service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "service",
+          "image": "assets/gals/service.png"
+        }
       ]
     },
     {
@@ -826,14 +938,62 @@
         }
       ],
       "utils": [
-        "farmacie",
-        "benzinarie",
-        "spital",
-        "hotel",
-        "primarie",
-        "politie",
-        "restaurant",
-        "service"
+        {
+          "name": "Nume farmacie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "farmacie",
+          "image": "assets/gals/drugstore.png"
+        },
+        {
+          "name": "Nume benzinarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "benzinarie",
+          "image": "assets/gals/gas.png"
+        },
+        {
+          "name": "Nume spital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "spital",
+          "image": "assets/gals/hospital.png"
+        },
+        {
+          "name": "Nume hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hotel",
+          "image": "assets/gals/hotel.png"
+        },
+        {
+          "name": "Nume primarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "primarie",
+          "image": "assets/gals/hall.png"
+        },
+        {
+          "name": "Nume politie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "politie",
+          "image": "assets/gals/police.png"
+        },
+        {
+          "name": "Nume restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "restaurant",
+          "image": "assets/gals/restaurant.png"
+        },
+        {
+          "name": "Nume service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "service",
+          "image": "assets/gals/service.png"
+        }
       ]
     },
     {
@@ -1027,14 +1187,62 @@
         }
       ],
       "utils": [
-        "farmacie",
-        "benzinarie",
-        "spital",
-        "hotel",
-        "primarie",
-        "politie",
-        "restaurant",
-        "service"
+        {
+          "name": "Nume farmacie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "farmacie",
+          "image": "assets/gals/drugstore.png"
+        },
+        {
+          "name": "Nume benzinarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "benzinarie",
+          "image": "assets/gals/gas.png"
+        },
+        {
+          "name": "Nume spital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "spital",
+          "image": "assets/gals/hospital.png"
+        },
+        {
+          "name": "Nume hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hotel",
+          "image": "assets/gals/hotel.png"
+        },
+        {
+          "name": "Nume primarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "primarie",
+          "image": "assets/gals/hall.png"
+        },
+        {
+          "name": "Nume politie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "politie",
+          "image": "assets/gals/police.png"
+        },
+        {
+          "name": "Nume restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "restaurant",
+          "image": "assets/gals/restaurant.png"
+        },
+        {
+          "name": "Nume service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "service",
+          "image": "assets/gals/service.png"
+        }
       ]
     },
     {
@@ -1228,14 +1436,62 @@
         }
       ],
       "utils": [
-        "farmacie",
-        "benzinarie",
-        "spital",
-        "hotel",
-        "primarie",
-        "politie",
-        "restaurant",
-        "service"
+        {
+          "name": "Nume farmacie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "farmacie",
+          "image": "assets/gals/drugstore.png"
+        },
+        {
+          "name": "Nume benzinarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "benzinarie",
+          "image": "assets/gals/gas.png"
+        },
+        {
+          "name": "Nume spital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "spital",
+          "image": "assets/gals/hospital.png"
+        },
+        {
+          "name": "Nume hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hotel",
+          "image": "assets/gals/hotel.png"
+        },
+        {
+          "name": "Nume primarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "primarie",
+          "image": "assets/gals/hall.png"
+        },
+        {
+          "name": "Nume politie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "politie",
+          "image": "assets/gals/police.png"
+        },
+        {
+          "name": "Nume restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "restaurant",
+          "image": "assets/gals/restaurant.png"
+        },
+        {
+          "name": "Nume service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "service",
+          "image": "assets/gals/service.png"
+        }
       ]
     },
     {
@@ -1429,14 +1685,62 @@
         }
       ],
       "utils": [
-        "farmacie",
-        "benzinarie",
-        "spital",
-        "hotel",
-        "primarie",
-        "politie",
-        "restaurant",
-        "service"
+        {
+          "name": "Nume farmacie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "farmacie",
+          "image": "assets/gals/drugstore.png"
+        },
+        {
+          "name": "Nume benzinarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "benzinarie",
+          "image": "assets/gals/gas.png"
+        },
+        {
+          "name": "Nume spital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "spital",
+          "image": "assets/gals/hospital.png"
+        },
+        {
+          "name": "Nume hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hotel",
+          "image": "assets/gals/hotel.png"
+        },
+        {
+          "name": "Nume primarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "primarie",
+          "image": "assets/gals/hall.png"
+        },
+        {
+          "name": "Nume politie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "politie",
+          "image": "assets/gals/police.png"
+        },
+        {
+          "name": "Nume restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "restaurant",
+          "image": "assets/gals/restaurant.png"
+        },
+        {
+          "name": "Nume service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "service",
+          "image": "assets/gals/service.png"
+        }
       ]
     },
     {
@@ -1630,14 +1934,62 @@
         }
       ],
       "utils": [
-        "farmacie",
-        "benzinarie",
-        "spital",
-        "hotel",
-        "primarie",
-        "politie",
-        "restaurant",
-        "service"
+        {
+          "name": "Nume farmacie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "farmacie",
+          "image": "assets/gals/drugstore.png"
+        },
+        {
+          "name": "Nume benzinarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "benzinarie",
+          "image": "assets/gals/gas.png"
+        },
+        {
+          "name": "Nume spital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "spital",
+          "image": "assets/gals/hospital.png"
+        },
+        {
+          "name": "Nume hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hotel",
+          "image": "assets/gals/hotel.png"
+        },
+        {
+          "name": "Nume primarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "primarie",
+          "image": "assets/gals/hall.png"
+        },
+        {
+          "name": "Nume politie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "politie",
+          "image": "assets/gals/police.png"
+        },
+        {
+          "name": "Nume restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "restaurant",
+          "image": "assets/gals/restaurant.png"
+        },
+        {
+          "name": "Nume service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "service",
+          "image": "assets/gals/service.png"
+        }
       ]
     },
     {
@@ -1831,14 +2183,62 @@
         }
       ],
       "utils": [
-        "farmacie",
-        "benzinarie",
-        "spital",
-        "hotel",
-        "primarie",
-        "politie",
-        "restaurant",
-        "service"
+        {
+          "name": "Nume farmacie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "farmacie",
+          "image": "assets/gals/drugstore.png"
+        },
+        {
+          "name": "Nume benzinarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "benzinarie",
+          "image": "assets/gals/gas.png"
+        },
+        {
+          "name": "Nume spital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "spital",
+          "image": "assets/gals/hospital.png"
+        },
+        {
+          "name": "Nume hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hotel",
+          "image": "assets/gals/hotel.png"
+        },
+        {
+          "name": "Nume primarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "primarie",
+          "image": "assets/gals/hall.png"
+        },
+        {
+          "name": "Nume politie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "politie",
+          "image": "assets/gals/police.png"
+        },
+        {
+          "name": "Nume restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "restaurant",
+          "image": "assets/gals/restaurant.png"
+        },
+        {
+          "name": "Nume service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "service",
+          "image": "assets/gals/service.png"
+        }
       ]
     }
   ]

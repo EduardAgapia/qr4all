@@ -5,27 +5,24 @@ import 'package:qr_4_all/views/turistic-areas/views/zones/zone.dart';
 
 class ZoneTuristice extends StatefulWidget {
   final List<Gal> galList;
+
   const ZoneTuristice({required this.galList, Key? key}) : super(key: key);
+
   @override
   _ReadExampleState createState() => _ReadExampleState(galList: galList);
 }
 
 class _ReadExampleState extends State<ZoneTuristice> {
   final List<Gal> galList;
-  _ReadExampleState({required this.galList});
 
-  @override
-  void initState() {
-    super.initState();
-    // _acivateListeners();
-  }
+  _ReadExampleState({required this.galList});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text("Zone Turistice"),
+        title: const Text("Zone Turistice"),// i18n
         automaticallyImplyLeading: false,
       ),
       body: Center(
@@ -47,48 +44,52 @@ class _ReadExampleState extends State<ZoneTuristice> {
               child: GestureDetector(
                 onTap: () {
                   showModalBottomSheet(
-                      context: context,
-                      builder: (context) {
-                        return Column(
-                          mainAxisSize: MainAxisSize.min,
-                          children: <Widget>[
-                            ListTile(
-                              leading: Icon(Icons.home),
-                              title: Text(
-                                  'Catre ' + galList[index].name.toString()),
-                              onTap: () {
-                                Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                      builder: (context) => ZoneScreen(gal: galList[index]),
-                                    ));
-                              },
-                            ),
-                            ListTile(
-                              leading: Icon(Icons.dangerous),
-                              title: Text('Placeholder'),
-                              onTap: () {
-                                Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                      builder: (context) => const Placeholder(),
-                                    ));
-                              },
-                            ),
-                            ListTile(
-                              leading: Icon(Icons.dangerous),
-                              title: Text('Placeholder'),
-                              onTap: () {
-                                Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                      builder: (context) => const Placeholder(),
-                                    ));
-                              },
-                            ),
-                          ],
-                        );
-                      });
+                    context: context,
+                    builder: (context) {
+                      return Column(
+                        mainAxisSize: MainAxisSize.min,
+                        children: <Widget>[
+                          ListTile(
+                            leading: Icon(Icons.home),
+                            title:
+                                Text('Catre ' + galList[index].name.toString()),// i18n
+                            onTap: () {
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) =>
+                                        ZoneScreen(gal: galList[index]),
+                                  ));
+                            },
+                          ),
+                          ListTile(
+                            leading: Icon(Icons.dangerous),
+                            title: Text('Placeholder'),// i18n
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => const Placeholder(),
+                                ),
+                              );
+                            },
+                          ),
+                          ListTile(
+                            leading: Icon(Icons.dangerous),
+                            title: Text('Placeholder'),// i18n
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => const Placeholder(),
+                                ),
+                              );
+                            },
+                          ),
+                        ],
+                      );
+                    },
+                  );
                 },
                 child: Container(
                   padding: const EdgeInsets.fromLTRB(0, 180, 0, 0),
@@ -117,17 +118,4 @@ class _ReadExampleState extends State<ZoneTuristice> {
       ),
     );
   }
-
-  // void _acivateListeners() {
-  //   _dailySpecialStream =
-  //       _database.child("dailySpecial").onValue.listen((event) {
-  //     final data = new Map<String, dynamic>.from(event.snapshot.value);
-  //     final dailySpecial = DailySpecial.fromRTDB(data);
-  //
-  //     setState(() {
-  //       _displayText = dailySpecial.fancyDescription();
-  //     });
-  //   });
-  // }
-
 }
