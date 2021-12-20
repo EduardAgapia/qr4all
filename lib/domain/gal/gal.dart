@@ -19,7 +19,13 @@ class Gal {
   late List<Trail> trails;
   // late Util util;
 
-  Gal();
+  Gal(
+      {required this.name,
+      required this.imgSrc,
+      required this.description,
+      required this.events,
+      required this.objectives,
+      required this.trails});
 
   factory Gal.fromJson(Map<String, dynamic> json) => _$GalFromJson(json);
 
