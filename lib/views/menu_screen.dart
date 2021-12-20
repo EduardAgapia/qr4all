@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/cupertino.dart';
+import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
@@ -16,7 +17,7 @@ class MenuScreen extends StatefulWidget {
 }
 
 class _MenuScreenState extends State<MenuScreen> {
-  String jSonLocation = 'assets/ro-gals.json';
+  String jSonLocation = 'assets/en-gals.json';
   List<Gal> _gals = List.empty(growable: true);
   final Set<Marker> _markers = {};
 
@@ -41,7 +42,7 @@ class _MenuScreenState extends State<MenuScreen> {
           children: <Widget>[
             ListTile(
               leading: const Icon(Icons.home),
-              title: Text('Meniul Principal'), // i18n
+              title: Text("Meniu Principal"), // i18n
               onTap: () {
                 Navigator.push(
                   context,
@@ -89,8 +90,8 @@ class _MenuScreenState extends State<MenuScreen> {
   }
 
   Future<void> readJson() async {
-    if (enSystemLanguage()) {
-      jSonLocation = 'assets/en-gals.json';
+    if (roSystemLanguage()) {
+      jSonLocation = 'assets/ro-gals.json';
     }
     final String response = await rootBundle.loadString(jSonLocation);
     final Map<String, dynamic> data = await json.decode(response);
@@ -99,8 +100,8 @@ class _MenuScreenState extends State<MenuScreen> {
     });
   }
 
-  bool enSystemLanguage() {
-    return false;
+  bool roSystemLanguage() {
+    return Platform.localeName.contains("ro");
   }
 
   List<Marker> markers = [
