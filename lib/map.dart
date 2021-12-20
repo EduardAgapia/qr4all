@@ -20,4 +20,12 @@ class MapUtils {
       throw 'Could not open';
     }
   }
+  static Future<void> download() async {
+    String googleUrl = 'https://drive.google.com/file/d/1GqObT9xT1B8aFUskoY9MnzEa1XwU2Go5/view?usp=sharing';
+    if (await canLaunch(googleUrl)) {
+      await launch(googleUrl);
+    } else {
+      throw 'Could not open';
+    }
+  }
 }

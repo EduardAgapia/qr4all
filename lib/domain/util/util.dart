@@ -1,5 +1,4 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:qr_4_all/domain/place/place.dart';
 
 part 'util.g.dart';
 

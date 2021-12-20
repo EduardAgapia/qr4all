@@ -21,6 +21,14 @@ class Gal {
 
   factory Gal.fromJson(Map<String, dynamic> json) => _$GalFromJson(json);
 
+  static getFromJson(){
+    var gals;
+    database.get().then((snapshot) {
+      gals =  Gal.fromJson(Map<String, dynamic>.from(snapshot!.value));
+    });
+    return gals;
+  }
+
   Gal();
 
   //ToDO: msyde delete what is under?

@@ -22,8 +22,6 @@ class Evenimente {
 
 
   static Evenimente fromRTDB(Map<String, dynamic> data) {
-    var json  = data['events'];
-    debugPrint('------------------------------------------------>: $json');//deci se poate
     return Evenimente(
         name: data['events']['event1']['name'] ?? 'Do you rly whant it?',
         program: data['events']['event1']['programm'] ?? 'Do you rly whant it?',

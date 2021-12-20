@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:qr_4_all/domain/gal/gal.dart';
+import 'package:qr_4_all/domain/gals.dart';
 import 'package:qr_4_all/views/turistic-areas/views/zones/zone_turistice.dart';
 
 class MenuScreen extends StatefulWidget {
@@ -23,7 +24,7 @@ class _MenuScreenState extends State<MenuScreen> {
     final String response = await rootBundle.loadString('assets/ro-gals.json');
     final Map<String, dynamic> data = await json.decode(response);
     setState(() {
-      _gals = Gal.fromJson(data);
+      _gals = Gals.fromJson(data);
     });
   }
 
@@ -68,7 +69,6 @@ class _MenuScreenState extends State<MenuScreen> {
 
   @override
   Widget build(BuildContext context) {
-    debugPrint('~~~~~~~~~~~~>: $_gals');
     return WillPopScope(
       onWillPop: () async {
         return false;
@@ -79,7 +79,7 @@ class _MenuScreenState extends State<MenuScreen> {
           children: <Widget>[
             ListTile(
               leading: const Icon(Icons.home),
-              title:  Text(_gals.toString()),
+              title: Text(_gals.toString()),
               onTap: () {
                 Navigator.push(
                   context,
@@ -119,8 +119,8 @@ class _MenuScreenState extends State<MenuScreen> {
           markers: _markers,
           myLocationButtonEnabled: false,
           zoomControlsEnabled: false,
-          initialCameraPosition:
-              const CameraPosition(target: LatLng(47.208774, 27.150350), zoom: 9),
+          initialCameraPosition: const CameraPosition(
+              target: LatLng(47.208774, 27.150350), zoom: 9),
         ),
       ),
     );
