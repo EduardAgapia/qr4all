@@ -5,6 +5,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class QRViewExample extends StatefulWidget {
   const QRViewExample({Key? key}) : super(key: key);
@@ -42,11 +43,11 @@ class _QRViewExampleState extends State<QRViewExample> {
                 children: <Widget>[
                   if (result != null)
                     InkWell(
-                        child: const Text('Open',
+                        child: Text(AppLocalizations.of(context).open,
                             style: TextStyle(color: Colors.black)),
                         onTap: () => launch(result!.code.toString()))
                   else
-                    const Text('Afla povestea',
+                    Text(AppLocalizations.of(context).find,
                         style: TextStyle(color: Colors.black)),
                 ],
               ),

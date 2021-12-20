@@ -2,8 +2,12 @@ import 'dart:async';
 import 'dart:ui';
 
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:qr_4_all/views/menu_screen.dart';
+
+import 'l10n/l10n.dart';
 
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -16,12 +20,17 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'QR4ALL app',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primaryColor: Colors.blueGrey,
           primarySwatch: Colors.green,
         ),
+        supportedLocales: L10n.all,
+        localizationsDelegates: [
+          AppLocalizations.delegate,
+          GlobalMaterialLocalizations.delegate,
+          GlobalCupertinoLocalizations.delegate,
+        ],
         home: Home());
   }
 }

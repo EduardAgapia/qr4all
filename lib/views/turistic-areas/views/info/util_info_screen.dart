@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:qr_4_all/domain/place/place.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../../../../map.dart';
 
 class UtilInfoScreen extends StatefulWidget {
@@ -22,7 +23,7 @@ class _UtilInfoScreenState extends State<UtilInfoScreen> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text("Informatii utile"),// i18n
+        title: Text(AppLocalizations.of(context).informations),
         automaticallyImplyLeading: false,
       ),
       body: Center(

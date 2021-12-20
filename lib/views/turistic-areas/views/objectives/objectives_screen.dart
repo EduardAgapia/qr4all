@@ -1,9 +1,8 @@
-import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:qr_4_all/domain/gal/gal.dart';
 import 'package:qr_4_all/domain/objective/objective.dart';
 import 'package:qr_4_all/views/turistic-areas/views/objectives/views/objective_screen.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class ObjectivesScreen extends StatefulWidget {
   final List<Objective> objectives;
@@ -24,7 +23,7 @@ class _ObjectivesScreenState extends State<ObjectivesScreen> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text("Obiective turistice"),// i18n
+        title: Text(AppLocalizations.of(context).objectives),
         automaticallyImplyLeading: false,
       ),
       body: Column(

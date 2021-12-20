@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:qr_4_all/domain/gal/gal.dart';
 import 'package:qr_4_all/views/turistic-areas/views/zones/zone.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class ZoneTuristice extends StatefulWidget {
   final List<Gal> galList;
@@ -22,7 +23,7 @@ class _ReadExampleState extends State<ZoneTuristice> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text("Zone Turistice"),// i18n
+        title: Text(AppLocalizations.of(context).turisticAreas),
         automaticallyImplyLeading: false,
       ),
       body: Center(
@@ -52,7 +53,8 @@ class _ReadExampleState extends State<ZoneTuristice> {
                           ListTile(
                             leading: Icon(Icons.home),
                             title:
-                                Text('Catre ' + galList[index].name.toString()),// i18n
+                                Text(AppLocalizations.of(context).to + ' '
+                                    + galList[index].name.toString()),
                             onTap: () {
                               Navigator.push(
                                   context,
@@ -64,7 +66,7 @@ class _ReadExampleState extends State<ZoneTuristice> {
                           ),
                           ListTile(
                             leading: Icon(Icons.dangerous),
-                            title: Text('Placeholder'),// i18n
+                            title: Text(AppLocalizations.of(context).placeholder),
                             onTap: () {
                               Navigator.push(
                                 context,
@@ -76,7 +78,7 @@ class _ReadExampleState extends State<ZoneTuristice> {
                           ),
                           ListTile(
                             leading: Icon(Icons.dangerous),
-                            title: Text('Placeholder'),// i18n
+                            title: Text(AppLocalizations.of(context).placeholder),
                             onTap: () {
                               Navigator.push(
                                 context,

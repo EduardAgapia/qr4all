@@ -1,11 +1,9 @@
-import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:qr_4_all/domain/event/event.dart';
-import 'package:qr_4_all/domain/gal/gal.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import '../../../../../map.dart';
-import '../../google_map.dart';
 
 class EventScreen extends StatefulWidget {
   final Evenimente event;
@@ -170,7 +168,7 @@ class _EventScreenState extends State<EventScreen> {
               child: Column(children: <Widget>[
                 ListTile(
                   title: Text(
-                    '\n Descriere \n',// i18n
+                    '\n'+ AppLocalizations.of(context).description +'\n',
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 15,

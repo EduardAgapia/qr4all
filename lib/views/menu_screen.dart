@@ -8,6 +8,8 @@ import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:qr_4_all/domain/gal/gal.dart';
 import 'package:qr_4_all/domain/gals.dart';
 import 'package:qr_4_all/views/turistic-areas/views/zones/zone_turistice.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+
 
 class MenuScreen extends StatefulWidget {
   const MenuScreen({Key? key}) : super(key: key);
@@ -42,7 +44,7 @@ class _MenuScreenState extends State<MenuScreen> {
           children: <Widget>[
             ListTile(
               leading: const Icon(Icons.home),
-              title: Text("Meniu Principal"), // i18n
+              title: Text(AppLocalizations.of(context).mainMenu),
               onTap: () {
                 Navigator.push(
                   context,
@@ -54,7 +56,7 @@ class _MenuScreenState extends State<MenuScreen> {
             ),
             ListTile(
               leading: const Icon(Icons.dangerous),
-              title: const Text('Placeholder'), // i18n
+              title: Text(AppLocalizations.of(context).placeholder),
               onTap: () {
                 Navigator.push(
                   context,
@@ -66,7 +68,7 @@ class _MenuScreenState extends State<MenuScreen> {
             ),
             ListTile(
               leading: const Icon(Icons.dangerous),
-              title: const Text('Placeholder'), // i18n
+              title: Text(AppLocalizations.of(context).placeholder),
               onTap: () {
                 Navigator.push(
                   context,

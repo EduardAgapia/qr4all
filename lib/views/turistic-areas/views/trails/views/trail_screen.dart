@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:qr_4_all/domain/trail/trail.dart';
 import 'package:qr_4_all/views/storage.dart';
 import '../../../../../map.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class TrailScreen extends StatefulWidget {
   final Trail trail;
@@ -77,8 +78,10 @@ class _TrailScreenState extends State<TrailScreen> {
                     child: Column(
                       children: [
                         ListTile(
-                          title: const Text(
-                            '\n Descriere \n',// i18n
+                          title: Text(
+                            '\n' +
+                                AppLocalizations.of(context).description +
+                                '\n',
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 20,
@@ -145,7 +148,8 @@ class _TrailScreenState extends State<TrailScreen> {
                                         ),
                                       ),
                                     ),
-                                  ),   const SizedBox(width: 33),
+                                  ),
+                                  const SizedBox(width: 33),
                                   Container(
                                     width:
                                         MediaQuery.of(context).size.width / 7,
@@ -155,7 +159,8 @@ class _TrailScreenState extends State<TrailScreen> {
                                     ),
                                     child: GestureDetector(
                                       onTap: () {
-                                        MapUtils.download(FirebaseApi.download('/test.kml'));
+                                        MapUtils.download(
+                                            FirebaseApi.download('/test.kml'));
                                       },
                                       child: Container(
                                         decoration: const BoxDecoration(

@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:qr_4_all/domain/gal/gal.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+
 
 import '../../../map.dart';
 
@@ -169,8 +171,8 @@ class _AboutScreenState extends State<AboutScreen> {
             ),
             child: Column(children: <Widget>[
               ListTile(
-                title: const Text(
-                  '\nPlaceholder \n',// i18n
+                title: Text(
+                  '\n' + AppLocalizations.of(context).placeholder + '\n',
                   style: TextStyle(
                     color: Colors.black,
                     fontSize: 15,
@@ -197,8 +199,8 @@ class _AboutScreenState extends State<AboutScreen> {
               ),
               child: Column(children: <Widget>[
                 ListTile(
-                  title: const Text(
-                    '\nPlaceholder \n',// i18n
+                  title: Text(
+                    '\n' + AppLocalizations.of(context).placeholder + '\n',
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 15,

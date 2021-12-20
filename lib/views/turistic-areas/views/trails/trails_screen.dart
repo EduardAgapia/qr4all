@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:qr_4_all/domain/trail/trail.dart';
 import 'package:qr_4_all/views/turistic-areas/views/trails/views/trail_screen.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class TrailsScreen extends StatefulWidget {
   final List<Trail> trails;
@@ -21,7 +22,7 @@ class _TrailsScreenState extends State<TrailsScreen> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text("Lista Trasee"),// i18n
+        title: Text(AppLocalizations.of(context).trailList),
         automaticallyImplyLeading: false,
       ),
       body: Column(

@@ -2,19 +2,21 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:qr_4_all/scanner.dart';
 import 'package:qr_4_all/domain/objective/objective.dart';
-
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../../../../../map.dart';
-import '../../google_map.dart';
 
 class ObjectiveScreen extends StatefulWidget {
   final Objective objective;
+
   ObjectiveScreen({required this.objective, Key? key}) : super(key: key);
 
-  _ObjectiveScreenState createState() => _ObjectiveScreenState(objective: objective);
+  _ObjectiveScreenState createState() =>
+      _ObjectiveScreenState(objective: objective);
 }
 
 class _ObjectiveScreenState extends State<ObjectiveScreen> {
   final Objective objective;
+
   _ObjectiveScreenState({required this.objective});
 
   @override
@@ -38,7 +40,8 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                   const SizedBox(height: 20),
                   Container(
                     height: MediaQuery.of(context).size.height / 11.4,
-                    width: MediaQuery.of(context).size.width - 20,//nu e bagat in seama
+                    width: MediaQuery.of(context).size.width -
+                        20, //nu e bagat in seama
                     decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       color: Color.fromARGB(150, 0, 143, 105),
@@ -122,8 +125,10 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                       child: Column(
                         children: [
                           ListTile(
-                            title: const Text(
-                              '\n Descriere \n',
+                            title: Text(
+                              '\n' +
+                                  AppLocalizations.of(context).description +
+                                  '\n',
                               style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 20,
@@ -142,8 +147,9 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                           Container(
                             height: 90,
                             width: MediaQuery.of(context).size.width / 2,
-                            decoration:  const BoxDecoration(
-                              borderRadius: BorderRadius.all(Radius.circular(25.0)),
+                            decoration: const BoxDecoration(
+                              borderRadius:
+                                  BorderRadius.all(Radius.circular(25.0)),
                               color: Color.fromARGB(0, 0, 143, 105),
                             ),
                             child: GestureDetector(
@@ -158,10 +164,10 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                               child: ListView(
                                 scrollDirection: Axis.horizontal,
                                 children: [
-                                  const Align(
+                                  Align(
                                     alignment: Alignment.centerLeft,
                                     child: Text(
-                                      " Afla povestea",
+                                      AppLocalizations.of(context).find,
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontWeight: FontWeight.w900,

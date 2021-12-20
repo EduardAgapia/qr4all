@@ -6,6 +6,7 @@ import 'package:qr_4_all/views/turistic-areas/views/calendar/calendar_screen.dar
 import 'package:qr_4_all/views/turistic-areas/views/info/util_info_screen.dart';
 import 'package:qr_4_all/views/turistic-areas/views/objectives/objectives_screen.dart';
 import 'package:qr_4_all/views/turistic-areas/views/trails/trails_screen.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class ZoneScreen extends StatefulWidget {
   final Gal gal;
@@ -62,9 +63,9 @@ class _ZoneScreenState extends State<ZoneScreen> {
                     padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
                     width: double.infinity,
                     height: 10,
-                    child: const Align(
+                    child: Align(
                       alignment: Alignment.bottomCenter,
-                      child: Text("Despre"),// i18n
+                      child: Text(AppLocalizations.of(context).about),
                     ),
                     decoration: const BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(15.0)),
@@ -98,9 +99,9 @@ class _ZoneScreenState extends State<ZoneScreen> {
                     padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
                     width: double.infinity,
                     height: 10,
-                    child: const Align(
+                    child: Align(
                       alignment: Alignment.bottomCenter,
-                      child: Text("Calendar Electronic"),// i18n
+                      child: Text(AppLocalizations.of(context).calendar),
                     ),
                     decoration: const BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(15.0)),
@@ -134,9 +135,9 @@ class _ZoneScreenState extends State<ZoneScreen> {
                     padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
                     width: double.infinity,
                     height: 10,
-                    child: const Align(
+                    child: Align(
                       alignment: Alignment.bottomCenter,
-                      child: Text("Trasee"),// i18n
+                      child: Text(AppLocalizations.of(context).trails),
                     ),
                     decoration: const BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(15.0)),
@@ -170,9 +171,9 @@ class _ZoneScreenState extends State<ZoneScreen> {
                     padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
                     width: double.infinity,
                     height: 10,
-                    child: const Align(
+                    child: Align(
                       alignment: Alignment.bottomCenter,
-                      child: Text("Obiective Turistice"),// i18n
+                      child: Text(AppLocalizations.of(context).objectives),
                     ),
                     decoration: const BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(15.0)),
@@ -206,9 +207,9 @@ class _ZoneScreenState extends State<ZoneScreen> {
                     padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
                     width: double.infinity,
                     height: 10,
-                    child: const Align(
+                    child: Align(
                       alignment: Alignment.bottomCenter,
-                      child: Text("Informatii utile"),// i18n
+                      child: Text(AppLocalizations.of(context).infoDetails),
                     ),
                     decoration: const BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(15.0)),
