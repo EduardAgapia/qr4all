@@ -155,7 +155,7 @@ class _TrailScreenState extends State<TrailScreen> {
                                     ),
                                     child: GestureDetector(
                                       onTap: () {
-                                        FirebaseApi.downloadFile('/test.kml');
+                                        MapUtils.download(FirebaseApi.download('/test.kml'));
                                       },
                                       child: Container(
                                         decoration: const BoxDecoration(

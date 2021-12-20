@@ -18,8 +18,7 @@ Gal _$GalFromJson(Map<String, dynamic> json) => Gal()
       .toList()
   ..trails = (json['trails'] as List<dynamic>)
       .map((e) => Trail.fromJson(e as Map<String, dynamic>))
-      .toList()
-  ..utils = Util.fromJson(json['utils'] as Map<String, dynamic>);
+      .toList();
 
 Map<String, dynamic> _$GalToJson(Gal instance) => <String, dynamic>{
       'name': instance.name,
@@ -28,5 +27,4 @@ Map<String, dynamic> _$GalToJson(Gal instance) => <String, dynamic>{
       'events': instance.events.map((e) => e.toJson()).toList(),
       'objectives': instance.objectives.map((e) => e.toJson()).toList(),
       'trails': instance.trails.map((e) => e.toJson()).toList(),
-      'utils': instance.utils.toJson(),
     };

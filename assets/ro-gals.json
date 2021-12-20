@@ -622,30 +622,14 @@
         }
       ],
       "utils": [
-        {
-          "farmacie": "farmacie"
-        },
-        {
-          "benzinarie": "benzinarie"
-        },
-        {
-          "spital": "spital"
-        },
-        {
-          "hotel": "hotel"
-        },
-        {
-          "primarie": "primarie"
-        },
-        {
-          "politie": "politie"
-        },
-        {
-          "restaurant": "restaurant"
-        },
-        {
-          "service": "service"
-        }
+        "farmacie",
+        "benzinarie",
+        "spital",
+        "hotel",
+        "primarie",
+        "politie",
+        "restaurant",
+        "service"
       ]
     },
     {
@@ -838,30 +822,14 @@
         }
       ],
       "utils": [
-        {
-          "farmacie": "farmacie"
-        },
-        {
-          "benzinarie": "benzinarie"
-        },
-        {
-          "spital": "spital"
-        },
-        {
-          "hotel": "hotel"
-        },
-        {
-          "primarie": "primarie"
-        },
-        {
-          "politie": "politie"
-        },
-        {
-          "restaurant": "restaurant"
-        },
-        {
-          "service": "service"
-        }
+        "farmacie",
+        "benzinarie",
+        "spital",
+        "hotel",
+        "primarie",
+        "politie",
+        "restaurant",
+        "service"
       ]
     },
     {
@@ -1054,30 +1022,14 @@
         }
       ],
       "utils": [
-        {
-          "farmacie": "farmacie"
-        },
-        {
-          "benzinarie": "benzinarie"
-        },
-        {
-          "spital": "spital"
-        },
-        {
-          "hotel": "hotel"
-        },
-        {
-          "primarie": "primarie"
-        },
-        {
-          "politie": "politie"
-        },
-        {
-          "restaurant": "restaurant"
-        },
-        {
-          "service": "service"
-        }
+        "farmacie",
+        "benzinarie",
+        "spital",
+        "hotel",
+        "primarie",
+        "politie",
+        "restaurant",
+        "service"
       ]
     },
     {
@@ -1270,30 +1222,14 @@
         }
       ],
       "utils": [
-        {
-          "farmacie": "farmacie"
-        },
-        {
-          "benzinarie": "benzinarie"
-        },
-        {
-          "spital": "spital"
-        },
-        {
-          "hotel": "hotel"
-        },
-        {
-          "primarie": "primarie"
-        },
-        {
-          "politie": "politie"
-        },
-        {
-          "restaurant": "restaurant"
-        },
-        {
-          "service": "service"
-        }
+        "farmacie",
+        "benzinarie",
+        "spital",
+        "hotel",
+        "primarie",
+        "politie",
+        "restaurant",
+        "service"
       ]
     },
     {
@@ -1486,30 +1422,14 @@
         }
       ],
       "utils": [
-        {
-          "farmacie": "farmacie"
-        },
-        {
-          "benzinarie": "benzinarie"
-        },
-        {
-          "spital": "spital"
-        },
-        {
-          "hotel": "hotel"
-        },
-        {
-          "primarie": "primarie"
-        },
-        {
-          "politie": "politie"
-        },
-        {
-          "restaurant": "restaurant"
-        },
-        {
-          "service": "service"
-        }
+        "farmacie",
+        "benzinarie",
+        "spital",
+        "hotel",
+        "primarie",
+        "politie",
+        "restaurant",
+        "service"
       ]
     },
     {
@@ -1702,30 +1622,14 @@
         }
       ],
       "utils": [
-        {
-          "farmacie": "farmacie"
-        },
-        {
-          "benzinarie": "benzinarie"
-        },
-        {
-          "spital": "spital"
-        },
-        {
-          "hotel": "hotel"
-        },
-        {
-          "primarie": "primarie"
-        },
-        {
-          "politie": "politie"
-        },
-        {
-          "restaurant": "restaurant"
-        },
-        {
-          "service": "service"
-        }
+        "farmacie",
+        "benzinarie",
+        "spital",
+        "hotel",
+        "primarie",
+        "politie",
+        "restaurant",
+        "service"
       ]
     },
     {
@@ -1918,30 +1822,14 @@
         }
       ],
       "utils": [
-        {
-          "farmacie": "farmacie"
-        },
-        {
-          "benzinarie": "benzinarie"
-        },
-        {
-          "spital": "spital"
-        },
-        {
-          "hotel": "hotel"
-        },
-        {
-          "primarie": "primarie"
-        },
-        {
-          "politie": "politie"
-        },
-        {
-          "restaurant": "restaurant"
-        },
-        {
-          "service": "service"
-        }
+        "farmacie",
+        "benzinarie",
+        "spital",
+        "hotel",
+        "primarie",
+        "politie",
+        "restaurant",
+        "service"
       ]
     }
   ]

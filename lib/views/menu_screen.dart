@@ -16,15 +16,14 @@ class MenuScreen extends StatefulWidget {
 }
 
 class _MenuScreenState extends State<MenuScreen> {
-  List<Gal> galList = List.empty(growable: true);
-  var _gals;
+  List<Gal> _gals = List.empty(growable: true);
   Set<Marker> _markers = {};
 
   Future<void> readJson() async {
     final String response = await rootBundle.loadString('assets/ro-gals.json');
     final Map<String, dynamic> data = await json.decode(response);
     setState(() {
-      _gals = Gals.fromJson(data);
+      _gals = Gals.fromJson(data).gals;
     });
   }
 
@@ -61,7 +60,6 @@ class _MenuScreenState extends State<MenuScreen> {
   void initState() {
     super.initState();
     setState(() {
-      galList = Gal.performSingleFetch();
       _markers.addAll(markers);
       readJson();
     });
@@ -79,12 +77,12 @@ class _MenuScreenState extends State<MenuScreen> {
           children: <Widget>[
             ListTile(
               leading: const Icon(Icons.home),
-              title: Text(_gals.toString()),
+              title: Text('Meniul Principal'),
               onTap: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => ZoneTuristice(galList: galList),
+                    builder: (context) => ZoneTuristice(galList: _gals),
                   ),
                 );
               },

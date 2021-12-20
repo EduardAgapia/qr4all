@@ -8,7 +8,7 @@ part of 'gals.dart';
 
 Gals _$GalsFromJson(Map<String, dynamic> json) => Gals()
   ..gals = (json['gals'] as List<dynamic>)
-      .map((e) => Gals.fromJson(e as Map<String, dynamic>))
+      .map((e) => Gal.fromJson(e as Map<String, dynamic>))
       .toList();
 
 Map<String, dynamic> _$GalsToJson(Gals instance) => <String, dynamic>{

@@ -1,5 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.gal.colineleIasului.qr_4_all">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
    <application
         android:label="qr_4_all"
         android:icon="@mipmap/ic_launcher">
@@ -39,5 +41,6 @@
             android:value="2" />
        <meta-data android:name = "com.google.android.geo.API_KEY"
            android:value = "AIzaSyBKZZCi_teW32jQQcQtV6c6G2_WC6kqGtc"/>
+
    </application>
 </manifest>

@@ -181,42 +181,42 @@ class _ZoneScreenState extends State<ZoneScreen> {
                 ),
               ),
             ),
-            Container(
-              //Todo: dynamic values with respect for phone specs
-              decoration: const BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                color: Color.fromARGB(0, 255, 255, 255),
-              ),
-              child: GestureDetector(
-                onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => UtilInfoScreen(utilInfo: gal.utils),
-                      ));
-                },
-                child: Container(
-                  padding: const EdgeInsets.fromLTRB(0, 115, 0, 0),
-                  decoration: const BoxDecoration(
-                      borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                      image: DecorationImage(
-                          image: AssetImage("assets/gals/infos.png"),
-                          fit: BoxFit.cover)),
-                  child: Container(
-                    padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                    width: double.infinity,
-                    height: 10,
-                    child: const Align(
-                      alignment: Alignment.bottomCenter,
-                      child: Text("Informatii utile"),
-                    ),
-                    decoration: const BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                        color: Color.fromARGB(200, 255, 255, 255)),
-                  ),
-                ),
-              ),
-            ),
+            // Container(
+            //   //Todo: dynamic values with respect for phone specs
+            //   decoration: const BoxDecoration(
+            //     borderRadius: BorderRadius.all(Radius.circular(15.0)),
+            //     color: Color.fromARGB(0, 255, 255, 255),
+            //   ),
+            //   child: GestureDetector(
+            //     onTap: () {
+            //       Navigator.push(
+            //           context,
+            //           MaterialPageRoute(
+            //             builder: (context) => UtilInfoScreen(utilInfo: gal.util),
+            //           ));
+            //     },
+            //     child: Container(
+            //       padding: const EdgeInsets.fromLTRB(0, 115, 0, 0),
+            //       decoration: const BoxDecoration(
+            //           borderRadius: BorderRadius.all(Radius.circular(15.0)),
+            //           image: DecorationImage(
+            //               image: AssetImage("assets/gals/infos.png"),
+            //               fit: BoxFit.cover)),
+            //       child: Container(
+            //         padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
+            //         width: double.infinity,
+            //         height: 10,
+            //         child: const Align(
+            //           alignment: Alignment.bottomCenter,
+            //           child: Text("Informatii utile"),
+            //         ),
+            //         decoration: const BoxDecoration(
+            //             borderRadius: BorderRadius.all(Radius.circular(15.0)),
+            //             color: Color.fromARGB(200, 255, 255, 255)),
+            //       ),
+            //     ),
+            //   ),
+            // ),
           ],
         ),
       ),

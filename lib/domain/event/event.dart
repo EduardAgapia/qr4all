@@ -20,28 +20,4 @@ class Evenimente {
 
   Map<String, dynamic> toJson() => _$EvenimenteToJson(this);
 
-
-  static Evenimente fromRTDB(Map<String, dynamic> data) {
-    return Evenimente(
-        name: data['events']['event1']['name'] ?? 'Do you rly whant it?',
-        program: data['events']['event1']['programm'] ?? 'Do you rly whant it?',
-        location: data['events']['event1']['location'] ?? 'Do you rly whant it?',
-        description: data['events']['event1']['description'] ?? 'Do you rly whant it?');
-  }
-
-  static List<Evenimente> getList(Map<String, dynamic> data) {
-    List<Evenimente> eventList = List.empty(growable: true);
-    Evenimente event = fromRTDB(data);
-    eventList.add(event);
-    eventList.add(event);
-    eventList.add(event);
-    eventList.add(event);
-    eventList.add(event);
-    eventList.add(event);
-    eventList.add(event);
-    eventList.add(event);
-    eventList.add(event);
-    eventList.add(event);
-    return eventList;
-  }
 }

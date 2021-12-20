@@ -1,16 +1,12 @@
-import 'dart:io';
-
 import 'package:firebase_storage/firebase_storage.dart';
-import 'package:path_provider/path_provider.dart';
 
 class FirebaseApi {
 
-  static Future downloadFile(String path) async {
-    final ref = FirebaseStorage.instance.ref(path);
-    final result = await ref.getDownloadURL();
-    final dir = await getApplicationDocumentsDirectory();
-    final file = File('${dir.path}/${ref.name}');
-
-    await ref.writeToFile(file);
+  static Future<String> getDownloadUrl(String path) async {
+    return FirebaseStorage.instance.ref(path).getDownloadURL();
+  }
+  static String download(String path){
+    String downloadUrl = getDownloadUrl(path) as String;
+    return downloadUrl;
   }
 }

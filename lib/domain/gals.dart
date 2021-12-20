@@ -1,10 +1,11 @@
 import 'package:json_annotation/json_annotation.dart';
+import 'package:qr_4_all/domain/gal/gal.dart';
 
 part 'gals.g.dart';
 
 @JsonSerializable(explicitToJson: true)
 class Gals{
-  late List<Gals> gals;
+  late List<Gal> gals;
 
   Gals();
 

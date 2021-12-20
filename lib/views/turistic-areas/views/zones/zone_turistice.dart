@@ -37,7 +37,7 @@ class _ReadExampleState extends State<ZoneTuristice> {
           crossAxisSpacing: 3,
           mainAxisSpacing: 3,
           crossAxisCount: 3,
-          children: List.generate(Gal.galList.length, (index) {
+          children: List.generate(galList.length, (index) {
             return Container(
               //Todo: dynamic values with respect for phone specs
               decoration: const BoxDecoration(
@@ -55,12 +55,12 @@ class _ReadExampleState extends State<ZoneTuristice> {
                             ListTile(
                               leading: Icon(Icons.home),
                               title: Text(
-                                  'Catre ' + Gal.galList[index].name.toString()),
+                                  'Catre ' + galList[index].name.toString()),
                               onTap: () {
                                 Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                      builder: (context) => ZoneScreen(gal: Gal.galList[index]),
+                                      builder: (context) => ZoneScreen(gal: galList[index]),
                                     ));
                               },
                             ),
@@ -95,7 +95,7 @@ class _ReadExampleState extends State<ZoneTuristice> {
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
-                          image: AssetImage(Gal.galList[index].imgSrc.toString()),
+                          image: AssetImage(galList[index].imgSrc.toString()),
                           fit: BoxFit.cover)),
                   child: Container(
                     padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
@@ -103,7 +103,7 @@ class _ReadExampleState extends State<ZoneTuristice> {
                     height: 10,
                     child: Align(
                       alignment: Alignment.bottomCenter,
-                      child: Text(Gal.galList[index].name.toString()),
+                      child: Text(galList[index].name.toString()),
                     ),
                     decoration: const BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(15.0)),
