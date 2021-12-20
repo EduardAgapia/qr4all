@@ -89,7 +89,7 @@ class _MenuScreenState extends State<MenuScreen> {
   }
 
   Future<void> readJson() async {
-    if(enSystemLanguage()){
+    if (enSystemLanguage()) {
       jSonLocation = 'assets/en-gals.json';
     }
     final String response = await rootBundle.loadString(jSonLocation);
@@ -103,33 +103,43 @@ class _MenuScreenState extends State<MenuScreen> {
     return false;
   }
 
-  List<Marker> markers = [//make dinamic
+  List<Marker> markers = [
+    //make dinamic
     const Marker(
         markerId: MarkerId('Codrii Pascanilor'),
-        position: LatLng(47.249624, 26.720125)),
+        position: LatLng(47.249624, 26.720125),
+        infoWindow: InfoWindow(title: 'Codrii Pascanilor')),
     const Marker(
         markerId: MarkerId('Belcesti-Focuri'),
-        position: LatLng(47.216394, 27.148312)),
+        position: LatLng(47.216394, 27.148312),
+        infoWindow: InfoWindow(title: 'Belcesti-Focuri')),
     const Marker(
-        markerId: MarkerId('DEalurile bohotinului'),
-        position: LatLng(46.947622, 27.986547)),
+        markerId: MarkerId('Dealurile bohotinului'),
+        position: LatLng(46.947622, 27.986547),
+        infoWindow: InfoWindow(title: 'Dealurile bohotinului')),
     const Marker(
         markerId: MarkerId('Rediu-Prajeni'),
-        position: LatLng(47.232995, 27.500137)),
+        position: LatLng(47.232995, 27.500137),
+        infoWindow: InfoWindow(title: 'Rediu-Prajeni')),
     const Marker(
         markerId: MarkerId('Siret-Moldova'),
-        position: LatLng(47.362216, 26.689119)),
+        position: LatLng(47.362216, 26.689119),
+        infoWindow: InfoWindow(title: 'Siret-Moldova')),
     const Marker(
         markerId: MarkerId('Stefan cel Mare'),
-        position: LatLng(47.204105, 27.602336)),
+        position: LatLng(47.204105, 27.602336),
+        infoWindow: InfoWindow(title: 'Stefan cel Mare')),
     const Marker(
         markerId: MarkerId('Stejarii Argintii'),
-        position: LatLng(47.144530, 27.520261)),
+        position: LatLng(47.144530, 27.520261),
+        infoWindow: InfoWindow(title: 'Stejarii Argintii')),
     const Marker(
         markerId: MarkerId('Valea Prutului'),
-        position: LatLng(47.281021, 27.518267)),
+        position: LatLng(47.281021, 27.518267),
+        infoWindow: InfoWindow(title: 'Valea Prutului')),
     const Marker(
         markerId: MarkerId('Colinele Iasului'),
-        position: LatLng(47.060847, 27.568177)),
+        position: LatLng(47.060847, 27.568177),
+        infoWindow: InfoWindow(title: 'Colinele Iasului')),
   ];
 }
