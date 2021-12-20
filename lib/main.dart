@@ -32,8 +32,6 @@ class Home extends StatefulWidget {
 }
 
 class MyHomePage extends State<Home> {
-  final String title =  "LoadingScreen";
-
   initState() {
     Timer(const Duration(seconds: 1), onClose);
   }
@@ -41,43 +39,32 @@ class MyHomePage extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: GestureDetector(
-        onTap: () {
-          Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (context) {
-                return MenuScreen();
-              },
-            ),
-          );
-        },
-        child: Container(
-          decoration: const BoxDecoration(
-              image: DecorationImage(
-                  image: AssetImage("assets/gals/anotherDeal.png"),
-                  fit: BoxFit.cover)),
-          child: const Align(
-            alignment: Alignment.center,
-            child: Text(
-              "QR4ALL",
-              style: TextStyle(
-                color: Colors.black,
-                fontSize: 55,
-                fontWeight: FontWeight.w900,
-              ),
+      body: Container(
+        decoration: const BoxDecoration(
+            image: DecorationImage(
+                image: AssetImage("assets/gals/anotherDeal.png"),
+                fit: BoxFit.cover)),
+        child: const Align(
+          alignment: Alignment.center,
+          child: Text(
+            "QR4ALL",
+            style: TextStyle(
+              color: Colors.black,
+              fontSize: 55,
+              fontWeight: FontWeight.w900,
             ),
           ),
         ),
       ),
     );
   }
+
   void onClose() {
     Navigator.of(context).pushReplacement(PageRouteBuilder(
         maintainState: true,
         opaque: true,
         pageBuilder: (context, _, __) => MenuScreen(),
-        transitionDuration: const Duration(milliseconds: 500),
+        transitionDuration: const Duration(milliseconds: 400),
         transitionsBuilder: (context, anim1, anim2, child) {
           return FadeTransition(
             child: child,

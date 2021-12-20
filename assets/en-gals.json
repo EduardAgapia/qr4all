@@ -2,2008 +2,2242 @@
   "gals": [
     {
       "name": "Belcesti-Focuri",
+      "description": "Description of Belcesti-Focuri",
+      "imgSrc": "assets/gals/belcesti.png",
       "events": [
         {
-          "name": "Evenimentul numarul #1",
-          "location": "Locatia Evenimentului numarului#1",
-          "program": "Locatia Evenimentului numarului#1",
-          "description": "Descrierea  Evenimentului numarului#1"
+          "name": "Event with number #1",
+          "location": "Location of event with number #1",
+          "program": "Program of event with number #1",
+          "description": "Description of event with number #1"
         },
         {
-          "name": "Evenimentul numarul #2",
-          "location": "Locatia Evenimentului numarului#2",
-          "program": "Locatia Evenimentului numarului#2",
-          "description": "Descrierea  Evenimentului numarului#2"
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Evenimentul numarul #2",
-          "location": "Locatia Evenimentului numarului#2",
-          "program": "Locatia Evenimentului numarului#2",
-          "description": "Descrierea  Evenimentului numarului#2"
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Evenimentul numarul #3",
-          "location": "Locatia Evenimentului numarului#3",
-          "program": "Locatia Evenimentului numarului#3",
-          "description": "Descrierea  Evenimentului numarului#3"
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Evenimentul numarul #3",
-          "location": "Locatia Evenimentului numarului#3",
-          "program": "Locatia Evenimentului numarului#3",
-          "description": "Descrierea  Evenimentului numarului#3"
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Evenimentul numarul #3",
-          "location": "Locatia Evenimentului numarului#3",
-          "program": "Locatia Evenimentului numarului#3",
-          "description": "Descrierea  Evenimentului numarului#3"
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Evenimentul numarul #4",
-          "location": "Locatia Evenimentului numarului#4",
-          "program": "Locatia Evenimentului numarului#4",
-          "description": "Descrierea  Evenimentului numarului#4"
+          "name": "Event with number #4",
+          "location": "Location of event with number #4",
+          "program": "Program of event with number #4",
+          "description": "Description of event with number #4"
         },
         {
-          "name": "Evenimentul numarul #5",
-          "location": "Locatia Evenimentului numarului#5",
-          "program": "Locatia Evenimentului numarului#5",
-          "description": "Descrierea  Evenimentului numarului#5"
+          "name": "Event with number #5",
+          "location": "Location of event with number #5",
+          "program": "Program of event with number #5",
+          "description": "Description of event with number #5"
         },
         {
-          "name": "Evenimentul numarul #6",
-          "location": "Locatia Evenimentului numarului#6",
-          "program": "Locatia Evenimentului numarului#6",
-          "description": "Descrierea  Evenimentului numarului#6"
+          "name": "Event with number #6",
+          "location": "Location of event with number #6",
+          "program": "Program of event with number #6",
+          "description": "Description of event with number #6"
         },
         {
-          "name": "Evenimentul numarul #7",
-          "location": "Locatia Evenimentului numarului#7",
-          "program": "Locatia Evenimentului numarului#7",
-          "description": "Descrierea  Evenimentului numarului#7"
+          "name": "Event with number #7",
+          "location": "Location of event with number #7",
+          "program": "Program of event with number #7",
+          "description": "Description of event with number #7"
         }
       ],
       "objectives": [
         {
-          "name": "Obiectivul numarul #1",
-          "location": "Locatia Obiectivului numarului#1",
-          "program": "Locatia Obiectivului numarului#1",
-          "description": "Descrierea  Obiectivului numarului#1"
+          "name": "Objective with number #1",
+          "location": "Location of objective with number #1",
+          "program": "Program of objective with number #1",
+          "description": "Description of event with number #1"
         },
         {
-          "name": "Obiectivul numarul #2",
-          "location": "Locatia Obiectivului numarului#2",
-          "program": "Locatia Obiectivului numarului#2",
-          "description": "Descrierea  Obiectivului numarului#2"
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Obiectivul numarul #2",
-          "location": "Locatia Obiectivului numarului#2",
-          "program": "Locatia Obiectivului numarului#2",
-          "description": "Descrierea  Obiectivului numarului#2"
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Obiectivul numarul #3",
-          "location": "Locatia Obiectivului numarului#3",
-          "program": "Locatia Obiectivului numarului#3",
-          "description": "Descrierea  Obiectivului numarului#3"
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Obiectivul numarul #3",
-          "location": "Locatia Obiectivului numarului#3",
-          "program": "Locatia Obiectivului numarului#3",
-          "description": "Descrierea  Obiectivului numarului#3"
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Obiectivul numarul #3",
-          "location": "Locatia Obiectivului numarului#3",
-          "program": "Locatia Obiectivului numarului#3",
-          "description": "Descrierea  Obiectivului numarului#3"
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Obiectivul numarul #4",
-          "location": "Locatia Obiectivului numarului#4",
-          "program": "Locatia Obiectivului numarului#4",
-          "description": "Descrierea  Obiectivului numarului#4"
+          "name": "Objective with number #4",
+          "location": "Location of objective with number #4",
+          "program": "Program of objective with number #4",
+          "description": "Description of event with number #4"
         },
         {
-          "name": "Obiectivul numarul #5",
-          "location": "Locatia Obiectivului numarului#5",
-          "program": "Locatia Obiectivului numarului#5",
-          "description": "Descrierea  Obiectivului numarului#5"
+          "name": "Objective with number #5",
+          "location": "Location of objective with number #5",
+          "program": "Program of objective with number #5",
+          "description": "Description of event with number #5"
         },
         {
-          "name": "Obiectivul numarul #6",
-          "location": "Locatia Obiectivului numarului#6",
-          "program": "Locatia Obiectivului numarului#6",
-          "description": "Descrierea  Obiectivului numarului#6"
+          "name": "Objective with number #6",
+          "location": "Location of objective with number #6",
+          "program": "Program of objective with number #6",
+          "description": "Description of event with number #6"
         },
         {
-          "name": "Obiectivul numarul #7",
-          "location": "Locatia Obiectivului numarului#7",
-          "program": "Locatia Obiectivului numarului#7",
-          "description": "Descrierea  Obiectivului numarului#7"
+          "name": "Objective with number #7",
+          "location": "Location of objective with number #7",
+          "program": "Program of objective with number #7",
+          "description": "Description of event with number #7"
         }
       ],
       "trails": [
         {
-          "name": "Traseul numarul #",
-          "location": "Locatia Traseului numarului#",
-          "program": "Locatia Traseului numarului#",
-          "description": "Descrierea  Traseului numarului#"
+          "name": "Trail with number #",
+          "location": "Loaction of Trail with numbe #",
+          "program": "Porgram of Trail with numbe #",
+          "description": "Description of Trail with numbe #"
         },
         {
-          "name": "Traseul numarul #2",
-          "location": "Locatia Traseului numarului#2",
-          "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2"
         },
         {
-          "name": "Traseul numarul #2",
-          "location": "Locatia Traseului numarului#2",
-          "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2"
         },
         {
-          "name": "Traseul numarul #3",
-          "location": "Locatia Traseului numarului#3",
-          "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3"
         },
         {
-          "name": "Traseul numarul #3",
-          "location": "Locatia Traseului numarului#3",
-          "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3"
         },
         {
-          "name": "Traseul numarul #3",
-          "location": "Locatia Traseului numarului#3",
-          "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3"
         },
         {
-          "name": "Traseul numarul #4",
-          "location": "Locatia Traseului numarului#4",
-          "program": "Locatia Traseului numarului#4",
-          "description": "Descrierea  Traseului numarului#4"
+          "name": "Trail with number #4",
+          "location": "Loaction of Trail with numbe #4",
+          "program": "Porgram of Trail with numbe #4",
+          "description": "Description of Trail with numbe #4"
         },
         {
-          "name": "Traseul numarul #5",
-          "location": "Locatia Traseului numarului#5",
-          "program": "Locatia Traseului numarului#5",
-          "description": "Descrierea  Traseului numarului#5"
+          "name": "Trail with number #5",
+          "location": "Loaction of Trail with numbe #5",
+          "program": "Porgram of Trail with numbe #5",
+          "description": "Description of Trail with numbe #5"
         },
         {
-          "name": "Traseul numarul #6",
-          "location": "Locatia Traseului numarului#6",
-          "program": "Locatia Traseului numarului#6",
-          "description": "Descrierea  Traseului numarului#6"
+          "name": "Trail with number #6",
+          "location": "Loaction of Trail with numbe #6",
+          "program": "Porgram of Trail with numbe #6",
+          "description": "Description of Trail with numbe #6"
         },
         {
-          "name": "Traseul numarul #7",
-          "location": "Locatia Traseului numarului#7",
-          "program": "Locatia Traseului numarului#7",
-          "description": "Descrierea  Traseului numarului#7"
+          "name": "Trail with number #7",
+          "location": "Loaction of Trail with numbe #7",
+          "program": "Porgram of Trail with numbe #7",
+          "description": "Description of Trail with numbe #7"
         }
       ],
       "utils": [
         {
-          "type": "farmacie",
-          "location": ""
+          "name": "Name drugStore",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "drugStore",
+          "image": "assets/gals/drugstore.png"
         },
         {
-          "type": "benzinarie",
-          "location": ""
+          "name": "Name gasStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "gasStation",
+          "image": "assets/gals/gas.png"
         },
         {
-          "type": "spital",
-          "location": ""
+          "name": "Name hospital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hospital",
+          "image": "assets/gals/hospital.png"
         },
         {
+          "name": "Name hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
           "type": "hotel",
-          "location": ""
+          "image": "assets/gals/hotel.png"
         },
         {
-          "type": "primarie",
-          "location": ""
+          "name": "Name cityHall",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "cityHall",
+          "image": "assets/gals/hall.png"
         },
         {
-          "type": "politie",
-          "location": ""
+          "name": "Name policeStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "policeStation",
+          "image": "assets/gals/police.png"
         },
         {
+          "name": "Name restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
           "type": "restaurant",
-          "location": ""
+          "image": "assets/gals/restaurant.png"
         },
         {
+          "name": "Name service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
           "type": "service",
-          "location": ""
+          "image": "assets/gals/service.png"
         }
       ]
     },
     {
       "name": "Codrii Pascanilor",
+      "description": "Description of Codrii Pascanilor",
+      "imgSrc": "assets/gals/pascani.png",
       "events": [
         {
-          "name": "Evenimentul numarul #1",
-          "location": "Locatia Evenimentului numarului#1",
-          "program": "Locatia Evenimentului numarului#1",
-          "description": "Descrierea  Evenimentului numarului#1"
+          "name": "Event with number #1",
+          "location": "Location of event with number #1",
+          "program": "Program of event with number #1",
+          "description": "Description of event with number #1"
         },
         {
-          "name": "Evenimentul numarul #2",
-          "location": "Locatia Evenimentului numarului#2",
-          "program": "Locatia Evenimentului numarului#2",
-          "description": "Descrierea  Evenimentului numarului#2"
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Evenimentul numarul #2",
-          "location": "Locatia Evenimentului numarului#2",
-          "program": "Locatia Evenimentului numarului#2",
-          "description": "Descrierea  Evenimentului numarului#2"
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Evenimentul numarul #3",
-          "location": "Locatia Evenimentului numarului#3",
-          "program": "Locatia Evenimentului numarului#3",
-          "description": "Descrierea  Evenimentului numarului#3"
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Evenimentul numarul #3",
-          "location": "Locatia Evenimentului numarului#3",
-          "program": "Locatia Evenimentului numarului#3",
-          "description": "Descrierea  Evenimentului numarului#3"
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Evenimentul numarul #3",
-          "location": "Locatia Evenimentului numarului#3",
-          "program": "Locatia Evenimentului numarului#3",
-          "description": "Descrierea  Evenimentului numarului#3"
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Evenimentul numarul #4",
-          "location": "Locatia Evenimentului numarului#4",
-          "program": "Locatia Evenimentului numarului#4",
-          "description": "Descrierea  Evenimentului numarului#4"
+          "name": "Event with number #4",
+          "location": "Location of event with number #4",
+          "program": "Program of event with number #4",
+          "description": "Description of event with number #4"
         },
         {
-          "name": "Evenimentul numarul #5",
-          "location": "Locatia Evenimentului numarului#5",
-          "program": "Locatia Evenimentului numarului#5",
-          "description": "Descrierea  Evenimentului numarului#5"
+          "name": "Event with number #5",
+          "location": "Location of event with number #5",
+          "program": "Program of event with number #5",
+          "description": "Description of event with number #5"
         },
         {
-          "name": "Evenimentul numarul #6",
-          "location": "Locatia Evenimentului numarului#6",
-          "program": "Locatia Evenimentului numarului#6",
-          "description": "Descrierea  Evenimentului numarului#6"
+          "name": "Event with number #6",
+          "location": "Location of event with number #6",
+          "program": "Program of event with number #6",
+          "description": "Description of event with number #6"
         },
         {
-          "name": "Evenimentul numarul #7",
-          "location": "Locatia Evenimentului numarului#7",
-          "program": "Locatia Evenimentului numarului#7",
-          "description": "Descrierea  Evenimentului numarului#7"
+          "name": "Event with number #7",
+          "location": "Location of event with number #7",
+          "program": "Program of event with number #7",
+          "description": "Description of event with number #7"
         }
       ],
       "objectives": [
         {
-          "name": "Obiectivul numarul #1",
-          "location": "Locatia Obiectivului numarului#1",
-          "program": "Locatia Obiectivului numarului#1",
-          "description": "Descrierea  Obiectivului numarului#1"
+          "name": "Objective with number #1",
+          "location": "Location of objective with number #1",
+          "program": "Program of objective with number #1",
+          "description": "Description of event with number #1"
         },
         {
-          "name": "Obiectivul numarul #2",
-          "location": "Locatia Obiectivului numarului#2",
-          "program": "Locatia Obiectivului numarului#2",
-          "description": "Descrierea  Obiectivului numarului#2"
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Obiectivul numarul #2",
-          "location": "Locatia Obiectivului numarului#2",
-          "program": "Locatia Obiectivului numarului#2",
-          "description": "Descrierea  Obiectivului numarului#2"
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Obiectivul numarul #3",
-          "location": "Locatia Obiectivului numarului#3",
-          "program": "Locatia Obiectivului numarului#3",
-          "description": "Descrierea  Obiectivului numarului#3"
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Obiectivul numarul #3",
-          "location": "Locatia Obiectivului numarului#3",
-          "program": "Locatia Obiectivului numarului#3",
-          "description": "Descrierea  Obiectivului numarului#3"
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Obiectivul numarul #3",
-          "location": "Locatia Obiectivului numarului#3",
-          "program": "Locatia Obiectivului numarului#3",
-          "description": "Descrierea  Obiectivului numarului#3"
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Obiectivul numarul #4",
-          "location": "Locatia Obiectivului numarului#4",
-          "program": "Locatia Obiectivului numarului#4",
-          "description": "Descrierea  Obiectivului numarului#4"
+          "name": "Objective with number #4",
+          "location": "Location of objective with number #4",
+          "program": "Program of objective with number #4",
+          "description": "Description of event with number #4"
         },
         {
-          "name": "Obiectivul numarul #5",
-          "location": "Locatia Obiectivului numarului#5",
-          "program": "Locatia Obiectivului numarului#5",
-          "description": "Descrierea  Obiectivului numarului#5"
+          "name": "Objective with number #5",
+          "location": "Location of objective with number #5",
+          "program": "Program of objective with number #5",
+          "description": "Description of event with number #5"
         },
         {
-          "name": "Obiectivul numarul #6",
-          "location": "Locatia Obiectivului numarului#6",
-          "program": "Locatia Obiectivului numarului#6",
-          "description": "Descrierea  Obiectivului numarului#6"
+          "name": "Objective with number #6",
+          "location": "Location of objective with number #6",
+          "program": "Program of objective with number #6",
+          "description": "Description of event with number #6"
         },
         {
-          "name": "Obiectivul numarul #7",
-          "location": "Locatia Obiectivului numarului#7",
-          "program": "Locatia Obiectivului numarului#7",
-          "description": "Descrierea  Obiectivului numarului#7"
+          "name": "Objective with number #7",
+          "location": "Location of objective with number #7",
+          "program": "Program of objective with number #7",
+          "description": "Description of event with number #7"
         }
       ],
       "trails": [
         {
-          "name": "Traseul numarul #",
-          "location": "Locatia Traseului numarului#",
-          "program": "Locatia Traseului numarului#",
-          "description": "Descrierea  Traseului numarului#"
+          "name": "Trail with number #",
+          "location": "Loaction of Trail with numbe #",
+          "program": "Porgram of Trail with numbe #",
+          "description": "Description of Trail with numbe #"
         },
         {
-          "name": "Traseul numarul #2",
-          "location": "Locatia Traseului numarului#2",
-          "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2"
         },
         {
-          "name": "Traseul numarul #2",
-          "location": "Locatia Traseului numarului#2",
-          "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2"
         },
         {
-          "name": "Traseul numarul #3",
-          "location": "Locatia Traseului numarului#3",
-          "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3"
         },
         {
-          "name": "Traseul numarul #3",
-          "location": "Locatia Traseului numarului#3",
-          "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3"
         },
         {
-          "name": "Traseul numarul #3",
-          "location": "Locatia Traseului numarului#3",
-          "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3"
         },
         {
-          "name": "Traseul numarul #4",
-          "location": "Locatia Traseului numarului#4",
-          "program": "Locatia Traseului numarului#4",
-          "description": "Descrierea  Traseului numarului#4"
+          "name": "Trail with number #4",
+          "location": "Loaction of Trail with numbe #4",
+          "program": "Porgram of Trail with numbe #4",
+          "description": "Description of Trail with numbe #4"
         },
         {
-          "name": "Traseul numarul #5",
-          "location": "Locatia Traseului numarului#5",
-          "program": "Locatia Traseului numarului#5",
-          "description": "Descrierea  Traseului numarului#5"
+          "name": "Trail with number #5",
+          "location": "Loaction of Trail with numbe #5",
+          "program": "Porgram of Trail with numbe #5",
+          "description": "Description of Trail with numbe #5"
         },
         {
-          "name": "Traseul numarul #6",
-          "location": "Locatia Traseului numarului#6",
-          "program": "Locatia Traseului numarului#6",
-          "description": "Descrierea  Traseului numarului#6"
+          "name": "Trail with number #6",
+          "location": "Loaction of Trail with numbe #6",
+          "program": "Porgram of Trail with numbe #6",
+          "description": "Description of Trail with numbe #6"
         },
         {
-          "name": "Traseul numarul #7",
-          "location": "Locatia Traseului numarului#7",
-          "program": "Locatia Traseului numarului#7",
-          "description": "Descrierea  Traseului numarului#7"
+          "name": "Trail with number #7",
+          "location": "Loaction of Trail with numbe #7",
+          "program": "Porgram of Trail with numbe #7",
+          "description": "Description of Trail with numbe #7"
         }
       ],
       "utils": [
         {
-          "type": "farmacie",
-          "location": ""
+          "name": "Name drugStore",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "drugStore",
+          "image": "assets/gals/drugstore.png"
         },
         {
-          "type": "benzinarie",
-          "location": ""
+          "name": "Name gasStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "gasStation",
+          "image": "assets/gals/gas.png"
         },
         {
-          "type": "spital",
-          "location": ""
+          "name": "Name hospital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hospital",
+          "image": "assets/gals/hospital.png"
         },
         {
+          "name": "Name hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
           "type": "hotel",
-          "location": ""
+          "image": "assets/gals/hotel.png"
         },
         {
-          "type": "primarie",
-          "location": ""
+          "name": "Name cityHall",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "cityHall",
+          "image": "assets/gals/hall.png"
         },
         {
-          "type": "politie",
-          "location": ""
+          "name": "Name policeStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "policeStation",
+          "image": "assets/gals/police.png"
         },
         {
+          "name": "Name restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
           "type": "restaurant",
-          "location": ""
+          "image": "assets/gals/restaurant.png"
         },
         {
+          "name": "Name service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
           "type": "service",
-          "location": ""
+          "image": "assets/gals/service.png"
         }
       ]
     },
     {
       "name": "Dealurile Bohotinului",
+      "description": "Description of Dealurile Bohotinului",
+      "imgSrc": "assets/gals/bohotin.png",
       "events": [
         {
-          "name": "Evenimentul numarul #1",
-          "location": "Locatia Evenimentului numarului#1",
-          "program": "Locatia Evenimentului numarului#1",
-          "description": "Descrierea  Evenimentului numarului#1"
+          "name": "Event with number #1",
+          "location": "Location of event with number #1",
+          "program": "Program of event with number #1",
+          "description": "Description of event with number #1"
         },
         {
-          "name": "Evenimentul numarul #2",
-          "location": "Locatia Evenimentului numarului#2",
-          "program": "Locatia Evenimentului numarului#2",
-          "description": "Descrierea  Evenimentului numarului#2"
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Evenimentul numarul #2",
-          "location": "Locatia Evenimentului numarului#2",
-          "program": "Locatia Evenimentului numarului#2",
-          "description": "Descrierea  Evenimentului numarului#2"
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Evenimentul numarul #3",
-          "location": "Locatia Evenimentului numarului#3",
-          "program": "Locatia Evenimentului numarului#3",
-          "description": "Descrierea  Evenimentului numarului#3"
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Evenimentul numarul #3",
-          "location": "Locatia Evenimentului numarului#3",
-          "program": "Locatia Evenimentului numarului#3",
-          "description": "Descrierea  Evenimentului numarului#3"
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Evenimentul numarul #3",
-          "location": "Locatia Evenimentului numarului#3",
-          "program": "Locatia Evenimentului numarului#3",
-          "description": "Descrierea  Evenimentului numarului#3"
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Evenimentul numarul #4",
-          "location": "Locatia Evenimentului numarului#4",
-          "program": "Locatia Evenimentului numarului#4",
-          "description": "Descrierea  Evenimentului numarului#4"
+          "name": "Event with number #4",
+          "location": "Location of event with number #4",
+          "program": "Program of event with number #4",
+          "description": "Description of event with number #4"
         },
         {
-          "name": "Evenimentul numarul #5",
-          "location": "Locatia Evenimentului numarului#5",
-          "program": "Locatia Evenimentului numarului#5",
-          "description": "Descrierea  Evenimentului numarului#5"
+          "name": "Event with number #5",
+          "location": "Location of event with number #5",
+          "program": "Program of event with number #5",
+          "description": "Description of event with number #5"
         },
         {
-          "name": "Evenimentul numarul #6",
-          "location": "Locatia Evenimentului numarului#6",
-          "program": "Locatia Evenimentului numarului#6",
-          "description": "Descrierea  Evenimentului numarului#6"
+          "name": "Event with number #6",
+          "location": "Location of event with number #6",
+          "program": "Program of event with number #6",
+          "description": "Description of event with number #6"
         },
         {
-          "name": "Evenimentul numarul #7",
-          "location": "Locatia Evenimentului numarului#7",
-          "program": "Locatia Evenimentului numarului#7",
-          "description": "Descrierea  Evenimentului numarului#7"
+          "name": "Event with number #7",
+          "location": "Location of event with number #7",
+          "program": "Program of event with number #7",
+          "description": "Description of event with number #7"
         }
       ],
       "objectives": [
         {
-          "name": "Obiectivul numarul #1",
-          "location": "Locatia Obiectivului numarului#1",
-          "program": "Locatia Obiectivului numarului#1",
-          "description": "Descrierea  Obiectivului numarului#1"
+          "name": "Objective with number #1",
+          "location": "Location of objective with number #1",
+          "program": "Program of objective with number #1",
+          "description": "Description of event with number #1"
         },
         {
-          "name": "Obiectivul numarul #2",
-          "location": "Locatia Obiectivului numarului#2",
-          "program": "Locatia Obiectivului numarului#2",
-          "description": "Descrierea  Obiectivului numarului#2"
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Obiectivul numarul #2",
-          "location": "Locatia Obiectivului numarului#2",
-          "program": "Locatia Obiectivului numarului#2",
-          "description": "Descrierea  Obiectivului numarului#2"
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Obiectivul numarul #3",
-          "location": "Locatia Obiectivului numarului#3",
-          "program": "Locatia Obiectivului numarului#3",
-          "description": "Descrierea  Obiectivului numarului#3"
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Obiectivul numarul #3",
-          "location": "Locatia Obiectivului numarului#3",
-          "program": "Locatia Obiectivului numarului#3",
-          "description": "Descrierea  Obiectivului numarului#3"
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Obiectivul numarul #3",
-          "location": "Locatia Obiectivului numarului#3",
-          "program": "Locatia Obiectivului numarului#3",
-          "description": "Descrierea  Obiectivului numarului#3"
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Obiectivul numarul #4",
-          "location": "Locatia Obiectivului numarului#4",
-          "program": "Locatia Obiectivului numarului#4",
-          "description": "Descrierea  Obiectivului numarului#4"
+          "name": "Objective with number #4",
+          "location": "Location of objective with number #4",
+          "program": "Program of objective with number #4",
+          "description": "Description of event with number #4"
         },
         {
-          "name": "Obiectivul numarul #5",
-          "location": "Locatia Obiectivului numarului#5",
-          "program": "Locatia Obiectivului numarului#5",
-          "description": "Descrierea  Obiectivului numarului#5"
+          "name": "Objective with number #5",
+          "location": "Location of objective with number #5",
+          "program": "Program of objective with number #5",
+          "description": "Description of event with number #5"
         },
         {
-          "name": "Obiectivul numarul #6",
-          "location": "Locatia Obiectivului numarului#6",
-          "program": "Locatia Obiectivului numarului#6",
-          "description": "Descrierea  Obiectivului numarului#6"
+          "name": "Objective with number #6",
+          "location": "Location of objective with number #6",
+          "program": "Program of objective with number #6",
+          "description": "Description of event with number #6"
         },
         {
-          "name": "Obiectivul numarul #7",
-          "location": "Locatia Obiectivului numarului#7",
-          "program": "Locatia Obiectivului numarului#7",
-          "description": "Descrierea  Obiectivului numarului#7"
+          "name": "Objective with number #7",
+          "location": "Location of objective with number #7",
+          "program": "Program of objective with number #7",
+          "description": "Description of event with number #7"
         }
       ],
       "trails": [
         {
-          "name": "Traseul numarul #",
-          "location": "Locatia Traseului numarului#",
-          "program": "Locatia Traseului numarului#",
-          "description": "Descrierea  Traseului numarului#"
+          "name": "Trail with number #",
+          "location": "Loaction of Trail with numbe #",
+          "program": "Porgram of Trail with numbe #",
+          "description": "Description of Trail with numbe #"
         },
         {
-          "name": "Traseul numarul #2",
-          "location": "Locatia Traseului numarului#2",
-          "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2"
         },
         {
-          "name": "Traseul numarul #2",
-          "location": "Locatia Traseului numarului#2",
-          "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2"
         },
         {
-          "name": "Traseul numarul #3",
-          "location": "Locatia Traseului numarului#3",
-          "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3"
         },
         {
-          "name": "Traseul numarul #3",
-          "location": "Locatia Traseului numarului#3",
-          "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3"
         },
         {
-          "name": "Traseul numarul #3",
-          "location": "Locatia Traseului numarului#3",
-          "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3"
         },
         {
-          "name": "Traseul numarul #4",
-          "location": "Locatia Traseului numarului#4",
-          "program": "Locatia Traseului numarului#4",
-          "description": "Descrierea  Traseului numarului#4"
+          "name": "Trail with number #4",
+          "location": "Loaction of Trail with numbe #4",
+          "program": "Porgram of Trail with numbe #4",
+          "description": "Description of Trail with numbe #4"
         },
         {
-          "name": "Traseul numarul #5",
-          "location": "Locatia Traseului numarului#5",
-          "program": "Locatia Traseului numarului#5",
-          "description": "Descrierea  Traseului numarului#5"
+          "name": "Trail with number #5",
+          "location": "Loaction of Trail with numbe #5",
+          "program": "Porgram of Trail with numbe #5",
+          "description": "Description of Trail with numbe #5"
         },
         {
-          "name": "Traseul numarul #6",
-          "location": "Locatia Traseului numarului#6",
-          "program": "Locatia Traseului numarului#6",
-          "description": "Descrierea  Traseului numarului#6"
+          "name": "Trail with number #6",
+          "location": "Loaction of Trail with numbe #6",
+          "program": "Porgram of Trail with numbe #6",
+          "description": "Description of Trail with numbe #6"
         },
         {
-          "name": "Traseul numarul #7",
-          "location": "Locatia Traseului numarului#7",
-          "program": "Locatia Traseului numarului#7",
-          "description": "Descrierea  Traseului numarului#7"
+          "name": "Trail with number #7",
+          "location": "Loaction of Trail with numbe #7",
+          "program": "Porgram of Trail with numbe #7",
+          "description": "Description of Trail with numbe #7"
         }
       ],
       "utils": [
         {
-          "type": "farmacie",
-          "location": ""
+          "name": "Name drugStore",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "drugStore",
+          "image": "assets/gals/drugstore.png"
         },
         {
-          "type": "benzinarie",
-          "location": ""
+          "name": "Name gasStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "gasStation",
+          "image": "assets/gals/gas.png"
         },
         {
-          "type": "spital",
-          "location": ""
+          "name": "Name hospital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hospital",
+          "image": "assets/gals/hospital.png"
         },
         {
+          "name": "Name hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
           "type": "hotel",
-          "location": ""
+          "image": "assets/gals/hotel.png"
         },
         {
-          "type": "primarie",
-          "location": ""
+          "name": "Name cityHall",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "cityHall",
+          "image": "assets/gals/hall.png"
         },
         {
-          "type": "politie",
-          "location": ""
+          "name": "Name policeStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "policeStation",
+          "image": "assets/gals/police.png"
         },
         {
+          "name": "Name restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
           "type": "restaurant",
-          "location": ""
+          "image": "assets/gals/restaurant.png"
         },
         {
+          "name": "Name service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
           "type": "service",
-          "location": ""
+          "image": "assets/gals/service.png"
         }
       ]
     },
     {
       "name": "Rediu-prajeni",
+      "description": "Description of Rediu-Prajeni",
+      "imgSrc": "assets/gals/rediu.png",
       "events": [
         {
-          "name": "Evenimentul numarul #1",
-          "location": "Locatia Evenimentului numarului#1",
-          "program": "Locatia Evenimentului numarului#1",
-          "description": "Descrierea  Evenimentului numarului#1"
+          "name": "Event with number #1",
+          "location": "Location of event with number #1",
+          "program": "Program of event with number #1",
+          "description": "Description of event with number #1"
         },
         {
-          "name": "Evenimentul numarul #2",
-          "location": "Locatia Evenimentului numarului#2",
-          "program": "Locatia Evenimentului numarului#2",
-          "description": "Descrierea  Evenimentului numarului#2"
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Evenimentul numarul #2",
-          "location": "Locatia Evenimentului numarului#2",
-          "program": "Locatia Evenimentului numarului#2",
-          "description": "Descrierea  Evenimentului numarului#2"
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Evenimentul numarul #3",
-          "location": "Locatia Evenimentului numarului#3",
-          "program": "Locatia Evenimentului numarului#3",
-          "description": "Descrierea  Evenimentului numarului#3"
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Evenimentul numarul #3",
-          "location": "Locatia Evenimentului numarului#3",
-          "program": "Locatia Evenimentului numarului#3",
-          "description": "Descrierea  Evenimentului numarului#3"
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Evenimentul numarul #3",
-          "location": "Locatia Evenimentului numarului#3",
-          "program": "Locatia Evenimentului numarului#3",
-          "description": "Descrierea  Evenimentului numarului#3"
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Evenimentul numarul #4",
-          "location": "Locatia Evenimentului numarului#4",
-          "program": "Locatia Evenimentului numarului#4",
-          "description": "Descrierea  Evenimentului numarului#4"
+          "name": "Event with number #4",
+          "location": "Location of event with number #4",
+          "program": "Program of event with number #4",
+          "description": "Description of event with number #4"
         },
         {
-          "name": "Evenimentul numarul #5",
-          "location": "Locatia Evenimentului numarului#5",
-          "program": "Locatia Evenimentului numarului#5",
-          "description": "Descrierea  Evenimentului numarului#5"
+          "name": "Event with number #5",
+          "location": "Location of event with number #5",
+          "program": "Program of event with number #5",
+          "description": "Description of event with number #5"
         },
         {
-          "name": "Evenimentul numarul #6",
-          "location": "Locatia Evenimentului numarului#6",
-          "program": "Locatia Evenimentului numarului#6",
-          "description": "Descrierea  Evenimentului numarului#6"
+          "name": "Event with number #6",
+          "location": "Location of event with number #6",
+          "program": "Program of event with number #6",
+          "description": "Description of event with number #6"
         },
         {
-          "name": "Evenimentul numarul #7",
-          "location": "Locatia Evenimentului numarului#7",
-          "program": "Locatia Evenimentului numarului#7",
-          "description": "Descrierea  Evenimentului numarului#7"
+          "name": "Event with number #7",
+          "location": "Location of event with number #7",
+          "program": "Program of event with number #7",
+          "description": "Description of event with number #7"
         }
       ],
       "objectives": [
         {
-          "name": "Obiectivul numarul #1",
-          "location": "Locatia Obiectivului numarului#1",
-          "program": "Locatia Obiectivului numarului#1",
-          "description": "Descrierea  Obiectivului numarului#1"
+          "name": "Objective with number #1",
+          "location": "Location of objective with number #1",
+          "program": "Program of objective with number #1",
+          "description": "Description of event with number #1"
         },
         {
-          "name": "Obiectivul numarul #2",
-          "location": "Locatia Obiectivului numarului#2",
-          "program": "Locatia Obiectivului numarului#2",
-          "description": "Descrierea  Obiectivului numarului#2"
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Obiectivul numarul #2",
-          "location": "Locatia Obiectivului numarului#2",
-          "program": "Locatia Obiectivului numarului#2",
-          "description": "Descrierea  Obiectivului numarului#2"
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Obiectivul numarul #3",
-          "location": "Locatia Obiectivului numarului#3",
-          "program": "Locatia Obiectivului numarului#3",
-          "description": "Descrierea  Obiectivului numarului#3"
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Obiectivul numarul #3",
-          "location": "Locatia Obiectivului numarului#3",
-          "program": "Locatia Obiectivului numarului#3",
-          "description": "Descrierea  Obiectivului numarului#3"
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Obiectivul numarul #3",
-          "location": "Locatia Obiectivului numarului#3",
-          "program": "Locatia Obiectivului numarului#3",
-          "description": "Descrierea  Obiectivului numarului#3"
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Obiectivul numarul #4",
-          "location": "Locatia Obiectivului numarului#4",
-          "program": "Locatia Obiectivului numarului#4",
-          "description": "Descrierea  Obiectivului numarului#4"
+          "name": "Objective with number #4",
+          "location": "Location of objective with number #4",
+          "program": "Program of objective with number #4",
+          "description": "Description of event with number #4"
         },
         {
-          "name": "Obiectivul numarul #5",
-          "location": "Locatia Obiectivului numarului#5",
-          "program": "Locatia Obiectivului numarului#5",
-          "description": "Descrierea  Obiectivului numarului#5"
+          "name": "Objective with number #5",
+          "location": "Location of objective with number #5",
+          "program": "Program of objective with number #5",
+          "description": "Description of event with number #5"
         },
         {
-          "name": "Obiectivul numarul #6",
-          "location": "Locatia Obiectivului numarului#6",
-          "program": "Locatia Obiectivului numarului#6",
-          "description": "Descrierea  Obiectivului numarului#6"
+          "name": "Objective with number #6",
+          "location": "Location of objective with number #6",
+          "program": "Program of objective with number #6",
+          "description": "Description of event with number #6"
         },
         {
-          "name": "Obiectivul numarul #7",
-          "location": "Locatia Obiectivului numarului#7",
-          "program": "Locatia Obiectivului numarului#7",
-          "description": "Descrierea  Obiectivului numarului#7"
+          "name": "Objective with number #7",
+          "location": "Location of objective with number #7",
+          "program": "Program of objective with number #7",
+          "description": "Description of event with number #7"
         }
       ],
       "trails": [
         {
-          "name": "Traseul numarul #",
-          "location": "Locatia Traseului numarului#",
-          "program": "Locatia Traseului numarului#",
-          "description": "Descrierea  Traseului numarului#"
+          "name": "Trail with number #",
+          "location": "Loaction of Trail with numbe #",
+          "program": "Porgram of Trail with numbe #",
+          "description": "Description of Trail with numbe #"
         },
         {
-          "name": "Traseul numarul #2",
-          "location": "Locatia Traseului numarului#2",
-          "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2"
         },
         {
-          "name": "Traseul numarul #2",
-          "location": "Locatia Traseului numarului#2",
-          "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2"
         },
         {
-          "name": "Traseul numarul #3",
-          "location": "Locatia Traseului numarului#3",
-          "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3"
         },
         {
-          "name": "Traseul numarul #3",
-          "location": "Locatia Traseului numarului#3",
-          "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3"
         },
         {
-          "name": "Traseul numarul #3",
-          "location": "Locatia Traseului numarului#3",
-          "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3"
         },
         {
-          "name": "Traseul numarul #4",
-          "location": "Locatia Traseului numarului#4",
-          "program": "Locatia Traseului numarului#4",
-          "description": "Descrierea  Traseului numarului#4"
+          "name": "Trail with number #4",
+          "location": "Loaction of Trail with numbe #4",
+          "program": "Porgram of Trail with numbe #4",
+          "description": "Description of Trail with numbe #4"
         },
         {
-          "name": "Traseul numarul #5",
-          "location": "Locatia Traseului numarului#5",
-          "program": "Locatia Traseului numarului#5",
-          "description": "Descrierea  Traseului numarului#5"
+          "name": "Trail with number #5",
+          "location": "Loaction of Trail with numbe #5",
+          "program": "Porgram of Trail with numbe #5",
+          "description": "Description of Trail with numbe #5"
         },
         {
-          "name": "Traseul numarul #6",
-          "location": "Locatia Traseului numarului#6",
-          "program": "Locatia Traseului numarului#6",
-          "description": "Descrierea  Traseului numarului#6"
+          "name": "Trail with number #6",
+          "location": "Loaction of Trail with numbe #6",
+          "program": "Porgram of Trail with numbe #6",
+          "description": "Description of Trail with numbe #6"
         },
         {
-          "name": "Traseul numarul #7",
-          "location": "Locatia Traseului numarului#7",
-          "program": "Locatia Traseului numarului#7",
-          "description": "Descrierea  Traseului numarului#7"
+          "name": "Trail with number #7",
+          "location": "Loaction of Trail with numbe #7",
+          "program": "Porgram of Trail with numbe #7",
+          "description": "Description of Trail with numbe #7"
         }
       ],
       "utils": [
         {
-          "type": "farmacie",
-          "location": ""
+          "name": "Name drugStore",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "drugStore",
+          "image": "assets/gals/drugstore.png"
         },
         {
-          "type": "benzinarie",
-          "location": ""
+          "name": "Name gasStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "gasStation",
+          "image": "assets/gals/gas.png"
         },
         {
-          "type": "spital",
-          "location": ""
+          "name": "Name hospital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hospital",
+          "image": "assets/gals/hospital.png"
         },
         {
+          "name": "Name hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
           "type": "hotel",
-          "location": ""
+          "image": "assets/gals/hotel.png"
         },
         {
-          "type": "primarie",
-          "location": ""
+          "name": "Name cityHall",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "cityHall",
+          "image": "assets/gals/hall.png"
         },
         {
-          "type": "politie",
-          "location": ""
+          "name": "Name policeStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "policeStation",
+          "image": "assets/gals/police.png"
         },
         {
+          "name": "Name restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
           "type": "restaurant",
-          "location": ""
+          "image": "assets/gals/restaurant.png"
         },
         {
+          "name": "Name service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
           "type": "service",
-          "location": ""
+          "image": "assets/gals/service.png"
         }
       ]
     },
     {
       "name": "Siret-Moldova",
+      "description": "Description of Siret Moldova",
+      "imgSrc": "assets/gals/siret.png",
       "events": [
         {
-          "name": "Evenimentul numarul #1",
-          "location": "Locatia Evenimentului numarului#1",
-          "program": "Locatia Evenimentului numarului#1",
-          "description": "Descrierea  Evenimentului numarului#1"
+          "name": "Event with number #1",
+          "location": "Location of event with number #1",
+          "program": "Program of event with number #1",
+          "description": "Description of event with number #1"
         },
         {
-          "name": "Evenimentul numarul #2",
-          "location": "Locatia Evenimentului numarului#2",
-          "program": "Locatia Evenimentului numarului#2",
-          "description": "Descrierea  Evenimentului numarului#2"
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Evenimentul numarul #2",
-          "location": "Locatia Evenimentului numarului#2",
-          "program": "Locatia Evenimentului numarului#2",
-          "description": "Descrierea  Evenimentului numarului#2"
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Evenimentul numarul #3",
-          "location": "Locatia Evenimentului numarului#3",
-          "program": "Locatia Evenimentului numarului#3",
-          "description": "Descrierea  Evenimentului numarului#3"
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Evenimentul numarul #3",
-          "location": "Locatia Evenimentului numarului#3",
-          "program": "Locatia Evenimentului numarului#3",
-          "description": "Descrierea  Evenimentului numarului#3"
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Evenimentul numarul #3",
-          "location": "Locatia Evenimentului numarului#3",
-          "program": "Locatia Evenimentului numarului#3",
-          "description": "Descrierea  Evenimentului numarului#3"
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Evenimentul numarul #4",
-          "location": "Locatia Evenimentului numarului#4",
-          "program": "Locatia Evenimentului numarului#4",
-          "description": "Descrierea  Evenimentului numarului#4"
+          "name": "Event with number #4",
+          "location": "Location of event with number #4",
+          "program": "Program of event with number #4",
+          "description": "Description of event with number #4"
         },
         {
-          "name": "Evenimentul numarul #5",
-          "location": "Locatia Evenimentului numarului#5",
-          "program": "Locatia Evenimentului numarului#5",
-          "description": "Descrierea  Evenimentului numarului#5"
+          "name": "Event with number #5",
+          "location": "Location of event with number #5",
+          "program": "Program of event with number #5",
+          "description": "Description of event with number #5"
         },
         {
-          "name": "Evenimentul numarul #6",
-          "location": "Locatia Evenimentului numarului#6",
-          "program": "Locatia Evenimentului numarului#6",
-          "description": "Descrierea  Evenimentului numarului#6"
+          "name": "Event with number #6",
+          "location": "Location of event with number #6",
+          "program": "Program of event with number #6",
+          "description": "Description of event with number #6"
         },
         {
-          "name": "Evenimentul numarul #7",
-          "location": "Locatia Evenimentului numarului#7",
-          "program": "Locatia Evenimentului numarului#7",
-          "description": "Descrierea  Evenimentului numarului#7"
+          "name": "Event with number #7",
+          "location": "Location of event with number #7",
+          "program": "Program of event with number #7",
+          "description": "Description of event with number #7"
         }
       ],
       "objectives": [
         {
-          "name": "Obiectivul numarul #1",
-          "location": "Locatia Obiectivului numarului#1",
-          "program": "Locatia Obiectivului numarului#1",
-          "description": "Descrierea  Obiectivului numarului#1"
+          "name": "Objective with number #1",
+          "location": "Location of objective with number #1",
+          "program": "Program of objective with number #1",
+          "description": "Description of event with number #1"
         },
         {
-          "name": "Obiectivul numarul #2",
-          "location": "Locatia Obiectivului numarului#2",
-          "program": "Locatia Obiectivului numarului#2",
-          "description": "Descrierea  Obiectivului numarului#2"
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Obiectivul numarul #2",
-          "location": "Locatia Obiectivului numarului#2",
-          "program": "Locatia Obiectivului numarului#2",
-          "description": "Descrierea  Obiectivului numarului#2"
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Obiectivul numarul #3",
-          "location": "Locatia Obiectivului numarului#3",
-          "program": "Locatia Obiectivului numarului#3",
-          "description": "Descrierea  Obiectivului numarului#3"
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Obiectivul numarul #3",
-          "location": "Locatia Obiectivului numarului#3",
-          "program": "Locatia Obiectivului numarului#3",
-          "description": "Descrierea  Obiectivului numarului#3"
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Obiectivul numarul #3",
-          "location": "Locatia Obiectivului numarului#3",
-          "program": "Locatia Obiectivului numarului#3",
-          "description": "Descrierea  Obiectivului numarului#3"
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Obiectivul numarul #4",
-          "location": "Locatia Obiectivului numarului#4",
-          "program": "Locatia Obiectivului numarului#4",
-          "description": "Descrierea  Obiectivului numarului#4"
+          "name": "Objective with number #4",
+          "location": "Location of objective with number #4",
+          "program": "Program of objective with number #4",
+          "description": "Description of event with number #4"
         },
         {
-          "name": "Obiectivul numarul #5",
-          "location": "Locatia Obiectivului numarului#5",
-          "program": "Locatia Obiectivului numarului#5",
-          "description": "Descrierea  Obiectivului numarului#5"
+          "name": "Objective with number #5",
+          "location": "Location of objective with number #5",
+          "program": "Program of objective with number #5",
+          "description": "Description of event with number #5"
         },
         {
-          "name": "Obiectivul numarul #6",
-          "location": "Locatia Obiectivului numarului#6",
-          "program": "Locatia Obiectivului numarului#6",
-          "description": "Descrierea  Obiectivului numarului#6"
+          "name": "Objective with number #6",
+          "location": "Location of objective with number #6",
+          "program": "Program of objective with number #6",
+          "description": "Description of event with number #6"
         },
         {
-          "name": "Obiectivul numarul #7",
-          "location": "Locatia Obiectivului numarului#7",
-          "program": "Locatia Obiectivului numarului#7",
-          "description": "Descrierea  Obiectivului numarului#7"
+          "name": "Objective with number #7",
+          "location": "Location of objective with number #7",
+          "program": "Program of objective with number #7",
+          "description": "Description of event with number #7"
         }
       ],
       "trails": [
         {
-          "name": "Traseul numarul #",
-          "location": "Locatia Traseului numarului#",
-          "program": "Locatia Traseului numarului#",
-          "description": "Descrierea  Traseului numarului#"
+          "name": "Trail with number #",
+          "location": "Loaction of Trail with numbe #",
+          "program": "Porgram of Trail with numbe #",
+          "description": "Description of Trail with numbe #"
         },
         {
-          "name": "Traseul numarul #2",
-          "location": "Locatia Traseului numarului#2",
-          "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2"
         },
         {
-          "name": "Traseul numarul #2",
-          "location": "Locatia Traseului numarului#2",
-          "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2"
         },
         {
-          "name": "Traseul numarul #3",
-          "location": "Locatia Traseului numarului#3",
-          "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3"
         },
         {
-          "name": "Traseul numarul #3",
-          "location": "Locatia Traseului numarului#3",
-          "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3"
         },
         {
-          "name": "Traseul numarul #3",
-          "location": "Locatia Traseului numarului#3",
-          "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3"
         },
         {
-          "name": "Traseul numarul #4",
-          "location": "Locatia Traseului numarului#4",
-          "program": "Locatia Traseului numarului#4",
-          "description": "Descrierea  Traseului numarului#4"
+          "name": "Trail with number #4",
+          "location": "Loaction of Trail with numbe #4",
+          "program": "Porgram of Trail with numbe #4",
+          "description": "Description of Trail with numbe #4"
         },
         {
-          "name": "Traseul numarul #5",
-          "location": "Locatia Traseului numarului#5",
-          "program": "Locatia Traseului numarului#5",
-          "description": "Descrierea  Traseului numarului#5"
+          "name": "Trail with number #5",
+          "location": "Loaction of Trail with numbe #5",
+          "program": "Porgram of Trail with numbe #5",
+          "description": "Description of Trail with numbe #5"
         },
         {
-          "name": "Traseul numarul #6",
-          "location": "Locatia Traseului numarului#6",
-          "program": "Locatia Traseului numarului#6",
-          "description": "Descrierea  Traseului numarului#6"
+          "name": "Trail with number #6",
+          "location": "Loaction of Trail with numbe #6",
+          "program": "Porgram of Trail with numbe #6",
+          "description": "Description of Trail with numbe #6"
         },
         {
-          "name": "Traseul numarul #7",
-          "location": "Locatia Traseului numarului#7",
-          "program": "Locatia Traseului numarului#7",
-          "description": "Descrierea  Traseului numarului#7"
+          "name": "Trail with number #7",
+          "location": "Loaction of Trail with numbe #7",
+          "program": "Porgram of Trail with numbe #7",
+          "description": "Description of Trail with numbe #7"
         }
       ],
       "utils": [
         {
-          "type": "farmacie",
-          "location": ""
+          "name": "Name drugStore",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "drugStore",
+          "image": "assets/gals/drugstore.png"
         },
         {
-          "type": "benzinarie",
-          "location": ""
+          "name": "Name gasStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "gasStation",
+          "image": "assets/gals/gas.png"
         },
         {
-          "type": "spital",
-          "location": ""
+          "name": "Name hospital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hospital",
+          "image": "assets/gals/hospital.png"
         },
         {
+          "name": "Name hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
           "type": "hotel",
-          "location": ""
+          "image": "assets/gals/hotel.png"
         },
         {
-          "type": "primarie",
-          "location": ""
+          "name": "Name cityHall",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "cityHall",
+          "image": "assets/gals/hall.png"
         },
         {
-          "type": "politie",
-          "location": ""
+          "name": "Name policeStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "policeStation",
+          "image": "assets/gals/police.png"
         },
         {
+          "name": "Name restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
           "type": "restaurant",
-          "location": ""
+          "image": "assets/gals/restaurant.png"
         },
         {
+          "name": "Name service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
           "type": "service",
-          "location": ""
+          "image": "assets/gals/service.png"
         }
       ]
     },
     {
       "name": "Stefan cel Mare",
+      "description": "Description of Stefan cel Mare",
+      "imgSrc": "assets/gals/stefan.png",
       "events": [
         {
-          "name": "Evenimentul numarul #1",
-          "location": "Locatia Evenimentului numarului#1",
-          "program": "Locatia Evenimentului numarului#1",
-          "description": "Descrierea  Evenimentului numarului#1"
+          "name": "Event with number #1",
+          "location": "Location of event with number #1",
+          "program": "Program of event with number #1",
+          "description": "Description of event with number #1"
         },
         {
-          "name": "Evenimentul numarul #2",
-          "location": "Locatia Evenimentului numarului#2",
-          "program": "Locatia Evenimentului numarului#2",
-          "description": "Descrierea  Evenimentului numarului#2"
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Evenimentul numarul #2",
-          "location": "Locatia Evenimentului numarului#2",
-          "program": "Locatia Evenimentului numarului#2",
-          "description": "Descrierea  Evenimentului numarului#2"
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Evenimentul numarul #3",
-          "location": "Locatia Evenimentului numarului#3",
-          "program": "Locatia Evenimentului numarului#3",
-          "description": "Descrierea  Evenimentului numarului#3"
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Evenimentul numarul #3",
-          "location": "Locatia Evenimentului numarului#3",
-          "program": "Locatia Evenimentului numarului#3",
-          "description": "Descrierea  Evenimentului numarului#3"
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Evenimentul numarul #3",
-          "location": "Locatia Evenimentului numarului#3",
-          "program": "Locatia Evenimentului numarului#3",
-          "description": "Descrierea  Evenimentului numarului#3"
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Evenimentul numarul #4",
-          "location": "Locatia Evenimentului numarului#4",
-          "program": "Locatia Evenimentului numarului#4",
-          "description": "Descrierea  Evenimentului numarului#4"
+          "name": "Event with number #4",
+          "location": "Location of event with number #4",
+          "program": "Program of event with number #4",
+          "description": "Description of event with number #4"
         },
         {
-          "name": "Evenimentul numarul #5",
-          "location": "Locatia Evenimentului numarului#5",
-          "program": "Locatia Evenimentului numarului#5",
-          "description": "Descrierea  Evenimentului numarului#5"
+          "name": "Event with number #5",
+          "location": "Location of event with number #5",
+          "program": "Program of event with number #5",
+          "description": "Description of event with number #5"
         },
         {
-          "name": "Evenimentul numarul #6",
-          "location": "Locatia Evenimentului numarului#6",
-          "program": "Locatia Evenimentului numarului#6",
-          "description": "Descrierea  Evenimentului numarului#6"
+          "name": "Event with number #6",
+          "location": "Location of event with number #6",
+          "program": "Program of event with number #6",
+          "description": "Description of event with number #6"
         },
         {
-          "name": "Evenimentul numarul #7",
-          "location": "Locatia Evenimentului numarului#7",
-          "program": "Locatia Evenimentului numarului#7",
-          "description": "Descrierea  Evenimentului numarului#7"
+          "name": "Event with number #7",
+          "location": "Location of event with number #7",
+          "program": "Program of event with number #7",
+          "description": "Description of event with number #7"
         }
       ],
       "objectives": [
         {
-          "name": "Obiectivul numarul #1",
-          "location": "Locatia Obiectivului numarului#1",
-          "program": "Locatia Obiectivului numarului#1",
-          "description": "Descrierea  Obiectivului numarului#1"
+          "name": "Objective with number #1",
+          "location": "Location of objective with number #1",
+          "program": "Program of objective with number #1",
+          "description": "Description of event with number #1"
         },
         {
-          "name": "Obiectivul numarul #2",
-          "location": "Locatia Obiectivului numarului#2",
-          "program": "Locatia Obiectivului numarului#2",
-          "description": "Descrierea  Obiectivului numarului#2"
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Obiectivul numarul #2",
-          "location": "Locatia Obiectivului numarului#2",
-          "program": "Locatia Obiectivului numarului#2",
-          "description": "Descrierea  Obiectivului numarului#2"
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Obiectivul numarul #3",
-          "location": "Locatia Obiectivului numarului#3",
-          "program": "Locatia Obiectivului numarului#3",
-          "description": "Descrierea  Obiectivului numarului#3"
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Obiectivul numarul #3",
-          "location": "Locatia Obiectivului numarului#3",
-          "program": "Locatia Obiectivului numarului#3",
-          "description": "Descrierea  Obiectivului numarului#3"
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Obiectivul numarul #3",
-          "location": "Locatia Obiectivului numarului#3",
-          "program": "Locatia Obiectivului numarului#3",
-          "description": "Descrierea  Obiectivului numarului#3"
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Obiectivul numarul #4",
-          "location": "Locatia Obiectivului numarului#4",
-          "program": "Locatia Obiectivului numarului#4",
-          "description": "Descrierea  Obiectivului numarului#4"
+          "name": "Objective with number #4",
+          "location": "Location of objective with number #4",
+          "program": "Program of objective with number #4",
+          "description": "Description of event with number #4"
         },
         {
-          "name": "Obiectivul numarul #5",
-          "location": "Locatia Obiectivului numarului#5",
-          "program": "Locatia Obiectivului numarului#5",
-          "description": "Descrierea  Obiectivului numarului#5"
+          "name": "Objective with number #5",
+          "location": "Location of objective with number #5",
+          "program": "Program of objective with number #5",
+          "description": "Description of event with number #5"
         },
         {
-          "name": "Obiectivul numarul #6",
-          "location": "Locatia Obiectivului numarului#6",
-          "program": "Locatia Obiectivului numarului#6",
-          "description": "Descrierea  Obiectivului numarului#6"
+          "name": "Objective with number #6",
+          "location": "Location of objective with number #6",
+          "program": "Program of objective with number #6",
+          "description": "Description of event with number #6"
         },
         {
-          "name": "Obiectivul numarul #7",
-          "location": "Locatia Obiectivului numarului#7",
-          "program": "Locatia Obiectivului numarului#7",
-          "description": "Descrierea  Obiectivului numarului#7"
+          "name": "Objective with number #7",
+          "location": "Location of objective with number #7",
+          "program": "Program of objective with number #7",
+          "description": "Description of event with number #7"
         }
       ],
       "trails": [
         {
-          "name": "Traseul numarul #",
-          "location": "Locatia Traseului numarului#",
-          "program": "Locatia Traseului numarului#",
-          "description": "Descrierea  Traseului numarului#"
+          "name": "Trail with number #",
+          "location": "Loaction of Trail with numbe #",
+          "program": "Porgram of Trail with numbe #",
+          "description": "Description of Trail with numbe #"
         },
         {
-          "name": "Traseul numarul #2",
-          "location": "Locatia Traseului numarului#2",
-          "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2"
         },
         {
-          "name": "Traseul numarul #2",
-          "location": "Locatia Traseului numarului#2",
-          "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2"
         },
         {
-          "name": "Traseul numarul #3",
-          "location": "Locatia Traseului numarului#3",
-          "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3"
         },
         {
-          "name": "Traseul numarul #3",
-          "location": "Locatia Traseului numarului#3",
-          "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3"
         },
         {
-          "name": "Traseul numarul #3",
-          "location": "Locatia Traseului numarului#3",
-          "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3"
         },
         {
-          "name": "Traseul numarul #4",
-          "location": "Locatia Traseului numarului#4",
-          "program": "Locatia Traseului numarului#4",
-          "description": "Descrierea  Traseului numarului#4"
+          "name": "Trail with number #4",
+          "location": "Loaction of Trail with numbe #4",
+          "program": "Porgram of Trail with numbe #4",
+          "description": "Description of Trail with numbe #4"
         },
         {
-          "name": "Traseul numarul #5",
-          "location": "Locatia Traseului numarului#5",
-          "program": "Locatia Traseului numarului#5",
-          "description": "Descrierea  Traseului numarului#5"
+          "name": "Trail with number #5",
+          "location": "Loaction of Trail with numbe #5",
+          "program": "Porgram of Trail with numbe #5",
+          "description": "Description of Trail with numbe #5"
         },
         {
-          "name": "Traseul numarul #6",
-          "location": "Locatia Traseului numarului#6",
-          "program": "Locatia Traseului numarului#6",
-          "description": "Descrierea  Traseului numarului#6"
+          "name": "Trail with number #6",
+          "location": "Loaction of Trail with numbe #6",
+          "program": "Porgram of Trail with numbe #6",
+          "description": "Description of Trail with numbe #6"
         },
         {
-          "name": "Traseul numarul #7",
-          "location": "Locatia Traseului numarului#7",
-          "program": "Locatia Traseului numarului#7",
-          "description": "Descrierea  Traseului numarului#7"
+          "name": "Trail with number #7",
+          "location": "Loaction of Trail with numbe #7",
+          "program": "Porgram of Trail with numbe #7",
+          "description": "Description of Trail with numbe #7"
         }
       ],
       "utils": [
         {
-          "type": "farmacie",
-          "location": ""
+          "name": "Name drugStore",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "drugStore",
+          "image": "assets/gals/drugstore.png"
         },
         {
-          "type": "benzinarie",
-          "location": ""
+          "name": "Name gasStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "gasStation",
+          "image": "assets/gals/gas.png"
         },
         {
-          "type": "spital",
-          "location": ""
+          "name": "Name hospital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hospital",
+          "image": "assets/gals/hospital.png"
         },
         {
+          "name": "Name hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
           "type": "hotel",
-          "location": ""
+          "image": "assets/gals/hotel.png"
         },
         {
-          "type": "primarie",
-          "location": ""
+          "name": "Name cityHall",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "cityHall",
+          "image": "assets/gals/hall.png"
         },
         {
-          "type": "politie",
-          "location": ""
+          "name": "Name policeStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "policeStation",
+          "image": "assets/gals/police.png"
         },
         {
+          "name": "Name restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
           "type": "restaurant",
-          "location": ""
+          "image": "assets/gals/restaurant.png"
         },
         {
+          "name": "Name service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
           "type": "service",
-          "location": ""
+          "image": "assets/gals/service.png"
         }
       ]
     },
     {
       "name": "Stejarii-Argintii",
+      "description": "Description of Stejarii-Argintii",
+      "imgSrc": "assets/gals/stejari.png",
       "events": [
         {
-          "name": "Evenimentul numarul #1",
-          "location": "Locatia Evenimentului numarului#1",
-          "program": "Locatia Evenimentului numarului#1",
-          "description": "Descrierea  Evenimentului numarului#1"
+          "name": "Event with number #1",
+          "location": "Location of event with number #1",
+          "program": "Program of event with number #1",
+          "description": "Description of event with number #1"
         },
         {
-          "name": "Evenimentul numarul #2",
-          "location": "Locatia Evenimentului numarului#2",
-          "program": "Locatia Evenimentului numarului#2",
-          "description": "Descrierea  Evenimentului numarului#2"
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Evenimentul numarul #2",
-          "location": "Locatia Evenimentului numarului#2",
-          "program": "Locatia Evenimentului numarului#2",
-          "description": "Descrierea  Evenimentului numarului#2"
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Evenimentul numarul #3",
-          "location": "Locatia Evenimentului numarului#3",
-          "program": "Locatia Evenimentului numarului#3",
-          "description": "Descrierea  Evenimentului numarului#3"
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Evenimentul numarul #3",
-          "location": "Locatia Evenimentului numarului#3",
-          "program": "Locatia Evenimentului numarului#3",
-          "description": "Descrierea  Evenimentului numarului#3"
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Evenimentul numarul #3",
-          "location": "Locatia Evenimentului numarului#3",
-          "program": "Locatia Evenimentului numarului#3",
-          "description": "Descrierea  Evenimentului numarului#3"
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Evenimentul numarul #4",
-          "location": "Locatia Evenimentului numarului#4",
-          "program": "Locatia Evenimentului numarului#4",
-          "description": "Descrierea  Evenimentului numarului#4"
+          "name": "Event with number #4",
+          "location": "Location of event with number #4",
+          "program": "Program of event with number #4",
+          "description": "Description of event with number #4"
         },
         {
-          "name": "Evenimentul numarul #5",
-          "location": "Locatia Evenimentului numarului#5",
-          "program": "Locatia Evenimentului numarului#5",
-          "description": "Descrierea  Evenimentului numarului#5"
+          "name": "Event with number #5",
+          "location": "Location of event with number #5",
+          "program": "Program of event with number #5",
+          "description": "Description of event with number #5"
         },
         {
-          "name": "Evenimentul numarul #6",
-          "location": "Locatia Evenimentului numarului#6",
-          "program": "Locatia Evenimentului numarului#6",
-          "description": "Descrierea  Evenimentului numarului#6"
+          "name": "Event with number #6",
+          "location": "Location of event with number #6",
+          "program": "Program of event with number #6",
+          "description": "Description of event with number #6"
         },
         {
-          "name": "Evenimentul numarul #7",
-          "location": "Locatia Evenimentului numarului#7",
-          "program": "Locatia Evenimentului numarului#7",
-          "description": "Descrierea  Evenimentului numarului#7"
+          "name": "Event with number #7",
+          "location": "Location of event with number #7",
+          "program": "Program of event with number #7",
+          "description": "Description of event with number #7"
         }
       ],
       "objectives": [
         {
-          "name": "Obiectivul numarul #1",
-          "location": "Locatia Obiectivului numarului#1",
-          "program": "Locatia Obiectivului numarului#1",
-          "description": "Descrierea  Obiectivului numarului#1"
+          "name": "Objective with number #1",
+          "location": "Location of objective with number #1",
+          "program": "Program of objective with number #1",
+          "description": "Description of event with number #1"
         },
         {
-          "name": "Obiectivul numarul #2",
-          "location": "Locatia Obiectivului numarului#2",
-          "program": "Locatia Obiectivului numarului#2",
-          "description": "Descrierea  Obiectivului numarului#2"
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Obiectivul numarul #2",
-          "location": "Locatia Obiectivului numarului#2",
-          "program": "Locatia Obiectivului numarului#2",
-          "description": "Descrierea  Obiectivului numarului#2"
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Obiectivul numarul #3",
-          "location": "Locatia Obiectivului numarului#3",
-          "program": "Locatia Obiectivului numarului#3",
-          "description": "Descrierea  Obiectivului numarului#3"
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Obiectivul numarul #3",
-          "location": "Locatia Obiectivului numarului#3",
-          "program": "Locatia Obiectivului numarului#3",
-          "description": "Descrierea  Obiectivului numarului#3"
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Obiectivul numarul #3",
-          "location": "Locatia Obiectivului numarului#3",
-          "program": "Locatia Obiectivului numarului#3",
-          "description": "Descrierea  Obiectivului numarului#3"
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Obiectivul numarul #4",
-          "location": "Locatia Obiectivului numarului#4",
-          "program": "Locatia Obiectivului numarului#4",
-          "description": "Descrierea  Obiectivului numarului#4"
+          "name": "Objective with number #4",
+          "location": "Location of objective with number #4",
+          "program": "Program of objective with number #4",
+          "description": "Description of event with number #4"
         },
         {
-          "name": "Obiectivul numarul #5",
-          "location": "Locatia Obiectivului numarului#5",
-          "program": "Locatia Obiectivului numarului#5",
-          "description": "Descrierea  Obiectivului numarului#5"
+          "name": "Objective with number #5",
+          "location": "Location of objective with number #5",
+          "program": "Program of objective with number #5",
+          "description": "Description of event with number #5"
         },
         {
-          "name": "Obiectivul numarul #6",
-          "location": "Locatia Obiectivului numarului#6",
-          "program": "Locatia Obiectivului numarului#6",
-          "description": "Descrierea  Obiectivului numarului#6"
+          "name": "Objective with number #6",
+          "location": "Location of objective with number #6",
+          "program": "Program of objective with number #6",
+          "description": "Description of event with number #6"
         },
         {
-          "name": "Obiectivul numarul #7",
-          "location": "Locatia Obiectivului numarului#7",
-          "program": "Locatia Obiectivului numarului#7",
-          "description": "Descrierea  Obiectivului numarului#7"
+          "name": "Objective with number #7",
+          "location": "Location of objective with number #7",
+          "program": "Program of objective with number #7",
+          "description": "Description of event with number #7"
         }
       ],
       "trails": [
         {
-          "name": "Traseul numarul #",
-          "location": "Locatia Traseului numarului#",
-          "program": "Locatia Traseului numarului#",
-          "description": "Descrierea  Traseului numarului#"
+          "name": "Trail with number #",
+          "location": "Loaction of Trail with numbe #",
+          "program": "Porgram of Trail with numbe #",
+          "description": "Description of Trail with numbe #"
         },
         {
-          "name": "Traseul numarul #2",
-          "location": "Locatia Traseului numarului#2",
-          "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2"
         },
         {
-          "name": "Traseul numarul #2",
-          "location": "Locatia Traseului numarului#2",
-          "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2"
         },
         {
-          "name": "Traseul numarul #3",
-          "location": "Locatia Traseului numarului#3",
-          "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3"
         },
         {
-          "name": "Traseul numarul #3",
-          "location": "Locatia Traseului numarului#3",
-          "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3"
         },
         {
-          "name": "Traseul numarul #3",
-          "location": "Locatia Traseului numarului#3",
-          "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3"
         },
         {
-          "name": "Traseul numarul #4",
-          "location": "Locatia Traseului numarului#4",
-          "program": "Locatia Traseului numarului#4",
-          "description": "Descrierea  Traseului numarului#4"
+          "name": "Trail with number #4",
+          "location": "Loaction of Trail with numbe #4",
+          "program": "Porgram of Trail with numbe #4",
+          "description": "Description of Trail with numbe #4"
         },
         {
-          "name": "Traseul numarul #5",
-          "location": "Locatia Traseului numarului#5",
-          "program": "Locatia Traseului numarului#5",
-          "description": "Descrierea  Traseului numarului#5"
+          "name": "Trail with number #5",
+          "location": "Loaction of Trail with numbe #5",
+          "program": "Porgram of Trail with numbe #5",
+          "description": "Description of Trail with numbe #5"
         },
         {
-          "name": "Traseul numarul #6",
-          "location": "Locatia Traseului numarului#6",
-          "program": "Locatia Traseului numarului#6",
-          "description": "Descrierea  Traseului numarului#6"
+          "name": "Trail with number #6",
+          "location": "Loaction of Trail with numbe #6",
+          "program": "Porgram of Trail with numbe #6",
+          "description": "Description of Trail with numbe #6"
         },
         {
-          "name": "Traseul numarul #7",
-          "location": "Locatia Traseului numarului#7",
-          "program": "Locatia Traseului numarului#7",
-          "description": "Descrierea  Traseului numarului#7"
+          "name": "Trail with number #7",
+          "location": "Loaction of Trail with numbe #7",
+          "program": "Porgram of Trail with numbe #7",
+          "description": "Description of Trail with numbe #7"
         }
       ],
       "utils": [
         {
-          "type": "farmacie",
-          "location": ""
+          "name": "Name drugStore",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "drugStore",
+          "image": "assets/gals/drugstore.png"
         },
         {
-          "type": "benzinarie",
-          "location": ""
+          "name": "Name gasStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "gasStation",
+          "image": "assets/gals/gas.png"
         },
         {
-          "type": "spital",
-          "location": ""
+          "name": "Name hospital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hospital",
+          "image": "assets/gals/hospital.png"
         },
         {
+          "name": "Name hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
           "type": "hotel",
-          "location": ""
+          "image": "assets/gals/hotel.png"
         },
         {
-          "type": "primarie",
-          "location": ""
+          "name": "Name cityHall",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "cityHall",
+          "image": "assets/gals/hall.png"
         },
         {
-          "type": "politie",
-          "location": ""
+          "name": "Name policeStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "policeStation",
+          "image": "assets/gals/police.png"
         },
         {
+          "name": "Name restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
           "type": "restaurant",
-          "location": ""
+          "image": "assets/gals/restaurant.png"
         },
         {
+          "name": "Name service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
           "type": "service",
-          "location": ""
+          "image": "assets/gals/service.png"
         }
       ]
     },
     {
       "name": "Valuea Prutului",
+      "description": "Description of Valuea-Prutului",
+      "imgSrc": "assets/gals/prut.png",
       "events": [
         {
-          "name": "Evenimentul numarul #1",
-          "location": "Locatia Evenimentului numarului#1",
-          "program": "Locatia Evenimentului numarului#1",
-          "description": "Descrierea  Evenimentului numarului#1"
+          "name": "Event with number #1",
+          "location": "Location of event with number #1",
+          "program": "Program of event with number #1",
+          "description": "Description of event with number #1"
         },
         {
-          "name": "Evenimentul numarul #2",
-          "location": "Locatia Evenimentului numarului#2",
-          "program": "Locatia Evenimentului numarului#2",
-          "description": "Descrierea  Evenimentului numarului#2"
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Evenimentul numarul #2",
-          "location": "Locatia Evenimentului numarului#2",
-          "program": "Locatia Evenimentului numarului#2",
-          "description": "Descrierea  Evenimentului numarului#2"
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Evenimentul numarul #3",
-          "location": "Locatia Evenimentului numarului#3",
-          "program": "Locatia Evenimentului numarului#3",
-          "description": "Descrierea  Evenimentului numarului#3"
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Evenimentul numarul #3",
-          "location": "Locatia Evenimentului numarului#3",
-          "program": "Locatia Evenimentului numarului#3",
-          "description": "Descrierea  Evenimentului numarului#3"
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Evenimentul numarul #3",
-          "location": "Locatia Evenimentului numarului#3",
-          "program": "Locatia Evenimentului numarului#3",
-          "description": "Descrierea  Evenimentului numarului#3"
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Evenimentul numarul #4",
-          "location": "Locatia Evenimentului numarului#4",
-          "program": "Locatia Evenimentului numarului#4",
-          "description": "Descrierea  Evenimentului numarului#4"
+          "name": "Event with number #4",
+          "location": "Location of event with number #4",
+          "program": "Program of event with number #4",
+          "description": "Description of event with number #4"
         },
         {
-          "name": "Evenimentul numarul #5",
-          "location": "Locatia Evenimentului numarului#5",
-          "program": "Locatia Evenimentului numarului#5",
-          "description": "Descrierea  Evenimentului numarului#5"
+          "name": "Event with number #5",
+          "location": "Location of event with number #5",
+          "program": "Program of event with number #5",
+          "description": "Description of event with number #5"
         },
         {
-          "name": "Evenimentul numarul #6",
-          "location": "Locatia Evenimentului numarului#6",
-          "program": "Locatia Evenimentului numarului#6",
-          "description": "Descrierea  Evenimentului numarului#6"
+          "name": "Event with number #6",
+          "location": "Location of event with number #6",
+          "program": "Program of event with number #6",
+          "description": "Description of event with number #6"
         },
         {
-          "name": "Evenimentul numarul #7",
-          "location": "Locatia Evenimentului numarului#7",
-          "program": "Locatia Evenimentului numarului#7",
-          "description": "Descrierea  Evenimentului numarului#7"
+          "name": "Event with number #7",
+          "location": "Location of event with number #7",
+          "program": "Program of event with number #7",
+          "description": "Description of event with number #7"
         }
       ],
       "objectives": [
         {
-          "name": "Obiectivul numarul #1",
-          "location": "Locatia Obiectivului numarului#1",
-          "program": "Locatia Obiectivului numarului#1",
-          "description": "Descrierea  Obiectivului numarului#1"
+          "name": "Objective with number #1",
+          "location": "Location of objective with number #1",
+          "program": "Program of objective with number #1",
+          "description": "Description of event with number #1"
         },
         {
-          "name": "Obiectivul numarul #2",
-          "location": "Locatia Obiectivului numarului#2",
-          "program": "Locatia Obiectivului numarului#2",
-          "description": "Descrierea  Obiectivului numarului#2"
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Obiectivul numarul #2",
-          "location": "Locatia Obiectivului numarului#2",
-          "program": "Locatia Obiectivului numarului#2",
-          "description": "Descrierea  Obiectivului numarului#2"
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Obiectivul numarul #3",
-          "location": "Locatia Obiectivului numarului#3",
-          "program": "Locatia Obiectivului numarului#3",
-          "description": "Descrierea  Obiectivului numarului#3"
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Obiectivul numarul #3",
-          "location": "Locatia Obiectivului numarului#3",
-          "program": "Locatia Obiectivului numarului#3",
-          "description": "Descrierea  Obiectivului numarului#3"
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Obiectivul numarul #3",
-          "location": "Locatia Obiectivului numarului#3",
-          "program": "Locatia Obiectivului numarului#3",
-          "description": "Descrierea  Obiectivului numarului#3"
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Obiectivul numarul #4",
-          "location": "Locatia Obiectivului numarului#4",
-          "program": "Locatia Obiectivului numarului#4",
-          "description": "Descrierea  Obiectivului numarului#4"
+          "name": "Objective with number #4",
+          "location": "Location of objective with number #4",
+          "program": "Program of objective with number #4",
+          "description": "Description of event with number #4"
         },
         {
-          "name": "Obiectivul numarul #5",
-          "location": "Locatia Obiectivului numarului#5",
-          "program": "Locatia Obiectivului numarului#5",
-          "description": "Descrierea  Obiectivului numarului#5"
+          "name": "Objective with number #5",
+          "location": "Location of objective with number #5",
+          "program": "Program of objective with number #5",
+          "description": "Description of event with number #5"
         },
         {
-          "name": "Obiectivul numarul #6",
-          "location": "Locatia Obiectivului numarului#6",
-          "program": "Locatia Obiectivului numarului#6",
-          "description": "Descrierea  Obiectivului numarului#6"
+          "name": "Objective with number #6",
+          "location": "Location of objective with number #6",
+          "program": "Program of objective with number #6",
+          "description": "Description of event with number #6"
         },
         {
-          "name": "Obiectivul numarul #7",
-          "location": "Locatia Obiectivului numarului#7",
-          "program": "Locatia Obiectivului numarului#7",
-          "description": "Descrierea  Obiectivului numarului#7"
+          "name": "Objective with number #7",
+          "location": "Location of objective with number #7",
+          "program": "Program of objective with number #7",
+          "description": "Description of event with number #7"
         }
       ],
       "trails": [
         {
-          "name": "Traseul numarul #",
-          "location": "Locatia Traseului numarului#",
-          "program": "Locatia Traseului numarului#",
-          "description": "Descrierea  Traseului numarului#"
+          "name": "Trail with number #",
+          "location": "Loaction of Trail with numbe #",
+          "program": "Porgram of Trail with numbe #",
+          "description": "Description of Trail with numbe #"
         },
         {
-          "name": "Traseul numarul #2",
-          "location": "Locatia Traseului numarului#2",
-          "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2"
         },
         {
-          "name": "Traseul numarul #2",
-          "location": "Locatia Traseului numarului#2",
-          "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2"
         },
         {
-          "name": "Traseul numarul #3",
-          "location": "Locatia Traseului numarului#3",
-          "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3"
         },
         {
-          "name": "Traseul numarul #3",
-          "location": "Locatia Traseului numarului#3",
-          "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3"
         },
         {
-          "name": "Traseul numarul #3",
-          "location": "Locatia Traseului numarului#3",
-          "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3"
         },
         {
-          "name": "Traseul numarul #4",
-          "location": "Locatia Traseului numarului#4",
-          "program": "Locatia Traseului numarului#4",
-          "description": "Descrierea  Traseului numarului#4"
+          "name": "Trail with number #4",
+          "location": "Loaction of Trail with numbe #4",
+          "program": "Porgram of Trail with numbe #4",
+          "description": "Description of Trail with numbe #4"
         },
         {
-          "name": "Traseul numarul #5",
-          "location": "Locatia Traseului numarului#5",
-          "program": "Locatia Traseului numarului#5",
-          "description": "Descrierea  Traseului numarului#5"
+          "name": "Trail with number #5",
+          "location": "Loaction of Trail with numbe #5",
+          "program": "Porgram of Trail with numbe #5",
+          "description": "Description of Trail with numbe #5"
         },
         {
-          "name": "Traseul numarul #6",
-          "location": "Locatia Traseului numarului#6",
-          "program": "Locatia Traseului numarului#6",
-          "description": "Descrierea  Traseului numarului#6"
+          "name": "Trail with number #6",
+          "location": "Loaction of Trail with numbe #6",
+          "program": "Porgram of Trail with numbe #6",
+          "description": "Description of Trail with numbe #6"
         },
         {
-          "name": "Traseul numarul #7",
-          "location": "Locatia Traseului numarului#7",
-          "program": "Locatia Traseului numarului#7",
-          "description": "Descrierea  Traseului numarului#7"
+          "name": "Trail with number #7",
+          "location": "Loaction of Trail with numbe #7",
+          "program": "Porgram of Trail with numbe #7",
+          "description": "Description of Trail with numbe #7"
         }
       ],
       "utils": [
         {
-          "type": "farmacie",
-          "location": ""
+          "name": "Name drugStore",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "drugStore",
+          "image": "assets/gals/drugstore.png"
         },
         {
-          "type": "benzinarie",
-          "location": ""
+          "name": "Name gasStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "gasStation",
+          "image": "assets/gals/gas.png"
         },
         {
-          "type": "spital",
-          "location": ""
+          "name": "Name hospital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hospital",
+          "image": "assets/gals/hospital.png"
         },
         {
+          "name": "Name hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
           "type": "hotel",
-          "location": ""
+          "image": "assets/gals/hotel.png"
         },
         {
-          "type": "primarie",
-          "location": ""
+          "name": "Name cityHall",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "cityHall",
+          "image": "assets/gals/hall.png"
         },
         {
-          "type": "politie",
-          "location": ""
+          "name": "Name policeStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "policeStation",
+          "image": "assets/gals/police.png"
         },
         {
+          "name": "Name restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
           "type": "restaurant",
-          "location": ""
+          "image": "assets/gals/restaurant.png"
         },
         {
+          "name": "Name service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
           "type": "service",
-          "location": ""
+          "image": "assets/gals/service.png"
         }
       ]
     },
     {
       "name": "Colinele Iasului",
+      "description": "Description of Colinele Iasului",
+      "imgSrc": "assets/gals/iasi.png",
       "events": [
         {
-          "name": "Evenimentul numarul #1",
-          "location": "Locatia Evenimentului numarului#1",
-          "program": "Locatia Evenimentului numarului#1",
-          "description": "Descrierea  Evenimentului numarului#1"
+          "name": "Event with number #1",
+          "location": "Location of event with number #1",
+          "program": "Program of event with number #1",
+          "description": "Description of event with number #1"
         },
         {
-          "name": "Evenimentul numarul #2",
-          "location": "Locatia Evenimentului numarului#2",
-          "program": "Locatia Evenimentului numarului#2",
-          "description": "Descrierea  Evenimentului numarului#2"
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Evenimentul numarul #2",
-          "location": "Locatia Evenimentului numarului#2",
-          "program": "Locatia Evenimentului numarului#2",
-          "description": "Descrierea  Evenimentului numarului#2"
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Evenimentul numarul #3",
-          "location": "Locatia Evenimentului numarului#3",
-          "program": "Locatia Evenimentului numarului#3",
-          "description": "Descrierea  Evenimentului numarului#3"
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Evenimentul numarul #3",
-          "location": "Locatia Evenimentului numarului#3",
-          "program": "Locatia Evenimentului numarului#3",
-          "description": "Descrierea  Evenimentului numarului#3"
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Evenimentul numarul #3",
-          "location": "Locatia Evenimentului numarului#3",
-          "program": "Locatia Evenimentului numarului#3",
-          "description": "Descrierea  Evenimentului numarului#3"
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Evenimentul numarul #4",
-          "location": "Locatia Evenimentului numarului#4",
-          "program": "Locatia Evenimentului numarului#4",
-          "description": "Descrierea  Evenimentului numarului#4"
+          "name": "Event with number #4",
+          "location": "Location of event with number #4",
+          "program": "Program of event with number #4",
+          "description": "Description of event with number #4"
         },
         {
-          "name": "Evenimentul numarul #5",
-          "location": "Locatia Evenimentului numarului#5",
-          "program": "Locatia Evenimentului numarului#5",
-          "description": "Descrierea  Evenimentului numarului#5"
+          "name": "Event with number #5",
+          "location": "Location of event with number #5",
+          "program": "Program of event with number #5",
+          "description": "Description of event with number #5"
         },
         {
-          "name": "Evenimentul numarul #6",
-          "location": "Locatia Evenimentului numarului#6",
-          "program": "Locatia Evenimentului numarului#6",
-          "description": "Descrierea  Evenimentului numarului#6"
+          "name": "Event with number #6",
+          "location": "Location of event with number #6",
+          "program": "Program of event with number #6",
+          "description": "Description of event with number #6"
         },
         {
-          "name": "Evenimentul numarul #7",
-          "location": "Locatia Evenimentului numarului#7",
-          "program": "Locatia Evenimentului numarului#7",
-          "description": "Descrierea  Evenimentului numarului#7"
+          "name": "Event with number #7",
+          "location": "Location of event with number #7",
+          "program": "Program of event with number #7",
+          "description": "Description of event with number #7"
         }
       ],
       "objectives": [
         {
-          "name": "Obiectivul numarul #1",
-          "location": "Locatia Obiectivului numarului#1",
-          "program": "Locatia Obiectivului numarului#1",
-          "description": "Descrierea  Obiectivului numarului#1"
+          "name": "Objective with number #1",
+          "location": "Location of objective with number #1",
+          "program": "Program of objective with number #1",
+          "description": "Description of event with number #1"
         },
         {
-          "name": "Obiectivul numarul #2",
-          "location": "Locatia Obiectivului numarului#2",
-          "program": "Locatia Obiectivului numarului#2",
-          "description": "Descrierea  Obiectivului numarului#2"
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Obiectivul numarul #2",
-          "location": "Locatia Obiectivului numarului#2",
-          "program": "Locatia Obiectivului numarului#2",
-          "description": "Descrierea  Obiectivului numarului#2"
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2"
         },
         {
-          "name": "Obiectivul numarul #3",
-          "location": "Locatia Obiectivului numarului#3",
-          "program": "Locatia Obiectivului numarului#3",
-          "description": "Descrierea  Obiectivului numarului#3"
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Obiectivul numarul #3",
-          "location": "Locatia Obiectivului numarului#3",
-          "program": "Locatia Obiectivului numarului#3",
-          "description": "Descrierea  Obiectivului numarului#3"
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Obiectivul numarul #3",
-          "location": "Locatia Obiectivului numarului#3",
-          "program": "Locatia Obiectivului numarului#3",
-          "description": "Descrierea  Obiectivului numarului#3"
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3"
         },
         {
-          "name": "Obiectivul numarul #4",
-          "location": "Locatia Obiectivului numarului#4",
-          "program": "Locatia Obiectivului numarului#4",
-          "description": "Descrierea  Obiectivului numarului#4"
+          "name": "Objective with number #4",
+          "location": "Location of objective with number #4",
+          "program": "Program of objective with number #4",
+          "description": "Description of event with number #4"
         },
         {
-          "name": "Obiectivul numarul #5",
-          "location": "Locatia Obiectivului numarului#5",
-          "program": "Locatia Obiectivului numarului#5",
-          "description": "Descrierea  Obiectivului numarului#5"
+          "name": "Objective with number #5",
+          "location": "Location of objective with number #5",
+          "program": "Program of objective with number #5",
+          "description": "Description of event with number #5"
         },
         {
-          "name": "Obiectivul numarul #6",
-          "location": "Locatia Obiectivului numarului#6",
-          "program": "Locatia Obiectivului numarului#6",
-          "description": "Descrierea  Obiectivului numarului#6"
+          "name": "Objective with number #6",
+          "location": "Location of objective with number #6",
+          "program": "Program of objective with number #6",
+          "description": "Description of event with number #6"
         },
         {
-          "name": "Obiectivul numarul #7",
-          "location": "Locatia Obiectivului numarului#7",
-          "program": "Locatia Obiectivului numarului#7",
-          "description": "Descrierea  Obiectivului numarului#7"
+          "name": "Objective with number #7",
+          "location": "Location of objective with number #7",
+          "program": "Program of objective with number #7",
+          "description": "Description of event with number #7"
         }
       ],
       "trails": [
         {
-          "name": "Traseul numarul #",
-          "location": "Locatia Traseului numarului#",
-          "program": "Locatia Traseului numarului#",
-          "description": "Descrierea  Traseului numarului#"
+          "name": "Trail with number #",
+          "location": "Loaction of Trail with numbe #",
+          "program": "Porgram of Trail with numbe #",
+          "description": "Description of Trail with numbe #"
         },
         {
-          "name": "Traseul numarul #2",
-          "location": "Locatia Traseului numarului#2",
-          "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2"
         },
         {
-          "name": "Traseul numarul #2",
-          "location": "Locatia Traseului numarului#2",
-          "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2"
         },
         {
-          "name": "Traseul numarul #3",
-          "location": "Locatia Traseului numarului#3",
-          "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3"
         },
         {
-          "name": "Traseul numarul #3",
-          "location": "Locatia Traseului numarului#3",
-          "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3"
         },
         {
-          "name": "Traseul numarul #3",
-          "location": "Locatia Traseului numarului#3",
-          "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3"
         },
         {
-          "name": "Traseul numarul #4",
-          "location": "Locatia Traseului numarului#4",
-          "program": "Locatia Traseului numarului#4",
-          "description": "Descrierea  Traseului numarului#4"
+          "name": "Trail with number #4",
+          "location": "Loaction of Trail with numbe #4",
+          "program": "Porgram of Trail with numbe #4",
+          "description": "Description of Trail with numbe #4"
         },
         {
-          "name": "Traseul numarul #5",
-          "location": "Locatia Traseului numarului#5",
-          "program": "Locatia Traseului numarului#5",
-          "description": "Descrierea  Traseului numarului#5"
+          "name": "Trail with number #5",
+          "location": "Loaction of Trail with numbe #5",
+          "program": "Porgram of Trail with numbe #5",
+          "description": "Description of Trail with numbe #5"
         },
         {
-          "name": "Traseul numarul #6",
-          "location": "Locatia Traseului numarului#6",
-          "program": "Locatia Traseului numarului#6",
-          "description": "Descrierea  Traseului numarului#6"
+          "name": "Trail with number #6",
+          "location": "Loaction of Trail with numbe #6",
+          "program": "Porgram of Trail with numbe #6",
+          "description": "Description of Trail with numbe #6"
         },
         {
-          "name": "Traseul numarul #7",
-          "location": "Locatia Traseului numarului#7",
-          "program": "Locatia Traseului numarului#7",
-          "description": "Descrierea  Traseului numarului#7"
+          "name": "Trail with number #7",
+          "location": "Loaction of Trail with numbe #7",
+          "program": "Porgram of Trail with numbe #7",
+          "description": "Description of Trail with numbe #7"
         }
       ],
       "utils": [
         {
-          "type": "farmacie",
-          "location": ""
+          "name": "Name drugStore",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "drugStore",
+          "image": "assets/gals/drugstore.png"
         },
         {
-          "type": "benzinarie",
-          "location": ""
+          "name": "Name gasStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "gasStation",
+          "image": "assets/gals/gas.png"
         },
         {
-          "type": "spital",
-          "location": ""
+          "name": "Name hospital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hospital",
+          "image": "assets/gals/hospital.png"
         },
         {
+          "name": "Name hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
           "type": "hotel",
-          "location": ""
+          "image": "assets/gals/hotel.png"
         },
         {
-          "type": "primarie",
-          "location": ""
+          "name": "Name cityHall",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "cityHall",
+          "image": "assets/gals/hall.png"
         },
         {
-          "type": "politie",
-          "location": ""
+          "name": "Name policeStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "policeStation",
+          "image": "assets/gals/police.png"
         },
         {
+          "name": "Name restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
           "type": "restaurant",
-          "location": ""
+          "image": "assets/gals/restaurant.png"
         },
         {
+          "name": "Name service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
           "type": "service",
-          "location": ""
+          "image": "assets/gals/service.png"
         }
       ]
     }

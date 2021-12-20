@@ -16,42 +16,44 @@ class MenuScreen extends StatefulWidget {
 }
 
 class _MenuScreenState extends State<MenuScreen> {
+  final String jSonLocation = 'assets/ro-gals.json';
   List<Gal> _gals = List.empty(growable: true);
-  Set<Marker> _markers = {};
+  final Set<Marker> _markers = {};
 
   Future<void> readJson() async {
-    final String response = await rootBundle.loadString('assets/ro-gals.json');
+    final String response = await rootBundle.loadString(jSonLocation);
     final Map<String, dynamic> data = await json.decode(response);
     setState(() {
       _gals = Gals.fromJson(data).gals;
     });
   }
 
-  List<Marker> markers = [
-    Marker(
-        markerId: MarkerId('Pascani'), position: LatLng(47.249624, 26.720125)),
-    Marker(
+  List<Marker> markers = [//make dinamic
+    const Marker(
+        markerId: MarkerId('Codrii Pascanilor'),
+        position: LatLng(47.249624, 26.720125)),
+    const Marker(
         markerId: MarkerId('Belcesti-Focuri'),
         position: LatLng(47.216394, 27.148312)),
-    Marker(
+    const Marker(
         markerId: MarkerId('DEalurile bohotinului'),
         position: LatLng(46.947622, 27.986547)),
-    Marker(
+    const Marker(
         markerId: MarkerId('Rediu-Prajeni'),
         position: LatLng(47.232995, 27.500137)),
-    Marker(
+    const Marker(
         markerId: MarkerId('Siret-Moldova'),
         position: LatLng(47.362216, 26.689119)),
-    Marker(
+    const Marker(
         markerId: MarkerId('Stefan cel Mare'),
         position: LatLng(47.204105, 27.602336)),
-    Marker(
+    const Marker(
         markerId: MarkerId('Stejarii Argintii'),
         position: LatLng(47.144530, 27.520261)),
-    Marker(
+    const Marker(
         markerId: MarkerId('Valea Prutului'),
         position: LatLng(47.281021, 27.518267)),
-    Marker(
+    const Marker(
         markerId: MarkerId('Colinele Iasului'),
         position: LatLng(47.060847, 27.568177)),
   ];
@@ -77,7 +79,7 @@ class _MenuScreenState extends State<MenuScreen> {
           children: <Widget>[
             ListTile(
               leading: const Icon(Icons.home),
-              title: Text('Meniul Principal'),// i18n
+              title: Text('Meniul Principal'), // i18n
               onTap: () {
                 Navigator.push(
                   context,
@@ -89,7 +91,7 @@ class _MenuScreenState extends State<MenuScreen> {
             ),
             ListTile(
               leading: const Icon(Icons.dangerous),
-              title: const Text('Placeholder'),// i18n
+              title: const Text('Placeholder'), // i18n
               onTap: () {
                 Navigator.push(
                   context,
@@ -101,7 +103,7 @@ class _MenuScreenState extends State<MenuScreen> {
             ),
             ListTile(
               leading: const Icon(Icons.dangerous),
-              title: const Text('Placeholder'),// i18n
+              title: const Text('Placeholder'), // i18n
               onTap: () {
                 Navigator.push(
                   context,
