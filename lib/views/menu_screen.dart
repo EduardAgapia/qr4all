@@ -9,7 +9,7 @@ import 'package:qr_4_all/domain/gal/gal.dart';
 import 'package:qr_4_all/domain/gals.dart';
 import 'package:qr_4_all/views/turistic-areas/views/zones/zone_turistice.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-
+import 'dart:math';
 
 class MenuScreen extends StatefulWidget {
   const MenuScreen({Key? key}) : super(key: key);
@@ -82,6 +82,9 @@ class _MenuScreenState extends State<MenuScreen> {
         ),
         body: GoogleMap(
           markers: _markers,
+          onMapCreated: (mapController) {
+            mapController.showMarkerInfoWindow(_markers.elementAt(Random().nextInt(_markers.length)).markerId);
+          },
           myLocationButtonEnabled: false,
           zoomControlsEnabled: false,
           initialCameraPosition: const CameraPosition(
@@ -109,7 +112,7 @@ class _MenuScreenState extends State<MenuScreen> {
   List<Marker> markers = [
     //make dinamic
     const Marker(
-        markerId: MarkerId('Codrii Pascanilor'),
+        markerId: MarkerId('Codri Pascanilor'),
         position: LatLng(47.249624, 26.720125),
         infoWindow: InfoWindow(title: 'Codrii Pascanilor')),
     const Marker(

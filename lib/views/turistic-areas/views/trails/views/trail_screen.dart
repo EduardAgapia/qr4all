@@ -148,7 +148,7 @@ class _TrailScreenState extends State<TrailScreen> {
                                     ),
                                     child: GestureDetector(
                                       onTap: () {
-                                        MapUtils.open(trail.mapUrl);
+                                        MapUtils.open(trail.mapUrl.toString());
                                       },
                                       child: Container(
                                         decoration: const BoxDecoration(
