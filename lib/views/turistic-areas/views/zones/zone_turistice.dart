@@ -52,9 +52,9 @@ class _ReadExampleState extends State<ZoneTuristice> {
                         children: <Widget>[
                           ListTile(
                             leading: Icon(Icons.home),
-                            title:
-                                Text(AppLocalizations.of(context).to + ' '
-                                    + galList[index].name.toString()),
+                            title: Text(AppLocalizations.of(context).to +
+                                ' ' +
+                                galList[index].name.toString()),
                             onTap: () {
                               Navigator.push(
                                   context,
@@ -66,7 +66,8 @@ class _ReadExampleState extends State<ZoneTuristice> {
                           ),
                           ListTile(
                             leading: Icon(Icons.dangerous),
-                            title: Text(AppLocalizations.of(context).placeholder),
+                            title:
+                                Text(AppLocalizations.of(context).placeholder),
                             onTap: () {
                               Navigator.push(
                                 context,
@@ -78,7 +79,8 @@ class _ReadExampleState extends State<ZoneTuristice> {
                           ),
                           ListTile(
                             leading: Icon(Icons.dangerous),
-                            title: Text(AppLocalizations.of(context).placeholder),
+                            title:
+                                Text(AppLocalizations.of(context).placeholder),
                             onTap: () {
                               Navigator.push(
                                 context,
@@ -94,23 +96,34 @@ class _ReadExampleState extends State<ZoneTuristice> {
                   );
                 },
                 child: Container(
-                  padding: const EdgeInsets.fromLTRB(0, 180, 0, 0),
+                  padding: const EdgeInsets.fromLTRB(0, 0, 0, 0),
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
                           image: AssetImage(galList[index].imgSrc.toString()),
                           fit: BoxFit.cover)),
-                  child: Container(
-                    padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                    width: double.infinity,
-                    height: 10,
-                    child: Align(
-                      alignment: Alignment.bottomCenter,
-                      child: Text(galList[index].name.toString()),
+                  child: Align(
+                    alignment: Alignment.bottomCenter,
+                    child: Container(
+                      padding: const EdgeInsets.fromLTRB(2, 0, 0, 4),
+                      width: double.infinity,
+                      height: MediaQuery.of(context).size.height / 30,
+                      child: Align(
+                        alignment: Alignment.bottomCenter,
+                        child: Text(
+                          galList[index].name.toString(),
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontSize: MediaQuery.of(context).size.height / 53,
+                          ),
+                        ),
+                      ),
+                      decoration: const BoxDecoration(
+                          borderRadius: BorderRadius.only(
+                              bottomLeft: Radius.circular(15.0),
+                              bottomRight: Radius.circular(15.0)),
+                          color: Color.fromARGB(200, 255, 255, 255)),
                     ),
-                    decoration: const BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                        color: Color.fromARGB(200, 255, 255, 255)),
                   ),
                 ),
               ),
