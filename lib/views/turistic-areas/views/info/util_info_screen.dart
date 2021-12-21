@@ -49,19 +49,23 @@ class _UtilInfoScreenState extends State<UtilInfoScreen> {
                         utilInfo[index].longitude!.toDouble());
                   },
                   child: Container(
-                    padding: const EdgeInsets.fromLTRB(0, 155, 0, 0),
+                    padding: EdgeInsets.fromLTRB(
+                        0,
+                        MediaQuery.of(context).size.height / 6,
+                        0,
+                        0),
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(15.0)),
                         image: DecorationImage(
                             image: AssetImage(utilInfo[index].image.toString()),
                             fit: BoxFit.cover)),
                     child: Container(
-                      padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
+                      padding: EdgeInsets.fromLTRB(0, 0, 0, MediaQuery.of(context).size.height / 170),
                       width: double.infinity,
-                      height: 10,
                       child: Align(
                         alignment: Alignment.bottomCenter,
-                        child: Text(utilInfo[index].type.toString()),
+                        child: Text(utilInfo[index].type.toString(),
+                        style: TextStyle(fontSize: MediaQuery.of(context).size.height/27)),
                       ),
                       decoration: const BoxDecoration(
                           borderRadius: BorderRadius.all(Radius.circular(15.0)),
