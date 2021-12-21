@@ -37,11 +37,9 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
               padding: const EdgeInsets.all(10.0),
               child: ListView(
                 children: [
-                  const SizedBox(height: 20),
+                  SizedBox(height: MediaQuery.of(context).size.height / 50),
                   Container(
-                    height: MediaQuery.of(context).size.height / 11.4,
-                    width: MediaQuery.of(context).size.width -
-                        20, //nu e bagat in seama
+                    height: MediaQuery.of(context).size.height / 6.6666,
                     decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       color: Color.fromARGB(150, 0, 143, 105),
@@ -49,19 +47,20 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                     child: Column(children: <Widget>[
                       ListTile(
                         title: Text(
+                          '\n' +
                           objective.name.toString(),
-                          style: const TextStyle(
+                          style: TextStyle(
                             color: Colors.white,
-                            fontSize: 23,
+                            fontSize: MediaQuery.of(context).size.height / 30,
                             fontWeight: FontWeight.w800,
                           ),
                           textAlign: TextAlign.center,
                         ),
                         subtitle: Text(
                           objective.program.toString(),
-                          style: const TextStyle(
+                          style: TextStyle(
                             color: Colors.white,
-                            fontSize: 18,
+                            fontSize: MediaQuery.of(context).size.height / 35,
                             fontWeight: FontWeight.w800,
                           ),
                           textAlign: TextAlign.center,
@@ -69,10 +68,9 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                       ),
                     ]),
                   ),
-                  const SizedBox(height: 60),
+                  SizedBox(height: MediaQuery.of(context).size.height / 20),
                   Container(
                     height: MediaQuery.of(context).size.height / 11.4,
-                    width: MediaQuery.of(context).size.width - 20,
                     decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       color: Color.fromARGB(150, 0, 143, 105),
@@ -84,10 +82,9 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                       child: ListView(
                         scrollDirection: Axis.horizontal,
                         children: <Widget>[
-                          const SizedBox(width: 10),
+                          SizedBox(width: MediaQuery.of(context).size.width / 50),
                           Container(
-                            height: MediaQuery.of(context).size.height / 15,
-                            width: MediaQuery.of(context).size.width / 11,
+                            width: MediaQuery.of(context).size.width / 13,
                             decoration: const BoxDecoration(
                               borderRadius:
                                   BorderRadius.all(Radius.circular(15.0)),
@@ -97,14 +94,14 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                                   fit: BoxFit.contain),
                             ),
                           ),
-                          const SizedBox(width: 15),
+                          SizedBox(width: MediaQuery.of(context).size.width / 40),
                           Align(
                             alignment: Alignment.center,
                             child: Text(
                               objective.location.toString(),
-                              style: const TextStyle(
+                              style: TextStyle(
                                 color: Colors.white,
-                                fontSize: 20,
+                                fontSize: MediaQuery.of(context).size.height / 35,
                                 fontWeight: FontWeight.w900,
                               ),
                             ),
@@ -113,11 +110,10 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                       ),
                     ),
                   ),
-                  const SizedBox(height: 60),
+                  SizedBox(height: MediaQuery.of(context).size.height / 45),
                   Flexible(
                     child: Container(
                       height: MediaQuery.of(context).size.height / 1.8,
-                      width: MediaQuery.of(context).size.width - 20,
                       decoration: const BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(15.0)),
                         color: Color.fromARGB(150, 0, 143, 105),
@@ -126,27 +122,26 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                         children: [
                           ListTile(
                             title: Text(
-                              '\n' +
                                   AppLocalizations.of(context).description +
                                   '\n',
                               style: TextStyle(
                                 color: Colors.white,
-                                fontSize: 20,
+                                fontSize: MediaQuery.of(context).size.height / 35,
                                 fontWeight: FontWeight.w800,
                               ),
                               textAlign: TextAlign.left,
                             ),
                             subtitle: Text(
                               objective.description.toString(),
-                              style: const TextStyle(
+                              style: TextStyle(
                                 color: Colors.white,
-                                fontSize: 17,
+                                fontSize: MediaQuery.of(context).size.height / 45,
                               ),
                             ),
                           ),
                           Container(
-                            height: 90,
-                            width: MediaQuery.of(context).size.width / 2,
+                            height: MediaQuery.of(context).size.height / 10,
+                            width: MediaQuery.of(context).size.width ,
                             decoration: const BoxDecoration(
                               borderRadius:
                                   BorderRadius.all(Radius.circular(25.0)),
@@ -164,6 +159,16 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                               child: ListView(
                                 scrollDirection: Axis.horizontal,
                                 children: [
+                                  SizedBox(width: MediaQuery.of(context).size.width / 75),
+                                  Container(
+                                    width: MediaQuery.of(context).size.width/5,
+                                    decoration: const BoxDecoration(
+                                      image: DecorationImage(
+                                          image: AssetImage(
+                                              "assets/gals/icons/qr.png"),
+                                          fit: BoxFit.contain),
+                                    ),
+                                  ),
                                   Align(
                                     alignment: Alignment.centerLeft,
                                     child: Text(
@@ -171,18 +176,8 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontWeight: FontWeight.w900,
-                                        fontSize: 19,
+                                        fontSize: MediaQuery.of(context).size.height / 35,
                                       ),
-                                    ),
-                                  ),
-                                  const SizedBox(width: 20),
-                                  Container(
-                                    width: 75,
-                                    decoration: const BoxDecoration(
-                                      image: DecorationImage(
-                                          image: AssetImage(
-                                              "assets/gals/icons/qr.png"),
-                                          fit: BoxFit.contain),
                                     ),
                                   ),
                                 ],

@@ -51,8 +51,7 @@ class _ObjectivesScreenState extends State<ObjectivesScreen> {
                       scrollDirection: Axis.horizontal,
                       children: <Widget>[
                         Container(
-                          height: 75,
-                          width: 75,
+                          width: MediaQuery.of(context).size.width / 5,
                           decoration: const BoxDecoration(
                             borderRadius:
                                 BorderRadius.all(Radius.circular(15.0)),
@@ -71,18 +70,18 @@ class _ObjectivesScreenState extends State<ObjectivesScreen> {
                                 objectives[index].program.toString() +
                                 "\n" +
                                 objectives[index].location.toString(),
-                            style: const TextStyle(
+                            style: TextStyle(
                               color: Colors.black,
                               fontWeight: FontWeight.w600,
-                              fontSize: 12,
+                              fontSize: MediaQuery.of(context).size.width / 26,
                             ),
                           ),
                         ),
-                        const SizedBox(
-                          width: 35,
+                        SizedBox(
+                          width: MediaQuery.of(context).size.width/40,
                         ),
                         Container(
-                          width: 100,
+                          width: MediaQuery.of(context).size.width / 8,
                           decoration: const BoxDecoration(
                             borderRadius:
                                 BorderRadius.all(Radius.circular(15.0)),
