@@ -9,6 +9,7 @@ class Trail {
   String? location;
   String? description;
   String? mapDownloadUrl;
+  String? mapUrl;
   double? latitude;
   double? longitude;
 
@@ -18,6 +19,7 @@ class Trail {
       required this.location,
       required this.description,
       required this.mapDownloadUrl,
+      required this.mapUrl,
       required this.latitude,
       required this.longitude});
 

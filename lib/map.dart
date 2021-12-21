@@ -12,17 +12,15 @@ class MapUtils {
       throw 'Could not open the map.';
     }
   }
-  static Future<void> open() async {
-    String googleUrl = 'https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18';
-    if (await canLaunch(googleUrl)) {
-      await launch(googleUrl);
+  static Future<void> open(String mapUrl) async {
+    if (await canLaunch(mapUrl)) {
+      await launch(mapUrl);
     } else {
       throw 'Could not open';
     }
   }
   static Future<void> download(String url) async {
     String googleUrl = url;
-    // String googleUrl = 'https://drive.google.com/file/d/1GqObT9xT1B8aFUskoY9MnzEa1XwU2Go5/view?usp=sharing';
     if (await canLaunch(googleUrl)) {
       await launch(googleUrl);
     } else {
