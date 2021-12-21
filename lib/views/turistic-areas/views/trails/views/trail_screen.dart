@@ -15,6 +15,17 @@ class TrailScreen extends StatefulWidget {
 
 class _TrailScreenState extends State<TrailScreen> {
   final Trail trail;
+  late String mapUrl;
+
+  @override
+  initState(){
+    super.initState();
+    FirebaseApi.download(trail.mapDownloadUrl.toString()).then((value) =>
+    setState((){
+      mapUrl = value;
+    })
+    );
+  }
 
   _TrailScreenState({required this.trail});
 
@@ -80,9 +91,9 @@ class _TrailScreenState extends State<TrailScreen> {
                         ListTile(
                           title: Text(
                             '\n' +
-                                AppLocalizations.of(context).description +
-                                '\n',
-                            style: TextStyle(
+                                 AppLocalizations.of(context).description +
+                                 '\n',
+                            style: const TextStyle(
                               color: Colors.white,
                               fontSize: 20,
                               fontWeight: FontWeight.w800,
@@ -159,8 +170,7 @@ class _TrailScreenState extends State<TrailScreen> {
                                     ),
                                     child: GestureDetector(
                                       onTap: () {
-                                        MapUtils.download(
-                                            FirebaseApi.download('/test.kml'));
+                                        MapUtils.download(mapUrl);
                                       },
                                       child: Container(
                                         decoration: const BoxDecoration(

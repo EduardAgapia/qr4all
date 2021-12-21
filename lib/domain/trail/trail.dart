@@ -8,12 +8,14 @@ class Trail {
   String? program;
   String? location;
   String? description;
+  String? mapDownloadUrl;
 
   Trail(
       {required this.name,
       required this.program,
       required this.location,
-      required this.description});
+      required this.description,
+      required this.mapDownloadUrl});
 
   factory Trail.fromJson(Map<String, dynamic> json) => _$TrailFromJson(json);
 

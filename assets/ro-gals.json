@@ -133,61 +133,71 @@
           "name": "Traseul numarul #",
           "location": "Locatia Traseului numarului#",
           "program": "Locatia Traseului numarului#",
-          "description": "Descrierea  Traseului numarului#"
+          "description": "Descrierea  Traseului numarului#",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #2",
           "location": "Locatia Traseului numarului#2",
           "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #2",
           "location": "Locatia Traseului numarului#2",
           "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #3",
           "location": "Locatia Traseului numarului#3",
           "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #3",
           "location": "Locatia Traseului numarului#3",
           "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #3",
           "location": "Locatia Traseului numarului#3",
           "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #4",
           "location": "Locatia Traseului numarului#4",
           "program": "Locatia Traseului numarului#4",
-          "description": "Descrierea  Traseului numarului#4"
+          "description": "Descrierea  Traseului numarului#4",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #5",
           "location": "Locatia Traseului numarului#5",
           "program": "Locatia Traseului numarului#5",
-          "description": "Descrierea  Traseului numarului#5"
+          "description": "Descrierea  Traseului numarului#5",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #6",
           "location": "Locatia Traseului numarului#6",
           "program": "Locatia Traseului numarului#6",
-          "description": "Descrierea  Traseului numarului#6"
+          "description": "Descrierea  Traseului numarului#6",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #7",
           "location": "Locatia Traseului numarului#7",
           "program": "Locatia Traseului numarului#7",
-          "description": "Descrierea  Traseului numarului#7"
+          "description": "Descrierea  Traseului numarului#7",
+          "mapDownloadUrl": "/test.kml"
         }
       ],
       "utils": [
@@ -382,61 +392,71 @@
           "name": "Traseul numarul #",
           "location": "Locatia Traseului numarului#",
           "program": "Locatia Traseului numarului#",
-          "description": "Descrierea  Traseului numarului#"
+          "description": "Descrierea  Traseului numarului#",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #2",
           "location": "Locatia Traseului numarului#2",
           "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #2",
           "location": "Locatia Traseului numarului#2",
           "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #3",
           "location": "Locatia Traseului numarului#3",
           "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #3",
           "location": "Locatia Traseului numarului#3",
           "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #3",
           "location": "Locatia Traseului numarului#3",
           "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #4",
           "location": "Locatia Traseului numarului#4",
           "program": "Locatia Traseului numarului#4",
-          "description": "Descrierea  Traseului numarului#4"
+          "description": "Descrierea  Traseului numarului#4",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #5",
           "location": "Locatia Traseului numarului#5",
           "program": "Locatia Traseului numarului#5",
-          "description": "Descrierea  Traseului numarului#5"
+          "description": "Descrierea  Traseului numarului#5",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #6",
           "location": "Locatia Traseului numarului#6",
           "program": "Locatia Traseului numarului#6",
-          "description": "Descrierea  Traseului numarului#6"
+          "description": "Descrierea  Traseului numarului#6",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #7",
           "location": "Locatia Traseului numarului#7",
           "program": "Locatia Traseului numarului#7",
-          "description": "Descrierea  Traseului numarului#7"
+          "description": "Descrierea  Traseului numarului#7",
+          "mapDownloadUrl": "/test.kml"
         }
       ],
       "utils": [
@@ -631,61 +651,71 @@
           "name": "Traseul numarul #",
           "location": "Locatia Traseului numarului#",
           "program": "Locatia Traseului numarului#",
-          "description": "Descrierea  Traseului numarului#"
+          "description": "Descrierea  Traseului numarului#",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #2",
           "location": "Locatia Traseului numarului#2",
           "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #2",
           "location": "Locatia Traseului numarului#2",
           "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #3",
           "location": "Locatia Traseului numarului#3",
           "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #3",
           "location": "Locatia Traseului numarului#3",
           "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #3",
           "location": "Locatia Traseului numarului#3",
           "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #4",
           "location": "Locatia Traseului numarului#4",
           "program": "Locatia Traseului numarului#4",
-          "description": "Descrierea  Traseului numarului#4"
+          "description": "Descrierea  Traseului numarului#4",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #5",
           "location": "Locatia Traseului numarului#5",
           "program": "Locatia Traseului numarului#5",
-          "description": "Descrierea  Traseului numarului#5"
+          "description": "Descrierea  Traseului numarului#5",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #6",
           "location": "Locatia Traseului numarului#6",
           "program": "Locatia Traseului numarului#6",
-          "description": "Descrierea  Traseului numarului#6"
+          "description": "Descrierea  Traseului numarului#6",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #7",
           "location": "Locatia Traseului numarului#7",
           "program": "Locatia Traseului numarului#7",
-          "description": "Descrierea  Traseului numarului#7"
+          "description": "Descrierea  Traseului numarului#7",
+          "mapDownloadUrl": "/test.kml"
         }
       ],
       "utils": [
@@ -880,61 +910,71 @@
           "name": "Traseul numarul #",
           "location": "Locatia Traseului numarului#",
           "program": "Locatia Traseului numarului#",
-          "description": "Descrierea  Traseului numarului#"
+          "description": "Descrierea  Traseului numarului#",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #2",
           "location": "Locatia Traseului numarului#2",
           "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #2",
           "location": "Locatia Traseului numarului#2",
           "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #3",
           "location": "Locatia Traseului numarului#3",
           "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #3",
           "location": "Locatia Traseului numarului#3",
           "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #3",
           "location": "Locatia Traseului numarului#3",
           "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #4",
           "location": "Locatia Traseului numarului#4",
           "program": "Locatia Traseului numarului#4",
-          "description": "Descrierea  Traseului numarului#4"
+          "description": "Descrierea  Traseului numarului#4",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #5",
           "location": "Locatia Traseului numarului#5",
           "program": "Locatia Traseului numarului#5",
-          "description": "Descrierea  Traseului numarului#5"
+          "description": "Descrierea  Traseului numarului#5",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #6",
           "location": "Locatia Traseului numarului#6",
           "program": "Locatia Traseului numarului#6",
-          "description": "Descrierea  Traseului numarului#6"
+          "description": "Descrierea  Traseului numarului#6",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #7",
           "location": "Locatia Traseului numarului#7",
           "program": "Locatia Traseului numarului#7",
-          "description": "Descrierea  Traseului numarului#7"
+          "description": "Descrierea  Traseului numarului#7",
+          "mapDownloadUrl": "/test.kml"
         }
       ],
       "utils": [
@@ -1129,61 +1169,71 @@
           "name": "Traseul numarul #",
           "location": "Locatia Traseului numarului#",
           "program": "Locatia Traseului numarului#",
-          "description": "Descrierea  Traseului numarului#"
+          "description": "Descrierea  Traseului numarului#",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #2",
           "location": "Locatia Traseului numarului#2",
           "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #2",
           "location": "Locatia Traseului numarului#2",
           "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #3",
           "location": "Locatia Traseului numarului#3",
           "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #3",
           "location": "Locatia Traseului numarului#3",
           "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #3",
           "location": "Locatia Traseului numarului#3",
           "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #4",
           "location": "Locatia Traseului numarului#4",
           "program": "Locatia Traseului numarului#4",
-          "description": "Descrierea  Traseului numarului#4"
+          "description": "Descrierea  Traseului numarului#4",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #5",
           "location": "Locatia Traseului numarului#5",
           "program": "Locatia Traseului numarului#5",
-          "description": "Descrierea  Traseului numarului#5"
+          "description": "Descrierea  Traseului numarului#5",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #6",
           "location": "Locatia Traseului numarului#6",
           "program": "Locatia Traseului numarului#6",
-          "description": "Descrierea  Traseului numarului#6"
+          "description": "Descrierea  Traseului numarului#6",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #7",
           "location": "Locatia Traseului numarului#7",
           "program": "Locatia Traseului numarului#7",
-          "description": "Descrierea  Traseului numarului#7"
+          "description": "Descrierea  Traseului numarului#7",
+          "mapDownloadUrl": "/test.kml"
         }
       ],
       "utils": [
@@ -1378,61 +1428,71 @@
           "name": "Traseul numarul #",
           "location": "Locatia Traseului numarului#",
           "program": "Locatia Traseului numarului#",
-          "description": "Descrierea  Traseului numarului#"
+          "description": "Descrierea  Traseului numarului#",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #2",
           "location": "Locatia Traseului numarului#2",
           "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #2",
           "location": "Locatia Traseului numarului#2",
           "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #3",
           "location": "Locatia Traseului numarului#3",
           "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #3",
           "location": "Locatia Traseului numarului#3",
           "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #3",
           "location": "Locatia Traseului numarului#3",
           "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #4",
           "location": "Locatia Traseului numarului#4",
           "program": "Locatia Traseului numarului#4",
-          "description": "Descrierea  Traseului numarului#4"
+          "description": "Descrierea  Traseului numarului#4",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #5",
           "location": "Locatia Traseului numarului#5",
           "program": "Locatia Traseului numarului#5",
-          "description": "Descrierea  Traseului numarului#5"
+          "description": "Descrierea  Traseului numarului#5",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #6",
           "location": "Locatia Traseului numarului#6",
           "program": "Locatia Traseului numarului#6",
-          "description": "Descrierea  Traseului numarului#6"
+          "description": "Descrierea  Traseului numarului#6",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #7",
           "location": "Locatia Traseului numarului#7",
           "program": "Locatia Traseului numarului#7",
-          "description": "Descrierea  Traseului numarului#7"
+          "description": "Descrierea  Traseului numarului#7",
+          "mapDownloadUrl": "/test.kml"
         }
       ],
       "utils": [
@@ -1627,61 +1687,71 @@
           "name": "Traseul numarul #",
           "location": "Locatia Traseului numarului#",
           "program": "Locatia Traseului numarului#",
-          "description": "Descrierea  Traseului numarului#"
+          "description": "Descrierea  Traseului numarului#",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #2",
           "location": "Locatia Traseului numarului#2",
           "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #2",
           "location": "Locatia Traseului numarului#2",
           "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #3",
           "location": "Locatia Traseului numarului#3",
           "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #3",
           "location": "Locatia Traseului numarului#3",
           "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #3",
           "location": "Locatia Traseului numarului#3",
           "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #4",
           "location": "Locatia Traseului numarului#4",
           "program": "Locatia Traseului numarului#4",
-          "description": "Descrierea  Traseului numarului#4"
+          "description": "Descrierea  Traseului numarului#4",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #5",
           "location": "Locatia Traseului numarului#5",
           "program": "Locatia Traseului numarului#5",
-          "description": "Descrierea  Traseului numarului#5"
+          "description": "Descrierea  Traseului numarului#5",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #6",
           "location": "Locatia Traseului numarului#6",
           "program": "Locatia Traseului numarului#6",
-          "description": "Descrierea  Traseului numarului#6"
+          "description": "Descrierea  Traseului numarului#6",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #7",
           "location": "Locatia Traseului numarului#7",
           "program": "Locatia Traseului numarului#7",
-          "description": "Descrierea  Traseului numarului#7"
+          "description": "Descrierea  Traseului numarului#7",
+          "mapDownloadUrl": "/test.kml"
         }
       ],
       "utils": [
@@ -1876,61 +1946,71 @@
           "name": "Traseul numarul #",
           "location": "Locatia Traseului numarului#",
           "program": "Locatia Traseului numarului#",
-          "description": "Descrierea  Traseului numarului#"
+          "description": "Descrierea  Traseului numarului#",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #2",
           "location": "Locatia Traseului numarului#2",
           "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #2",
           "location": "Locatia Traseului numarului#2",
           "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #3",
           "location": "Locatia Traseului numarului#3",
           "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #3",
           "location": "Locatia Traseului numarului#3",
           "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #3",
           "location": "Locatia Traseului numarului#3",
           "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #4",
           "location": "Locatia Traseului numarului#4",
           "program": "Locatia Traseului numarului#4",
-          "description": "Descrierea  Traseului numarului#4"
+          "description": "Descrierea  Traseului numarului#4",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #5",
           "location": "Locatia Traseului numarului#5",
           "program": "Locatia Traseului numarului#5",
-          "description": "Descrierea  Traseului numarului#5"
+          "description": "Descrierea  Traseului numarului#5",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #6",
           "location": "Locatia Traseului numarului#6",
           "program": "Locatia Traseului numarului#6",
-          "description": "Descrierea  Traseului numarului#6"
+          "description": "Descrierea  Traseului numarului#6",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #7",
           "location": "Locatia Traseului numarului#7",
           "program": "Locatia Traseului numarului#7",
-          "description": "Descrierea  Traseului numarului#7"
+          "description": "Descrierea  Traseului numarului#7",
+          "mapDownloadUrl": "/test.kml"
         }
       ],
       "utils": [
@@ -2125,31 +2205,36 @@
           "name": "Traseul numarul #",
           "location": "Locatia Traseului numarului#",
           "program": "Locatia Traseului numarului#",
-          "description": "Descrierea  Traseului numarului#"
+          "description": "Descrierea  Traseului numarului#",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #2",
           "location": "Locatia Traseului numarului#2",
           "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #2",
           "location": "Locatia Traseului numarului#2",
           "program": "Locatia Traseului numarului#2",
-          "description": "Descrierea  Traseului numarului#2"
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #3",
           "location": "Locatia Traseului numarului#3",
           "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #3",
           "location": "Locatia Traseului numarului#3",
           "program": "Locatia Traseului numarului#3",
-          "description": "Descrierea  Traseului numarului#3"
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #3",
@@ -2161,25 +2246,29 @@
           "name": "Traseul numarul #4",
           "location": "Locatia Traseului numarului#4",
           "program": "Locatia Traseului numarului#4",
-          "description": "Descrierea  Traseului numarului#4"
+          "description": "Descrierea  Traseului numarului#4",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #5",
           "location": "Locatia Traseului numarului#5",
           "program": "Locatia Traseului numarului#5",
-          "description": "Descrierea  Traseului numarului#5"
+          "description": "Descrierea  Traseului numarului#5",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #6",
           "location": "Locatia Traseului numarului#6",
           "program": "Locatia Traseului numarului#6",
-          "description": "Descrierea  Traseului numarului#6"
+          "description": "Descrierea  Traseului numarului#6",
+          "mapDownloadUrl": "/test.kml"
         },
         {
           "name": "Traseul numarul #7",
           "location": "Locatia Traseului numarului#7",
           "program": "Locatia Traseului numarului#7",
-          "description": "Descrierea  Traseului numarului#7"
+          "description": "Descrierea  Traseului numarului#7",
+          "mapDownloadUrl": "/test.kml"
         }
       ],
       "utils": [
