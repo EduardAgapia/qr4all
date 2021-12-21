@@ -26,7 +26,6 @@ class _AboutScreenState extends State<AboutScreen> {
         mainAxisSize: MainAxisSize.min,
         children: <Widget>[
           Container(
-            padding: const EdgeInsets.fromLTRB(0, 250, 0, 0),
             height: MediaQuery.of(context).size.height / 3,
             width: double.infinity,
             decoration: BoxDecoration(
@@ -43,24 +42,27 @@ class _AboutScreenState extends State<AboutScreen> {
               image: const DecorationImage(
                   image: AssetImage("assets/gals/iasi.png"), fit: BoxFit.cover),
             ),
-            child: Container(
-              padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-              width: double.infinity,
-              height: 2,
-              child: Align(
-                alignment: Alignment.bottomCenter,
-                child: Text(
-                  gal.name.toString(),
-                  style: const TextStyle(
-                    color: Colors.black,
-                    fontSize: 15,
-                    fontWeight: FontWeight.w900,
+            child: Align(
+              alignment: Alignment.bottomCenter,
+              child: Container(
+                padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
+                width: double.infinity,
+                height: MediaQuery.of(context).size.height / 25,
+                child: Align(
+                  alignment: Alignment.bottomCenter,
+                  child: Text(
+                    gal.name.toString(),
+                    style: TextStyle(
+                      color: Colors.black,
+                      fontSize: MediaQuery.of(context).size.height / 30,
+                      fontWeight: FontWeight.w900,
+                    ),
                   ),
                 ),
+                decoration: const BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                    color: Color.fromARGB(200, 255, 255, 255)),
               ),
-              decoration: const BoxDecoration(
-                  borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                  color: Color.fromARGB(200, 255, 255, 255)),
             ),
           ),
           const SizedBox(height: 10),
