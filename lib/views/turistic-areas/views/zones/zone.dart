@@ -10,6 +10,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class ZoneScreen extends StatefulWidget {
   final Gal gal;
+
   ZoneScreen({required this.gal, Key? key}) : super(key: key);
 
   @override
@@ -18,6 +19,7 @@ class ZoneScreen extends StatefulWidget {
 
 class _ZoneScreenState extends State<ZoneScreen> {
   final Gal gal;
+
   _ZoneScreenState({required this.gal});
 
   @override
@@ -53,23 +55,31 @@ class _ZoneScreenState extends State<ZoneScreen> {
                       ));
                 },
                 child: Container(
-                  padding: const EdgeInsets.fromLTRB(0, 115, 0, 0),
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
                           image: AssetImage("assets/gals/iasi.png"),
                           fit: BoxFit.cover)),
-                  child: Container(
-                    padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                    width: double.infinity,
-                    height: 10,
-                    child: Align(
-                      alignment: Alignment.bottomCenter,
-                      child: Text(AppLocalizations.of(context).about),
+                  child: Align(
+                    alignment: Alignment.bottomCenter,
+                    child: Container(
+                      padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
+                      width: double.infinity,
+                      height: MediaQuery.of(context).size.height / 30,
+                      child: Align(
+                        alignment: Alignment.bottomCenter,
+                        child: Text(
+                          AppLocalizations.of(context).about,
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontSize: MediaQuery.of(context).size.height / 40,
+                          ),
+                        ),
+                      ),
+                      decoration: const BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                          color: Color.fromARGB(200, 255, 255, 255)),
                     ),
-                    decoration: const BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                        color: Color.fromARGB(200, 255, 255, 255)),
                   ),
                 ),
               ),
@@ -85,27 +95,36 @@ class _ZoneScreenState extends State<ZoneScreen> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => CalendarScreen(events: gal.events),
+                        builder: (context) =>
+                            CalendarScreen(events: gal.events),
                       ));
                 },
                 child: Container(
-                  padding: const EdgeInsets.fromLTRB(0, 115, 0, 0),
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
                           image: AssetImage("assets/gals/events.png"),
                           fit: BoxFit.cover)),
-                  child: Container(
-                    padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                    width: double.infinity,
-                    height: 10,
-                    child: Align(
-                      alignment: Alignment.bottomCenter,
-                      child: Text(AppLocalizations.of(context).calendar),
+                  child: Align(
+                    alignment: Alignment.bottomCenter,
+                    child: Container(
+                      padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
+                      width: double.infinity,
+                      height: MediaQuery.of(context).size.height / 30,
+                      child: Align(
+                        alignment: Alignment.bottomCenter,
+                        child: Text(
+                          AppLocalizations.of(context).calendar,
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontSize: MediaQuery.of(context).size.height / 40,
+                          ),
+                        ),
+                      ),
+                      decoration: const BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                          color: Color.fromARGB(200, 255, 255, 255)),
                     ),
-                    decoration: const BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                        color: Color.fromARGB(200, 255, 255, 255)),
                   ),
                 ),
               ),
@@ -125,23 +144,31 @@ class _ZoneScreenState extends State<ZoneScreen> {
                       ));
                 },
                 child: Container(
-                  padding: const EdgeInsets.fromLTRB(0, 115, 0, 0),
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
                           image: AssetImage("assets/gals/trails.png"),
                           fit: BoxFit.cover)),
-                  child: Container(
-                    padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                    width: double.infinity,
-                    height: 10,
-                    child: Align(
-                      alignment: Alignment.bottomCenter,
-                      child: Text(AppLocalizations.of(context).trails),
+                  child: Align(
+                    alignment: Alignment.bottomCenter,
+                    child: Container(
+                      padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
+                      width: double.infinity,
+                      height: MediaQuery.of(context).size.height / 30,
+                      child: Align(
+                        alignment: Alignment.bottomCenter,
+                        child: Text(
+                          AppLocalizations.of(context).trails,
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontSize: MediaQuery.of(context).size.height / 40,
+                          ),
+                        ),
+                      ),
+                      decoration: const BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                          color: Color.fromARGB(200, 255, 255, 255)),
                     ),
-                    decoration: const BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                        color: Color.fromARGB(200, 255, 255, 255)),
                   ),
                 ),
               ),
@@ -157,27 +184,36 @@ class _ZoneScreenState extends State<ZoneScreen> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => ObjectivesScreen(objectives: gal.objectives),
+                        builder: (context) =>
+                            ObjectivesScreen(objectives: gal.objectives),
                       ));
                 },
                 child: Container(
-                  padding: const EdgeInsets.fromLTRB(0, 115, 0, 0),
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
                           image: AssetImage("assets/gals/objs.png"),
                           fit: BoxFit.cover)),
-                  child: Container(
-                    padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                    width: double.infinity,
-                    height: 10,
-                    child: Align(
-                      alignment: Alignment.bottomCenter,
-                      child: Text(AppLocalizations.of(context).objectives),
+                  child: Align(
+                    alignment: Alignment.bottomCenter,
+                    child: Container(
+                      padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
+                      width: double.infinity,
+                      height: MediaQuery.of(context).size.height / 30,
+                      child: Align(
+                        alignment: Alignment.bottomCenter,
+                        child: Text(
+                          AppLocalizations.of(context).objectives,
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontSize: MediaQuery.of(context).size.height / 40,
+                          ),
+                        ),
+                      ),
+                      decoration: const BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                          color: Color.fromARGB(200, 255, 255, 255)),
                     ),
-                    decoration: const BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                        color: Color.fromARGB(200, 255, 255, 255)),
                   ),
                 ),
               ),
@@ -193,27 +229,36 @@ class _ZoneScreenState extends State<ZoneScreen> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => UtilInfoScreen(utilInfo: gal.utils),
+                        builder: (context) =>
+                            UtilInfoScreen(utilInfo: gal.utils),
                       ));
                 },
                 child: Container(
-                  padding: const EdgeInsets.fromLTRB(0, 115, 0, 0),
                   decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
                           image: AssetImage("assets/gals/infos.png"),
                           fit: BoxFit.cover)),
-                  child: Container(
-                    padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                    width: double.infinity,
-                    height: 10,
-                    child: Align(
-                      alignment: Alignment.bottomCenter,
-                      child: Text(AppLocalizations.of(context).infoDetails),
+                  child: Align(
+                    alignment: Alignment.bottomCenter,
+                    child: Container(
+                      padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
+                      width: double.infinity,
+                      height: MediaQuery.of(context).size.height / 30,
+                      child: Align(
+                        alignment: Alignment.bottomCenter,
+                        child: Text(
+                          AppLocalizations.of(context).infoDetails,
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontSize: MediaQuery.of(context).size.height / 40,
+                          ),
+                        ),
+                      ),
+                      decoration: const BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                          color: Color.fromARGB(200, 255, 255, 255)),
                     ),
-                    decoration: const BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                        color: Color.fromARGB(200, 255, 255, 255)),
                   ),
                 ),
               ),
