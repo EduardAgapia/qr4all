@@ -134,70 +134,90 @@
           "location": "Loaction of Trail with numbe #",
           "program": "Porgram of Trail with numbe #",
           "description": "Description of Trail with numbe #",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #2",
           "location": "Loaction of Trail with numbe #2",
           "program": "Porgram of Trail with numbe #2",
           "description": "Description of Trail with numbe #2",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #2",
           "location": "Loaction of Trail with numbe #2",
           "program": "Porgram of Trail with numbe #2",
           "description": "Description of Trail with numbe #2",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #3",
           "location": "Loaction of Trail with numbe #3",
           "program": "Porgram of Trail with numbe #3",
           "description": "Description of Trail with numbe #3",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #3",
           "location": "Loaction of Trail with numbe #3",
           "program": "Porgram of Trail with numbe #3",
           "description": "Description of Trail with numbe #3",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #3",
           "location": "Loaction of Trail with numbe #3",
           "program": "Porgram of Trail with numbe #3",
           "description": "Description of Trail with numbe #3",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #4",
           "location": "Loaction of Trail with numbe #4",
           "program": "Porgram of Trail with numbe #4",
           "description": "Description of Trail with numbe #4",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #5",
           "location": "Loaction of Trail with numbe #5",
           "program": "Porgram of Trail with numbe #5",
           "description": "Description of Trail with numbe #5",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #6",
           "location": "Loaction of Trail with numbe #6",
           "program": "Porgram of Trail with numbe #6",
           "description": "Description of Trail with numbe #6",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #7",
           "location": "Loaction of Trail with numbe #7",
           "program": "Porgram of Trail with numbe #7",
           "description": "Description of Trail with numbe #7",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         }
       ],
       "utils": [
@@ -393,70 +413,90 @@
           "location": "Loaction of Trail with numbe #",
           "program": "Porgram of Trail with numbe #",
           "description": "Description of Trail with numbe #",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #2",
           "location": "Loaction of Trail with numbe #2",
           "program": "Porgram of Trail with numbe #2",
           "description": "Description of Trail with numbe #2",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #2",
           "location": "Loaction of Trail with numbe #2",
           "program": "Porgram of Trail with numbe #2",
           "description": "Description of Trail with numbe #2",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #3",
           "location": "Loaction of Trail with numbe #3",
           "program": "Porgram of Trail with numbe #3",
           "description": "Description of Trail with numbe #3",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #3",
           "location": "Loaction of Trail with numbe #3",
           "program": "Porgram of Trail with numbe #3",
           "description": "Description of Trail with numbe #3",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #3",
           "location": "Loaction of Trail with numbe #3",
           "program": "Porgram of Trail with numbe #3",
           "description": "Description of Trail with numbe #3",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #4",
           "location": "Loaction of Trail with numbe #4",
           "program": "Porgram of Trail with numbe #4",
           "description": "Description of Trail with numbe #4",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #5",
           "location": "Loaction of Trail with numbe #5",
           "program": "Porgram of Trail with numbe #5",
           "description": "Description of Trail with numbe #5",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #6",
           "location": "Loaction of Trail with numbe #6",
           "program": "Porgram of Trail with numbe #6",
           "description": "Description of Trail with numbe #6",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #7",
           "location": "Loaction of Trail with numbe #7",
           "program": "Porgram of Trail with numbe #7",
           "description": "Description of Trail with numbe #7",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         }
       ],
       "utils": [
@@ -652,70 +692,90 @@
           "location": "Loaction of Trail with numbe #",
           "program": "Porgram of Trail with numbe #",
           "description": "Description of Trail with numbe #",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #2",
           "location": "Loaction of Trail with numbe #2",
           "program": "Porgram of Trail with numbe #2",
           "description": "Description of Trail with numbe #2",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #2",
           "location": "Loaction of Trail with numbe #2",
           "program": "Porgram of Trail with numbe #2",
           "description": "Description of Trail with numbe #2",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #3",
           "location": "Loaction of Trail with numbe #3",
           "program": "Porgram of Trail with numbe #3",
           "description": "Description of Trail with numbe #3",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #3",
           "location": "Loaction of Trail with numbe #3",
           "program": "Porgram of Trail with numbe #3",
           "description": "Description of Trail with numbe #3",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #3",
           "location": "Loaction of Trail with numbe #3",
           "program": "Porgram of Trail with numbe #3",
           "description": "Description of Trail with numbe #3",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #4",
           "location": "Loaction of Trail with numbe #4",
           "program": "Porgram of Trail with numbe #4",
           "description": "Description of Trail with numbe #4",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #5",
           "location": "Loaction of Trail with numbe #5",
           "program": "Porgram of Trail with numbe #5",
           "description": "Description of Trail with numbe #5",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #6",
           "location": "Loaction of Trail with numbe #6",
           "program": "Porgram of Trail with numbe #6",
           "description": "Description of Trail with numbe #6",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #7",
           "location": "Loaction of Trail with numbe #7",
           "program": "Porgram of Trail with numbe #7",
           "description": "Description of Trail with numbe #7",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         }
       ],
       "utils": [
@@ -911,70 +971,90 @@
           "location": "Loaction of Trail with numbe #",
           "program": "Porgram of Trail with numbe #",
           "description": "Description of Trail with numbe #",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #2",
           "location": "Loaction of Trail with numbe #2",
           "program": "Porgram of Trail with numbe #2",
           "description": "Description of Trail with numbe #2",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #2",
           "location": "Loaction of Trail with numbe #2",
           "program": "Porgram of Trail with numbe #2",
           "description": "Description of Trail with numbe #2",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #3",
           "location": "Loaction of Trail with numbe #3",
           "program": "Porgram of Trail with numbe #3",
           "description": "Description of Trail with numbe #3",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #3",
           "location": "Loaction of Trail with numbe #3",
           "program": "Porgram of Trail with numbe #3",
           "description": "Description of Trail with numbe #3",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #3",
           "location": "Loaction of Trail with numbe #3",
           "program": "Porgram of Trail with numbe #3",
           "description": "Description of Trail with numbe #3",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #4",
           "location": "Loaction of Trail with numbe #4",
           "program": "Porgram of Trail with numbe #4",
           "description": "Description of Trail with numbe #4",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #5",
           "location": "Loaction of Trail with numbe #5",
           "program": "Porgram of Trail with numbe #5",
           "description": "Description of Trail with numbe #5",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #6",
           "location": "Loaction of Trail with numbe #6",
           "program": "Porgram of Trail with numbe #6",
           "description": "Description of Trail with numbe #6",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #7",
           "location": "Loaction of Trail with numbe #7",
           "program": "Porgram of Trail with numbe #7",
           "description": "Description of Trail with numbe #7",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         }
       ],
       "utils": [
@@ -1170,70 +1250,90 @@
           "location": "Loaction of Trail with numbe #",
           "program": "Porgram of Trail with numbe #",
           "description": "Description of Trail with numbe #",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #2",
           "location": "Loaction of Trail with numbe #2",
           "program": "Porgram of Trail with numbe #2",
           "description": "Description of Trail with numbe #2",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #2",
           "location": "Loaction of Trail with numbe #2",
           "program": "Porgram of Trail with numbe #2",
           "description": "Description of Trail with numbe #2",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #3",
           "location": "Loaction of Trail with numbe #3",
           "program": "Porgram of Trail with numbe #3",
           "description": "Description of Trail with numbe #3",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #3",
           "location": "Loaction of Trail with numbe #3",
           "program": "Porgram of Trail with numbe #3",
           "description": "Description of Trail with numbe #3",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #3",
           "location": "Loaction of Trail with numbe #3",
           "program": "Porgram of Trail with numbe #3",
           "description": "Description of Trail with numbe #3",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #4",
           "location": "Loaction of Trail with numbe #4",
           "program": "Porgram of Trail with numbe #4",
           "description": "Description of Trail with numbe #4",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #5",
           "location": "Loaction of Trail with numbe #5",
           "program": "Porgram of Trail with numbe #5",
           "description": "Description of Trail with numbe #5",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #6",
           "location": "Loaction of Trail with numbe #6",
           "program": "Porgram of Trail with numbe #6",
           "description": "Description of Trail with numbe #6",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #7",
           "location": "Loaction of Trail with numbe #7",
           "program": "Porgram of Trail with numbe #7",
           "description": "Description of Trail with numbe #7",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         }
       ],
       "utils": [
@@ -1429,70 +1529,90 @@
           "location": "Loaction of Trail with numbe #",
           "program": "Porgram of Trail with numbe #",
           "description": "Description of Trail with numbe #",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #2",
           "location": "Loaction of Trail with numbe #2",
           "program": "Porgram of Trail with numbe #2",
           "description": "Description of Trail with numbe #2",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #2",
           "location": "Loaction of Trail with numbe #2",
           "program": "Porgram of Trail with numbe #2",
           "description": "Description of Trail with numbe #2",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #3",
           "location": "Loaction of Trail with numbe #3",
           "program": "Porgram of Trail with numbe #3",
           "description": "Description of Trail with numbe #3",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #3",
           "location": "Loaction of Trail with numbe #3",
           "program": "Porgram of Trail with numbe #3",
           "description": "Description of Trail with numbe #3",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #3",
           "location": "Loaction of Trail with numbe #3",
           "program": "Porgram of Trail with numbe #3",
           "description": "Description of Trail with numbe #3",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #4",
           "location": "Loaction of Trail with numbe #4",
           "program": "Porgram of Trail with numbe #4",
           "description": "Description of Trail with numbe #4",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #5",
           "location": "Loaction of Trail with numbe #5",
           "program": "Porgram of Trail with numbe #5",
           "description": "Description of Trail with numbe #5",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #6",
           "location": "Loaction of Trail with numbe #6",
           "program": "Porgram of Trail with numbe #6",
           "description": "Description of Trail with numbe #6",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #7",
           "location": "Loaction of Trail with numbe #7",
           "program": "Porgram of Trail with numbe #7",
           "description": "Description of Trail with numbe #7",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         }
       ],
       "utils": [
@@ -1688,70 +1808,90 @@
           "location": "Loaction of Trail with numbe #",
           "program": "Porgram of Trail with numbe #",
           "description": "Description of Trail with numbe #",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #2",
           "location": "Loaction of Trail with numbe #2",
           "program": "Porgram of Trail with numbe #2",
           "description": "Description of Trail with numbe #2",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #2",
           "location": "Loaction of Trail with numbe #2",
           "program": "Porgram of Trail with numbe #2",
           "description": "Description of Trail with numbe #2",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #3",
           "location": "Loaction of Trail with numbe #3",
           "program": "Porgram of Trail with numbe #3",
           "description": "Description of Trail with numbe #3",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #3",
           "location": "Loaction of Trail with numbe #3",
           "program": "Porgram of Trail with numbe #3",
           "description": "Description of Trail with numbe #3",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #3",
           "location": "Loaction of Trail with numbe #3",
           "program": "Porgram of Trail with numbe #3",
           "description": "Description of Trail with numbe #3",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #4",
           "location": "Loaction of Trail with numbe #4",
           "program": "Porgram of Trail with numbe #4",
           "description": "Description of Trail with numbe #4",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #5",
           "location": "Loaction of Trail with numbe #5",
           "program": "Porgram of Trail with numbe #5",
           "description": "Description of Trail with numbe #5",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #6",
           "location": "Loaction of Trail with numbe #6",
           "program": "Porgram of Trail with numbe #6",
           "description": "Description of Trail with numbe #6",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #7",
           "location": "Loaction of Trail with numbe #7",
           "program": "Porgram of Trail with numbe #7",
           "description": "Description of Trail with numbe #7",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         }
       ],
       "utils": [
@@ -1947,70 +2087,90 @@
           "location": "Loaction of Trail with numbe #",
           "program": "Porgram of Trail with numbe #",
           "description": "Description of Trail with numbe #",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #2",
           "location": "Loaction of Trail with numbe #2",
           "program": "Porgram of Trail with numbe #2",
           "description": "Description of Trail with numbe #2",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #2",
           "location": "Loaction of Trail with numbe #2",
           "program": "Porgram of Trail with numbe #2",
           "description": "Description of Trail with numbe #2",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #3",
           "location": "Loaction of Trail with numbe #3",
           "program": "Porgram of Trail with numbe #3",
           "description": "Description of Trail with numbe #3",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #3",
           "location": "Loaction of Trail with numbe #3",
           "program": "Porgram of Trail with numbe #3",
           "description": "Description of Trail with numbe #3",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #3",
           "location": "Loaction of Trail with numbe #3",
           "program": "Porgram of Trail with numbe #3",
           "description": "Description of Trail with numbe #3",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #4",
           "location": "Loaction of Trail with numbe #4",
           "program": "Porgram of Trail with numbe #4",
           "description": "Description of Trail with numbe #4",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #5",
           "location": "Loaction of Trail with numbe #5",
           "program": "Porgram of Trail with numbe #5",
           "description": "Description of Trail with numbe #5",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #6",
           "location": "Loaction of Trail with numbe #6",
           "program": "Porgram of Trail with numbe #6",
           "description": "Description of Trail with numbe #6",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #7",
           "location": "Loaction of Trail with numbe #7",
           "program": "Porgram of Trail with numbe #7",
           "description": "Description of Trail with numbe #7",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         }
       ],
       "utils": [
@@ -2206,70 +2366,90 @@
           "location": "Loaction of Trail with numbe #",
           "program": "Porgram of Trail with numbe #",
           "description": "Description of Trail with numbe #",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #2",
           "location": "Loaction of Trail with numbe #2",
           "program": "Porgram of Trail with numbe #2",
           "description": "Description of Trail with numbe #2",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #2",
           "location": "Loaction of Trail with numbe #2",
           "program": "Porgram of Trail with numbe #2",
           "description": "Description of Trail with numbe #2",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #3",
           "location": "Loaction of Trail with numbe #3",
           "program": "Porgram of Trail with numbe #3",
           "description": "Description of Trail with numbe #3",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #3",
           "location": "Loaction of Trail with numbe #3",
           "program": "Porgram of Trail with numbe #3",
           "description": "Description of Trail with numbe #3",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #3",
           "location": "Loaction of Trail with numbe #3",
           "program": "Porgram of Trail with numbe #3",
           "description": "Description of Trail with numbe #3",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #4",
           "location": "Loaction of Trail with numbe #4",
           "program": "Porgram of Trail with numbe #4",
           "description": "Description of Trail with numbe #4",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #5",
           "location": "Loaction of Trail with numbe #5",
           "program": "Porgram of Trail with numbe #5",
           "description": "Description of Trail with numbe #5",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #6",
           "location": "Loaction of Trail with numbe #6",
           "program": "Porgram of Trail with numbe #6",
           "description": "Description of Trail with numbe #6",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Trail with number #7",
           "location": "Loaction of Trail with numbe #7",
           "program": "Porgram of Trail with numbe #7",
           "description": "Description of Trail with numbe #7",
-          "mapDownloadUrl": "/test.kml"
+          "mapDownloadUrl": "/test.kml",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         }
       ],
       "utils": [

@@ -18,13 +18,12 @@ class _TrailScreenState extends State<TrailScreen> {
   late String mapUrl;
 
   @override
-  initState(){
+  initState() {
     super.initState();
-    FirebaseApi.download(trail.mapDownloadUrl.toString()).then((value) =>
-    setState((){
-      mapUrl = value;
-    })
-    );
+    FirebaseApi.download(trail.mapDownloadUrl.toString())
+        .then((value) => setState(() {
+              mapUrl = value;
+            }));
   }
 
   _TrailScreenState({required this.trail});
@@ -45,10 +44,9 @@ class _TrailScreenState extends State<TrailScreen> {
             ),
             child: ListView(
               children: [
-                const SizedBox(height: 50),
+                SizedBox(height: MediaQuery.of(context).size.height / 30),
                 Container(
-                  height: MediaQuery.of(context).size.height / 10,
-                  width: MediaQuery.of(context).size.width - 20,
+                  height: MediaQuery.of(context).size.height / 6.66666,
                   decoration: const BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(15.0)),
                     color: Color.fromARGB(100, 0, 143, 105),
@@ -56,32 +54,31 @@ class _TrailScreenState extends State<TrailScreen> {
                   child: Column(children: <Widget>[
                     ListTile(
                       title: Text(
-                        '\n' + trail.name.toString(),
-                        style: const TextStyle(
+                        '\n' +
+                        trail.name.toString(),
+                        style: TextStyle(
                           color: Colors.white,
-                          fontSize: 23,
+                          fontSize: MediaQuery.of(context).size.height / 30,
                           fontWeight: FontWeight.w800,
                         ),
                         textAlign: TextAlign.center,
                       ),
                       subtitle: Text(
                         trail.program.toString(),
-                        style: const TextStyle(
+                        style: TextStyle(
                           color: Colors.white,
-                          fontSize: 18,
-                          fontWeight: FontWeight.w800,
+                          fontSize: MediaQuery.of(context).size.height / 35,
                         ),
                         textAlign: TextAlign.center,
                       ),
                     ),
                   ]),
                 ),
-                const SizedBox(height: 120),
+                SizedBox(height: MediaQuery.of(context).size.height / 13),
                 Flexible(
                   child: Container(
-                    padding: const EdgeInsets.fromLTRB(2, 0, 2, 25),
-                    height: MediaQuery.of(context).size.height / 1.8,
-                    width: MediaQuery.of(context).size.width - 20,
+                    padding: const EdgeInsets.fromLTRB(2, 0, 2, 0),
+                    height: MediaQuery.of(context).size.height / 1.65,
                     decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       color: Color.fromARGB(100, 0, 143, 105),
@@ -90,43 +87,46 @@ class _TrailScreenState extends State<TrailScreen> {
                       children: [
                         ListTile(
                           title: Text(
-                            '\n' +
-                                 AppLocalizations.of(context).description +
-                                 '\n',
-                            style: const TextStyle(
+                            AppLocalizations.of(context).description + '\n',
+                            style: TextStyle(
                               color: Colors.white,
-                              fontSize: 20,
+                              fontSize: MediaQuery.of(context).size.height / 35,
                               fontWeight: FontWeight.w800,
                             ),
                             textAlign: TextAlign.left,
                           ),
                           subtitle: Text(
                             trail.description.toString(),
-                            style: const TextStyle(
+                            style: TextStyle(
                               color: Colors.white,
-                              fontSize: 17,
+                              fontSize: MediaQuery.of(context).size.height / 45,
                             ),
                           ),
                         ),
-                        const SizedBox(height: 15),
+                        SizedBox(
+                            height: MediaQuery.of(context).size.height / 50),
                         Align(
                           child: SizedBox(
                             height: MediaQuery.of(context).size.height / 11,
-                            width: MediaQuery.of(context).size.width,
                             child: ListView(
                                 scrollDirection: Axis.horizontal,
                                 children: [
-                                  const SizedBox(width: 90),
+                                  SizedBox(
+                                      width:
+                                          MediaQuery.of(context).size.width /
+                                              3.2),
                                   Container(
                                     width:
-                                        MediaQuery.of(context).size.width / 9,
+                                        MediaQuery.of(context).size.width / 13,
                                     decoration: const BoxDecoration(
                                       borderRadius: BorderRadius.all(
                                           Radius.circular(25.0)),
                                     ),
                                     child: GestureDetector(
                                       onTap: () {
-                                        MapUtils.openMap(47.152177, 27.585772);
+                                        MapUtils.openMap(
+                                            trail.latitude!.toDouble(),
+                                            trail.longitude!.toDouble());
                                       },
                                       child: Container(
                                         decoration: const BoxDecoration(
@@ -138,10 +138,10 @@ class _TrailScreenState extends State<TrailScreen> {
                                       ),
                                     ),
                                   ),
-                                  const SizedBox(width: 33),
+                                  SizedBox(width: MediaQuery.of(context).size.width / 25),
                                   Container(
                                     width:
-                                        MediaQuery.of(context).size.width / 6,
+                                        MediaQuery.of(context).size.width / 8.5,
                                     decoration: const BoxDecoration(
                                       borderRadius: BorderRadius.all(
                                           Radius.circular(25.0)),
@@ -160,10 +160,11 @@ class _TrailScreenState extends State<TrailScreen> {
                                       ),
                                     ),
                                   ),
-                                  const SizedBox(width: 33),
+                                  SizedBox(
+                                      width: MediaQuery.of(context).size.width / 25),
                                   Container(
                                     width:
-                                        MediaQuery.of(context).size.width / 7,
+                                        MediaQuery.of(context).size.width / 10.5,
                                     decoration: const BoxDecoration(
                                       borderRadius: BorderRadius.all(
                                           Radius.circular(25.0)),

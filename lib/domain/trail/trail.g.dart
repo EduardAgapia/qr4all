@@ -12,6 +12,8 @@ Trail _$TrailFromJson(Map<String, dynamic> json) => Trail(
       location: json['location'] as String?,
       description: json['description'] as String?,
       mapDownloadUrl: json['mapDownloadUrl'] as String?,
+      latitude: (json['latitude'] as num?)?.toDouble(),
+      longitude: (json['longitude'] as num?)?.toDouble(),
     );
 
 Map<String, dynamic> _$TrailToJson(Trail instance) => <String, dynamic>{
@@ -20,4 +22,6 @@ Map<String, dynamic> _$TrailToJson(Trail instance) => <String, dynamic>{
       'location': instance.location,
       'description': instance.description,
       'mapDownloadUrl': instance.mapDownloadUrl,
+      'latitude': instance.latitude,
+      'longitude': instance.longitude,
     };

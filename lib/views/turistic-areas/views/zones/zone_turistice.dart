@@ -96,7 +96,6 @@ class _ReadExampleState extends State<ZoneTuristice> {
                   );
                 },
                 child: Container(
-                  padding: const EdgeInsets.fromLTRB(0, 0, 0, 0),
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(15.0)),
                       image: DecorationImage(
@@ -105,7 +104,11 @@ class _ReadExampleState extends State<ZoneTuristice> {
                   child: Align(
                     alignment: Alignment.bottomCenter,
                     child: Container(
-                      padding: const EdgeInsets.fromLTRB(2, 0, 0, 4),
+                      padding: EdgeInsets.fromLTRB(
+                          0,
+                          0,
+                          0,
+                          MediaQuery.of(context).size.height / 150),
                       width: double.infinity,
                       height: MediaQuery.of(context).size.height / 30,
                       child: Align(
@@ -114,7 +117,7 @@ class _ReadExampleState extends State<ZoneTuristice> {
                           galList[index].name.toString(),
                           style: TextStyle(
                             color: Colors.black,
-                            fontSize: MediaQuery.of(context).size.height / 53,
+                            fontSize: MediaQuery.of(context).size.height / 52,
                           ),
                         ),
                       ),
