@@ -25,7 +25,6 @@ class _EventScreenState extends State<EventScreen> {
         mainAxisSize: MainAxisSize.min,
         children: <Widget>[
           Container(
-            padding: const EdgeInsets.fromLTRB(0, 210, 0, 0),
             height: MediaQuery.of(context).size.height / 3.5,
             decoration: BoxDecoration(
               boxShadow: [
@@ -42,24 +41,27 @@ class _EventScreenState extends State<EventScreen> {
                   image: AssetImage("assets/gals/events.png"),
                   fit: BoxFit.cover),
             ),
-            child: Container(
-              padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-              width: double.infinity,
-              height: 2,
-              child: Align(
-                alignment: Alignment.bottomCenter,
-                child: Text(
-                  event.name.toString(),
-                  style: const TextStyle(
-                    color: Colors.black,
-                    fontSize: 15,
-                    fontWeight: FontWeight.w900,
+            child: Align(
+              alignment: Alignment.bottomCenter,
+              child: Container(
+                padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
+                width: double.infinity,
+                height: MediaQuery.of(context).size.height / 25,
+                child: Align(
+                  alignment: Alignment.bottomCenter,
+                  child: Text(
+                    event.name.toString(),
+                    style: TextStyle(
+                      color: Colors.black,
+                      fontSize: MediaQuery.of(context).size.height / 30,
+                      fontWeight: FontWeight.w900,
+                    ),
                   ),
                 ),
+                decoration: const BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                    color: Color.fromARGB(200, 255, 255, 255)),
               ),
-              decoration: const BoxDecoration(
-                  borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                  color: Color.fromARGB(200, 255, 255, 255)),
             ),
           ),
           const SizedBox(height: 30),
