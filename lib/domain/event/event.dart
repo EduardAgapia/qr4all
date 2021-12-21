@@ -9,12 +9,17 @@ class Evenimente {
   String? program;
   String? location;
   String? description;
+  double? latitude;
+  double? longitude;
 
   Evenimente(
       {required this.name,
       required this.program,
       required this.location,
-      required this.description});
+      required this.description,
+      required this.latitude,
+      required this.longitude
+      });
 
   factory Evenimente.fromJson(Map<String, dynamic> json) => _$EvenimenteFromJson(json);
 

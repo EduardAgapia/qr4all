@@ -70,7 +70,8 @@ class _EventScreenState extends State<EventScreen> {
             width: MediaQuery.of(context).size.width - 25,
             child: GestureDetector(
               onTap: () {
-                MapUtils.openMap(47.152177, 27.585772);
+                MapUtils.openMap(
+                    event.latitude!.toDouble(), event.longitude!.toDouble());
               },
               child: ListView(
                 scrollDirection: Axis.horizontal,
@@ -143,9 +144,7 @@ class _EventScreenState extends State<EventScreen> {
                 Align(
                   alignment: Alignment.center,
                   child: Text(
-                    event.location.toString() +
-                        "\n" +
-                        event.program.toString(),
+                    event.location.toString() + "\n" + event.program.toString(),
                     style: const TextStyle(
                       color: Colors.black,
                       fontWeight: FontWeight.w600,
@@ -170,7 +169,7 @@ class _EventScreenState extends State<EventScreen> {
               child: Column(children: <Widget>[
                 ListTile(
                   title: Text(
-                    '\n'+ AppLocalizations.of(context).description +'\n',
+                    '\n' + AppLocalizations.of(context).description + '\n',
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 15,

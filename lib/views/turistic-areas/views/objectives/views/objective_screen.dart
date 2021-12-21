@@ -47,8 +47,7 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                     child: Column(children: <Widget>[
                       ListTile(
                         title: Text(
-                          '\n' +
-                          objective.name.toString(),
+                          '\n' + objective.name.toString(),
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: MediaQuery.of(context).size.height / 30,
@@ -77,12 +76,14 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                     ),
                     child: GestureDetector(
                       onTap: () {
-                        MapUtils.openMap(47.152177, 27.585772);
+                        MapUtils.openMap(objective.latitude!.toDouble(),
+                            objective.longitude!.toDouble());
                       },
                       child: ListView(
                         scrollDirection: Axis.horizontal,
                         children: <Widget>[
-                          SizedBox(width: MediaQuery.of(context).size.width / 50),
+                          SizedBox(
+                              width: MediaQuery.of(context).size.width / 50),
                           Container(
                             width: MediaQuery.of(context).size.width / 13,
                             decoration: const BoxDecoration(
@@ -94,14 +95,16 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                                   fit: BoxFit.contain),
                             ),
                           ),
-                          SizedBox(width: MediaQuery.of(context).size.width / 40),
+                          SizedBox(
+                              width: MediaQuery.of(context).size.width / 40),
                           Align(
                             alignment: Alignment.center,
                             child: Text(
                               objective.location.toString(),
                               style: TextStyle(
                                 color: Colors.white,
-                                fontSize: MediaQuery.of(context).size.height / 35,
+                                fontSize:
+                                    MediaQuery.of(context).size.height / 35,
                                 fontWeight: FontWeight.w900,
                               ),
                             ),
@@ -122,11 +125,11 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                         children: [
                           ListTile(
                             title: Text(
-                                  AppLocalizations.of(context).description +
-                                  '\n',
+                              AppLocalizations.of(context).description + '\n',
                               style: TextStyle(
                                 color: Colors.white,
-                                fontSize: MediaQuery.of(context).size.height / 35,
+                                fontSize:
+                                    MediaQuery.of(context).size.height / 35,
                                 fontWeight: FontWeight.w800,
                               ),
                               textAlign: TextAlign.left,
@@ -135,13 +138,14 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                               objective.description.toString(),
                               style: TextStyle(
                                 color: Colors.white,
-                                fontSize: MediaQuery.of(context).size.height / 45,
+                                fontSize:
+                                    MediaQuery.of(context).size.height / 45,
                               ),
                             ),
                           ),
                           Container(
                             height: MediaQuery.of(context).size.height / 10,
-                            width: MediaQuery.of(context).size.width ,
+                            width: MediaQuery.of(context).size.width,
                             decoration: const BoxDecoration(
                               borderRadius:
                                   BorderRadius.all(Radius.circular(25.0)),
@@ -159,9 +163,12 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                               child: ListView(
                                 scrollDirection: Axis.horizontal,
                                 children: [
-                                  SizedBox(width: MediaQuery.of(context).size.width / 75),
+                                  SizedBox(
+                                      width: MediaQuery.of(context).size.width /
+                                          75),
                                   Container(
-                                    width: MediaQuery.of(context).size.width/5,
+                                    width:
+                                        MediaQuery.of(context).size.width / 5,
                                     decoration: const BoxDecoration(
                                       image: DecorationImage(
                                           image: AssetImage(
@@ -176,7 +183,9 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontWeight: FontWeight.w900,
-                                        fontSize: MediaQuery.of(context).size.height / 35,
+                                        fontSize:
+                                            MediaQuery.of(context).size.height /
+                                                35,
                                       ),
                                     ),
                                   ),
