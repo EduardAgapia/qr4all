@@ -9,61 +9,81 @@
           "name": "Event with number #1",
           "location": "Location of event with number #1",
           "program": "Program of event with number #1",
-          "description": "Description of event with number #1"
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #2",
           "location": "Location of event with number #2",
           "program": "Program of event with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #2",
           "location": "Location of event with number #2",
           "program": "Program of event with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #3",
           "location": "Location of event with number #3",
           "program": "Program of event with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #3",
           "location": "Location of event with number #3",
           "program": "Program of event with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #3",
           "location": "Location of event with number #3",
           "program": "Program of event with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #4",
           "location": "Location of event with number #4",
           "program": "Program of event with number #4",
-          "description": "Description of event with number #4"
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #5",
           "location": "Location of event with number #5",
           "program": "Program of event with number #5",
-          "description": "Description of event with number #5"
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #6",
           "location": "Location of event with number #6",
           "program": "Program of event with number #6",
-          "description": "Description of event with number #6"
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #7",
           "location": "Location of event with number #7",
           "program": "Program of event with number #7",
-          "description": "Description of event with number #7"
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         }
       ],
       "objectives": [
@@ -71,61 +91,81 @@
           "name": "Objective with number #1",
           "location": "Location of objective with number #1",
           "program": "Program of objective with number #1",
-          "description": "Description of event with number #1"
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #2",
           "location": "Location of objective with number #2",
           "program": "Program of objective with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #2",
           "location": "Location of objective with number #2",
           "program": "Program of objective with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #3",
           "location": "Location of objective with number #3",
           "program": "Program of objective with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #3",
           "location": "Location of objective with number #3",
           "program": "Program of objective with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #3",
           "location": "Location of objective with number #3",
           "program": "Program of objective with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #4",
           "location": "Location of objective with number #4",
           "program": "Program of objective with number #4",
-          "description": "Description of event with number #4"
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #5",
           "location": "Location of objective with number #5",
           "program": "Program of objective with number #5",
-          "description": "Description of event with number #5"
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #6",
           "location": "Location of objective with number #6",
           "program": "Program of objective with number #6",
-          "description": "Description of event with number #6"
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #7",
           "location": "Location of objective with number #7",
           "program": "Program of objective with number #7",
-          "description": "Description of event with number #7"
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         }
       ],
       "trails": [
@@ -288,61 +328,81 @@
           "name": "Event with number #1",
           "location": "Location of event with number #1",
           "program": "Program of event with number #1",
-          "description": "Description of event with number #1"
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #2",
           "location": "Location of event with number #2",
           "program": "Program of event with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #2",
           "location": "Location of event with number #2",
           "program": "Program of event with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #3",
           "location": "Location of event with number #3",
           "program": "Program of event with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #3",
           "location": "Location of event with number #3",
           "program": "Program of event with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #3",
           "location": "Location of event with number #3",
           "program": "Program of event with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #4",
           "location": "Location of event with number #4",
           "program": "Program of event with number #4",
-          "description": "Description of event with number #4"
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #5",
           "location": "Location of event with number #5",
           "program": "Program of event with number #5",
-          "description": "Description of event with number #5"
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #6",
           "location": "Location of event with number #6",
           "program": "Program of event with number #6",
-          "description": "Description of event with number #6"
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #7",
           "location": "Location of event with number #7",
           "program": "Program of event with number #7",
-          "description": "Description of event with number #7"
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         }
       ],
       "objectives": [
@@ -350,61 +410,81 @@
           "name": "Objective with number #1",
           "location": "Location of objective with number #1",
           "program": "Program of objective with number #1",
-          "description": "Description of event with number #1"
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #2",
           "location": "Location of objective with number #2",
           "program": "Program of objective with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #2",
           "location": "Location of objective with number #2",
           "program": "Program of objective with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #3",
           "location": "Location of objective with number #3",
           "program": "Program of objective with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #3",
           "location": "Location of objective with number #3",
           "program": "Program of objective with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #3",
           "location": "Location of objective with number #3",
           "program": "Program of objective with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #4",
           "location": "Location of objective with number #4",
           "program": "Program of objective with number #4",
-          "description": "Description of event with number #4"
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #5",
           "location": "Location of objective with number #5",
           "program": "Program of objective with number #5",
-          "description": "Description of event with number #5"
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #6",
           "location": "Location of objective with number #6",
           "program": "Program of objective with number #6",
-          "description": "Description of event with number #6"
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #7",
           "location": "Location of objective with number #7",
           "program": "Program of objective with number #7",
-          "description": "Description of event with number #7"
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         }
       ],
       "trails": [
@@ -567,61 +647,81 @@
           "name": "Event with number #1",
           "location": "Location of event with number #1",
           "program": "Program of event with number #1",
-          "description": "Description of event with number #1"
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #2",
           "location": "Location of event with number #2",
           "program": "Program of event with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #2",
           "location": "Location of event with number #2",
           "program": "Program of event with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #3",
           "location": "Location of event with number #3",
           "program": "Program of event with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #3",
           "location": "Location of event with number #3",
           "program": "Program of event with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #3",
           "location": "Location of event with number #3",
           "program": "Program of event with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #4",
           "location": "Location of event with number #4",
           "program": "Program of event with number #4",
-          "description": "Description of event with number #4"
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #5",
           "location": "Location of event with number #5",
           "program": "Program of event with number #5",
-          "description": "Description of event with number #5"
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #6",
           "location": "Location of event with number #6",
           "program": "Program of event with number #6",
-          "description": "Description of event with number #6"
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #7",
           "location": "Location of event with number #7",
           "program": "Program of event with number #7",
-          "description": "Description of event with number #7"
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         }
       ],
       "objectives": [
@@ -629,61 +729,81 @@
           "name": "Objective with number #1",
           "location": "Location of objective with number #1",
           "program": "Program of objective with number #1",
-          "description": "Description of event with number #1"
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #2",
           "location": "Location of objective with number #2",
           "program": "Program of objective with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #2",
           "location": "Location of objective with number #2",
           "program": "Program of objective with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #3",
           "location": "Location of objective with number #3",
           "program": "Program of objective with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #3",
           "location": "Location of objective with number #3",
           "program": "Program of objective with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #3",
           "location": "Location of objective with number #3",
           "program": "Program of objective with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #4",
           "location": "Location of objective with number #4",
           "program": "Program of objective with number #4",
-          "description": "Description of event with number #4"
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #5",
           "location": "Location of objective with number #5",
           "program": "Program of objective with number #5",
-          "description": "Description of event with number #5"
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #6",
           "location": "Location of objective with number #6",
           "program": "Program of objective with number #6",
-          "description": "Description of event with number #6"
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #7",
           "location": "Location of objective with number #7",
           "program": "Program of objective with number #7",
-          "description": "Description of event with number #7"
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         }
       ],
       "trails": [
@@ -846,61 +966,81 @@
           "name": "Event with number #1",
           "location": "Location of event with number #1",
           "program": "Program of event with number #1",
-          "description": "Description of event with number #1"
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #2",
           "location": "Location of event with number #2",
           "program": "Program of event with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #2",
           "location": "Location of event with number #2",
           "program": "Program of event with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #3",
           "location": "Location of event with number #3",
           "program": "Program of event with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #3",
           "location": "Location of event with number #3",
           "program": "Program of event with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #3",
           "location": "Location of event with number #3",
           "program": "Program of event with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #4",
           "location": "Location of event with number #4",
           "program": "Program of event with number #4",
-          "description": "Description of event with number #4"
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #5",
           "location": "Location of event with number #5",
           "program": "Program of event with number #5",
-          "description": "Description of event with number #5"
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #6",
           "location": "Location of event with number #6",
           "program": "Program of event with number #6",
-          "description": "Description of event with number #6"
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #7",
           "location": "Location of event with number #7",
           "program": "Program of event with number #7",
-          "description": "Description of event with number #7"
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         }
       ],
       "objectives": [
@@ -908,61 +1048,81 @@
           "name": "Objective with number #1",
           "location": "Location of objective with number #1",
           "program": "Program of objective with number #1",
-          "description": "Description of event with number #1"
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #2",
           "location": "Location of objective with number #2",
           "program": "Program of objective with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #2",
           "location": "Location of objective with number #2",
           "program": "Program of objective with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #3",
           "location": "Location of objective with number #3",
           "program": "Program of objective with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #3",
           "location": "Location of objective with number #3",
           "program": "Program of objective with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #3",
           "location": "Location of objective with number #3",
           "program": "Program of objective with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #4",
           "location": "Location of objective with number #4",
           "program": "Program of objective with number #4",
-          "description": "Description of event with number #4"
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #5",
           "location": "Location of objective with number #5",
           "program": "Program of objective with number #5",
-          "description": "Description of event with number #5"
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #6",
           "location": "Location of objective with number #6",
           "program": "Program of objective with number #6",
-          "description": "Description of event with number #6"
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #7",
           "location": "Location of objective with number #7",
           "program": "Program of objective with number #7",
-          "description": "Description of event with number #7"
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         }
       ],
       "trails": [
@@ -1125,61 +1285,81 @@
           "name": "Event with number #1",
           "location": "Location of event with number #1",
           "program": "Program of event with number #1",
-          "description": "Description of event with number #1"
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #2",
           "location": "Location of event with number #2",
           "program": "Program of event with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #2",
           "location": "Location of event with number #2",
           "program": "Program of event with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #3",
           "location": "Location of event with number #3",
           "program": "Program of event with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #3",
           "location": "Location of event with number #3",
           "program": "Program of event with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #3",
           "location": "Location of event with number #3",
           "program": "Program of event with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #4",
           "location": "Location of event with number #4",
           "program": "Program of event with number #4",
-          "description": "Description of event with number #4"
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #5",
           "location": "Location of event with number #5",
           "program": "Program of event with number #5",
-          "description": "Description of event with number #5"
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #6",
           "location": "Location of event with number #6",
           "program": "Program of event with number #6",
-          "description": "Description of event with number #6"
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #7",
           "location": "Location of event with number #7",
           "program": "Program of event with number #7",
-          "description": "Description of event with number #7"
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         }
       ],
       "objectives": [
@@ -1187,61 +1367,81 @@
           "name": "Objective with number #1",
           "location": "Location of objective with number #1",
           "program": "Program of objective with number #1",
-          "description": "Description of event with number #1"
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #2",
           "location": "Location of objective with number #2",
           "program": "Program of objective with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #2",
           "location": "Location of objective with number #2",
           "program": "Program of objective with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #3",
           "location": "Location of objective with number #3",
           "program": "Program of objective with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #3",
           "location": "Location of objective with number #3",
           "program": "Program of objective with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #3",
           "location": "Location of objective with number #3",
           "program": "Program of objective with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #4",
           "location": "Location of objective with number #4",
           "program": "Program of objective with number #4",
-          "description": "Description of event with number #4"
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #5",
           "location": "Location of objective with number #5",
           "program": "Program of objective with number #5",
-          "description": "Description of event with number #5"
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #6",
           "location": "Location of objective with number #6",
           "program": "Program of objective with number #6",
-          "description": "Description of event with number #6"
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #7",
           "location": "Location of objective with number #7",
           "program": "Program of objective with number #7",
-          "description": "Description of event with number #7"
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         }
       ],
       "trails": [
@@ -1404,61 +1604,81 @@
           "name": "Event with number #1",
           "location": "Location of event with number #1",
           "program": "Program of event with number #1",
-          "description": "Description of event with number #1"
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #2",
           "location": "Location of event with number #2",
           "program": "Program of event with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #2",
           "location": "Location of event with number #2",
           "program": "Program of event with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #3",
           "location": "Location of event with number #3",
           "program": "Program of event with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #3",
           "location": "Location of event with number #3",
           "program": "Program of event with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #3",
           "location": "Location of event with number #3",
           "program": "Program of event with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #4",
           "location": "Location of event with number #4",
           "program": "Program of event with number #4",
-          "description": "Description of event with number #4"
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #5",
           "location": "Location of event with number #5",
           "program": "Program of event with number #5",
-          "description": "Description of event with number #5"
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #6",
           "location": "Location of event with number #6",
           "program": "Program of event with number #6",
-          "description": "Description of event with number #6"
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #7",
           "location": "Location of event with number #7",
           "program": "Program of event with number #7",
-          "description": "Description of event with number #7"
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         }
       ],
       "objectives": [
@@ -1466,61 +1686,81 @@
           "name": "Objective with number #1",
           "location": "Location of objective with number #1",
           "program": "Program of objective with number #1",
-          "description": "Description of event with number #1"
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #2",
           "location": "Location of objective with number #2",
           "program": "Program of objective with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #2",
           "location": "Location of objective with number #2",
           "program": "Program of objective with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #3",
           "location": "Location of objective with number #3",
           "program": "Program of objective with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #3",
           "location": "Location of objective with number #3",
           "program": "Program of objective with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #3",
           "location": "Location of objective with number #3",
           "program": "Program of objective with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #4",
           "location": "Location of objective with number #4",
           "program": "Program of objective with number #4",
-          "description": "Description of event with number #4"
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #5",
           "location": "Location of objective with number #5",
           "program": "Program of objective with number #5",
-          "description": "Description of event with number #5"
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #6",
           "location": "Location of objective with number #6",
           "program": "Program of objective with number #6",
-          "description": "Description of event with number #6"
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #7",
           "location": "Location of objective with number #7",
           "program": "Program of objective with number #7",
-          "description": "Description of event with number #7"
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         }
       ],
       "trails": [
@@ -1683,61 +1923,81 @@
           "name": "Event with number #1",
           "location": "Location of event with number #1",
           "program": "Program of event with number #1",
-          "description": "Description of event with number #1"
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #2",
           "location": "Location of event with number #2",
           "program": "Program of event with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #2",
           "location": "Location of event with number #2",
           "program": "Program of event with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #3",
           "location": "Location of event with number #3",
           "program": "Program of event with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #3",
           "location": "Location of event with number #3",
           "program": "Program of event with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #3",
           "location": "Location of event with number #3",
           "program": "Program of event with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #4",
           "location": "Location of event with number #4",
           "program": "Program of event with number #4",
-          "description": "Description of event with number #4"
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #5",
           "location": "Location of event with number #5",
           "program": "Program of event with number #5",
-          "description": "Description of event with number #5"
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #6",
           "location": "Location of event with number #6",
           "program": "Program of event with number #6",
-          "description": "Description of event with number #6"
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #7",
           "location": "Location of event with number #7",
           "program": "Program of event with number #7",
-          "description": "Description of event with number #7"
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         }
       ],
       "objectives": [
@@ -1745,61 +2005,81 @@
           "name": "Objective with number #1",
           "location": "Location of objective with number #1",
           "program": "Program of objective with number #1",
-          "description": "Description of event with number #1"
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #2",
           "location": "Location of objective with number #2",
           "program": "Program of objective with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #2",
           "location": "Location of objective with number #2",
           "program": "Program of objective with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #3",
           "location": "Location of objective with number #3",
           "program": "Program of objective with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #3",
           "location": "Location of objective with number #3",
           "program": "Program of objective with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #3",
           "location": "Location of objective with number #3",
           "program": "Program of objective with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #4",
           "location": "Location of objective with number #4",
           "program": "Program of objective with number #4",
-          "description": "Description of event with number #4"
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #5",
           "location": "Location of objective with number #5",
           "program": "Program of objective with number #5",
-          "description": "Description of event with number #5"
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #6",
           "location": "Location of objective with number #6",
           "program": "Program of objective with number #6",
-          "description": "Description of event with number #6"
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #7",
           "location": "Location of objective with number #7",
           "program": "Program of objective with number #7",
-          "description": "Description of event with number #7"
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         }
       ],
       "trails": [
@@ -1962,61 +2242,81 @@
           "name": "Event with number #1",
           "location": "Location of event with number #1",
           "program": "Program of event with number #1",
-          "description": "Description of event with number #1"
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #2",
           "location": "Location of event with number #2",
           "program": "Program of event with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #2",
           "location": "Location of event with number #2",
           "program": "Program of event with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #3",
           "location": "Location of event with number #3",
           "program": "Program of event with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #3",
           "location": "Location of event with number #3",
           "program": "Program of event with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #3",
           "location": "Location of event with number #3",
           "program": "Program of event with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #4",
           "location": "Location of event with number #4",
           "program": "Program of event with number #4",
-          "description": "Description of event with number #4"
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #5",
           "location": "Location of event with number #5",
           "program": "Program of event with number #5",
-          "description": "Description of event with number #5"
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #6",
           "location": "Location of event with number #6",
           "program": "Program of event with number #6",
-          "description": "Description of event with number #6"
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #7",
           "location": "Location of event with number #7",
           "program": "Program of event with number #7",
-          "description": "Description of event with number #7"
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         }
       ],
       "objectives": [
@@ -2024,61 +2324,81 @@
           "name": "Objective with number #1",
           "location": "Location of objective with number #1",
           "program": "Program of objective with number #1",
-          "description": "Description of event with number #1"
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #2",
           "location": "Location of objective with number #2",
           "program": "Program of objective with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #2",
           "location": "Location of objective with number #2",
           "program": "Program of objective with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #3",
           "location": "Location of objective with number #3",
           "program": "Program of objective with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #3",
           "location": "Location of objective with number #3",
           "program": "Program of objective with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #3",
           "location": "Location of objective with number #3",
           "program": "Program of objective with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #4",
           "location": "Location of objective with number #4",
           "program": "Program of objective with number #4",
-          "description": "Description of event with number #4"
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #5",
           "location": "Location of objective with number #5",
           "program": "Program of objective with number #5",
-          "description": "Description of event with number #5"
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #6",
           "location": "Location of objective with number #6",
           "program": "Program of objective with number #6",
-          "description": "Description of event with number #6"
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #7",
           "location": "Location of objective with number #7",
           "program": "Program of objective with number #7",
-          "description": "Description of event with number #7"
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         }
       ],
       "trails": [
@@ -2241,61 +2561,81 @@
           "name": "Event with number #1",
           "location": "Location of event with number #1",
           "program": "Program of event with number #1",
-          "description": "Description of event with number #1"
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #2",
           "location": "Location of event with number #2",
           "program": "Program of event with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #2",
           "location": "Location of event with number #2",
           "program": "Program of event with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #3",
           "location": "Location of event with number #3",
           "program": "Program of event with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #3",
           "location": "Location of event with number #3",
           "program": "Program of event with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #3",
           "location": "Location of event with number #3",
           "program": "Program of event with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #4",
           "location": "Location of event with number #4",
           "program": "Program of event with number #4",
-          "description": "Description of event with number #4"
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #5",
           "location": "Location of event with number #5",
           "program": "Program of event with number #5",
-          "description": "Description of event with number #5"
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #6",
           "location": "Location of event with number #6",
           "program": "Program of event with number #6",
-          "description": "Description of event with number #6"
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Event with number #7",
           "location": "Location of event with number #7",
           "program": "Program of event with number #7",
-          "description": "Description of event with number #7"
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         }
       ],
       "objectives": [
@@ -2303,61 +2643,81 @@
           "name": "Objective with number #1",
           "location": "Location of objective with number #1",
           "program": "Program of objective with number #1",
-          "description": "Description of event with number #1"
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #2",
           "location": "Location of objective with number #2",
           "program": "Program of objective with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #2",
           "location": "Location of objective with number #2",
           "program": "Program of objective with number #2",
-          "description": "Description of event with number #2"
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #3",
           "location": "Location of objective with number #3",
           "program": "Program of objective with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #3",
           "location": "Location of objective with number #3",
           "program": "Program of objective with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #3",
           "location": "Location of objective with number #3",
           "program": "Program of objective with number #3",
-          "description": "Description of event with number #3"
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #4",
           "location": "Location of objective with number #4",
           "program": "Program of objective with number #4",
-          "description": "Description of event with number #4"
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #5",
           "location": "Location of objective with number #5",
           "program": "Program of objective with number #5",
-          "description": "Description of event with number #5"
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #6",
           "location": "Location of objective with number #6",
           "program": "Program of objective with number #6",
-          "description": "Description of event with number #6"
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         },
         {
           "name": "Objective with number #7",
           "location": "Location of objective with number #7",
           "program": "Program of objective with number #7",
-          "description": "Description of event with number #7"
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
         }
       ],
       "trails": [
