@@ -75,119 +75,117 @@ class _TrailScreenState extends State<TrailScreen> {
                   ]),
                 ),
                 SizedBox(height: MediaQuery.of(context).size.height / 13),
-                Flexible(
-                  child: Container(
-                    padding: const EdgeInsets.fromLTRB(2, 0, 2, 0),
-                    height: MediaQuery.of(context).size.height / 1.65,
-                    decoration: const BoxDecoration(
-                      borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                      color: Color.fromARGB(100, 0, 143, 105),
-                    ),
-                    child: Column(
-                      children: [
-                        ListTile(
-                          title: Text(
-                            AppLocalizations.of(context).description + '\n',
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontSize: MediaQuery.of(context).size.height / 35,
-                              fontWeight: FontWeight.w800,
-                            ),
-                            textAlign: TextAlign.left,
+                Container(//here was a flexible
+                  padding: const EdgeInsets.fromLTRB(2, 0, 2, 0),
+                  height: MediaQuery.of(context).size.height / 1.65,
+                  decoration: const BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                    color: Color.fromARGB(100, 0, 143, 105),
+                  ),
+                  child: Column(
+                    children: [
+                      ListTile(
+                        title: Text(
+                          AppLocalizations.of(context).description + '\n',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: MediaQuery.of(context).size.height / 35,
+                            fontWeight: FontWeight.w800,
                           ),
-                          subtitle: Text(
-                            trail.description.toString(),
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontSize: MediaQuery.of(context).size.height / 45,
-                            ),
+                          textAlign: TextAlign.left,
+                        ),
+                        subtitle: Text(
+                          trail.description.toString(),
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: MediaQuery.of(context).size.height / 45,
                           ),
                         ),
-                        SizedBox(
-                            height: MediaQuery.of(context).size.height / 50),
-                        Align(
-                          child: SizedBox(
-                            height: MediaQuery.of(context).size.height / 11,
-                            child: ListView(
-                                scrollDirection: Axis.horizontal,
-                                children: [
-                                  SizedBox(
-                                      width:
-                                          MediaQuery.of(context).size.width /
-                                              3.2),
-                                  Container(
+                      ),
+                      SizedBox(
+                          height: MediaQuery.of(context).size.height / 50),
+                      Align(
+                        child: SizedBox(
+                          height: MediaQuery.of(context).size.height / 11,
+                          child: ListView(
+                              scrollDirection: Axis.horizontal,
+                              children: [
+                                SizedBox(
                                     width:
-                                        MediaQuery.of(context).size.width / 13,
-                                    decoration: const BoxDecoration(
-                                      borderRadius: BorderRadius.all(
-                                          Radius.circular(25.0)),
-                                    ),
-                                    child: GestureDetector(
-                                      onTap: () {
-                                        MapUtils.openMap(
-                                            trail.latitude!.toDouble(),
-                                            trail.longitude!.toDouble());
-                                      },
-                                      child: Container(
-                                        decoration: const BoxDecoration(
-                                          image: DecorationImage(
-                                              image: AssetImage(
-                                                  "assets/gals/icons/arrow.png"),
-                                              fit: BoxFit.contain),
-                                        ),
+                                        MediaQuery.of(context).size.width /
+                                            3.2),
+                                Container(
+                                  width:
+                                      MediaQuery.of(context).size.width / 13,
+                                  decoration: const BoxDecoration(
+                                    borderRadius: BorderRadius.all(
+                                        Radius.circular(25.0)),
+                                  ),
+                                  child: GestureDetector(
+                                    onTap: () {
+                                      MapUtils.openMap(
+                                          trail.latitude!.toDouble(),
+                                          trail.longitude!.toDouble());
+                                    },
+                                    child: Container(
+                                      decoration: const BoxDecoration(
+                                        image: DecorationImage(
+                                            image: AssetImage(
+                                                "assets/gals/icons/arrow.png"),
+                                            fit: BoxFit.contain),
                                       ),
                                     ),
                                   ),
-                                  SizedBox(width: MediaQuery.of(context).size.width / 25),
-                                  Container(
-                                    width:
-                                        MediaQuery.of(context).size.width / 8.5,
-                                    decoration: const BoxDecoration(
-                                      borderRadius: BorderRadius.all(
-                                          Radius.circular(25.0)),
-                                    ),
-                                    child: GestureDetector(
-                                      onTap: () {
-                                        MapUtils.open(trail.mapUrl.toString());
-                                      },
-                                      child: Container(
-                                        decoration: const BoxDecoration(
-                                          image: DecorationImage(
-                                              image: AssetImage(
-                                                  "assets/gals/icons/map.png"),
-                                              fit: BoxFit.contain),
-                                        ),
+                                ),
+                                SizedBox(width: MediaQuery.of(context).size.width / 25),
+                                Container(
+                                  width:
+                                      MediaQuery.of(context).size.width / 8.5,
+                                  decoration: const BoxDecoration(
+                                    borderRadius: BorderRadius.all(
+                                        Radius.circular(25.0)),
+                                  ),
+                                  child: GestureDetector(
+                                    onTap: () {
+                                      MapUtils.open(trail.mapUrl.toString());
+                                    },
+                                    child: Container(
+                                      decoration: const BoxDecoration(
+                                        image: DecorationImage(
+                                            image: AssetImage(
+                                                "assets/gals/icons/map.png"),
+                                            fit: BoxFit.contain),
                                       ),
                                     ),
                                   ),
-                                  SizedBox(
-                                      width: MediaQuery.of(context).size.width / 25),
-                                  Container(
-                                    width:
-                                        MediaQuery.of(context).size.width / 10.5,
-                                    decoration: const BoxDecoration(
-                                      borderRadius: BorderRadius.all(
-                                          Radius.circular(25.0)),
-                                    ),
-                                    child: GestureDetector(
-                                      onTap: () {
-                                        MapUtils.download(mapUrl);
-                                      },
-                                      child: Container(
-                                        decoration: const BoxDecoration(
-                                          image: DecorationImage(
-                                              image: AssetImage(
-                                                  "assets/gals/icons/download.png"),
-                                              fit: BoxFit.contain),
-                                        ),
+                                ),
+                                SizedBox(
+                                    width: MediaQuery.of(context).size.width / 25),
+                                Container(
+                                  width:
+                                      MediaQuery.of(context).size.width / 10.5,
+                                  decoration: const BoxDecoration(
+                                    borderRadius: BorderRadius.all(
+                                        Radius.circular(25.0)),
+                                  ),
+                                  child: GestureDetector(
+                                    onTap: () {
+                                      MapUtils.download(mapUrl);
+                                    },
+                                    child: Container(
+                                      decoration: const BoxDecoration(
+                                        image: DecorationImage(
+                                            image: AssetImage(
+                                                "assets/gals/icons/download.png"),
+                                            fit: BoxFit.contain),
                                       ),
                                     ),
                                   ),
-                                ]),
-                          ),
+                                ),
+                              ]),
                         ),
-                      ],
-                    ),
+                      ),
+                    ],
                   ),
                 ),
               ],

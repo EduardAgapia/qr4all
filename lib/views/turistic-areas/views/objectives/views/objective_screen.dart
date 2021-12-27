@@ -114,87 +114,85 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                     ),
                   ),
                   SizedBox(height: MediaQuery.of(context).size.height / 45),
-                  Flexible(
-                    child: Container(
-                      height: MediaQuery.of(context).size.height / 1.8,
-                      decoration: const BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                        color: Color.fromARGB(150, 0, 143, 105),
-                      ),
-                      child: Column(
-                        children: [
-                          ListTile(
-                            title: Text(
-                              AppLocalizations.of(context).description + '\n',
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize:
-                                    MediaQuery.of(context).size.height / 35,
-                                fontWeight: FontWeight.w800,
-                              ),
-                              textAlign: TextAlign.left,
+                  Container(//here was a flexible
+                    height: MediaQuery.of(context).size.height / 1.8,
+                    decoration: const BoxDecoration(
+                      borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                      color: Color.fromARGB(150, 0, 143, 105),
+                    ),
+                    child: Column(
+                      children: [
+                        ListTile(
+                          title: Text(
+                            AppLocalizations.of(context).description + '\n',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize:
+                                  MediaQuery.of(context).size.height / 35,
+                              fontWeight: FontWeight.w800,
                             ),
-                            subtitle: Text(
-                              objective.description.toString(),
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize:
-                                    MediaQuery.of(context).size.height / 45,
-                              ),
+                            textAlign: TextAlign.left,
+                          ),
+                          subtitle: Text(
+                            objective.description.toString(),
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize:
+                                  MediaQuery.of(context).size.height / 45,
                             ),
                           ),
-                          Container(
-                            height: MediaQuery.of(context).size.height / 10,
-                            width: MediaQuery.of(context).size.width,
-                            decoration: const BoxDecoration(
-                              borderRadius:
-                                  BorderRadius.all(Radius.circular(25.0)),
-                              color: Color.fromARGB(0, 0, 143, 105),
-                            ),
-                            child: GestureDetector(
-                              onTap: () {
-                                Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                    builder: (context) => const QRViewExample(),
+                        ),
+                        Container(
+                          height: MediaQuery.of(context).size.height / 10,
+                          width: MediaQuery.of(context).size.width,
+                          decoration: const BoxDecoration(
+                            borderRadius:
+                                BorderRadius.all(Radius.circular(25.0)),
+                            color: Color.fromARGB(0, 0, 143, 105),
+                          ),
+                          child: GestureDetector(
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => const QRViewExample(),
+                                ),
+                              );
+                            },
+                            child: ListView(
+                              scrollDirection: Axis.horizontal,
+                              children: [
+                                SizedBox(
+                                    width: MediaQuery.of(context).size.width /
+                                        75),
+                                Container(
+                                  width:
+                                      MediaQuery.of(context).size.width / 5,
+                                  decoration: const BoxDecoration(
+                                    image: DecorationImage(
+                                        image: AssetImage(
+                                            "assets/gals/icons/qr.png"),
+                                        fit: BoxFit.contain),
                                   ),
-                                );
-                              },
-                              child: ListView(
-                                scrollDirection: Axis.horizontal,
-                                children: [
-                                  SizedBox(
-                                      width: MediaQuery.of(context).size.width /
-                                          75),
-                                  Container(
-                                    width:
-                                        MediaQuery.of(context).size.width / 5,
-                                    decoration: const BoxDecoration(
-                                      image: DecorationImage(
-                                          image: AssetImage(
-                                              "assets/gals/icons/qr.png"),
-                                          fit: BoxFit.contain),
+                                ),
+                                Align(
+                                  alignment: Alignment.centerLeft,
+                                  child: Text(
+                                    AppLocalizations.of(context).find,
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.w900,
+                                      fontSize:
+                                          MediaQuery.of(context).size.height /
+                                              35,
                                     ),
                                   ),
-                                  Align(
-                                    alignment: Alignment.centerLeft,
-                                    child: Text(
-                                      AppLocalizations.of(context).find,
-                                      style: TextStyle(
-                                        color: Colors.white,
-                                        fontWeight: FontWeight.w900,
-                                        fontSize:
-                                            MediaQuery.of(context).size.height /
-                                                35,
-                                      ),
-                                    ),
-                                  ),
-                                ],
-                              ),
+                                ),
+                              ],
                             ),
                           ),
-                        ],
-                      ),
+                        ),
+                      ],
                     ),
                   ),
                 ],
