@@ -13,7 +13,7 @@
   },
   "mainMenu": "Main menu",
   "@mainMenu": {
-    "description": "Main menu"
+    "description": "Turistic areas"
   },
   "placeholderScreen": "Placeholder Screen",
   "@placeholderScreen": {
@@ -53,11 +53,11 @@
   },
   "about": "About",
   "@about": {
-    "description": "About"
+    "description": "Turistic areas"
   },
-  "calendar": "Electronic Calendar",
+  "calendar": "Events and festivals",
   "@calendar": {
-    "description": "Electronic Calendar"
+    "description": "Events and festivals"
   },
   "trailList": "Trail list",
   "@trailList": {
@@ -70,5 +70,25 @@
   "open": "Open",
   "@open": {
     "description": "Open"
+  },
+  "recreation": "Recreation",
+  "@recreation": {
+    "description": "Recreation"
+  },
+  "accommodation": "Accommodation",
+  "@accommodation": {
+    "description": "Accommodation"
+  },
+  "restaurants": "Restaurants",
+  "@restaurants": {
+    "description": "Restaurants"
+  },
+  "producers": "Producers",
+  "@producers": {
+    "producers": "Local producers"
+  },
+  "legends": "Legends",
+  "@legends": {
+    "description": "Folk legends and Stories"
   }
 }
