@@ -7,9 +7,12 @@ import 'package:flutter/services.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:qr_4_all/domain/gal/gal.dart';
 import 'package:qr_4_all/domain/gals.dart';
+import 'package:qr_4_all/views/turistic-areas/views/objectives/objectives_screen.dart';
 import 'package:qr_4_all/views/turistic-areas/views/zones/zone_turistice.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'dart:math';
+
+import '../scanner.dart';
 
 class MenuScreen extends StatefulWidget {
   const MenuScreen({Key? key}) : super(key: key);
@@ -22,6 +25,8 @@ class _MenuScreenState extends State<MenuScreen> {
   String jSonLocation = 'assets/en-gals.json';
   List<Gal> _gals = List.empty(growable: true);
   final Set<Marker> _markers = {};
+  double lat = 47.208774;
+  double lon = 27.150350;
 
   @override
   void initState() {
@@ -55,25 +60,25 @@ class _MenuScreenState extends State<MenuScreen> {
               },
             ),
             ListTile(
-              leading: const Icon(Icons.dangerous),
+              leading: const Icon(Icons.qr_code_scanner_sharp),
               title: Text(AppLocalizations.of(context).placeholder),
               onTap: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const Placeholder(),
+                    builder: (context) => const QRViewExample(),
                   ),
                 );
               },
             ),
             ListTile(
-              leading: const Icon(Icons.dangerous),
+              leading: const Icon(Icons.near_me_sharp),
               title: Text(AppLocalizations.of(context).placeholder),
               onTap: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const Placeholder(),
+                    builder: (context) => ObjectivesScreen(objectives: _gals[0].objectives),
                   ),
                 );
               },
@@ -85,10 +90,10 @@ class _MenuScreenState extends State<MenuScreen> {
           onMapCreated: (mapController) {
             mapController.showMarkerInfoWindow(_markers.elementAt(Random().nextInt(_markers.length)).markerId);
           },
-          myLocationButtonEnabled: false,
-          zoomControlsEnabled: false,
-          initialCameraPosition: const CameraPosition(
-              target: LatLng(47.208774, 27.150350), zoom: 9),
+          myLocationButtonEnabled: true,
+          zoomControlsEnabled: true,
+          initialCameraPosition: CameraPosition(
+              target: LatLng(lat, lon), zoom: 11),
         ),
       ),
     );

@@ -35,13 +35,11 @@ class _ZoneScreenState extends State<ZoneScreen> {
           primary: false,
           childAspectRatio: 265 / 100,
           padding: const EdgeInsets.fromLTRB(10, 5, 10, 5),
-          //Todo: dynamic values with respect for phone specs
           crossAxisSpacing: 5,
           mainAxisSpacing: 5,
           crossAxisCount: 1,
           children: <Widget>[
             Container(
-              //Todo: dynamic values with respect for phone specs
               decoration: const BoxDecoration(
                 borderRadius: BorderRadius.all(Radius.circular(15.0)),
                 color: Color.fromARGB(0, 255, 255, 255),
@@ -85,7 +83,6 @@ class _ZoneScreenState extends State<ZoneScreen> {
               ),
             ),
             Container(
-              //Todo: dynamic values with respect for phone specs
               decoration: const BoxDecoration(
                 borderRadius: BorderRadius.all(Radius.circular(15.0)),
                 color: Color.fromARGB(0, 255, 255, 255),
@@ -130,7 +127,6 @@ class _ZoneScreenState extends State<ZoneScreen> {
               ),
             ),
             Container(
-              //Todo: dynamic values with respect for phone specs
               decoration: const BoxDecoration(
                 borderRadius: BorderRadius.all(Radius.circular(15.0)),
                 color: Color.fromARGB(0, 255, 255, 255),
@@ -174,7 +170,6 @@ class _ZoneScreenState extends State<ZoneScreen> {
               ),
             ),
             Container(
-              //Todo: dynamic values with respect for phone specs
               decoration: const BoxDecoration(
                 borderRadius: BorderRadius.all(Radius.circular(15.0)),
                 color: Color.fromARGB(0, 255, 255, 255),

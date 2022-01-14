@@ -2,6 +2,8 @@
   "to" : "Catre",
   "turisticAreas" : "Zone turistice",
   "placeholder" : "Placeholder",
+  "qr-scan" : "Scaneaza codul QR",
+  "near-me" : "In apropierea mea",
   "mainMenu" : "Meniu principal",
   "placeholderScreen" : "Placeholder Screen",
   "description" : "Descriere",

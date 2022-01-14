@@ -44,56 +44,13 @@ class _ReadExampleState extends State<ZoneTuristice> {
               ),
               child: GestureDetector(
                 onTap: () {
-                  showModalBottomSheet(
-                    context: context,
-                    builder: (context) {
-                      return Column(
-                        mainAxisSize: MainAxisSize.min,
-                        children: <Widget>[
-                          ListTile(
-                            leading: Icon(Icons.home),
-                            title: Text(AppLocalizations.of(context).to +
-                                ' ' +
-                                galList[index].name.toString()),
-                            onTap: () {
-                              Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                    builder: (context) =>
-                                        ZoneScreen(gal: galList[index]),
-                                  ));
-                            },
-                          ),
-                          ListTile(
-                            leading: Icon(Icons.dangerous),
-                            title:
-                                Text(AppLocalizations.of(context).placeholder),
-                            onTap: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) => const Placeholder(),
-                                ),
-                              );
-                            },
-                          ),
-                          ListTile(
-                            leading: Icon(Icons.dangerous),
-                            title:
-                                Text(AppLocalizations.of(context).placeholder),
-                            onTap: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) => const Placeholder(),
-                                ),
-                              );
-                            },
-                          ),
-                        ],
-                      );
-                    },
-                  );
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => ZoneScreen(
+                          gal: galList[index],
+                        ),
+                      ));
                 },
                 child: Container(
                   decoration: BoxDecoration(
@@ -105,10 +62,7 @@ class _ReadExampleState extends State<ZoneTuristice> {
                     alignment: Alignment.bottomCenter,
                     child: Container(
                       padding: EdgeInsets.fromLTRB(
-                          0,
-                          0,
-                          0,
-                          MediaQuery.of(context).size.height / 150),
+                          0, 0, 0, MediaQuery.of(context).size.height / 150),
                       width: double.infinity,
                       height: MediaQuery.of(context).size.height / 30,
                       child: Align(
