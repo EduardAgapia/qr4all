@@ -55,6 +55,9 @@ flutter:
     - assets/gals/icons/qr.png
     - assets/gals/icons/arrow.png
     - assets/gals/icons/www.png
+    - assets/gals/icons/www2.png
+    - assets/gals/icons/yt.png
+    - assets/gals/icons/fb.png
     - assets/gals/icons/mech.png
     - assets/gals/icons/download.png
     - assets/gals/icons/map.png

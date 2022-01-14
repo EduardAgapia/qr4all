@@ -142,55 +142,264 @@ class _ObjectiveScreenState extends State<ObjectiveScreen> {
                             ),
                           ),
                         ),
-                        Container(
-                          height: MediaQuery.of(context).size.height / 10,
-                          width: MediaQuery.of(context).size.width,
-                          decoration: const BoxDecoration(
-                            borderRadius:
-                                BorderRadius.all(Radius.circular(25.0)),
-                            color: Color.fromARGB(0, 0, 143, 105),
-                          ),
-                          child: GestureDetector(
-                            onTap: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) => const QRViewExample(),
-                                ),
-                              );
-                            },
-                            child: ListView(
-                              scrollDirection: Axis.horizontal,
-                              children: [
-                                SizedBox(
-                                    width: MediaQuery.of(context).size.width /
-                                        75),
-                                Container(
-                                  width:
-                                      MediaQuery.of(context).size.width / 5,
-                                  decoration: const BoxDecoration(
-                                    image: DecorationImage(
-                                        image: AssetImage(
-                                            "assets/gals/icons/qr.png"),
-                                        fit: BoxFit.contain),
-                                  ),
-                                ),
-                                Align(
-                                  alignment: Alignment.centerLeft,
-                                  child: Text(
-                                    AppLocalizations.of(context).find,
-                                    style: TextStyle(
-                                      color: Colors.white,
-                                      fontWeight: FontWeight.w900,
-                                      fontSize:
-                                          MediaQuery.of(context).size.height /
-                                              35,
+                        Column(
+                          children: [
+                            const SizedBox(width: 15),
+                            Container(
+                              height: MediaQuery.of(context).size.height / 20,
+                              width: MediaQuery.of(context).size.width,
+                              decoration: const BoxDecoration(
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(25.0)),
+                                color: Color.fromARGB(0, 0, 143, 105),
+                              ),
+                              child: GestureDetector(
+                                onTap: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => const QRViewExample(),
                                     ),
-                                  ),
+                                  );
+                                },
+                                child: ListView(
+                                  scrollDirection: Axis.horizontal,
+                                  children: [
+                                    Container(
+                                      width:
+                                          MediaQuery.of(context).size.width / 9,
+                                      decoration: const BoxDecoration(
+                                        image: DecorationImage(
+                                            image: AssetImage(
+                                                "assets/gals/icons/qr.png"),
+                                            fit: BoxFit.contain),
+                                      ),
+                                    ),
+                                    const SizedBox(width: 5),
+                                    Align(
+                                      alignment: Alignment.centerLeft,
+                                      child: Text(
+                                        AppLocalizations.of(context).find,
+                                        style: TextStyle(
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.w900,
+                                          fontSize:
+                                              MediaQuery.of(context).size.height /
+                                                  50,
+                                        ),
+                                      ),
+                                    ),
+                                  ],
                                 ),
-                              ],
+                              ),
                             ),
-                          ),
+
+
+                            ////
+
+
+                            Container(
+                              height: MediaQuery.of(context).size.height / 20,
+                              width: MediaQuery.of(context).size.width,
+                              decoration: const BoxDecoration(
+                                borderRadius:
+                                BorderRadius.all(Radius.circular(25.0)),
+                                color: Color.fromARGB(0, 0, 143, 105),
+                              ),
+                              child: GestureDetector(
+                              onTap: () {
+                              MapUtils.open("https://www.youtube.com/");
+                              },
+                                child: ListView(
+                                  scrollDirection: Axis.horizontal,
+                                  children: [
+                                    SizedBox(
+                                        width: MediaQuery.of(context).size.width /
+                                            75),
+                                    Container(
+                                      width:
+                                      MediaQuery.of(context).size.width / 9,
+                                      decoration: const BoxDecoration(
+                                        image: DecorationImage(
+                                            image: AssetImage(
+                                                "assets/gals/icons/yt.png"),
+                                            fit: BoxFit.contain),
+                                      ),
+                                    ),
+                                    const SizedBox(width: 5),
+                                    Align(
+                                      alignment: Alignment.centerLeft,
+                                      child: Text(
+                                        "Link video",
+                                        style: TextStyle(
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.w900,
+                                          fontSize:
+                                          MediaQuery.of(context).size.height /
+                                              50,
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ),
+
+
+                            /////
+
+
+                            Container(
+                              height: MediaQuery.of(context).size.height / 20,
+                              width: MediaQuery.of(context).size.width,
+                              decoration: const BoxDecoration(
+                                borderRadius:
+                                BorderRadius.all(Radius.circular(25.0)),
+                                color: Color.fromARGB(0, 0, 143, 105),
+                              ),
+                              child: GestureDetector(
+                                onTap: () {
+                                  MapUtils.open("https://www.youtube.com/");
+                                },
+                                child: ListView(
+                                  scrollDirection: Axis.horizontal,
+                                  children: [
+                                    SizedBox(
+                                        width: MediaQuery.of(context).size.width /
+                                            75),
+                                    Container(
+                                      width:
+                                      MediaQuery.of(context).size.width / 9,
+                                      decoration: const BoxDecoration(
+                                        image: DecorationImage(
+                                            image: AssetImage(
+                                                "assets/gals/icons/yt.png"),
+                                            fit: BoxFit.contain),
+                                      ),
+                                    ),
+                                    const SizedBox(width: 5),
+                                    Align(
+                                      alignment: Alignment.centerLeft,
+                                      child: Text(
+                                        "Link audio",
+                                        style: TextStyle(
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.w900,
+                                          fontSize:
+                                          MediaQuery.of(context).size.height /
+                                              50,
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ),
+
+
+
+                            /////
+
+
+
+                            Container(
+                              height: MediaQuery.of(context).size.height / 20,
+                              width: MediaQuery.of(context).size.width,
+                              decoration: const BoxDecoration(
+                                borderRadius:
+                                BorderRadius.all(Radius.circular(25.0)),
+                                color: Color.fromARGB(0, 0, 143, 105),
+                              ),
+                              child: GestureDetector(
+                                onTap: () {
+                                  MapUtils.open("https://www.facebook.com/");
+                                },
+                                child: ListView(
+                                  scrollDirection: Axis.horizontal,
+                                  children: [
+                                    SizedBox(
+                                        width: MediaQuery.of(context).size.width /
+                                            75),
+                                    Container(
+                                      width:
+                                      MediaQuery.of(context).size.width / 9,
+                                      decoration: const BoxDecoration(
+                                        image: DecorationImage(
+                                            image: AssetImage(
+                                                "assets/gals/icons/fb.png"),
+                                            fit: BoxFit.contain),
+                                      ),
+                                    ),
+                                    const SizedBox(width: 5),
+                                    Align(
+                                      alignment: Alignment.centerLeft,
+                                      child: Text(
+                                        "Link pagina facebook",
+                                        style: TextStyle(
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.w900,
+                                          fontSize:
+                                          MediaQuery.of(context).size.height /
+                                              50,
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ),
+
+
+                            //////
+
+
+                            Container(
+                              height: MediaQuery.of(context).size.height / 20,
+                              width: MediaQuery.of(context).size.width,
+                              decoration: const BoxDecoration(
+                                borderRadius:
+                                BorderRadius.all(Radius.circular(25.0)),
+                                color: Color.fromARGB(0, 0, 143, 105),
+                              ),
+                              child: GestureDetector(
+                                onTap: () {
+                                  MapUtils.open("http://ghidturistic-ne.ro/");
+                                },
+                                child: ListView(
+                                  scrollDirection: Axis.horizontal,
+                                  children: [
+                                    SizedBox(
+                                        width: MediaQuery.of(context).size.width /
+                                            75),
+                                    Container(
+                                      width:
+                                      MediaQuery.of(context).size.width / 9,
+                                      decoration: const BoxDecoration(
+                                        image: DecorationImage(
+                                            image: AssetImage(
+                                                "assets/gals/icons/www2.png"),
+                                            fit: BoxFit.contain),
+                                      ),
+                                    ),
+                                    const SizedBox(width: 5),
+                                    Align(
+                                      alignment: Alignment.centerLeft,
+                                      child: Text(
+                                        "Link pagina ghid turistic",
+                                        style: TextStyle(
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.w900,
+                                          fontSize:
+                                          MediaQuery.of(context).size.height /
+                                              50,
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ),
+                          ],
                         ),
                       ],
                     ),
