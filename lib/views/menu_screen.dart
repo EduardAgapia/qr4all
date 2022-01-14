@@ -61,7 +61,7 @@ class _MenuScreenState extends State<MenuScreen> {
             ),
             ListTile(
               leading: const Icon(Icons.qr_code_scanner_sharp),
-              title: Text(AppLocalizations.of(context).placeholder),
+              title: Text(AppLocalizations.of(context).qrScan),
               onTap: () {
                 Navigator.push(
                   context,
@@ -73,7 +73,7 @@ class _MenuScreenState extends State<MenuScreen> {
             ),
             ListTile(
               leading: const Icon(Icons.near_me_sharp),
-              title: Text(AppLocalizations.of(context).placeholder),
+              title: Text(AppLocalizations.of(context).nearMe),
               onTap: () {
                 Navigator.push(
                   context,

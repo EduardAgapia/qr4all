@@ -291,7 +291,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                           child: Align(
                             alignment: Alignment.bottomCenter,
                             child: Text(
-                              AppLocalizations.of(context).placeholderScreen,
+                              AppLocalizations.of(context).recreation,
                               style: TextStyle(
                                 color: Colors.black,
                                 fontSize:
@@ -339,7 +339,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                           child: Align(
                             alignment: Alignment.bottomCenter,
                             child: Text(
-                              AppLocalizations.of(context).placeholderScreen,
+                              AppLocalizations.of(context).accommodation,
                               style: TextStyle(
                                 color: Colors.black,
                                 fontSize:
@@ -387,7 +387,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                           child: Align(
                             alignment: Alignment.bottomCenter,
                             child: Text(
-                              AppLocalizations.of(context).placeholderScreen,
+                              AppLocalizations.of(context).restaurants,
                               style: TextStyle(
                                 color: Colors.black,
                                 fontSize:
@@ -435,7 +435,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                           child: Align(
                             alignment: Alignment.bottomCenter,
                             child: Text(
-                              AppLocalizations.of(context).placeholderScreen,
+                              AppLocalizations.of(context).producers,
                               style: TextStyle(
                                 color: Colors.black,
                                 fontSize:
@@ -483,7 +483,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                           child: Align(
                             alignment: Alignment.bottomCenter,
                             child: Text(
-                              AppLocalizations.of(context).placeholderScreen,
+                              AppLocalizations.of(context).legends,
                               style: TextStyle(
                                 color: Colors.black,
                                 fontSize:

@@ -19,12 +19,12 @@
   "@placeholderScreen": {
     "description": "Placeholder Screen"
   },
-  "qr-scan": "Qr scan",
-  "@qr-scan": {
+  "qrScan": "Qr scan",
+  "@qrScan": {
     "description": "Scan the QR code"
   },
-  "near-me": "Near Me",
-  "@near-me": {
+  "nearMe": "Near Me",
+  "@nearMe": {
     "description": "Near me"
   },
   "description": "Description",
