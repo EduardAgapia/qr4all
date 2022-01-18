@@ -14,7 +14,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_localizations:
-      sdk: flutter
+    sdk: flutter
   intl: ^0.17.0
   cupertino_icons: ^1.0.2
   firebase_storage: ^10.2.4
@@ -30,6 +30,7 @@ dependencies:
   flowder: ^0.2.0
   path_provider: ^2.0.8
   json_annotation: ^4.3.0
+  geolocator: ^8.0.3
 
 dev_dependencies:
   flutter_test:

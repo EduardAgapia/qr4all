@@ -42,43 +42,90 @@ class Home extends StatefulWidget {
 
 class MyHomePage extends State<Home> {
   initState() {
-    Timer(const Duration(seconds: 1), onClose);
+    // Timer(const Duration(seconds: 1), onClose);
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        decoration: const BoxDecoration(
-            image: DecorationImage(
-                image: AssetImage("assets/gals/anotherDeal.png"),
-                fit: BoxFit.cover)),
-        child: const Align(
-          alignment: Alignment.center,
-          child: Text(
-            "QR4ALL",
-            style: TextStyle(
-              color: Colors.black,
-              fontSize: 55,
-              fontWeight: FontWeight.w900,
+      body: ListView(children: [
+        SizedBox(height: 40),
+        Container(
+          child: Row(
+            children: [
+              SizedBox(width: 110),
+              GestureDetector(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => MenuScreen(isRo: true),
+                      ),
+                    );
+                  },
+                  child: Container(
+                height: 50,
+                width: 50,
+                decoration: const BoxDecoration(
+                    image: DecorationImage(
+                        image: AssetImage("assets/gals/ro.png"),
+                        fit: BoxFit.cover)),
+              )),
+              SizedBox(width: 70),
+              GestureDetector(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => MenuScreen(isRo: false),
+                      ),
+                    );
+                  },
+                  child: Container(
+                height: 50,
+                width: 50,
+                decoration: const BoxDecoration(
+                    image: DecorationImage(
+                        image: AssetImage("assets/gals/uk.png"),
+                        fit: BoxFit.cover)),
+              ))
+            ],
+          ),
+        ),
+        Container(
+          height: MediaQuery.of(context).size.height / 2,
+          width: MediaQuery.of(context).size.width / 2,
+          decoration: const BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage("assets/gals/anotherDeal.png"),
+                  fit: BoxFit.cover)),
+          child: const Align(
+            alignment: Alignment.center,
+            child: Text(
+              "QR4ALL",
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 55,
+                fontWeight: FontWeight.w900,
+              ),
             ),
           ),
         ),
-      ),
+      ]),
     );
   }
 
-  void onClose() {
-    Navigator.of(context).pushReplacement(PageRouteBuilder(
-        maintainState: true,
-        opaque: true,
-        pageBuilder: (context, _, __) => MenuScreen(),
-        transitionDuration: const Duration(milliseconds: 400),
-        transitionsBuilder: (context, anim1, anim2, child) {
-          return FadeTransition(
-            child: child,
-            opacity: anim1,
-          );
-        }));
-  }
+  // void onClose() {
+  //   Navigator.of(context).pushReplacement(PageRouteBuilder(
+  //       maintainState: true,
+  //       opaque: true,
+  //       pageBuilder: (context, _, __) => MenuScreen(isRo: false),
+  //       transitionDuration: const Duration(milliseconds: 400),
+  //       transitionsBuilder: (context, anim1, anim2, child) {
+  //         return FadeTransition(
+  //           child: child,
+  //           opacity: anim1,
+  //         );
+  //       }));
+  // }
 }
