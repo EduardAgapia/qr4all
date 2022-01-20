@@ -1,24 +1,27 @@
 import 'dart:async';
 import 'dart:collection';
 import 'dart:convert';
+import 'dart:math';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:qr_4_all/domain/gal/gal.dart';
 import 'package:qr_4_all/domain/gals.dart';
+import 'package:location/location.dart';
+import 'package:geolocator/geolocator.dart';
 import 'package:qr_4_all/views/turistic-areas/views/objectives/objectives_screen.dart';
 import 'package:qr_4_all/views/turistic-areas/views/zones/zone.dart';
 import 'package:qr_4_all/views/turistic-areas/views/zones/zone_turistice.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:url_launcher/url_launcher.dart';
-import 'dart:math';
 
 import '../scanner.dart';
+import '../user_location.dart';
 
 class MenuScreen extends StatefulWidget {
   final bool isRo;
+
   const MenuScreen({Key? key, required this.isRo}) : super(key: key);
 
   @override
@@ -34,16 +37,27 @@ class _MenuScreenState extends State<MenuScreen> {
   double lat = 46.948958;
   double lon = 27.508986;
 
+  late UserLocation _currentLocation;
+
+  Future<UserLocation> getLocation() async {
+    try {
+      var userLocation = await Geolocator.getCurrentPosition();
+      lat = userLocation.latitude;
+      lon = userLocation.longitude;
+    } catch (e) {
+      print("Could not get the location");
+    }
+    return _currentLocation;
+  }
 
   _MenuScreenState({required this.isRo});
-
 
   @override
   void initState() {
     super.initState();
+    getLocation();
     setState(() {
-      if(!isRo){
-      }
+      if (!isRo) {}
       readJson(isRo);
       _setPolygons();
     });
@@ -144,7 +158,7 @@ class _MenuScreenState extends State<MenuScreen> {
         myLocationButtonEnabled: true,
         zoomControlsEnabled: true,
         initialCameraPosition:
-            CameraPosition(target: LatLng(lat, lon), zoom: 8.2),
+            CameraPosition(target: LatLng(lat, lon), zoom: 11.5),
       ),
     );
   }
@@ -171,24 +185,23 @@ class _MenuScreenState extends State<MenuScreen> {
       LatLng(47.096302, 27.410200),
       LatLng(46.940842, 27.094062),
       LatLng(46.891919, 27.147269),
-
     ];
     _polygons.add(
       Polygon(
-        polygonId: PolygonId("iasi"),
-        points: iasi,
-        fillColor: Colors.blueGrey.withOpacity(0.5),
-        strokeWidth: 1,
+          polygonId: PolygonId("iasi"),
+          points: iasi,
+          fillColor: Colors.blueGrey.withOpacity(0.5),
+          strokeWidth: 1,
           consumeTapEvents: true,
           onTap: () {
             Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => ZoneScreen(gal: getGal("Colinele Iasilor")),
+                builder: (context) =>
+                    ZoneScreen(gal: getGal("Colinele Iasilor")),
               ),
             );
-          }
-      ),
+          }),
     );
   }
 
@@ -210,10 +223,10 @@ class _MenuScreenState extends State<MenuScreen> {
     ];
     _polygons.add(
       Polygon(
-        polygonId: PolygonId("prut"),
-        points: prut,
-        fillColor: Colors.blueAccent.withOpacity(0.5),
-        strokeWidth: 1,
+          polygonId: PolygonId("prut"),
+          points: prut,
+          fillColor: Colors.blueAccent.withOpacity(0.5),
+          strokeWidth: 1,
           consumeTapEvents: true,
           onTap: () {
             Navigator.push(
@@ -222,8 +235,7 @@ class _MenuScreenState extends State<MenuScreen> {
                 builder: (context) => ZoneScreen(gal: getGal("Valea Prutului")),
               ),
             );
-          }
-      ),
+          }),
     );
   }
 
@@ -239,24 +251,23 @@ class _MenuScreenState extends State<MenuScreen> {
       LatLng(47.186202, 27.295618),
       LatLng(47.183529, 27.214596),
       LatLng(47.012818, 27.238152),
-
     ];
     _polygons.add(
       Polygon(
-        polygonId: PolygonId("stejari"),
-        points: stejari,
-        fillColor: Colors.green.withOpacity(0.4),
-        strokeWidth: 1,
+          polygonId: PolygonId("stejari"),
+          points: stejari,
+          fillColor: Colors.green.withOpacity(0.4),
+          strokeWidth: 1,
           consumeTapEvents: true,
           onTap: () {
             Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => ZoneScreen(gal: getGal("Stejarii-Argintii")),
+                builder: (context) =>
+                    ZoneScreen(gal: getGal("Stejarii-Argintii")),
               ),
             );
-          }
-      ),
+          }),
     );
   }
 
@@ -270,20 +281,20 @@ class _MenuScreenState extends State<MenuScreen> {
     ];
     _polygons.add(
       Polygon(
-        polygonId: PolygonId("stefan"),
-        points: stefan,
-        fillColor: Colors.white.withOpacity(0.5),
-        strokeWidth: 1,
+          polygonId: PolygonId("stefan"),
+          points: stefan,
+          fillColor: Colors.white.withOpacity(0.5),
+          strokeWidth: 1,
           consumeTapEvents: true,
           onTap: () {
             Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => ZoneScreen(gal: getGal("Stefan cel Mare")),
+                builder: (context) =>
+                    ZoneScreen(gal: getGal("Stefan cel Mare")),
               ),
             );
-          }
-      ),
+          }),
     );
   }
 
@@ -296,10 +307,10 @@ class _MenuScreenState extends State<MenuScreen> {
     ];
     _polygons.add(
       Polygon(
-        polygonId: PolygonId("siretMoldova"),
-        points: siretMoldova,
-        fillColor: Colors.orange.withOpacity(0.5),
-        strokeWidth: 1,
+          polygonId: PolygonId("siretMoldova"),
+          points: siretMoldova,
+          fillColor: Colors.orange.withOpacity(0.5),
+          strokeWidth: 1,
           consumeTapEvents: true,
           onTap: () {
             Navigator.push(
@@ -308,8 +319,7 @@ class _MenuScreenState extends State<MenuScreen> {
                 builder: (context) => ZoneScreen(gal: getGal("Siret-Moldova")),
               ),
             );
-          }
-      ),
+          }),
     );
   }
 
@@ -323,10 +333,10 @@ class _MenuScreenState extends State<MenuScreen> {
     ];
     _polygons.add(
       Polygon(
-        polygonId: PolygonId("rediuPrajeni"),
-        points: rediuPrajeni,
-        fillColor: Colors.white.withOpacity(0.5),
-        strokeWidth: 1,
+          polygonId: PolygonId("rediuPrajeni"),
+          points: rediuPrajeni,
+          fillColor: Colors.white.withOpacity(0.5),
+          strokeWidth: 1,
           consumeTapEvents: true,
           onTap: () {
             Navigator.push(
@@ -335,8 +345,7 @@ class _MenuScreenState extends State<MenuScreen> {
                 builder: (context) => ZoneScreen(gal: getGal("Rediu-prajeni")),
               ),
             );
-          }
-      ),
+          }),
     );
   }
 
@@ -350,20 +359,20 @@ class _MenuScreenState extends State<MenuScreen> {
     ];
     _polygons.add(
       Polygon(
-        polygonId: PolygonId("dealurileBohotinului"),
-        points: dealurileBohotinului,
-        fillColor: Colors.purple.withOpacity(0.5),
-        strokeWidth: 1,
+          polygonId: PolygonId("dealurileBohotinului"),
+          points: dealurileBohotinului,
+          fillColor: Colors.purple.withOpacity(0.5),
+          strokeWidth: 1,
           consumeTapEvents: true,
           onTap: () {
             Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => ZoneScreen(gal: getGal("Dealurile Bohotinului")),
+                builder: (context) =>
+                    ZoneScreen(gal: getGal("Dealurile Bohotinului")),
               ),
             );
-          }
-      ),
+          }),
     );
   }
 
@@ -377,20 +386,20 @@ class _MenuScreenState extends State<MenuScreen> {
     ];
     _polygons.add(
       Polygon(
-        polygonId: PolygonId("codriiPascanilor"),
-        points: codriiPascanilor,
-        fillColor: Colors.yellowAccent.withOpacity(0.5),
+          polygonId: PolygonId("codriiPascanilor"),
+          points: codriiPascanilor,
+          fillColor: Colors.yellowAccent.withOpacity(0.5),
           consumeTapEvents: true,
-        strokeWidth: 1,
+          strokeWidth: 1,
           onTap: () {
             Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => ZoneScreen(gal: getGal("Codrii Pascanilor")),
+                builder: (context) =>
+                    ZoneScreen(gal: getGal("Codrii Pascanilor")),
               ),
             );
-          }
-      ),
+          }),
     );
   }
 
@@ -421,14 +430,16 @@ class _MenuScreenState extends State<MenuScreen> {
             Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => ZoneScreen(gal: getGal("Belcesti-Focuri")),
+                builder: (context) =>
+                    ZoneScreen(gal: getGal("Belcesti-Focuri")),
               ),
             );
           }),
     );
   }
 
-  Gal getGal(String galName) => _gals.firstWhere((element) => element.name == galName);
+  Gal getGal(String galName) =>
+      _gals.firstWhere((element) => element.name == galName);
 
   Future<void> readJson(bool isRo) async {
     if (isRo) {
@@ -440,8 +451,10 @@ class _MenuScreenState extends State<MenuScreen> {
       _gals = Gals.fromJson(data).gals;
     });
   }
-  //
-  // bool roSystemLanguage() {
-  //   return Platform.localeName.contains("ro");
-  // }
+
+
+//
+// bool roSystemLanguage() {
+//   return Platform.localeName.contains("ro");
+// }
 }

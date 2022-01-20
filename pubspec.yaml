@@ -30,6 +30,7 @@ dependencies:
   flowder: ^0.2.0
   path_provider: ^2.0.8
   json_annotation: ^4.3.0
+  location: ^4.3.0
   geolocator: ^8.0.3
 
 dev_dependencies:
