@@ -71,7 +71,7 @@ class _ReadExampleState extends State<ZoneTuristice> {
                           galList[index].name.toString(),
                           style: TextStyle(
                             color: Colors.black,
-                            fontSize: MediaQuery.of(context).size.height / 52,
+                            fontSize: MediaQuery.of(context).size.height / 60,
                           ),
                         ),
                       ),

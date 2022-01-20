@@ -48,12 +48,13 @@ class MyHomePage extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: ListView(children: [
-        SizedBox(height: 40),
+        SizedBox(height: MediaQuery.of(context).size.height / 8),
         Container(
           child: Row(
             children: [
-              SizedBox(width: 110),
+              SizedBox(width: 2 * MediaQuery.of(context).size.width / 7),
               GestureDetector(
                   onTap: () {
                     Navigator.push(
@@ -71,7 +72,7 @@ class MyHomePage extends State<Home> {
                         image: AssetImage("assets/gals/ro.png"),
                         fit: BoxFit.cover)),
               )),
-              SizedBox(width: 70),
+              SizedBox(width: MediaQuery.of(context).size.width / 6),
               GestureDetector(
                   onTap: () {
                     Navigator.push(
@@ -115,12 +116,14 @@ class MyHomePage extends State<Home> {
     );
   }
 
+
+
   // void onClose() {
   //   Navigator.of(context).pushReplacement(PageRouteBuilder(
   //       maintainState: true,
   //       opaque: true,
   //       pageBuilder: (context, _, __) => MenuScreen(isRo: false),
-  //       transitionDuration: const Duration(milliseconds: 400),
+  //       transitionDuration: const Duration(milliseconds: 4000),
   //       transitionsBuilder: (context, anim1, anim2, child) {
   //         return FadeTransition(
   //           child: child,
