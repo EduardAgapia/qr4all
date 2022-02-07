@@ -10,7 +10,6 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:qr_4_all/domain/gal/gal.dart';
 import 'package:qr_4_all/domain/gals.dart';
-import 'package:location/location.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:qr_4_all/views/turistic-areas/views/objectives/objectives_screen.dart';
 import 'package:qr_4_all/views/turistic-areas/views/zones/zone.dart';
@@ -198,7 +197,7 @@ class _MenuScreenState extends State<MenuScreen> {
               context,
               MaterialPageRoute(
                 builder: (context) =>
-                    ZoneScreen(gal: getGal("Colinele Iasilor")),
+                    ZoneScreen(gal: getGal("Colinele Iasului")),
               ),
             );
           }),

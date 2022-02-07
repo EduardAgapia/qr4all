@@ -30,7 +30,7 @@ class _ReadExampleState extends State<ZoneTuristice> {
         child: GridView.count(
           primary: false,
           childAspectRatio: 6 / 10,
-          padding: const EdgeInsets.fromLTRB(10, 60, 10, 60),
+          padding: const EdgeInsets.fromLTRB(10, 50, 10, 60),
           //Todo: dynamic values with respect for phone specs
           crossAxisSpacing: 3,
           mainAxisSpacing: 3,

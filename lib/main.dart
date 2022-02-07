@@ -103,11 +103,13 @@ class MyHomePage extends State<Home> {
           child: const Align(
             alignment: Alignment.center,
             child: Text(
-              "QR4ALL",
+              "\n"
+                  "QR4ALL",
               style: TextStyle(
-                color: Colors.black,
+                color: Color.fromARGB(255, 32, 54, 20),
                 fontSize: 55,
                 fontWeight: FontWeight.w900,
+                fontStyle: FontStyle.italic
               ),
             ),
           ),
