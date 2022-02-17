@@ -11,7 +11,6 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'l10n/l10n.dart';
 
 int? isviewed;
-
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
   SharedPreferences prefs = await SharedPreferences.getInstance();
@@ -113,7 +112,7 @@ class MyHomePage extends State<Home> {
               "\n"
               "QR4ALL",
               style: TextStyle(
-                  color: Color.fromARGB(255, 32, 54, 20),
+                  color: const Color.fromARGB(255, 32, 54, 20),
                   fontSize: MediaQuery.of(context).size.width / 8.5,
                   fontWeight: FontWeight.w900,
                   fontStyle: FontStyle.italic),

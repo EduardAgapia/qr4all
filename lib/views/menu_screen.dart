@@ -105,47 +105,50 @@ class _MenuScreenState extends State<MenuScreen> {
     ];
 
     return Scaffold(
-      bottomSheet: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: <Widget>[
-          ListTile(
-            leading: const Icon(Icons.home),
-            title: Text(AppLocalizations.of(context).mainMenu),
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => ZoneTuristice(galList: _gals),
-                ),
-              );
-            },
-          ),
-          ListTile(
-            leading: const Icon(Icons.qr_code_scanner_sharp),
-            title: Text(AppLocalizations.of(context).qrScan),
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => const QRViewExample(),
-                ),
-              );
-            },
-          ),
-          ListTile(
-            leading: const Icon(Icons.near_me_sharp),
-            title: Text(AppLocalizations.of(context).nearMe),
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) =>
-                      ObjectivesScreen(objectives: _gals[0].objectives),
-                ),
-              );
-            },
-          ),
-        ],
+      bottomSheet: WillPopScope(
+        onWillPop: () async => false,
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: <Widget>[
+            ListTile(
+              leading: const Icon(Icons.home),
+              title: Text(AppLocalizations.of(context).mainMenu),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => ZoneTuristice(galList: _gals),
+                  ),
+                );
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.qr_code_scanner_sharp),
+              title: Text(AppLocalizations.of(context).qrScan),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const QRViewExample(),
+                  ),
+                );
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.near_me_sharp),
+              title: Text(AppLocalizations.of(context).nearMe),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) =>
+                        ObjectivesScreen(objectives: _gals[0].objectives),
+                  ),
+                );
+              },
+            ),
+          ],
+        ),
       ),
       body: GoogleMap(
         polygons: Set.of(_polygons),
@@ -450,7 +453,6 @@ class _MenuScreenState extends State<MenuScreen> {
       _gals = Gals.fromJson(data).gals;
     });
   }
-
 
 //
 // bool roSystemLanguage() {
