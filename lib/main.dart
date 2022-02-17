@@ -45,8 +45,12 @@ class Home extends StatefulWidget {
 }
 
 class MyHomePage extends State<Home> {
-  int isViewed = 0;
 
+  _storeOnboardInfo() async {
+    int isViewed = 0;
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    await prefs.setInt('onBoard', isViewed);
+  }
   initState() {
     // Timer(const Duration(seconds: 1), onClose);
   }
@@ -63,6 +67,7 @@ class MyHomePage extends State<Home> {
               SizedBox(width: 2 * MediaQuery.of(context).size.width / 7.5),
               GestureDetector(
                   onTap: () {
+                    _storeOnboardInfo();
                     Navigator.push(
                       context,
                       MaterialPageRoute(
@@ -81,6 +86,7 @@ class MyHomePage extends State<Home> {
               SizedBox(width: MediaQuery.of(context).size.width / 5),
               GestureDetector(
                   onTap: () {
+                    _storeOnboardInfo();
                     Navigator.push(
                       context,
                       MaterialPageRoute(
