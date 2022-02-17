@@ -72,7 +72,7 @@ class MyHomePage extends State<Home> {
                         image: AssetImage("assets/gals/ro.png"),
                         fit: BoxFit.cover)),
               )),
-              SizedBox(width: MediaQuery.of(context).size.width / 6),
+              SizedBox(width: MediaQuery.of(context).size.width / 5),
               GestureDetector(
                   onTap: () {
                     Navigator.push(
@@ -94,7 +94,7 @@ class MyHomePage extends State<Home> {
           ),
         ),
         Container(
-          height: MediaQuery.of(context).size.height / 1.6,
+          height: MediaQuery.of(context).size.height / 1.8,
           width: MediaQuery.of(context).size.width / 2,
           decoration: const BoxDecoration(
               image: DecorationImage(
