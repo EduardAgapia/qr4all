@@ -50,11 +50,11 @@ class MyHomePage extends State<Home> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: ListView(children: [
-        SizedBox(height: MediaQuery.of(context).size.height / 8),
+        SizedBox(height: MediaQuery.of(context).size.height / 10),
         Container(
           child: Row(
             children: [
-              SizedBox(width: 2 * MediaQuery.of(context).size.width / 7),
+              SizedBox(width: 2 * MediaQuery.of(context).size.width / 7.5),
               GestureDetector(
                   onTap: () {
                     Navigator.push(
@@ -94,20 +94,20 @@ class MyHomePage extends State<Home> {
           ),
         ),
         Container(
-          height: MediaQuery.of(context).size.height / 2,
+          height: MediaQuery.of(context).size.height / 1.6,
           width: MediaQuery.of(context).size.width / 2,
           decoration: const BoxDecoration(
               image: DecorationImage(
                   image: AssetImage("assets/gals/anotherDeal.png"),
                   fit: BoxFit.cover)),
-          child: const Align(
+          child: Align(
             alignment: Alignment.center,
             child: Text(
               "\n"
                   "QR4ALL",
               style: TextStyle(
                 color: Color.fromARGB(255, 32, 54, 20),
-                fontSize: 55,
+                fontSize: MediaQuery.of(context).size.width / 8.5,
                 fontWeight: FontWeight.w900,
                 fontStyle: FontStyle.italic
               ),
