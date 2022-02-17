@@ -6,11 +6,16 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:qr_4_all/views/menu_screen.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import 'l10n/l10n.dart';
 
+int? isviewed;
+
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  SharedPreferences prefs = await SharedPreferences.getInstance();
+  isviewed = prefs.getInt('onBoard');
   runApp(MyApp());
 }
 
@@ -26,12 +31,12 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.green,
         ),
         supportedLocales: L10n.all,
-        localizationsDelegates: [
+        localizationsDelegates: const [
           AppLocalizations.delegate,
           GlobalMaterialLocalizations.delegate,
           GlobalCupertinoLocalizations.delegate,
         ],
-        home: Home());
+        home: isviewed != 0 ? Home() : MenuScreen(isRo: true));
   }
 }
 
@@ -41,6 +46,8 @@ class Home extends StatefulWidget {
 }
 
 class MyHomePage extends State<Home> {
+  int isViewed = 0;
+
   initState() {
     // Timer(const Duration(seconds: 1), onClose);
   }
@@ -65,13 +72,13 @@ class MyHomePage extends State<Home> {
                     );
                   },
                   child: Container(
-                height: 50,
-                width: 50,
-                decoration: const BoxDecoration(
-                    image: DecorationImage(
-                        image: AssetImage("assets/gals/ro.png"),
-                        fit: BoxFit.cover)),
-              )),
+                    height: 50,
+                    width: 50,
+                    decoration: const BoxDecoration(
+                        image: DecorationImage(
+                            image: AssetImage("assets/gals/ro.png"),
+                            fit: BoxFit.cover)),
+                  )),
               SizedBox(width: MediaQuery.of(context).size.width / 5),
               GestureDetector(
                   onTap: () {
@@ -83,18 +90,18 @@ class MyHomePage extends State<Home> {
                     );
                   },
                   child: Container(
-                height: 50,
-                width: 50,
-                decoration: const BoxDecoration(
-                    image: DecorationImage(
-                        image: AssetImage("assets/gals/uk.png"),
-                        fit: BoxFit.cover)),
-              ))
+                    height: 50,
+                    width: 50,
+                    decoration: const BoxDecoration(
+                        image: DecorationImage(
+                            image: AssetImage("assets/gals/uk.png"),
+                            fit: BoxFit.cover)),
+                  ))
             ],
           ),
         ),
         Container(
-          height: MediaQuery.of(context).size.height / 1.8,
+          height: MediaQuery.of(context).size.height / 2,
           width: MediaQuery.of(context).size.width / 2,
           decoration: const BoxDecoration(
               image: DecorationImage(
@@ -104,33 +111,39 @@ class MyHomePage extends State<Home> {
             alignment: Alignment.center,
             child: Text(
               "\n"
-                  "QR4ALL",
+              "QR4ALL",
               style: TextStyle(
-                color: Color.fromARGB(255, 32, 54, 20),
-                fontSize: MediaQuery.of(context).size.width / 8.5,
-                fontWeight: FontWeight.w900,
-                fontStyle: FontStyle.italic
-              ),
+                  color: Color.fromARGB(255, 32, 54, 20),
+                  fontSize: MediaQuery.of(context).size.width / 8.5,
+                  fontWeight: FontWeight.w900,
+                  fontStyle: FontStyle.italic),
             ),
+          ),
+        ),
+        Container(
+          height: MediaQuery.of(context).size.height / 4.4,
+          width: MediaQuery.of(context).size.width / 10,
+          decoration: const BoxDecoration(
+            image: DecorationImage(
+                image: AssetImage("assets/gals/first-screen-placeholder.png"),
+                fit: BoxFit.cover),
           ),
         ),
       ]),
     );
   }
 
-
-
-  // void onClose() {
-  //   Navigator.of(context).pushReplacement(PageRouteBuilder(
-  //       maintainState: true,
-  //       opaque: true,
-  //       pageBuilder: (context, _, __) => MenuScreen(isRo: false),
-  //       transitionDuration: const Duration(milliseconds: 4000),
-  //       transitionsBuilder: (context, anim1, anim2, child) {
-  //         return FadeTransition(
-  //           child: child,
-  //           opacity: anim1,
-  //         );
-  //       }));
-  // }
+// void onClose() {
+//   Navigator.of(context).pushReplacement(PageRouteBuilder(
+//       maintainState: true,
+//       opaque: true,
+//       pageBuilder: (context, _, __) => MenuScreen(isRo: false),
+//       transitionDuration: const Duration(milliseconds: 4000),
+//       transitionsBuilder: (context, anim1, anim2, child) {
+//         return FadeTransition(
+//           child: child,
+//           opacity: anim1,
+//         );
+//       }));
+// }
 }
