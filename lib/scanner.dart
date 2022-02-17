@@ -33,26 +33,10 @@ class _QRViewExampleState extends State<QRViewExample> {
     return Scaffold(
       body: Column(
         children: <Widget>[
-          Expanded(flex: 7, child: _buildQrView(context)),
           Expanded(
-            flex: 1,
-            child: FittedBox(
-              fit: BoxFit.contain,
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: <Widget>[
-                  if (result != null)
-                    InkWell(
-                        child: Text(AppLocalizations.of(context).open,
-                            style: TextStyle(color: Colors.black)),
-                        onTap: () => launch(result!.code.toString()))
-                  else
-                    Text(AppLocalizations.of(context).find,
-                        style: TextStyle(color: Colors.black)),
-                ],
-              ),
-            ),
-          )
+              flex: 7,
+              child: _buildQrView(context),
+          ),
         ],
       ),
     );
@@ -60,10 +44,16 @@ class _QRViewExampleState extends State<QRViewExample> {
 
   Widget _buildQrView(BuildContext context) {
     // For this example we check how width or tall the device is and change the scanArea and overlay accordingly.
-    var scanArea = (MediaQuery.of(context).size.width < 400 ||
-            MediaQuery.of(context).size.height < 400)
-        ? 150.0
-        : 300.0;
+    var scanArea = (MediaQuery
+        .of(context)
+        .size
+        .width < 400 ||
+        MediaQuery
+            .of(context)
+            .size
+            .height < 400)
+        ? 280.0
+        : 400.0;
     // To ensure the Scanner view is properly sizes after rotation
     // we need to listen for Flutter SizeChanged notification and update controller
     return QRView(
@@ -86,6 +76,7 @@ class _QRViewExampleState extends State<QRViewExample> {
     controller.scannedDataStream.listen((scanData) {
       setState(() {
         result = scanData;
+        launch(result!.code.toString());
       });
     });
   }
