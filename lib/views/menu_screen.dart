@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'dart:collection';
 import 'dart:convert';
-import 'dart:math';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -152,35 +151,62 @@ class _MenuScreenState extends State<MenuScreen> {
       ),
       body: GoogleMap(
         polygons: Set.of(_polygons),
-        markers: markers.toSet(),
-        onMapCreated: (mapController) {
-          mapController.showMarkerInfoWindow(
-              _markers.elementAt(Random().nextInt(_markers.length)).markerId);
-        },
+        // markers: markers.toSet(),
+        // onMapCreated: (mapController) {
+        //   mapController.showMarkerInfoWindow(
+        //       _markers.elementAt(Random().nextInt(_markers.length)).markerId);
+        // },
         myLocationButtonEnabled: true,
         zoomControlsEnabled: true,
         initialCameraPosition:
-            CameraPosition(target: LatLng(lat, lon), zoom: 11.5),
+            CameraPosition(target: LatLng(lat, lon), zoom: 8.5),
       ),
     );
   }
 
   void _setPolygons() {
-    // belcestFocuriPolygon();
+    belcestFocuriPolygon();
     codriiPascanilorPoligon();
     dealurileBohotinuluiPolygons();
-    // rediuPolygons();
+    rediuPolygons();
     siretPolygons();
-    // stefanPolygons();
+    stefanPolygons();
     stejariPolygons();
-    // prutPolygons();
+    prutPolygons();
     iasiPolygons();
   }
 
   void iasiPolygons() {
     List<LatLng> iasi = [
       LatLng(46.891919, 27.147269),
-      LatLng(46.901397, 27.642410),
+      LatLng(46.875890, 27.186938),
+      LatLng(46.881860, 27.198731),
+      LatLng(46.870814, 27.221878),
+      LatLng(46.877979, 27.250266),
+      LatLng(46.873501, 27.262932),
+      LatLng(46.874994, 27.292631),
+      LatLng(46.861856, 27.307917),
+      LatLng(46.869023, 27.328880),
+      LatLng(46.891412, 27.387841),
+      LatLng(46.875890, 27.408804),
+      LatLng(46.878278, 27.437629),
+      LatLng(46.870602, 27.442822),
+      LatLng(46.875685, 27.466983),
+      LatLng(46.865129, 27.476276),
+      LatLng(46.867475, 27.485140),
+      LatLng(46.879301, 27.485997),
+      LatLng(46.879887, 27.516449),
+      LatLng(46.887118, 27.531032),
+      LatLng(46.918083, 27.521024),
+      LatLng(46.919938, 27.529316),
+      LatLng(46.874414, 27.562056),
+      LatLng(46.887216, 27.566059),
+      LatLng(46.910651, 27.639684),
+      LatLng(46.922584, 27.629202),
+      LatLng(46.923777, 27.613479),
+      LatLng(46.939882, 27.618720),
+      LatLng(46.957174, 27.606055),
+      LatLng(46.989657, 27.628765),
       LatLng(47.065763, 27.664804),
       LatLng(47.136207, 27.606252),
       LatLng(47.093581, 27.536807),
@@ -216,11 +242,12 @@ class _MenuScreenState extends State<MenuScreen> {
       LatLng(47.650378, 27.221536),
       LatLng(47.630759, 27.256201),
       LatLng(47.570922, 27.289479),
-      LatLng(47.523190, 27.225696),
-      LatLng(47.489668, 27.372886),
-      LatLng(47.400069, 27.411759),
-      LatLng(47.365016, 27.340096),
-      LatLng(47.226108, 27.519677),
+      LatLng(47.519833, 27.206379),
+      LatLng(47.475140, 27.313048),
+      LatLng(47.468681, 27.372446),
+      LatLng(47.411435, 27.407697),
+      LatLng(47.349988, 27.377103),
+      LatLng(47.212958, 27.493581),
       LatLng(47.210251, 27.567399),
     ];
     _polygons.add(
@@ -234,7 +261,7 @@ class _MenuScreenState extends State<MenuScreen> {
             Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => ZoneScreen(gal: getGal("Valea Prutului")),
+                builder: (context) => ZoneScreen(gal: getGal("Valuea Prutului")),
               ),
             );
           }),
@@ -244,7 +271,6 @@ class _MenuScreenState extends State<MenuScreen> {
   void stejariPolygons() {
     List<LatLng> stejari = [
       LatLng(47.012818, 27.238152),
-      LatLng(47.194943, 27.167163),
       LatLng(46.940842, 27.094062),
       LatLng(47.096302, 27.410200),
       LatLng(47.093581, 27.536807),
@@ -275,17 +301,51 @@ class _MenuScreenState extends State<MenuScreen> {
 
   void stefanPolygons() {
     List<LatLng> stefan = [
-      LatLng(47.238362, 27.605901),
-      LatLng(47.217944, 27.563237),
-      LatLng(47.165759, 27.630280),
-      LatLng(47.229258, 27.731860),
-      LatLng(47.238362, 27.605901),
+      LatLng(46.861856, 27.307917),
+      LatLng(46.869023, 27.328880),
+      LatLng(46.891412, 27.387841),
+      LatLng(46.875890, 27.408804),
+      LatLng(46.878278, 27.437629),
+      LatLng(46.870602, 27.442822),
+      LatLng(46.875685, 27.466983),
+      LatLng(46.865129, 27.476276),
+      LatLng(46.867475, 27.485140),
+      LatLng(46.879301, 27.485997),
+      LatLng(46.879887, 27.516449),
+      LatLng(46.887118, 27.531032),
+      LatLng(46.918083, 27.521024),
+      LatLng(46.919938, 27.529316),
+      LatLng(46.874414, 27.562056),
+      LatLng(46.887216, 27.566059),
+      LatLng(46.910651, 27.639684),
+      LatLng(46.922584, 27.629202),
+      LatLng(46.923777, 27.613479),
+      LatLng(46.939882, 27.618720),
+      LatLng(46.957174, 27.606055),
+      LatLng(46.989657, 27.628765),
+      LatLng(47.065763, 27.664804),
+      LatLng(46.933841, 27.768642),
+      LatLng(46.922907, 27.816673),
+      LatLng(46.953880, 27.828681),
+      LatLng(47.046691, 27.776647),
+      LatLng(47.210111, 27.647366),
+      LatLng(47.210251, 27.567399),
+      LatLng(47.303691, 27.659410),
+      LatLng(47.001477, 28.051398),
+      LatLng(46.958748, 27.877354),
+      LatLng(46.846506, 27.888904),
+      LatLng(46.863675, 27.823494),
+      LatLng(46.808533, 27.690031),
+      LatLng(46.839275, 27.553265),
+      LatLng(46.813254, 27.328156),
+      LatLng(46.861856, 27.307917),
+
     ];
     _polygons.add(
       Polygon(
           polygonId: PolygonId("stefan"),
           points: stefan,
-          fillColor: Colors.white.withOpacity(0.5),
+          fillColor: Colors.brown.withOpacity(0.5),
           strokeWidth: 1,
           consumeTapEvents: true,
           onTap: () {
@@ -302,10 +362,18 @@ class _MenuScreenState extends State<MenuScreen> {
 
   void siretPolygons() {
     List<LatLng> siretMoldova = [
-      LatLng(47.354336, 26.693541),
-      LatLng(47.378722, 27.296085),
-      LatLng(47.493647, 26.907239),
-      LatLng(47.354336, 26.693541),
+      LatLng(47.351768, 26.616604),
+      LatLng(47.361607, 26.678770),
+      LatLng(47.414663, 26.680145),
+      LatLng(47.366884, 26.724140),
+      LatLng(47.408439, 27.061569),
+      LatLng(47.308935, 27.019922),
+      LatLng(47.293730, 26.838735),
+      LatLng(47.230548, 26.805135),
+      LatLng(47.293255, 26.749135),
+      LatLng(47.278157, 26.711444),
+      LatLng(47.255783, 26.658813),
+      LatLng(47.351768, 26.616604),
     ];
     _polygons.add(
       Polygon(
@@ -327,17 +395,28 @@ class _MenuScreenState extends State<MenuScreen> {
 
   void rediuPolygons() {
     List<LatLng> rediuPrajeni = [
-      LatLng(47.256616, 27.493078),
-      LatLng(47.192857, 27.464609),
-      LatLng(47.206442, 27.534369),
-      LatLng(47.243781, 27.512420),
-      LatLng(47.256616, 27.493078),
+      LatLng(47.254251, 27.333976),
+      LatLng(47.424405, 27.226946),
+      LatLng(47.467589, 27.079803),
+      LatLng(47.515649, 27.076713),
+      LatLng(47.551382, 27.098632),
+      LatLng(47.519833, 27.206379),
+      LatLng(47.511802, 27.223764),
+      LatLng(47.475140, 27.313048),
+      LatLng(47.468681, 27.372446),
+      LatLng(47.411435, 27.407697),
+      LatLng(47.349988, 27.377103),
+      LatLng(47.179577, 27.524507),
+      LatLng(47.182990, 27.498520),
+      LatLng(47.254251, 27.333976)
+
+
     ];
     _polygons.add(
       Polygon(
           polygonId: PolygonId("rediuPrajeni"),
           points: rediuPrajeni,
-          fillColor: Colors.white.withOpacity(0.5),
+          fillColor: Colors.orange.withOpacity(0.5),
           strokeWidth: 1,
           consumeTapEvents: true,
           onTap: () {
@@ -353,11 +432,15 @@ class _MenuScreenState extends State<MenuScreen> {
 
   void dealurileBohotinuluiPolygons() {
     List<LatLng> dealurileBohotinului = [
-      LatLng(46.991041, 28.020023),
-      LatLng(46.893157, 28.071244),
-      LatLng(46.928148, 27.864852),
-      LatLng(46.988472, 27.887199),
-      LatLng(46.991041, 28.020023),
+      LatLng(46.856110, 27.954457),
+      LatLng(46.857956, 27.978310),
+      LatLng(46.837333, 27.992111),
+      LatLng(46.837333, 27.992111),
+      LatLng(46.840617, 28.078821),
+      LatLng(46.840405, 28.108995),
+      LatLng(46.922200, 28.107898),
+      LatLng(47.001477, 28.051398),
+      LatLng(46.958748, 27.877354)
     ];
     _polygons.add(
       Polygon(
@@ -380,11 +463,20 @@ class _MenuScreenState extends State<MenuScreen> {
 
   void codriiPascanilorPoligon() {
     List<LatLng> codriiPascanilor = [
-      LatLng(47.577466, 26.140817),
-      LatLng(46.810293, 26.512840),
-      LatLng(47.199039, 27.019974),
-      LatLng(47.319628, 26.781214),
-      LatLng(47.577466, 26.140817),
+      LatLng(47.111827, 26.679991),
+      LatLng(47.186939, 26.805101),
+      LatLng(47.225234, 26.765231),
+      LatLng(47.204220, 26.670930),
+      LatLng(47.351768, 26.616604),
+      LatLng(47.397567, 26.550336),
+      LatLng(47.391115, 26.495416),
+      LatLng(47.340571, 26.509375),
+      LatLng(47.311161, 26.568946),
+      LatLng(47.290538, 26.577570),
+      LatLng(47.269126, 26.502085),
+      LatLng(47.171537, 26.623747),
+      LatLng(47.094836, 26.617978),
+      LatLng(47.111827, 26.679991),
     ];
     _polygons.add(
       Polygon(
@@ -407,25 +499,26 @@ class _MenuScreenState extends State<MenuScreen> {
 
   void belcestFocuriPolygon() {
     List<LatLng> belcestiFocuri = [
-      LatLng(47.307216, 27.086495),
-      LatLng(47.385831, 27.118326),
-      LatLng(47.366478, 27.201394),
-      LatLng(47.359128, 27.208863),
-      LatLng(47.343899, 27.210102),
-      LatLng(47.343100, 27.195943),
-      LatLng(47.322131, 27.209709),
-      LatLng(47.316087, 27.228587),
-      LatLng(47.251789, 27.252865),
-      LatLng(47.253029, 27.239372),
-      LatLng(47.201564, 27.144790),
-      LatLng(47.219180, 27.106555),
-      LatLng(47.307216, 27.086495),
+      LatLng(47.415205, 26.678717),
+      LatLng(47.368396, 26.727727),
+      LatLng(47.402231, 27.058105),
+      LatLng(47.308935, 27.019922),
+      LatLng(47.183529, 27.214596),
+      LatLng(47.254251, 27.333976),
+      LatLng(47.424405, 27.226946),
+      LatLng(47.467589, 27.079803),
+      LatLng(47.466963, 27.053891),
+      LatLng(47.453824, 27.064071),
+      LatLng(47.443185, 27.043711),
+      LatLng(47.411434, 26.805196),
+      LatLng(47.462017, 26.672190),
+      LatLng(47.415205, 26.678717),
     ];
     _polygons.add(
       Polygon(
           polygonId: PolygonId("belcestiFocuri"),
           points: belcestiFocuri,
-          fillColor: Colors.white.withOpacity(0.5),
+          fillColor: Colors.redAccent.withOpacity(0.5),
           strokeWidth: 1,
           consumeTapEvents: true,
           onTap: () {
