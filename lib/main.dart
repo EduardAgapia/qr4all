@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'dart:ui';
 
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -9,6 +8,8 @@ import 'package:qr_4_all/views/menu_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'l10n/l10n.dart';
+import 'messaging/green_page.dart';
+import 'messaging/red_page.dart';
 
 int? isviewed;
 Future main() async {
@@ -19,7 +20,6 @@ Future main() async {
 }
 
 class MyApp extends StatelessWidget {
-  final Future<FirebaseApp> _fbApp = Firebase.initializeApp();
 
   @override
   Widget build(BuildContext context) {
@@ -35,7 +35,12 @@ class MyApp extends StatelessWidget {
           GlobalMaterialLocalizations.delegate,
           GlobalCupertinoLocalizations.delegate,
         ],
-        home: isviewed != 0 ? Home() : MenuScreen(isRo: true));
+        home: isviewed != 0 ? Home() : MenuScreen(isRo: true)
+        // routes:{
+        //   "red": (_) => RedPage(),
+        //   "green": (_) => GreenPage(),
+        // }
+        );
   }
 }
 
