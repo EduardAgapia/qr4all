@@ -8,8 +8,6 @@ import 'package:qr_4_all/views/menu_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'l10n/l10n.dart';
-import 'messaging/green_page.dart';
-import 'messaging/red_page.dart';
 
 int? isviewed;
 Future main() async {
