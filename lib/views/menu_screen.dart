@@ -55,11 +55,6 @@ class _MenuScreenState extends State<MenuScreen> {
   void initState() {
     super.initState();
     getLocation();
-    BitmapDescriptor.fromAssetImage(
-        ImageConfiguration(devicePixelRatio: 2.5),
-        'assets/destination_map_marker.png').then((onValue) {
-      pinLocationIcon = onValue;
-    });
     setState(() {
       if (!isRo) {}
       readJson(isRo);
@@ -169,11 +164,6 @@ class _MenuScreenState extends State<MenuScreen> {
       ),
     );
   }
-
-  BitmapDescriptor pinLocationIcon;
-  Set<Marker> _markers2 = {};
-  Completer<GoogleMapController> _controller = Completer();
-
 
   void _setPolygons() {
     dealurileBohotinuluiPolygons();
