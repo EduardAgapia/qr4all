@@ -5,9 +5,10 @@ class MapUtils {
   MapUtils._();
 
   static Future<void> openMap(double latitude, double longitude) async {
-    String googleUrl = 'https://www.google.com/maps/search/?api=1&query=$latitude,$longitude';
+     String googleUrl = 'https://www.google.com/maps/search/?api=1&query=$latitude,$longitude'; //just for poc
+    // String googleUrl = 'https://eduardagapia.github.io/WoWEvents/team.html';
     if (await canLaunch(googleUrl)) {
-      await launch(googleUrl);
+      await launch(googleUrl, forceSafariVC: true, forceWebView: true, enableJavaScript: true);
     } else {
       throw 'Could not open the map.';
     }

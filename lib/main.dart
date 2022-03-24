@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:ui';
 
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -12,6 +13,7 @@ import 'l10n/l10n.dart';
 int? isviewed;
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   SharedPreferences prefs = await SharedPreferences.getInstance();
   isviewed = prefs.getInt('onBoard');
   runApp(MyApp());
@@ -33,12 +35,7 @@ class MyApp extends StatelessWidget {
           GlobalMaterialLocalizations.delegate,
           GlobalCupertinoLocalizations.delegate,
         ],
-        home: isviewed != 0 ? Home() : MenuScreen(isRo: true)
-        // routes:{
-        //   "red": (_) => RedPage(),
-        //   "green": (_) => GreenPage(),
-        // }
-        );
+        home: isviewed != 0 ? Home() : MenuScreen(isRo: true));
   }
 }
 
