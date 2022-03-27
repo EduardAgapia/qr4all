@@ -8,6 +8,8 @@ import 'package:qr_4_all/views/turistic-areas/views/objectives/objectives_screen
 import 'package:qr_4_all/views/turistic-areas/views/trails/trails_screen.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
+import '../../../../map.dart';
+
 class ZoneScreen extends StatefulWidget {
   final Gal gal;
 
@@ -84,12 +86,15 @@ class _ZoneScreenState extends State<ZoneScreen> {
                   ),
                   child: GestureDetector(
                     onTap: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) =>
-                                CalendarScreen(events: gal.events),
-                          ));
+
+                      MapUtils.openUrl("calendar");
+
+                      // Navigator.push(
+                      //     context,
+                      //     MaterialPageRoute(
+                      //       builder: (context) =>
+                      //           CalendarScreen(events: gal.events),
+                      //     ));
                     },
                     child: Container(
                       decoration: const BoxDecoration(
@@ -130,12 +135,15 @@ class _ZoneScreenState extends State<ZoneScreen> {
                   ),
                   child: GestureDetector(
                     onTap: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) =>
-                                TrailsScreen(trails: gal.trails),
-                          ));
+
+                      MapUtils.openUrl("trails");
+
+                      // Navigator.push(
+                      //     context,
+                      //     MaterialPageRoute(
+                      //       builder: (context) =>
+                      //           TrailsScreen(trails: gal.trails),
+                      //     ));
                     },
                     child: Container(
                       decoration: const BoxDecoration(
@@ -176,12 +184,15 @@ class _ZoneScreenState extends State<ZoneScreen> {
                   ),
                   child: GestureDetector(
                     onTap: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) =>
-                                ObjectivesScreen(objectives: gal.objectives),
-                          ));
+
+                      MapUtils.openUrl("objs");
+
+                      // Navigator.push(
+                      //     context,
+                      //     MaterialPageRoute(
+                      //       builder: (context) =>
+                      //           ObjectivesScreen(objectives: gal.objectives),
+                      //     ));
                     },
                     child: Container(
                       decoration: const BoxDecoration(
@@ -222,12 +233,15 @@ class _ZoneScreenState extends State<ZoneScreen> {
                   ),
                   child: GestureDetector(
                     onTap: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) =>
-                                UtilInfoScreen(utilInfo: gal.utils),
-                          ));
+
+                      MapUtils.openUrl("infos");
+
+                      // Navigator.push(
+                      //     context,
+                      //     MaterialPageRoute(
+                      //       builder: (context) =>
+                      //           UtilInfoScreen(utilInfo: gal.utils),
+                      //     ));
                     },
                     child: Container(
                       decoration: const BoxDecoration(
@@ -270,11 +284,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                   ),
                   child: GestureDetector(
                     onTap: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => Placeholder(),
-                          ));
+                      MapUtils.openUrl("recreation");
                     },
                     child: Container(
                       decoration: const BoxDecoration(
@@ -318,11 +328,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                   ),
                   child: GestureDetector(
                     onTap: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => Placeholder(),
-                          ));
+                      MapUtils.openUrl("hotels");
                     },
                     child: Container(
                       decoration: const BoxDecoration(
@@ -366,11 +372,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                   ),
                   child: GestureDetector(
                     onTap: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => Placeholder(),
-                          ));
+                      MapUtils.openUrl("restaurants");
                     },
                     child: Container(
                       decoration: const BoxDecoration(
@@ -414,11 +416,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                   ),
                   child: GestureDetector(
                     onTap: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => Placeholder(),
-                          ));
+                      MapUtils.openUrl("producers");
                     },
                     child: Container(
                       decoration: const BoxDecoration(
@@ -462,11 +460,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                   ),
                   child: GestureDetector(
                     onTap: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => Placeholder(),
-                          ));
+                      MapUtils.openUrl("legends");
                     },
                     child: Container(
                       decoration: const BoxDecoration(

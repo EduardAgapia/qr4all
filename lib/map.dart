@@ -6,13 +6,21 @@ class MapUtils {
 
   static Future<void> openMap(double latitude, double longitude) async {
      String googleUrl = 'https://www.google.com/maps/search/?api=1&query=$latitude,$longitude'; //just for poc
-    // String googleUrl = 'https://eduardagapia.github.io/WoWEvents/team.html';
     if (await canLaunch(googleUrl)) {
       await launch(googleUrl, forceSafariVC: true, forceWebView: true, enableJavaScript: true);
     } else {
       throw 'Could not open the map.';
     }
   }
+  static Future<void> openUrl(String page) async {
+     String googleUrl = 'https://eduardagapia.github.io/WoWEvents/$page.html';
+    if (await canLaunch(googleUrl)) {
+      await launch(googleUrl, forceSafariVC: true, forceWebView: true, enableJavaScript: true);
+    } else {
+      throw 'Could not open the map.';
+    }
+  }
+
   static Future<void> open(String mapUrl) async {
     if (await canLaunch(mapUrl)) {
       await launch(mapUrl);

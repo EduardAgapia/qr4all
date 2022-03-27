@@ -110,42 +110,66 @@ class _MenuScreenState extends State<MenuScreen> {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: <Widget>[
-            ListTile(
-              leading: const Icon(Icons.home),
-              title: Text(AppLocalizations.of(context).mainMenu),
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => ZoneTuristice(galList: _gals),
-                  ),
-                );
-              },
+            Container(
+              decoration: BoxDecoration(
+                  color: Color.fromARGB(255, 208, 221, 211),
+                  borderRadius: BorderRadius.all(Radius.circular(15.0))
+              ),
+              child: ListTile(
+                tileColor: Colors.white54,
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5.0)),
+                leading: const Icon(Icons.home),
+                title: Text(AppLocalizations.of(context).mainMenu),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => ZoneTuristice(galList: _gals),
+                    ),
+                  );
+                },
+              ),
             ),
-            ListTile(
-              leading: const Icon(Icons.qr_code_scanner_sharp),
-              title: Text(AppLocalizations.of(context).qrScan),
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const QRViewExample(),
-                  ),
-                );
-              },
+            Container(
+              decoration: BoxDecoration(
+                  color: Color.fromARGB(255, 208, 221, 211),
+                  borderRadius: BorderRadius.all(Radius.circular(15.0))
+              ),
+              child: ListTile(
+                tileColor: Colors.white54,
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5.0)),
+                leading: const Icon(Icons.qr_code_scanner_sharp),
+                title: Text(AppLocalizations.of(context).qrScan),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const QRViewExample(),
+                    ),
+                  );
+                },
+              ),
             ),
-            ListTile(
-              leading: const Icon(Icons.near_me_sharp),
-              title: Text(AppLocalizations.of(context).nearMe),
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) =>
-                        ObjectivesScreen(objectives: _gals[0].objectives),
-                  ),
-                );
-              },
+            Container(
+              decoration: BoxDecoration(
+                color: Color.fromARGB(255, 208, 221, 211),
+                  borderRadius: BorderRadius.all(Radius.circular(15.0))
+              ),
+              child: ListTile(
+                tileColor: Colors.white54,
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5.0)),
+                leading: const Icon(Icons.near_me_sharp),
+                title: Text(AppLocalizations.of(context).nearMe),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) =>
+                          ObjectivesScreen(objectives: _gals[0].objectives),
+                    ),
+                  );
+                },
+              ),
             ),
           ],
         ),
