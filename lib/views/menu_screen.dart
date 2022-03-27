@@ -112,14 +112,13 @@ class _MenuScreenState extends State<MenuScreen> {
           children: <Widget>[
             Container(
               decoration: BoxDecoration(
-                  color: Color.fromARGB(255, 208, 221, 211),
+                  color: Color.fromARGB(255, 164, 191, 170),
                   borderRadius: BorderRadius.all(Radius.circular(15.0))
               ),
               child: ListTile(
-                tileColor: Colors.white54,
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5.0)),
-                leading: const Icon(Icons.home),
-                title: Text(AppLocalizations.of(context).mainMenu),
+                leading: const Icon(Icons.home, color: Colors.white),
+                title: Text(AppLocalizations.of(context).mainMenu, style: TextStyle(color: Colors.white)),
                 onTap: () {
                   Navigator.push(
                     context,
@@ -130,16 +129,16 @@ class _MenuScreenState extends State<MenuScreen> {
                 },
               ),
             ),
+            SizedBox(height: 3.0),
             Container(
               decoration: BoxDecoration(
-                  color: Color.fromARGB(255, 208, 221, 211),
+                  color: Color.fromARGB(255, 164, 191, 170),
                   borderRadius: BorderRadius.all(Radius.circular(15.0))
               ),
               child: ListTile(
-                tileColor: Colors.white54,
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5.0)),
-                leading: const Icon(Icons.qr_code_scanner_sharp),
-                title: Text(AppLocalizations.of(context).qrScan),
+                leading: const Icon(Icons.qr_code_scanner_sharp, color: Colors.white),
+                title: Text(AppLocalizations.of(context).qrScan, style: TextStyle(color: Colors.white)),
                 onTap: () {
                   Navigator.push(
                     context,
@@ -150,16 +149,16 @@ class _MenuScreenState extends State<MenuScreen> {
                 },
               ),
             ),
+            SizedBox(height: 3.0),
             Container(
               decoration: BoxDecoration(
-                color: Color.fromARGB(255, 208, 221, 211),
+                color: Color.fromARGB(255, 164, 191, 170),
                   borderRadius: BorderRadius.all(Radius.circular(15.0))
               ),
               child: ListTile(
-                tileColor: Colors.white54,
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5.0)),
-                leading: const Icon(Icons.near_me_sharp),
-                title: Text(AppLocalizations.of(context).nearMe),
+                leading: const Icon(Icons.near_me_sharp, color: Colors.white),
+                title: Text(AppLocalizations.of(context).nearMe, style: TextStyle(color: Colors.white)),
                 onTap: () {
                   Navigator.push(
                     context,
