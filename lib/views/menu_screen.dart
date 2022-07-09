@@ -110,64 +110,88 @@ class _MenuScreenState extends State<MenuScreen> {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: <Widget>[
-            Container(
-              decoration: BoxDecoration(
-                  color: Color.fromARGB(255, 164, 191, 170),
-                  borderRadius: BorderRadius.all(Radius.circular(15.0))
-              ),
-              child: ListTile(
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5.0)),
-                leading: const Icon(Icons.home, color: Colors.white),
-                title: Text(AppLocalizations.of(context).mainMenu, style: TextStyle(color: Colors.white)),
-                onTap: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => ZoneTuristice(galList: _gals),
+            ClipRRect(
+              borderRadius: BorderRadius.circular(20),
+              child: Material(
+                child: InkWell(
+                  highlightColor: Colors.red.withOpacity(0.5),
+                  child: Ink(
+                    decoration: BoxDecoration(
+                        color: Color.fromARGB(255, 164, 191, 170),
+                        borderRadius: BorderRadius.all(Radius.circular(15.0))
                     ),
-                  );
-                },
+                    child: ListTile(
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5.0)),
+                      leading: const Icon(Icons.home, color: Colors.white),
+                      title: Text(AppLocalizations.of(context).mainMenu, style: TextStyle(color: Colors.white)),
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => ZoneTuristice(galList: _gals),
+                          ),
+                        );
+                      },
+                    ),
+                  ),
+                ),
               ),
             ),
             SizedBox(height: 3.0),
-            Container(
-              decoration: BoxDecoration(
-                  color: Color.fromARGB(255, 164, 191, 170),
-                  borderRadius: BorderRadius.all(Radius.circular(15.0))
-              ),
-              child: ListTile(
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5.0)),
-                leading: const Icon(Icons.qr_code_scanner_sharp, color: Colors.white),
-                title: Text(AppLocalizations.of(context).qrScan, style: TextStyle(color: Colors.white)),
-                onTap: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => const QRViewExample(),
+            ClipRRect(
+              borderRadius: BorderRadius.circular(20),
+              child: Material(
+                child: InkWell(
+                  highlightColor: Colors.red.withOpacity(0.5),
+                  child: Ink(
+                    decoration: BoxDecoration(
+                        color: Color.fromARGB(255, 164, 191, 170),
+                        borderRadius: BorderRadius.all(Radius.circular(15.0))
                     ),
-                  );
-                },
+                    child: ListTile(
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5.0)),
+                      leading: const Icon(Icons.qr_code_scanner_sharp, color: Colors.white),
+                      title: Text(AppLocalizations.of(context).qrScan, style: TextStyle(color: Colors.white)),
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const QRViewExample(),
+                          ),
+                        );
+                      },
+                    ),
+                  ),
+                ),
               ),
             ),
             SizedBox(height: 3.0),
-            Container(
-              decoration: BoxDecoration(
-                color: Color.fromARGB(255, 164, 191, 170),
-                  borderRadius: BorderRadius.all(Radius.circular(15.0))
-              ),
-              child: ListTile(
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5.0)),
-                leading: const Icon(Icons.near_me_sharp, color: Colors.white),
-                title: Text(AppLocalizations.of(context).nearMe, style: TextStyle(color: Colors.white)),
-                onTap: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) =>
-                          ObjectivesScreen(objectives: _gals[0].objectives),
+            ClipRRect(
+              borderRadius: BorderRadius.circular(20),
+              child: Material(
+                child: InkWell(
+                  highlightColor: Colors.red.withOpacity(0.5),
+                  child: Ink(
+                    decoration: BoxDecoration(
+                      color: Color.fromARGB(255, 164, 191, 170),
+                        borderRadius: BorderRadius.all(Radius.circular(15.0))
                     ),
-                  );
-                },
+                    child: ListTile(
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5.0)),
+                      leading: const Icon(Icons.near_me_sharp, color: Colors.white),
+                      title: Text(AppLocalizations.of(context).nearMe, style: TextStyle(color: Colors.white)),
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) =>
+                                ObjectivesScreen(objectives: _gals[0].objectives),
+                          ),
+                        );
+                      },
+                    ),
+                  ),
+                ),
               ),
             ),
           ],
