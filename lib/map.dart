@@ -1,4 +1,6 @@
+import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:webview_flutter/webview_flutter.dart';
 
 class MapUtils {
 
@@ -14,11 +16,16 @@ class MapUtils {
   }
   static Future<void> openUrl(String page) async {
      String googleUrl = 'https://eduardagapia.github.io/WoWEvents/$page.html';
-    if (await canLaunch(googleUrl)) {
-      await launch(googleUrl, forceSafariVC: true, forceWebView: true, enableJavaScript: true);
-    } else {
-      throw 'Could not open the map.';
-    }
+    // if (await canLaunch(googleUrl)) {
+      WebView(
+        initialUrl: googleUrl,
+        javascriptMode: JavascriptMode.unrestricted,
+        backgroundColor: Colors.white,
+      );
+      // await launch(googleUrl, forceWebView: true, enableJavaScript: true);
+    // } else {
+    //   throw 'Could not open the map.';
+    // }
   }
 
   static Future<void> open(String mapUrl) async {

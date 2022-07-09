@@ -1,14 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:qr_4_all/domain/gal/gal.dart';
 import 'package:qr_4_all/views/turistic-areas/views/about_screen.dart';
 import 'package:qr_4_all/views/turistic-areas/views/calendar/calendar_screen.dart';
 import 'package:qr_4_all/views/turistic-areas/views/info/util_info_screen.dart';
 import 'package:qr_4_all/views/turistic-areas/views/objectives/objectives_screen.dart';
 import 'package:qr_4_all/views/turistic-areas/views/trails/trails_screen.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-
-import '../../../../map.dart';
 
 class ZoneScreen extends StatefulWidget {
   final Gal gal;
@@ -38,15 +36,15 @@ class _ZoneScreenState extends State<ZoneScreen> {
                   ));
             },
             child: Container(
-                height: MediaQuery.of(context).size.height / 4,
-                width: MediaQuery.of(context).size.width,
-                decoration: const BoxDecoration(
-                  borderRadius: BorderRadius.all(Radius.circular(25.0)),
-                  color: Colors.lightGreen,
-                  image: DecorationImage(
-                      image: AssetImage("assets/gals/iasi.png"),
-                      fit: BoxFit.cover),
-                ),
+              height: MediaQuery.of(context).size.height / 4,
+              width: MediaQuery.of(context).size.width,
+              decoration: const BoxDecoration(
+                borderRadius: BorderRadius.all(Radius.circular(25.0)),
+                color: Colors.lightGreen,
+                image: DecorationImage(
+                    image: AssetImage("assets/gals/iasi.png"),
+                    fit: BoxFit.cover),
+              ),
               child: Align(
                 alignment: Alignment.bottomCenter,
                 child: Container(
@@ -82,19 +80,17 @@ class _ZoneScreenState extends State<ZoneScreen> {
                 Container(
                   decoration: const BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                    color: Color.fromARGB(0, 255, 255, 255),
+                    color: Colors.white,
                   ),
                   child: GestureDetector(
                     onTap: () {
-
-                      MapUtils.openUrl("calendar");
-
-                      // Navigator.push(
-                      //     context,
-                      //     MaterialPageRoute(
-                      //       builder: (context) =>
-                      //           CalendarScreen(events: gal.events),
-                      //     ));
+                      // MapUtils.openUrl("calendar");
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) =>
+                                CalendarScreen(events: gal.events),
+                          ));
                     },
                     child: Container(
                       decoration: const BoxDecoration(
@@ -131,19 +127,18 @@ class _ZoneScreenState extends State<ZoneScreen> {
                 Container(
                   decoration: const BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                    color: Color.fromARGB(0, 255, 255, 255),
+                    color: Colors.white,
                   ),
                   child: GestureDetector(
                     onTap: () {
+                      // MapUtils.openUrl("trails");
 
-                      MapUtils.openUrl("trails");
-
-                      // Navigator.push(
-                      //     context,
-                      //     MaterialPageRoute(
-                      //       builder: (context) =>
-                      //           TrailsScreen(trails: gal.trails),
-                      //     ));
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) =>
+                                TrailsScreen(trails: gal.trails),
+                          ));
                     },
                     child: Container(
                       decoration: const BoxDecoration(
@@ -180,19 +175,18 @@ class _ZoneScreenState extends State<ZoneScreen> {
                 Container(
                   decoration: const BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                    color: Color.fromARGB(0, 255, 255, 255),
+                    color: Colors.white,
                   ),
                   child: GestureDetector(
                     onTap: () {
+                      // MapUtils.openUrl("objs");
 
-                      MapUtils.openUrl("objs");
-
-                      // Navigator.push(
-                      //     context,
-                      //     MaterialPageRoute(
-                      //       builder: (context) =>
-                      //           ObjectivesScreen(objectives: gal.objectives),
-                      //     ));
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) =>
+                                ObjectivesScreen(objectives: gal.objectives),
+                          ));
                     },
                     child: Container(
                       decoration: const BoxDecoration(
@@ -229,19 +223,19 @@ class _ZoneScreenState extends State<ZoneScreen> {
                 Container(
                   decoration: const BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                    color: Color.fromARGB(0, 255, 255, 255),
+                    color: Colors.white,
                   ),
                   child: GestureDetector(
                     onTap: () {
-
-                      MapUtils.openUrl("infos");
-
-                      // Navigator.push(
-                      //     context,
-                      //     MaterialPageRoute(
-                      //       builder: (context) =>
-                      //           UtilInfoScreen(utilInfo: gal.utils),
-                      //     ));
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => UtilInfoScreen(
+                              title: "Informatii utile",
+                              url:
+                                  'https://eduardagapia.github.io/WoWEvents/infos.html'),
+                        ),
+                      );
                     },
                     child: Container(
                       decoration: const BoxDecoration(
@@ -280,11 +274,20 @@ class _ZoneScreenState extends State<ZoneScreen> {
                 Container(
                   decoration: const BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                    color: Color.fromARGB(0, 255, 255, 255),
+                    color: Colors.white,
                   ),
                   child: GestureDetector(
                     onTap: () {
-                      MapUtils.openUrl("recreation");
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => UtilInfoScreen(
+                              title: "Zone agrement",
+                              url:
+                                  'https://eduardagapia.github.io/WoWEvents/recreation.html'),
+                        ),
+                      );
+                      // MapUtils.openUrl("recreation");
                     },
                     child: Container(
                       decoration: const BoxDecoration(
@@ -324,11 +327,19 @@ class _ZoneScreenState extends State<ZoneScreen> {
                 Container(
                   decoration: const BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                    color: Color.fromARGB(0, 255, 255, 255),
+                    color: Colors.white,
                   ),
                   child: GestureDetector(
                     onTap: () {
-                      MapUtils.openUrl("hotels");
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => UtilInfoScreen(
+                              title: "Cazare",
+                              url:
+                                  'https://eduardagapia.github.io/WoWEvents/hotels.html'),
+                        ),
+                      );
                     },
                     child: Container(
                       decoration: const BoxDecoration(
@@ -368,11 +379,19 @@ class _ZoneScreenState extends State<ZoneScreen> {
                 Container(
                   decoration: const BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                    color: Color.fromARGB(0, 255, 255, 255),
+                    color: Colors.white,
                   ),
                   child: GestureDetector(
                     onTap: () {
-                      MapUtils.openUrl("restaurants");
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => UtilInfoScreen(
+                              title: "Restaurante",
+                              url:
+                                  'https://eduardagapia.github.io/WoWEvents/restaurants.html'),
+                        ),
+                      );
                     },
                     child: Container(
                       decoration: const BoxDecoration(
@@ -412,11 +431,19 @@ class _ZoneScreenState extends State<ZoneScreen> {
                 Container(
                   decoration: const BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                    color: Color.fromARGB(0, 255, 255, 255),
+                    color: Colors.white,
                   ),
                   child: GestureDetector(
                     onTap: () {
-                      MapUtils.openUrl("producers");
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => UtilInfoScreen(
+                              title: "Producatori locali",
+                              url:
+                                  'https://eduardagapia.github.io/WoWEvents/producers.html'),
+                        ),
+                      );
                     },
                     child: Container(
                       decoration: const BoxDecoration(
@@ -460,7 +487,15 @@ class _ZoneScreenState extends State<ZoneScreen> {
                   ),
                   child: GestureDetector(
                     onTap: () {
-                      MapUtils.openUrl("legends");
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => UtilInfoScreen(
+                              title: "Legende si povesti",
+                              url:
+                                  'https://eduardagapia.github.io/WoWEvents/legends.html'),
+                        ),
+                      );
                     },
                     child: Container(
                       decoration: const BoxDecoration(

@@ -183,7 +183,7 @@ class _MenuScreenState extends State<MenuScreen> {
         myLocationButtonEnabled: true,
         zoomControlsEnabled: true,
         initialCameraPosition:
-            CameraPosition(target: LatLng(47.166523, 27.350635), zoom: 8.1),
+            CameraPosition(target: LatLng(47.166523, 27.350635), zoom: 8.29),
       ),
     );
   }
