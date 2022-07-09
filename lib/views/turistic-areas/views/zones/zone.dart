@@ -27,43 +27,42 @@ class _ZoneScreenState extends State<ZoneScreen> {
     return Scaffold(
       body: Column(
         children: [
-          GestureDetector(
-            onTap: () {
-              Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => AboutScreen(gal: gal),
-                  ));
-            },
-            child: Container(
-              height: MediaQuery.of(context).size.height / 4,
-              width: MediaQuery.of(context).size.width,
-              decoration: const BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.circular(25.0)),
-                color: Colors.lightGreen,
-                image: DecorationImage(
-                    image: AssetImage("assets/gals/iasi.png"),
-                    fit: BoxFit.cover),
-              ),
-              child: Align(
-                alignment: Alignment.bottomCenter,
-                child: Container(
-                  padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                  width: double.infinity,
-                  height: MediaQuery.of(context).size.height / 30,
+          ClipRRect(
+            borderRadius: BorderRadius.circular(20),
+            child: Material(
+              child: InkWell(
+                highlightColor: Colors.lightGreen.withOpacity(0.7),
+                child: Ink(
+                  height: MediaQuery.of(context).size.height / 4,
+                  width: MediaQuery.of(context).size.width,
+                  decoration: const BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(25.0)),
+                    color: Colors.lightGreen,
+                    image: DecorationImage(
+                        image: AssetImage("assets/gals/iasi.png"),
+                        fit: BoxFit.cover),
+                  ),
                   child: Align(
                     alignment: Alignment.bottomCenter,
-                    child: Text(
-                      gal.name.toString(),
-                      style: TextStyle(
-                        color: Colors.black,
-                        fontSize: MediaQuery.of(context).size.height / 40,
+                    child: Container(
+                      padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
+                      width: double.infinity,
+                      height: MediaQuery.of(context).size.height / 30,
+                      child: Align(
+                        alignment: Alignment.bottomCenter,
+                        child: Text(
+                          gal.name.toString(),
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontSize: MediaQuery.of(context).size.height / 40,
+                          ),
+                        ),
                       ),
+                      decoration: const BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                          color: Color.fromARGB(200, 255, 255, 255)),
                     ),
                   ),
-                  decoration: const BoxDecoration(
-                      borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                      color: Color.fromARGB(200, 255, 255, 255)),
                 ),
               ),
             ),
@@ -82,43 +81,49 @@ class _ZoneScreenState extends State<ZoneScreen> {
                     borderRadius: BorderRadius.all(Radius.circular(15.0)),
                     color: Colors.white,
                   ),
-                  child: GestureDetector(
-                    onTap: () {
-                      // MapUtils.openUrl("calendar");
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) =>
-                                CalendarScreen(events: gal.events),
-                          ));
-                    },
-                    child: Container(
-                      decoration: const BoxDecoration(
-                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                          image: DecorationImage(
-                              image: AssetImage("assets/gals/events.png"),
-                              fit: BoxFit.cover)),
-                      child: Align(
-                        alignment: Alignment.bottomCenter,
-                        child: Container(
-                          padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                          width: double.infinity,
-                          height: MediaQuery.of(context).size.height / 30,
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(20),
+                    child: Material(
+                      child: InkWell(
+                        highlightColor: Colors.lightGreen.withOpacity(0.7),
+                        onTap: () {
+                          // MapUtils.openUrl("calendar");
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) =>
+                                    CalendarScreen(events: gal.events),
+                              ));
+                        },
+                        child: Ink(
+                          decoration: const BoxDecoration(
+                              borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                              image: DecorationImage(
+                                  image: AssetImage("assets/gals/events.png"),
+                                  fit: BoxFit.cover)),
                           child: Align(
                             alignment: Alignment.bottomCenter,
-                            child: Text(
-                              AppLocalizations.of(context).calendar,
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontSize:
-                                    MediaQuery.of(context).size.height / 40,
+                            child: Container(
+                              padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
+                              width: double.infinity,
+                              height: MediaQuery.of(context).size.height / 30,
+                              child: Align(
+                                alignment: Alignment.bottomCenter,
+                                child: Text(
+                                  AppLocalizations.of(context).calendar,
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontSize:
+                                        MediaQuery.of(context).size.height / 40,
+                                  ),
+                                ),
                               ),
+                              decoration: const BoxDecoration(
+                                  borderRadius:
+                                      BorderRadius.all(Radius.circular(15.0)),
+                                  color: Color.fromARGB(200, 255, 255, 255)),
                             ),
                           ),
-                          decoration: const BoxDecoration(
-                              borderRadius:
-                                  BorderRadius.all(Radius.circular(15.0)),
-                              color: Color.fromARGB(200, 255, 255, 255)),
                         ),
                       ),
                     ),
@@ -129,44 +134,103 @@ class _ZoneScreenState extends State<ZoneScreen> {
                     borderRadius: BorderRadius.all(Radius.circular(15.0)),
                     color: Colors.white,
                   ),
-                  child: GestureDetector(
-                    onTap: () {
-                      // MapUtils.openUrl("trails");
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(20),
+                    child: Material(
+                      child: InkWell(
+                        highlightColor: Colors.lightGreen.withOpacity(0.7),
+                        onTap: () {
+                          // MapUtils.openUrl("trails");
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) =>
+                                    TrailsScreen(trails: gal.trails),
+                              ));
+                        },
+                        child: Ink(
+                          decoration: const BoxDecoration(
+                              borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                              image: DecorationImage(
+                                  image: AssetImage("assets/gals/trails.png"),
+                                  fit: BoxFit.cover)),
+                          child: Align(
+                            alignment: Alignment.bottomCenter,
+                            child: Container(
+                              padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
+                              width: double.infinity,
+                              height: MediaQuery.of(context).size.height / 30,
+                              child: Align(
+                                alignment: Alignment.bottomCenter,
+                                child: Text(
+                                  AppLocalizations.of(context).trails,
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontSize:
+                                        MediaQuery.of(context).size.height / 40,
+                                  ),
+                                ),
+                              ),
+                              decoration: const BoxDecoration(
+                                  borderRadius:
+                                      BorderRadius.all(Radius.circular(15.0)),
+                                  color: Color.fromARGB(200, 255, 255, 255)),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                Container(
+                  decoration: const BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                    color: Colors.white,
+                  ),
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(20),
+                    child: Material(
+                      child: InkWell(
+                        highlightColor: Colors.lightGreen.withOpacity(0.7),
+                        onTap: () {
+                          // MapUtils.openUrl("objs");
 
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) =>
-                                TrailsScreen(trails: gal.trails),
-                          ));
-                    },
-                    child: Container(
-                      decoration: const BoxDecoration(
-                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                          image: DecorationImage(
-                              image: AssetImage("assets/gals/trails.png"),
-                              fit: BoxFit.cover)),
-                      child: Align(
-                        alignment: Alignment.bottomCenter,
-                        child: Container(
-                          padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                          width: double.infinity,
-                          height: MediaQuery.of(context).size.height / 30,
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) =>
+                                    ObjectivesScreen(objectives: gal.objectives),
+                              ));
+                        },
+                        child: Ink(
+                          decoration: const BoxDecoration(
+                              borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                              image: DecorationImage(
+                                  image: AssetImage("assets/gals/objs.png"),
+                                  fit: BoxFit.cover)),
                           child: Align(
                             alignment: Alignment.bottomCenter,
-                            child: Text(
-                              AppLocalizations.of(context).trails,
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontSize:
-                                    MediaQuery.of(context).size.height / 40,
+                            child: Container(
+                              padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
+                              width: double.infinity,
+                              height: MediaQuery.of(context).size.height / 30,
+                              child: Align(
+                                alignment: Alignment.bottomCenter,
+                                child: Text(
+                                  AppLocalizations.of(context).objectives,
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontSize:
+                                        MediaQuery.of(context).size.height / 40,
+                                  ),
+                                ),
                               ),
+                              decoration: const BoxDecoration(
+                                  borderRadius:
+                                      BorderRadius.all(Radius.circular(15.0)),
+                                  color: Color.fromARGB(200, 255, 255, 255)),
                             ),
                           ),
-                          decoration: const BoxDecoration(
-                              borderRadius:
-                                  BorderRadius.all(Radius.circular(15.0)),
-                              color: Color.fromARGB(200, 255, 255, 255)),
                         ),
                       ),
                     ),
@@ -177,93 +241,51 @@ class _ZoneScreenState extends State<ZoneScreen> {
                     borderRadius: BorderRadius.all(Radius.circular(15.0)),
                     color: Colors.white,
                   ),
-                  child: GestureDetector(
-                    onTap: () {
-                      // MapUtils.openUrl("objs");
-
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) =>
-                                ObjectivesScreen(objectives: gal.objectives),
-                          ));
-                    },
-                    child: Container(
-                      decoration: const BoxDecoration(
-                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                          image: DecorationImage(
-                              image: AssetImage("assets/gals/objs.png"),
-                              fit: BoxFit.cover)),
-                      child: Align(
-                        alignment: Alignment.bottomCenter,
-                        child: Container(
-                          padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                          width: double.infinity,
-                          height: MediaQuery.of(context).size.height / 30,
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(20),
+                    child: Material(
+                      child: InkWell(
+                        highlightColor: Colors.lightGreen.withOpacity(0.7),
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => UtilInfoScreen(
+                                  title: "Informatii utile",
+                                  url:
+                                      'https://eduardagapia.github.io/WoWEvents/infos.html'),
+                            ),
+                          );
+                        },
+                        child: Ink(
+                          decoration: const BoxDecoration(
+                              borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                              image: DecorationImage(
+                                  image: AssetImage("assets/gals/infos.png"),
+                                  fit: BoxFit.cover)),
                           child: Align(
                             alignment: Alignment.bottomCenter,
-                            child: Text(
-                              AppLocalizations.of(context).objectives,
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontSize:
-                                    MediaQuery.of(context).size.height / 40,
+                            child: Container(
+                              padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
+                              width: double.infinity,
+                              height: MediaQuery.of(context).size.height / 30,
+                              child: Align(
+                                alignment: Alignment.bottomCenter,
+                                child: Text(
+                                  AppLocalizations.of(context).infoDetails,
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontSize:
+                                        MediaQuery.of(context).size.height / 40,
+                                  ),
+                                ),
                               ),
+                              decoration: const BoxDecoration(
+                                  borderRadius:
+                                      BorderRadius.all(Radius.circular(15.0)),
+                                  color: Color.fromARGB(200, 255, 255, 255)),
                             ),
                           ),
-                          decoration: const BoxDecoration(
-                              borderRadius:
-                                  BorderRadius.all(Radius.circular(15.0)),
-                              color: Color.fromARGB(200, 255, 255, 255)),
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
-                Container(
-                  decoration: const BoxDecoration(
-                    borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                    color: Colors.white,
-                  ),
-                  child: GestureDetector(
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => UtilInfoScreen(
-                              title: "Informatii utile",
-                              url:
-                                  'https://eduardagapia.github.io/WoWEvents/infos.html'),
-                        ),
-                      );
-                    },
-                    child: Container(
-                      decoration: const BoxDecoration(
-                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                          image: DecorationImage(
-                              image: AssetImage("assets/gals/infos.png"),
-                              fit: BoxFit.cover)),
-                      child: Align(
-                        alignment: Alignment.bottomCenter,
-                        child: Container(
-                          padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                          width: double.infinity,
-                          height: MediaQuery.of(context).size.height / 30,
-                          child: Align(
-                            alignment: Alignment.bottomCenter,
-                            child: Text(
-                              AppLocalizations.of(context).infoDetails,
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontSize:
-                                    MediaQuery.of(context).size.height / 40,
-                              ),
-                            ),
-                          ),
-                          decoration: const BoxDecoration(
-                              borderRadius:
-                                  BorderRadius.all(Radius.circular(15.0)),
-                              color: Color.fromARGB(200, 255, 255, 255)),
                         ),
                       ),
                     ),
@@ -276,46 +298,52 @@ class _ZoneScreenState extends State<ZoneScreen> {
                     borderRadius: BorderRadius.all(Radius.circular(15.0)),
                     color: Colors.white,
                   ),
-                  child: GestureDetector(
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => UtilInfoScreen(
-                              title: "Zone agrement",
-                              url:
-                                  'https://eduardagapia.github.io/WoWEvents/recreation.html'),
-                        ),
-                      );
-                      // MapUtils.openUrl("recreation");
-                    },
-                    child: Container(
-                      decoration: const BoxDecoration(
-                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                          image: DecorationImage(
-                              image: AssetImage("assets/gals/recreation.png"),
-                              fit: BoxFit.cover)),
-                      child: Align(
-                        alignment: Alignment.bottomCenter,
-                        child: Container(
-                          padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                          width: double.infinity,
-                          height: MediaQuery.of(context).size.height / 30,
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(20),
+                    child: Material(
+                      child: InkWell(
+                        highlightColor: Colors.lightGreen.withOpacity(0.7),
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => UtilInfoScreen(
+                                  title: "Zone agrement",
+                                  url:
+                                      'https://eduardagapia.github.io/WoWEvents/recreation.html'),
+                            ),
+                          );
+                          // MapUtils.openUrl("recreation");
+                        },
+                        child: Ink(
+                          decoration: const BoxDecoration(
+                              borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                              image: DecorationImage(
+                                  image: AssetImage("assets/gals/recreation.png"),
+                                  fit: BoxFit.cover)),
                           child: Align(
                             alignment: Alignment.bottomCenter,
-                            child: Text(
-                              AppLocalizations.of(context).recreation,
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontSize:
-                                    MediaQuery.of(context).size.height / 40,
+                            child: Container(
+                              padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
+                              width: double.infinity,
+                              height: MediaQuery.of(context).size.height / 30,
+                              child: Align(
+                                alignment: Alignment.bottomCenter,
+                                child: Text(
+                                  AppLocalizations.of(context).recreation,
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontSize:
+                                        MediaQuery.of(context).size.height / 40,
+                                  ),
+                                ),
                               ),
+                              decoration: const BoxDecoration(
+                                  borderRadius:
+                                      BorderRadius.all(Radius.circular(15.0)),
+                                  color: Color.fromARGB(200, 255, 255, 255)),
                             ),
                           ),
-                          decoration: const BoxDecoration(
-                              borderRadius:
-                                  BorderRadius.all(Radius.circular(15.0)),
-                              color: Color.fromARGB(200, 255, 255, 255)),
                         ),
                       ),
                     ),
@@ -329,45 +357,51 @@ class _ZoneScreenState extends State<ZoneScreen> {
                     borderRadius: BorderRadius.all(Radius.circular(15.0)),
                     color: Colors.white,
                   ),
-                  child: GestureDetector(
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => UtilInfoScreen(
-                              title: "Cazare",
-                              url:
-                                  'https://eduardagapia.github.io/WoWEvents/hotels.html'),
-                        ),
-                      );
-                    },
-                    child: Container(
-                      decoration: const BoxDecoration(
-                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                          image: DecorationImage(
-                              image: AssetImage("assets/gals/hotel.png"),
-                              fit: BoxFit.cover)),
-                      child: Align(
-                        alignment: Alignment.bottomCenter,
-                        child: Container(
-                          padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                          width: double.infinity,
-                          height: MediaQuery.of(context).size.height / 30,
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(20),
+                    child: Material(
+                      child: InkWell(
+                        highlightColor: Colors.lightGreen.withOpacity(0.7),
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => UtilInfoScreen(
+                                  title: "Cazare",
+                                  url:
+                                      'https://eduardagapia.github.io/WoWEvents/hotels.html'),
+                            ),
+                          );
+                        },
+                        child: Ink(
+                          decoration: const BoxDecoration(
+                              borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                              image: DecorationImage(
+                                  image: AssetImage("assets/gals/hotel.png"),
+                                  fit: BoxFit.cover)),
                           child: Align(
                             alignment: Alignment.bottomCenter,
-                            child: Text(
-                              AppLocalizations.of(context).accommodation,
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontSize:
-                                    MediaQuery.of(context).size.height / 40,
+                            child: Container(
+                              padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
+                              width: double.infinity,
+                              height: MediaQuery.of(context).size.height / 30,
+                              child: Align(
+                                alignment: Alignment.bottomCenter,
+                                child: Text(
+                                  AppLocalizations.of(context).accommodation,
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontSize:
+                                        MediaQuery.of(context).size.height / 40,
+                                  ),
+                                ),
                               ),
+                              decoration: const BoxDecoration(
+                                  borderRadius:
+                                      BorderRadius.all(Radius.circular(15.0)),
+                                  color: Color.fromARGB(200, 255, 255, 255)),
                             ),
                           ),
-                          decoration: const BoxDecoration(
-                              borderRadius:
-                                  BorderRadius.all(Radius.circular(15.0)),
-                              color: Color.fromARGB(200, 255, 255, 255)),
                         ),
                       ),
                     ),
@@ -381,45 +415,51 @@ class _ZoneScreenState extends State<ZoneScreen> {
                     borderRadius: BorderRadius.all(Radius.circular(15.0)),
                     color: Colors.white,
                   ),
-                  child: GestureDetector(
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => UtilInfoScreen(
-                              title: "Restaurante",
-                              url:
-                                  'https://eduardagapia.github.io/WoWEvents/restaurants.html'),
-                        ),
-                      );
-                    },
-                    child: Container(
-                      decoration: const BoxDecoration(
-                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                          image: DecorationImage(
-                              image: AssetImage("assets/gals/restaurant.png"),
-                              fit: BoxFit.cover)),
-                      child: Align(
-                        alignment: Alignment.bottomCenter,
-                        child: Container(
-                          padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                          width: double.infinity,
-                          height: MediaQuery.of(context).size.height / 30,
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(20),
+                    child: Material(
+                      child: InkWell(
+                        highlightColor: Colors.lightGreen.withOpacity(0.7),
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => UtilInfoScreen(
+                                  title: "Restaurante",
+                                  url:
+                                      'https://eduardagapia.github.io/WoWEvents/restaurants.html'),
+                            ),
+                          );
+                        },
+                        child: Ink(
+                          decoration: const BoxDecoration(
+                              borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                              image: DecorationImage(
+                                  image: AssetImage("assets/gals/restaurant.png"),
+                                  fit: BoxFit.cover)),
                           child: Align(
                             alignment: Alignment.bottomCenter,
-                            child: Text(
-                              AppLocalizations.of(context).restaurants,
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontSize:
-                                    MediaQuery.of(context).size.height / 40,
+                            child: Container(
+                              padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
+                              width: double.infinity,
+                              height: MediaQuery.of(context).size.height / 30,
+                              child: Align(
+                                alignment: Alignment.bottomCenter,
+                                child: Text(
+                                  AppLocalizations.of(context).restaurants,
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontSize:
+                                        MediaQuery.of(context).size.height / 40,
+                                  ),
+                                ),
                               ),
+                              decoration: const BoxDecoration(
+                                  borderRadius:
+                                      BorderRadius.all(Radius.circular(15.0)),
+                                  color: Color.fromARGB(200, 255, 255, 255)),
                             ),
                           ),
-                          decoration: const BoxDecoration(
-                              borderRadius:
-                                  BorderRadius.all(Radius.circular(15.0)),
-                              color: Color.fromARGB(200, 255, 255, 255)),
                         ),
                       ),
                     ),
@@ -433,45 +473,51 @@ class _ZoneScreenState extends State<ZoneScreen> {
                     borderRadius: BorderRadius.all(Radius.circular(15.0)),
                     color: Colors.white,
                   ),
-                  child: GestureDetector(
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => UtilInfoScreen(
-                              title: "Producatori locali",
-                              url:
-                                  'https://eduardagapia.github.io/WoWEvents/producers.html'),
-                        ),
-                      );
-                    },
-                    child: Container(
-                      decoration: const BoxDecoration(
-                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                          image: DecorationImage(
-                              image: AssetImage("assets/gals/producers.png"),
-                              fit: BoxFit.cover)),
-                      child: Align(
-                        alignment: Alignment.bottomCenter,
-                        child: Container(
-                          padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                          width: double.infinity,
-                          height: MediaQuery.of(context).size.height / 30,
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(20),
+                    child: Material(
+                      child: InkWell(
+                        highlightColor: Colors.lightGreen.withOpacity(0.7),
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => UtilInfoScreen(
+                                  title: "Producatori locali",
+                                  url:
+                                      'https://eduardagapia.github.io/WoWEvents/producers.html'),
+                            ),
+                          );
+                        },
+                        child: Ink(
+                          decoration: const BoxDecoration(
+                              borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                              image: DecorationImage(
+                                  image: AssetImage("assets/gals/producers.png"),
+                                  fit: BoxFit.cover)),
                           child: Align(
                             alignment: Alignment.bottomCenter,
-                            child: Text(
-                              AppLocalizations.of(context).producers,
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontSize:
-                                    MediaQuery.of(context).size.height / 40,
+                            child: Container(
+                              padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
+                              width: double.infinity,
+                              height: MediaQuery.of(context).size.height / 30,
+                              child: Align(
+                                alignment: Alignment.bottomCenter,
+                                child: Text(
+                                  AppLocalizations.of(context).producers,
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontSize:
+                                        MediaQuery.of(context).size.height / 40,
+                                  ),
+                                ),
                               ),
+                              decoration: const BoxDecoration(
+                                  borderRadius:
+                                      BorderRadius.all(Radius.circular(15.0)),
+                                  color: Color.fromARGB(200, 255, 255, 255)),
                             ),
                           ),
-                          decoration: const BoxDecoration(
-                              borderRadius:
-                                  BorderRadius.all(Radius.circular(15.0)),
-                              color: Color.fromARGB(200, 255, 255, 255)),
                         ),
                       ),
                     ),
@@ -485,45 +531,51 @@ class _ZoneScreenState extends State<ZoneScreen> {
                     borderRadius: BorderRadius.all(Radius.circular(15.0)),
                     color: Color.fromARGB(0, 255, 255, 255),
                   ),
-                  child: GestureDetector(
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => UtilInfoScreen(
-                              title: "Legende si povesti",
-                              url:
-                                  'https://eduardagapia.github.io/WoWEvents/legends.html'),
-                        ),
-                      );
-                    },
-                    child: Container(
-                      decoration: const BoxDecoration(
-                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                          image: DecorationImage(
-                              image: AssetImage("assets/gals/legends.png"),
-                              fit: BoxFit.cover)),
-                      child: Align(
-                        alignment: Alignment.bottomCenter,
-                        child: Container(
-                          padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
-                          width: double.infinity,
-                          height: MediaQuery.of(context).size.height / 30,
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(20),
+                    child: Material(
+                      child: InkWell(
+                        highlightColor: Colors.lightGreen.withOpacity(0.7),
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => UtilInfoScreen(
+                                  title: "Legende si povesti",
+                                  url:
+                                      'https://eduardagapia.github.io/WoWEvents/legends.html'),
+                            ),
+                          );
+                        },
+                        child: Ink(
+                          decoration: const BoxDecoration(
+                              borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                              image: DecorationImage(
+                                  image: AssetImage("assets/gals/legends.png"),
+                                  fit: BoxFit.cover)),
                           child: Align(
                             alignment: Alignment.bottomCenter,
-                            child: Text(
-                              AppLocalizations.of(context).legends,
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontSize:
-                                    MediaQuery.of(context).size.height / 40,
+                            child: Container(
+                              padding: const EdgeInsets.fromLTRB(0, 0, 0, 4),
+                              width: double.infinity,
+                              height: MediaQuery.of(context).size.height / 30,
+                              child: Align(
+                                alignment: Alignment.bottomCenter,
+                                child: Text(
+                                  AppLocalizations.of(context).legends,
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontSize:
+                                        MediaQuery.of(context).size.height / 40,
+                                  ),
+                                ),
                               ),
+                              decoration: const BoxDecoration(
+                                  borderRadius:
+                                      BorderRadius.all(Radius.circular(15.0)),
+                                  color: Color.fromARGB(200, 255, 255, 255)),
                             ),
                           ),
-                          decoration: const BoxDecoration(
-                              borderRadius:
-                                  BorderRadius.all(Radius.circular(15.0)),
-                              color: Color.fromARGB(200, 255, 255, 255)),
                         ),
                       ),
                     ),
