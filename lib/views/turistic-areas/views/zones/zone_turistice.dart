@@ -42,44 +42,50 @@ class _ReadExampleState extends State<ZoneTuristice> {
                 borderRadius: BorderRadius.all(Radius.circular(15.0)),
                 color: Color.fromARGB(0, 255, 255, 255),
               ),
-              child: GestureDetector(
-                onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => ZoneScreen(
-                          gal: galList[index],
-                        ),
-                      ));
-                },
-                child: Container(
-                  decoration: BoxDecoration(
-                      borderRadius: BorderRadius.all(Radius.circular(15.0)),
-                      image: DecorationImage(
-                          image: AssetImage(galList[index].imgSrc.toString()),
-                          fit: BoxFit.cover)),
-                  child: Align(
-                    alignment: Alignment.bottomCenter,
-                    child: Container(
-                      padding: EdgeInsets.fromLTRB(
-                          0, 0, 0, MediaQuery.of(context).size.height / 150),
-                      width: double.infinity,
-                      height: MediaQuery.of(context).size.height / 30,
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(20),
+                child: Material(
+                  child: InkWell(
+                    highlightColor: Colors.lightGreen.withOpacity(0.7),
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => ZoneScreen(
+                              gal: galList[index],
+                            ),
+                          ));
+                    },
+                    child: Ink(
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                          image: DecorationImage(
+                              image: AssetImage(galList[index].imgSrc.toString()),
+                              fit: BoxFit.cover)),
                       child: Align(
                         alignment: Alignment.bottomCenter,
-                        child: Text(
-                          galList[index].name.toString(),
-                          style: TextStyle(
-                            color: Colors.black,
-                            fontSize: MediaQuery.of(context).size.height / 60,
+                        child: Container(
+                          padding: EdgeInsets.fromLTRB(
+                              0, 0, 0, MediaQuery.of(context).size.height / 150),
+                          width: double.infinity,
+                          height: MediaQuery.of(context).size.height / 30,
+                          child: Align(
+                            alignment: Alignment.bottomCenter,
+                            child: Text(
+                              galList[index].name.toString(),
+                              style: TextStyle(
+                                color: Colors.black,
+                                fontSize: MediaQuery.of(context).size.height / 60,
+                              ),
+                            ),
                           ),
+                          decoration: const BoxDecoration(
+                              borderRadius: BorderRadius.only(
+                                  bottomLeft: Radius.circular(15.0),
+                                  bottomRight: Radius.circular(15.0)),
+                              color: Color.fromARGB(200, 255, 255, 255)),
                         ),
                       ),
-                      decoration: const BoxDecoration(
-                          borderRadius: BorderRadius.only(
-                              bottomLeft: Radius.circular(15.0),
-                              bottomRight: Radius.circular(15.0)),
-                          color: Color.fromARGB(200, 255, 255, 255)),
                     ),
                   ),
                 ),
