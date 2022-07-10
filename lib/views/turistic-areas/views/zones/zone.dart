@@ -252,8 +252,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                             MaterialPageRoute(
                               builder: (context) => UtilInfoScreen(
                                   title: "Informatii utile",
-                                  url:
-                                      'https://eduardagapia.github.io/WoWEvents/infos.html'),
+                                  url: 'https://eduardagapia.github.io/WoWEvents/ro/iasi/infos.html'),
                             ),
                           );
                         },
@@ -309,8 +308,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                             MaterialPageRoute(
                               builder: (context) => UtilInfoScreen(
                                   title: "Zone agrement",
-                                  url:
-                                      'https://eduardagapia.github.io/WoWEvents/recreation.html'),
+                                  url: 'https://eduardagapia.github.io/WoWEvents/ro/iasi/recreation.html'),
                             ),
                           );
                           // MapUtils.openUrl("recreation");
@@ -368,8 +366,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                             MaterialPageRoute(
                               builder: (context) => UtilInfoScreen(
                                   title: "Cazare",
-                                  url:
-                                      'https://eduardagapia.github.io/WoWEvents/hotels.html'),
+                                  url: 'https://eduardagapia.github.io/WoWEvents/ro/iasi/hotels.html'),
                             ),
                           );
                         },
@@ -426,8 +423,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                             MaterialPageRoute(
                               builder: (context) => UtilInfoScreen(
                                   title: "Restaurante",
-                                  url:
-                                      'https://eduardagapia.github.io/WoWEvents/restaurants.html'),
+                                  url: 'https://eduardagapia.github.io/WoWEvents/ro/iasi/restaurants.html'),
                             ),
                           );
                         },
@@ -484,8 +480,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                             MaterialPageRoute(
                               builder: (context) => UtilInfoScreen(
                                   title: "Producatori locali",
-                                  url:
-                                      'https://eduardagapia.github.io/WoWEvents/producers.html'),
+                                  url: 'https://eduardagapia.github.io/WoWEvents/ro/iasi/producers.html'),
                             ),
                           );
                         },
@@ -542,8 +537,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                             MaterialPageRoute(
                               builder: (context) => UtilInfoScreen(
                                   title: "Legende si povesti",
-                                  url:
-                                      'https://eduardagapia.github.io/WoWEvents/legends.html'),
+                                  url: 'https://eduardagapia.github.io/WoWEvents/ro/iasi/legends.html'),
                             ),
                           );
                         },

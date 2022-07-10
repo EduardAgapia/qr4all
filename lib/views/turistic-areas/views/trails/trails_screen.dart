@@ -10,7 +10,7 @@ class TrailsScreen extends StatefulWidget {
 
   TrailsScreen({required this.trails, Key? key}) : super(key: key);
 
-  get paymentUrl => 'https://eduardagapia.github.io/WoWEvents/trails.html';
+  get paymentUrl => 'https://eduardagapia.github.io/WoWEvents/ro/iasi/trails.html';
 
   _TrailsScreenState createState() => _TrailsScreenState(trails: trails);
 }

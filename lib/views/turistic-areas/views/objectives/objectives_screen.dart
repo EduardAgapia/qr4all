@@ -43,7 +43,7 @@ class _ObjectivesScreenState extends State<ObjectivesScreen> {
         ),
         body:
         WebView(
-          initialUrl: 'https://eduardagapia.github.io/WoWEvents/objs.html',
+          initialUrl: 'https://eduardagapia.github.io/WoWEvents/ro/iasi/objs.html',
           javascriptMode: JavascriptMode.unrestricted,
           backgroundColor: Colors.white,
           onWebViewCreated: (controller) {

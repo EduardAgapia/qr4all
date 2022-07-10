@@ -42,7 +42,7 @@ class _CalendarScreenState extends State<CalendarScreen> {
         ),
         body:
         WebView(
-          initialUrl: 'https://eduardagapia.github.io/WoWEvents/calendar.html',
+          initialUrl: 'https://eduardagapia.github.io/WoWEvents/ro/iasi/calendar.html',
           javascriptMode: JavascriptMode.unrestricted,
           onWebViewCreated: (controller) {
             this.controller = controller;
