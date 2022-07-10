@@ -7,7 +7,6 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 class ZoneTuristice extends StatefulWidget {
   final List<Gal> galList;
   final String language;
-
   const ZoneTuristice({required this.galList,required this.language, Key? key}) : super(key: key);
 
   @override
@@ -17,6 +16,21 @@ class ZoneTuristice extends StatefulWidget {
 class _ReadExampleState extends State<ZoneTuristice> {
   final List<Gal> galList;
   final String language;
+
+  String getGalCode(String? galName){
+    switch(galName){
+      case 'Belcesti-Focuri': return 'bf';
+      case 'Codrii Pascanilor': return 'cp';
+      case 'Dealurile Bohotinului': return 'db';
+      case 'Rediu-prajeni': return 'rp';
+      case 'Siret-Moldova': return 'sm';
+      case 'Stefan cel Mare': return 'scm';
+      case 'Stejarii-Argintii': return 'sa';
+      case 'Valuea Prutului': return 'vp';
+      case 'Colinele Iasului': return 'ci';
+      default: return 'is';
+    }
+  }
 
   _ReadExampleState({required this.galList, required this.language});
 
@@ -55,6 +69,7 @@ class _ReadExampleState extends State<ZoneTuristice> {
                           MaterialPageRoute(
                             builder: (context) => ZoneScreen(
                               gal: galList[index],
+                              galCode: getGalCode(galList[index].name),
                               language: language
                             ),
                           ));
