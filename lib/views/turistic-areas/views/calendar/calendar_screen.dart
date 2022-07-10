@@ -7,17 +7,19 @@ import 'package:webview_flutter/webview_flutter.dart';
 
 class CalendarScreen extends StatefulWidget {
   final List<Evenimente> events;
+  final String language;
 
-  const CalendarScreen({required this.events, Key? key}) : super(key: key);
+  const CalendarScreen({required this.events, required this.language, Key? key}) : super(key: key);
 
-  _CalendarScreenState createState() => _CalendarScreenState(events: events);
+  _CalendarScreenState createState() => _CalendarScreenState(events: events, language: language);
 }
 
 class _CalendarScreenState extends State<CalendarScreen> {
   final List<Evenimente> events;
+  final String language;
   late WebViewController controller;
 
-  _CalendarScreenState({required this.events});
+  _CalendarScreenState({required this.events, required this.language});
 
   @override
   Widget build(BuildContext context) {
@@ -42,7 +44,7 @@ class _CalendarScreenState extends State<CalendarScreen> {
         ),
         body:
         WebView(
-          initialUrl: 'https://eduardagapia.github.io/WoWEvents/ro/iasi/calendar.html',
+          initialUrl: 'https://eduardagapia.github.io/WoWEvents/'+ language +'/iasi/calendar.html',
           javascriptMode: JavascriptMode.unrestricted,
           onWebViewCreated: (controller) {
             this.controller = controller;

@@ -7,18 +7,20 @@ import 'package:webview_flutter/webview_flutter.dart';
 
 class ObjectivesScreen extends StatefulWidget {
   final List<Objective> objectives;
+  final String language;
 
-  ObjectivesScreen({required this.objectives, Key? key}) : super(key: key);
+  ObjectivesScreen({required this.objectives, required this.language, Key? key}) : super(key: key);
 
   _ObjectivesScreenState createState() =>
-      _ObjectivesScreenState(objectives: objectives);
+      _ObjectivesScreenState(objectives: objectives, language: language);
 }
 
 class _ObjectivesScreenState extends State<ObjectivesScreen> {
   final List<Objective> objectives;
+  final String language;
   late WebViewController controller;
 
-  _ObjectivesScreenState({required this.objectives});
+  _ObjectivesScreenState({required this.objectives, required this.language});
 
   @override
   Widget build(BuildContext context) {
@@ -43,7 +45,7 @@ class _ObjectivesScreenState extends State<ObjectivesScreen> {
         ),
         body:
         WebView(
-          initialUrl: 'https://eduardagapia.github.io/WoWEvents/ro/iasi/objs.html',
+          initialUrl: 'https://eduardagapia.github.io/WoWEvents/'+ language +'/iasi/objs.html',
           javascriptMode: JavascriptMode.unrestricted,
           backgroundColor: Colors.white,
           onWebViewCreated: (controller) {

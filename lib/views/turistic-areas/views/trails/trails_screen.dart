@@ -7,16 +7,18 @@ import 'package:webview_flutter/webview_flutter.dart';
 
 class TrailsScreen extends StatefulWidget {
   final List<Trail> trails;
+  final String language;
 
-  TrailsScreen({required this.trails, Key? key}) : super(key: key);
+  TrailsScreen({required this.trails, required this.language, Key? key}) : super(key: key);
 
-  get paymentUrl => 'https://eduardagapia.github.io/WoWEvents/ro/iasi/trails.html';
+  get paymentUrl => 'https://eduardagapia.github.io/WoWEvents/'+ language +'/iasi/trails.html';
 
-  _TrailsScreenState createState() => _TrailsScreenState(trails: trails);
+  _TrailsScreenState createState() => _TrailsScreenState(trails: trails, language: language);
 }
 
 class _TrailsScreenState extends State<TrailsScreen> {
   final List<Trail> trails;
+  final String language;
   late WebViewController controller;
 
   Future<void> _launchURL(url) async {
@@ -27,7 +29,7 @@ class _TrailsScreenState extends State<TrailsScreen> {
     }
   }
 
-  _TrailsScreenState({required this.trails});
+  _TrailsScreenState({required this.trails, required this.language});
 
   @override
   Widget build(BuildContext context) {

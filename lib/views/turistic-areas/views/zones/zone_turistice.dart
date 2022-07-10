@@ -6,17 +6,19 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class ZoneTuristice extends StatefulWidget {
   final List<Gal> galList;
+  final String language;
 
-  const ZoneTuristice({required this.galList, Key? key}) : super(key: key);
+  const ZoneTuristice({required this.galList,required this.language, Key? key}) : super(key: key);
 
   @override
-  _ReadExampleState createState() => _ReadExampleState(galList: galList);
+  _ReadExampleState createState() => _ReadExampleState(galList: galList, language: language);
 }
 
 class _ReadExampleState extends State<ZoneTuristice> {
   final List<Gal> galList;
+  final String language;
 
-  _ReadExampleState({required this.galList});
+  _ReadExampleState({required this.galList, required this.language});
 
   @override
   Widget build(BuildContext context) {
@@ -53,6 +55,7 @@ class _ReadExampleState extends State<ZoneTuristice> {
                           MaterialPageRoute(
                             builder: (context) => ZoneScreen(
                               gal: galList[index],
+                              language: language
                             ),
                           ));
                     },

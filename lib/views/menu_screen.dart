@@ -128,7 +128,7 @@ class _MenuScreenState extends State<MenuScreen> {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => ZoneTuristice(galList: _gals),
+                            builder: (context) => ZoneTuristice(galList: _gals, language: isRo? 'ro' : 'en'),
                           ),
                         );
                       },
@@ -185,7 +185,7 @@ class _MenuScreenState extends State<MenuScreen> {
                           context,
                           MaterialPageRoute(
                             builder: (context) =>
-                                ObjectivesScreen(objectives: _gals[0].objectives),
+                                ObjectivesScreen(objectives: _gals[0].objectives, language: isRo? 'ro' : 'en'),
                           ),
                         );
                       },
@@ -361,7 +361,7 @@ class _MenuScreenState extends State<MenuScreen> {
               context,
               MaterialPageRoute(
                 builder: (context) =>
-                    ZoneScreen(gal: getGal("Colinele Iasului")),
+                    ZoneScreen(gal: getGal("Colinele Iasului"), language: isRo? 'ro' : 'en'),
               ),
             );
           }),
@@ -541,7 +541,7 @@ class _MenuScreenState extends State<MenuScreen> {
               context,
               MaterialPageRoute(
                 builder: (context) =>
-                    ZoneScreen(gal: getGal("Valuea Prutului")),
+                    ZoneScreen(gal: getGal("Valuea Prutului"), language: isRo? 'ro' : 'en'),
               ),
             );
           }),
@@ -623,7 +623,7 @@ class _MenuScreenState extends State<MenuScreen> {
               context,
               MaterialPageRoute(
                 builder: (context) =>
-                    ZoneScreen(gal: getGal("Stejarii-Argintii")),
+                    ZoneScreen(gal: getGal("Stejarii-Argintii"), language: isRo? 'ro' : 'en'),
               ),
             );
           }),
@@ -947,7 +947,7 @@ class _MenuScreenState extends State<MenuScreen> {
               context,
               MaterialPageRoute(
                 builder: (context) =>
-                    ZoneScreen(gal: getGal("Stefan cel Mare")),
+                    ZoneScreen(gal: getGal("Stefan cel Mare"), language: isRo? 'ro' : 'en'),
               ),
             );
           }),
@@ -1167,7 +1167,7 @@ class _MenuScreenState extends State<MenuScreen> {
             Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => ZoneScreen(gal: getGal("Siret-Moldova")),
+                builder: (context) => ZoneScreen(gal: getGal("Siret-Moldova"), language: isRo? 'ro' : 'en'),
               ),
             );
           }),
@@ -1302,7 +1302,7 @@ class _MenuScreenState extends State<MenuScreen> {
             Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => ZoneScreen(gal: getGal("Rediu-prajeni")),
+                builder: (context) => ZoneScreen(gal: getGal("Rediu-prajeni"), language: isRo? 'ro' : 'en'),
               ),
             );
           }),
@@ -1449,7 +1449,7 @@ class _MenuScreenState extends State<MenuScreen> {
               context,
               MaterialPageRoute(
                 builder: (context) =>
-                    ZoneScreen(gal: getGal("Dealurile Bohotinului")),
+                    ZoneScreen(gal: getGal("Dealurile Bohotinului"), language: isRo? 'ro' : 'en'),
               ),
             );
           }),
@@ -1628,7 +1628,7 @@ class _MenuScreenState extends State<MenuScreen> {
               context,
               MaterialPageRoute(
                 builder: (context) =>
-                    ZoneScreen(gal: getGal("Codrii Pascanilor")),
+                    ZoneScreen(gal: getGal("Codrii Pascanilor"), language: isRo? 'ro' : 'en'),
               ),
             );
           }),
@@ -1930,7 +1930,7 @@ class _MenuScreenState extends State<MenuScreen> {
               context,
               MaterialPageRoute(
                 builder: (context) =>
-                    ZoneScreen(gal: getGal("Belcesti-Focuri")),
+                    ZoneScreen(gal: getGal("Belcesti-Focuri"), language: isRo? 'ro' : 'en'),
               ),
             );
           }),

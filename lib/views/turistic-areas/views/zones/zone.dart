@@ -10,17 +10,19 @@ import 'package:qr_4_all/views/turistic-areas/views/trails/trails_screen.dart';
 
 class ZoneScreen extends StatefulWidget {
   final Gal gal;
+  final String language;
 
-  ZoneScreen({required this.gal, Key? key}) : super(key: key);
+  ZoneScreen({required this.gal, required this.language, Key? key}) : super(key: key);
 
   @override
-  _ZoneScreenState createState() => _ZoneScreenState(gal: gal);
+  _ZoneScreenState createState() => _ZoneScreenState(gal: gal, language: language);
 }
 
 class _ZoneScreenState extends State<ZoneScreen> {
   final Gal gal;
+  final String language;
 
-  _ZoneScreenState({required this.gal});
+  _ZoneScreenState({required this.gal, required this.language});
 
   @override
   Widget build(BuildContext context) {
@@ -92,7 +94,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                               context,
                               MaterialPageRoute(
                                 builder: (context) =>
-                                    CalendarScreen(events: gal.events),
+                                    CalendarScreen(events: gal.events, language: language),
                               ));
                         },
                         child: Ink(
@@ -145,7 +147,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                               context,
                               MaterialPageRoute(
                                 builder: (context) =>
-                                    TrailsScreen(trails: gal.trails),
+                                    TrailsScreen(trails: gal.trails, language: language),
                               ));
                         },
                         child: Ink(
@@ -199,7 +201,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                               context,
                               MaterialPageRoute(
                                 builder: (context) =>
-                                    ObjectivesScreen(objectives: gal.objectives),
+                                    ObjectivesScreen(objectives: gal.objectives, language: language),
                               ));
                         },
                         child: Ink(
@@ -252,7 +254,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                             MaterialPageRoute(
                               builder: (context) => UtilInfoScreen(
                                   title: "Informatii utile",
-                                  url: 'https://eduardagapia.github.io/WoWEvents/ro/iasi/infos.html'),
+                                  url: 'https://eduardagapia.github.io/WoWEvents/'+ language +'/iasi/infos.html'),
                             ),
                           );
                         },
@@ -308,7 +310,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                             MaterialPageRoute(
                               builder: (context) => UtilInfoScreen(
                                   title: "Zone agrement",
-                                  url: 'https://eduardagapia.github.io/WoWEvents/ro/iasi/recreation.html'),
+                                  url: 'https://eduardagapia.github.io/WoWEvents/'+ language +'/iasi/recreation.html'),
                             ),
                           );
                           // MapUtils.openUrl("recreation");
@@ -366,7 +368,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                             MaterialPageRoute(
                               builder: (context) => UtilInfoScreen(
                                   title: "Cazare",
-                                  url: 'https://eduardagapia.github.io/WoWEvents/ro/iasi/hotels.html'),
+                                  url: 'https://eduardagapia.github.io/WoWEvents/'+ language +'/iasi/hotels.html'),
                             ),
                           );
                         },
@@ -423,7 +425,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                             MaterialPageRoute(
                               builder: (context) => UtilInfoScreen(
                                   title: "Restaurante",
-                                  url: 'https://eduardagapia.github.io/WoWEvents/ro/iasi/restaurants.html'),
+                                  url: 'https://eduardagapia.github.io/WoWEvents/'+ language +'/iasi/restaurants.html'),
                             ),
                           );
                         },
@@ -480,7 +482,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                             MaterialPageRoute(
                               builder: (context) => UtilInfoScreen(
                                   title: "Producatori locali",
-                                  url: 'https://eduardagapia.github.io/WoWEvents/ro/iasi/producers.html'),
+                                  url: 'https://eduardagapia.github.io/WoWEvents/'+ language +'/iasi/producers.html'),
                             ),
                           );
                         },
@@ -537,7 +539,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                             MaterialPageRoute(
                               builder: (context) => UtilInfoScreen(
                                   title: "Legende si povesti",
-                                  url: 'https://eduardagapia.github.io/WoWEvents/ro/iasi/legends.html'),
+                                  url: 'https://eduardagapia.github.io/WoWEvents/'+ language +'/iasi/legends.html'),
                             ),
                           );
                         },
