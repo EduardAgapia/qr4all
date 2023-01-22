@@ -62,7 +62,7 @@ class _ReadExampleState extends State<ZoneTuristice> {
                 borderRadius: BorderRadius.circular(20),
                 child: Material(
                   child: InkWell(
-                    highlightColor: Colors.lightGreen.withOpacity(0.7),
+                    highlightColor: Colors.lightGreen.withOpacity(1.0),
                     onTap: () {
                       Navigator.push(
                           context,

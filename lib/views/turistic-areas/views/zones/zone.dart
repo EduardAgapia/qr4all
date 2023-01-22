@@ -35,7 +35,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
             borderRadius: BorderRadius.circular(20),
             child: Material(
               child: InkWell(
-                highlightColor: Colors.lightGreen.withOpacity(0.7),
+                highlightColor: Colors.lightGreen.withOpacity(1.0),
                 child: Ink(
                   height: MediaQuery.of(context).size.height / 4,
                   width: MediaQuery.of(context).size.width,
@@ -89,7 +89,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                     borderRadius: BorderRadius.circular(20),
                     child: Material(
                       child: InkWell(
-                        highlightColor: Colors.lightGreen.withOpacity(0.7),
+                        highlightColor: Colors.lightGreen.withOpacity(1.0),
                         onTap: () {
                           // MapUtils.openUrl("calendar");
                           Navigator.push(
@@ -142,7 +142,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                     borderRadius: BorderRadius.circular(20),
                     child: Material(
                       child: InkWell(
-                        highlightColor: Colors.lightGreen.withOpacity(0.7),
+                        highlightColor: Colors.lightGreen.withOpacity(1.0),
                         onTap: () {
                           // MapUtils.openUrl("trails");
                           Navigator.push(
@@ -195,7 +195,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                     borderRadius: BorderRadius.circular(20),
                     child: Material(
                       child: InkWell(
-                        highlightColor: Colors.lightGreen.withOpacity(0.7),
+                        highlightColor: Colors.lightGreen.withOpacity(1.0),
                         onTap: () {
                           // MapUtils.openUrl("objs");
 
@@ -249,7 +249,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                     borderRadius: BorderRadius.circular(20),
                     child: Material(
                       child: InkWell(
-                        highlightColor: Colors.lightGreen.withOpacity(0.7),
+                        highlightColor: Colors.lightGreen.withOpacity(1.0),
                         onTap: () {
                           Navigator.push(
                             context,
@@ -305,7 +305,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                     borderRadius: BorderRadius.circular(20),
                     child: Material(
                       child: InkWell(
-                        highlightColor: Colors.lightGreen.withOpacity(0.7),
+                        highlightColor: Colors.lightGreen.withOpacity(1.0),
                         onTap: () {
                           Navigator.push(
                             context,
@@ -363,7 +363,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                     borderRadius: BorderRadius.circular(20),
                     child: Material(
                       child: InkWell(
-                        highlightColor: Colors.lightGreen.withOpacity(0.7),
+                        highlightColor: Colors.lightGreen.withOpacity(1.0),
                         onTap: () {
                           Navigator.push(
                             context,
@@ -420,7 +420,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                     borderRadius: BorderRadius.circular(20),
                     child: Material(
                       child: InkWell(
-                        highlightColor: Colors.lightGreen.withOpacity(0.7),
+                        highlightColor: Colors.lightGreen.withOpacity(1.0),
                         onTap: () {
                           Navigator.push(
                             context,
@@ -477,7 +477,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                     borderRadius: BorderRadius.circular(20),
                     child: Material(
                       child: InkWell(
-                        highlightColor: Colors.lightGreen.withOpacity(0.7),
+                        highlightColor: Colors.lightGreen.withOpacity(1.0),
                         onTap: () {
                           Navigator.push(
                             context,
@@ -534,7 +534,7 @@ class _ZoneScreenState extends State<ZoneScreen> {
                     borderRadius: BorderRadius.circular(20),
                     child: Material(
                       child: InkWell(
-                        highlightColor: Colors.lightGreen.withOpacity(0.7),
+                        highlightColor: Colors.lightGreen.withOpacity(1.0),
                         onTap: () {
                           Navigator.push(
                             context,

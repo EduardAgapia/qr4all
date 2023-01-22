@@ -1,0 +1,2961 @@
+{
+  "gals": [
+    {
+      "name": "Belcesti-Focuri",
+      "description": "Descrierea galului Belcesti-Focuri",
+      "imgSrc": "assets/gals/belcesti.png",
+      "events": [
+        {
+          "name": "Evenimentul numarul #1",
+          "location": "Locatia Evenimentului numarului#1",
+          "program": "Locatia Evenimentului numarului#1",
+          "description": "Descrierea  Evenimentului numarului#1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #2",
+          "location": "Locatia Evenimentului numarului#2",
+          "program": "Locatia Evenimentului numarului#2",
+          "description": "Descrierea  Evenimentului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #2",
+          "location": "Locatia Evenimentului numarului#2",
+          "program": "Locatia Evenimentului numarului#2",
+          "description": "Descrierea  Evenimentului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #3",
+          "location": "Locatia Evenimentului numarului#3",
+          "program": "Locatia Evenimentului numarului#3",
+          "description": "Descrierea  Evenimentului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #3",
+          "location": "Locatia Evenimentului numarului#3",
+          "program": "Locatia Evenimentului numarului#3",
+          "description": "Descrierea  Evenimentului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #3",
+          "location": "Locatia Evenimentului numarului#3",
+          "program": "Locatia Evenimentului numarului#3",
+          "description": "Descrierea  Evenimentului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #4",
+          "location": "Locatia Evenimentului numarului#4",
+          "program": "Locatia Evenimentului numarului#4",
+          "description": "Descrierea  Evenimentului numarului#4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #5",
+          "location": "Locatia Evenimentului numarului#5",
+          "program": "Locatia Evenimentului numarului#5",
+          "description": "Descrierea  Evenimentului numarului#5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #6",
+          "location": "Locatia Evenimentului numarului#6",
+          "program": "Locatia Evenimentului numarului#6",
+          "description": "Descrierea  Evenimentului numarului#6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #7",
+          "location": "Locatia Evenimentului numarului#7",
+          "program": "Locatia Evenimentului numarului#7",
+          "description": "Descrierea  Evenimentului numarului#7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "objectives": [
+        {
+          "name": "Obiectivul numarul #1",
+          "location": "Locatia Obiectivului numarului#1",
+          "program": "Locatia Obiectivului numarului#1",
+          "description": "Descrierea  Obiectivului numarului#1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #2",
+          "location": "Locatia Obiectivului numarului#2",
+          "program": "Locatia Obiectivului numarului#2",
+          "description": "Descrierea  Obiectivului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #2",
+          "location": "Locatia Obiectivului numarului#2",
+          "program": "Locatia Obiectivului numarului#2",
+          "description": "Descrierea  Obiectivului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #3",
+          "location": "Locatia Obiectivului numarului#3",
+          "program": "Locatia Obiectivului numarului#3",
+          "description": "Descrierea  Obiectivului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #3",
+          "location": "Locatia Obiectivului numarului#3",
+          "program": "Locatia Obiectivului numarului#3",
+          "description": "Descrierea  Obiectivului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #3",
+          "location": "Locatia Obiectivului numarului#3",
+          "program": "Locatia Obiectivului numarului#3",
+          "description": "Descrierea  Obiectivului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #4",
+          "location": "Locatia Obiectivului numarului#4",
+          "program": "Locatia Obiectivului numarului#4",
+          "description": "Descrierea  Obiectivului numarului#4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #5",
+          "location": "Locatia Obiectivului numarului#5",
+          "program": "Locatia Obiectivului numarului#5",
+          "description": "Descrierea  Obiectivului numarului#5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #6",
+          "location": "Locatia Obiectivului numarului#6",
+          "program": "Locatia Obiectivului numarului#6",
+          "description": "Descrierea  Obiectivului numarului#6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #7",
+          "location": "Locatia Obiectivului numarului#7",
+          "program": "Locatia Obiectivului numarului#7",
+          "description": "Descrierea  Obiectivului numarului#7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "trails": [
+        {
+          "name": "Traseul numarul #",
+          "location": "Locatia Traseului numarului#",
+          "program": "Locatia Traseului numarului#",
+          "description": "Descrierea  Traseului numarului#",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #2",
+          "location": "Locatia Traseului numarului#2",
+          "program": "Locatia Traseului numarului#2",
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #2",
+          "location": "Locatia Traseului numarului#2",
+          "program": "Locatia Traseului numarului#2",
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #3",
+          "location": "Locatia Traseului numarului#3",
+          "program": "Locatia Traseului numarului#3",
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #3",
+          "location": "Locatia Traseului numarului#3",
+          "program": "Locatia Traseului numarului#3",
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #3",
+          "location": "Locatia Traseului numarului#3",
+          "program": "Locatia Traseului numarului#3",
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #4",
+          "location": "Locatia Traseului numarului#4",
+          "program": "Locatia Traseului numarului#4",
+          "description": "Descrierea  Traseului numarului#4",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #5",
+          "location": "Locatia Traseului numarului#5",
+          "program": "Locatia Traseului numarului#5",
+          "description": "Descrierea  Traseului numarului#5",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #6",
+          "location": "Locatia Traseului numarului#6",
+          "program": "Locatia Traseului numarului#6",
+          "description": "Descrierea  Traseului numarului#6",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #7",
+          "location": "Locatia Traseului numarului#7",
+          "program": "Locatia Traseului numarului#7",
+          "description": "Descrierea  Traseului numarului#7",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "utils": [
+        {
+          "name": "Nume farmacie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "farmacie",
+          "image": "assets/gals/drugstore.png"
+        },
+        {
+          "name": "Nume benzinarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "benzinarie",
+          "image": "assets/gals/gas.png"
+        },
+        {
+          "name": "Nume spital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "spital",
+          "image": "assets/gals/hospital.png"
+        },
+        {
+          "name": "Nume hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hotel",
+          "image": "assets/gals/hotel.png"
+        },
+        {
+          "name": "Nume primarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "primarie",
+          "image": "assets/gals/hall.png"
+        },
+        {
+          "name": "Nume politie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "politie",
+          "image": "assets/gals/police.png"
+        },
+        {
+          "name": "Nume restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "restaurant",
+          "image": "assets/gals/restaurant.png"
+        },
+        {
+          "name": "Nume service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "service",
+          "image": "assets/gals/service.png"
+        }
+      ]
+    },
+    {
+      "name": "Codrii Pascanilor",
+      "description": "Descrierea galului Codrii Pascanilor",
+      "imgSrc": "assets/gals/pascani.png",
+      "events": [
+        {
+          "name": "Evenimentul numarul #1",
+          "location": "Locatia Evenimentului numarului#1",
+          "program": "Locatia Evenimentului numarului#1",
+          "description": "Descrierea  Evenimentului numarului#1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #2",
+          "location": "Locatia Evenimentului numarului#2",
+          "program": "Locatia Evenimentului numarului#2",
+          "description": "Descrierea  Evenimentului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #2",
+          "location": "Locatia Evenimentului numarului#2",
+          "program": "Locatia Evenimentului numarului#2",
+          "description": "Descrierea  Evenimentului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #3",
+          "location": "Locatia Evenimentului numarului#3",
+          "program": "Locatia Evenimentului numarului#3",
+          "description": "Descrierea  Evenimentului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #3",
+          "location": "Locatia Evenimentului numarului#3",
+          "program": "Locatia Evenimentului numarului#3",
+          "description": "Descrierea  Evenimentului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #3",
+          "location": "Locatia Evenimentului numarului#3",
+          "program": "Locatia Evenimentului numarului#3",
+          "description": "Descrierea  Evenimentului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #4",
+          "location": "Locatia Evenimentului numarului#4",
+          "program": "Locatia Evenimentului numarului#4",
+          "description": "Descrierea  Evenimentului numarului#4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #5",
+          "location": "Locatia Evenimentului numarului#5",
+          "program": "Locatia Evenimentului numarului#5",
+          "description": "Descrierea  Evenimentului numarului#5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #6",
+          "location": "Locatia Evenimentului numarului#6",
+          "program": "Locatia Evenimentului numarului#6",
+          "description": "Descrierea  Evenimentului numarului#6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #7",
+          "location": "Locatia Evenimentului numarului#7",
+          "program": "Locatia Evenimentului numarului#7",
+          "description": "Descrierea  Evenimentului numarului#7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "objectives": [
+        {
+          "name": "Obiectivul numarul #1",
+          "location": "Locatia Obiectivului numarului#1",
+          "program": "Locatia Obiectivului numarului#1",
+          "description": "Descrierea  Obiectivului numarului#1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #2",
+          "location": "Locatia Obiectivului numarului#2",
+          "program": "Locatia Obiectivului numarului#2",
+          "description": "Descrierea  Obiectivului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #2",
+          "location": "Locatia Obiectivului numarului#2",
+          "program": "Locatia Obiectivului numarului#2",
+          "description": "Descrierea  Obiectivului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #3",
+          "location": "Locatia Obiectivului numarului#3",
+          "program": "Locatia Obiectivului numarului#3",
+          "description": "Descrierea  Obiectivului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #3",
+          "location": "Locatia Obiectivului numarului#3",
+          "program": "Locatia Obiectivului numarului#3",
+          "description": "Descrierea  Obiectivului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #3",
+          "location": "Locatia Obiectivului numarului#3",
+          "program": "Locatia Obiectivului numarului#3",
+          "description": "Descrierea  Obiectivului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #4",
+          "location": "Locatia Obiectivului numarului#4",
+          "program": "Locatia Obiectivului numarului#4",
+          "description": "Descrierea  Obiectivului numarului#4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #5",
+          "location": "Locatia Obiectivului numarului#5",
+          "program": "Locatia Obiectivului numarului#5",
+          "description": "Descrierea  Obiectivului numarului#5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #6",
+          "location": "Locatia Obiectivului numarului#6",
+          "program": "Locatia Obiectivului numarului#6",
+          "description": "Descrierea  Obiectivului numarului#6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #7",
+          "location": "Locatia Obiectivului numarului#7",
+          "program": "Locatia Obiectivului numarului#7",
+          "description": "Descrierea  Obiectivului numarului#7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "trails": [
+        {
+          "name": "Traseul numarul #",
+          "location": "Locatia Traseului numarului#",
+          "program": "Locatia Traseului numarului#",
+          "description": "Descrierea  Traseului numarului#",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #2",
+          "location": "Locatia Traseului numarului#2",
+          "program": "Locatia Traseului numarului#2",
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #2",
+          "location": "Locatia Traseului numarului#2",
+          "program": "Locatia Traseului numarului#2",
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #3",
+          "location": "Locatia Traseului numarului#3",
+          "program": "Locatia Traseului numarului#3",
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #3",
+          "location": "Locatia Traseului numarului#3",
+          "program": "Locatia Traseului numarului#3",
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #3",
+          "location": "Locatia Traseului numarului#3",
+          "program": "Locatia Traseului numarului#3",
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #4",
+          "location": "Locatia Traseului numarului#4",
+          "program": "Locatia Traseului numarului#4",
+          "description": "Descrierea  Traseului numarului#4",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #5",
+          "location": "Locatia Traseului numarului#5",
+          "program": "Locatia Traseului numarului#5",
+          "description": "Descrierea  Traseului numarului#5",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #6",
+          "location": "Locatia Traseului numarului#6",
+          "program": "Locatia Traseului numarului#6",
+          "description": "Descrierea  Traseului numarului#6",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #7",
+          "location": "Locatia Traseului numarului#7",
+          "program": "Locatia Traseului numarului#7",
+          "description": "Descrierea  Traseului numarului#7",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "utils": [
+        {
+          "name": "Nume farmacie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "farmacie",
+          "image": "assets/gals/drugstore.png"
+        },
+        {
+          "name": "Nume benzinarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "benzinarie",
+          "image": "assets/gals/gas.png"
+        },
+        {
+          "name": "Nume spital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "spital",
+          "image": "assets/gals/hospital.png"
+        },
+        {
+          "name": "Nume hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hotel",
+          "image": "assets/gals/hotel.png"
+        },
+        {
+          "name": "Nume primarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "primarie",
+          "image": "assets/gals/hall.png"
+        },
+        {
+          "name": "Nume politie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "politie",
+          "image": "assets/gals/police.png"
+        },
+        {
+          "name": "Nume restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "restaurant",
+          "image": "assets/gals/restaurant.png"
+        },
+        {
+          "name": "Nume service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "service",
+          "image": "assets/gals/service.png"
+        }
+      ]
+    },
+    {
+      "name": "Dealurile Bohotinului",
+      "description": "Descrierea galului Dealurile Bohotinului",
+      "imgSrc": "assets/gals/bohotin.png",
+      "events": [
+        {
+          "name": "Evenimentul numarul #1",
+          "location": "Locatia Evenimentului numarului#1",
+          "program": "Locatia Evenimentului numarului#1",
+          "description": "Descrierea  Evenimentului numarului#1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #2",
+          "location": "Locatia Evenimentului numarului#2",
+          "program": "Locatia Evenimentului numarului#2",
+          "description": "Descrierea  Evenimentului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #2",
+          "location": "Locatia Evenimentului numarului#2",
+          "program": "Locatia Evenimentului numarului#2",
+          "description": "Descrierea  Evenimentului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #3",
+          "location": "Locatia Evenimentului numarului#3",
+          "program": "Locatia Evenimentului numarului#3",
+          "description": "Descrierea  Evenimentului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #3",
+          "location": "Locatia Evenimentului numarului#3",
+          "program": "Locatia Evenimentului numarului#3",
+          "description": "Descrierea  Evenimentului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #3",
+          "location": "Locatia Evenimentului numarului#3",
+          "program": "Locatia Evenimentului numarului#3",
+          "description": "Descrierea  Evenimentului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #4",
+          "location": "Locatia Evenimentului numarului#4",
+          "program": "Locatia Evenimentului numarului#4",
+          "description": "Descrierea  Evenimentului numarului#4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #5",
+          "location": "Locatia Evenimentului numarului#5",
+          "program": "Locatia Evenimentului numarului#5",
+          "description": "Descrierea  Evenimentului numarului#5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #6",
+          "location": "Locatia Evenimentului numarului#6",
+          "program": "Locatia Evenimentului numarului#6",
+          "description": "Descrierea  Evenimentului numarului#6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #7",
+          "location": "Locatia Evenimentului numarului#7",
+          "program": "Locatia Evenimentului numarului#7",
+          "description": "Descrierea  Evenimentului numarului#7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "objectives": [
+        {
+          "name": "Obiectivul numarul #1",
+          "location": "Locatia Obiectivului numarului#1",
+          "program": "Locatia Obiectivului numarului#1",
+          "description": "Descrierea  Obiectivului numarului#1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #2",
+          "location": "Locatia Obiectivului numarului#2",
+          "program": "Locatia Obiectivului numarului#2",
+          "description": "Descrierea  Obiectivului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #2",
+          "location": "Locatia Obiectivului numarului#2",
+          "program": "Locatia Obiectivului numarului#2",
+          "description": "Descrierea  Obiectivului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #3",
+          "location": "Locatia Obiectivului numarului#3",
+          "program": "Locatia Obiectivului numarului#3",
+          "description": "Descrierea  Obiectivului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #3",
+          "location": "Locatia Obiectivului numarului#3",
+          "program": "Locatia Obiectivului numarului#3",
+          "description": "Descrierea  Obiectivului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #3",
+          "location": "Locatia Obiectivului numarului#3",
+          "program": "Locatia Obiectivului numarului#3",
+          "description": "Descrierea  Obiectivului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #4",
+          "location": "Locatia Obiectivului numarului#4",
+          "program": "Locatia Obiectivului numarului#4",
+          "description": "Descrierea  Obiectivului numarului#4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #5",
+          "location": "Locatia Obiectivului numarului#5",
+          "program": "Locatia Obiectivului numarului#5",
+          "description": "Descrierea  Obiectivului numarului#5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #6",
+          "location": "Locatia Obiectivului numarului#6",
+          "program": "Locatia Obiectivului numarului#6",
+          "description": "Descrierea  Obiectivului numarului#6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #7",
+          "location": "Locatia Obiectivului numarului#7",
+          "program": "Locatia Obiectivului numarului#7",
+          "description": "Descrierea  Obiectivului numarului#7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "trails": [
+        {
+          "name": "Traseul numarul #",
+          "location": "Locatia Traseului numarului#",
+          "program": "Locatia Traseului numarului#",
+          "description": "Descrierea  Traseului numarului#",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #2",
+          "location": "Locatia Traseului numarului#2",
+          "program": "Locatia Traseului numarului#2",
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #2",
+          "location": "Locatia Traseului numarului#2",
+          "program": "Locatia Traseului numarului#2",
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #3",
+          "location": "Locatia Traseului numarului#3",
+          "program": "Locatia Traseului numarului#3",
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #3",
+          "location": "Locatia Traseului numarului#3",
+          "program": "Locatia Traseului numarului#3",
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #3",
+          "location": "Locatia Traseului numarului#3",
+          "program": "Locatia Traseului numarului#3",
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #4",
+          "location": "Locatia Traseului numarului#4",
+          "program": "Locatia Traseului numarului#4",
+          "description": "Descrierea  Traseului numarului#4",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #5",
+          "location": "Locatia Traseului numarului#5",
+          "program": "Locatia Traseului numarului#5",
+          "description": "Descrierea  Traseului numarului#5",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #6",
+          "location": "Locatia Traseului numarului#6",
+          "program": "Locatia Traseului numarului#6",
+          "description": "Descrierea  Traseului numarului#6",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #7",
+          "location": "Locatia Traseului numarului#7",
+          "program": "Locatia Traseului numarului#7",
+          "description": "Descrierea  Traseului numarului#7",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "utils": [
+        {
+          "name": "Nume farmacie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "farmacie",
+          "image": "assets/gals/drugstore.png"
+        },
+        {
+          "name": "Nume benzinarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "benzinarie",
+          "image": "assets/gals/gas.png"
+        },
+        {
+          "name": "Nume spital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "spital",
+          "image": "assets/gals/hospital.png"
+        },
+        {
+          "name": "Nume hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hotel",
+          "image": "assets/gals/hotel.png"
+        },
+        {
+          "name": "Nume primarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "primarie",
+          "image": "assets/gals/hall.png"
+        },
+        {
+          "name": "Nume politie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "politie",
+          "image": "assets/gals/police.png"
+        },
+        {
+          "name": "Nume restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "restaurant",
+          "image": "assets/gals/restaurant.png"
+        },
+        {
+          "name": "Nume service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "service",
+          "image": "assets/gals/service.png"
+        }
+      ]
+    },
+    {
+      "name": "Rediu-prajeni",
+      "description": "Descrierea galului Rediu-Prajeni",
+      "imgSrc": "assets/gals/rediu.png",
+      "events": [
+        {
+          "name": "Evenimentul numarul #1",
+          "location": "Locatia Evenimentului numarului#1",
+          "program": "Locatia Evenimentului numarului#1",
+          "description": "Descrierea  Evenimentului numarului#1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #2",
+          "location": "Locatia Evenimentului numarului#2",
+          "program": "Locatia Evenimentului numarului#2",
+          "description": "Descrierea  Evenimentului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #2",
+          "location": "Locatia Evenimentului numarului#2",
+          "program": "Locatia Evenimentului numarului#2",
+          "description": "Descrierea  Evenimentului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #3",
+          "location": "Locatia Evenimentului numarului#3",
+          "program": "Locatia Evenimentului numarului#3",
+          "description": "Descrierea  Evenimentului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #3",
+          "location": "Locatia Evenimentului numarului#3",
+          "program": "Locatia Evenimentului numarului#3",
+          "description": "Descrierea  Evenimentului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #3",
+          "location": "Locatia Evenimentului numarului#3",
+          "program": "Locatia Evenimentului numarului#3",
+          "description": "Descrierea  Evenimentului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #4",
+          "location": "Locatia Evenimentului numarului#4",
+          "program": "Locatia Evenimentului numarului#4",
+          "description": "Descrierea  Evenimentului numarului#4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #5",
+          "location": "Locatia Evenimentului numarului#5",
+          "program": "Locatia Evenimentului numarului#5",
+          "description": "Descrierea  Evenimentului numarului#5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #6",
+          "location": "Locatia Evenimentului numarului#6",
+          "program": "Locatia Evenimentului numarului#6",
+          "description": "Descrierea  Evenimentului numarului#6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #7",
+          "location": "Locatia Evenimentului numarului#7",
+          "program": "Locatia Evenimentului numarului#7",
+          "description": "Descrierea  Evenimentului numarului#7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "objectives": [
+        {
+          "name": "Obiectivul numarul #1",
+          "location": "Locatia Obiectivului numarului#1",
+          "program": "Locatia Obiectivului numarului#1",
+          "description": "Descrierea  Obiectivului numarului#1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #2",
+          "location": "Locatia Obiectivului numarului#2",
+          "program": "Locatia Obiectivului numarului#2",
+          "description": "Descrierea  Obiectivului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #2",
+          "location": "Locatia Obiectivului numarului#2",
+          "program": "Locatia Obiectivului numarului#2",
+          "description": "Descrierea  Obiectivului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #3",
+          "location": "Locatia Obiectivului numarului#3",
+          "program": "Locatia Obiectivului numarului#3",
+          "description": "Descrierea  Obiectivului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #3",
+          "location": "Locatia Obiectivului numarului#3",
+          "program": "Locatia Obiectivului numarului#3",
+          "description": "Descrierea  Obiectivului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #3",
+          "location": "Locatia Obiectivului numarului#3",
+          "program": "Locatia Obiectivului numarului#3",
+          "description": "Descrierea  Obiectivului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #4",
+          "location": "Locatia Obiectivului numarului#4",
+          "program": "Locatia Obiectivului numarului#4",
+          "description": "Descrierea  Obiectivului numarului#4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #5",
+          "location": "Locatia Obiectivului numarului#5",
+          "program": "Locatia Obiectivului numarului#5",
+          "description": "Descrierea  Obiectivului numarului#5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #6",
+          "location": "Locatia Obiectivului numarului#6",
+          "program": "Locatia Obiectivului numarului#6",
+          "description": "Descrierea  Obiectivului numarului#6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #7",
+          "location": "Locatia Obiectivului numarului#7",
+          "program": "Locatia Obiectivului numarului#7",
+          "description": "Descrierea  Obiectivului numarului#7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "trails": [
+        {
+          "name": "Traseul numarul #",
+          "location": "Locatia Traseului numarului#",
+          "program": "Locatia Traseului numarului#",
+          "description": "Descrierea  Traseului numarului#",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #2",
+          "location": "Locatia Traseului numarului#2",
+          "program": "Locatia Traseului numarului#2",
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #2",
+          "location": "Locatia Traseului numarului#2",
+          "program": "Locatia Traseului numarului#2",
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #3",
+          "location": "Locatia Traseului numarului#3",
+          "program": "Locatia Traseului numarului#3",
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #3",
+          "location": "Locatia Traseului numarului#3",
+          "program": "Locatia Traseului numarului#3",
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #3",
+          "location": "Locatia Traseului numarului#3",
+          "program": "Locatia Traseului numarului#3",
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #4",
+          "location": "Locatia Traseului numarului#4",
+          "program": "Locatia Traseului numarului#4",
+          "description": "Descrierea  Traseului numarului#4",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #5",
+          "location": "Locatia Traseului numarului#5",
+          "program": "Locatia Traseului numarului#5",
+          "description": "Descrierea  Traseului numarului#5",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #6",
+          "location": "Locatia Traseului numarului#6",
+          "program": "Locatia Traseului numarului#6",
+          "description": "Descrierea  Traseului numarului#6",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #7",
+          "location": "Locatia Traseului numarului#7",
+          "program": "Locatia Traseului numarului#7",
+          "description": "Descrierea  Traseului numarului#7",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "utils": [
+        {
+          "name": "Nume farmacie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "farmacie",
+          "image": "assets/gals/drugstore.png"
+        },
+        {
+          "name": "Nume benzinarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "benzinarie",
+          "image": "assets/gals/gas.png"
+        },
+        {
+          "name": "Nume spital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "spital",
+          "image": "assets/gals/hospital.png"
+        },
+        {
+          "name": "Nume hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hotel",
+          "image": "assets/gals/hotel.png"
+        },
+        {
+          "name": "Nume primarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "primarie",
+          "image": "assets/gals/hall.png"
+        },
+        {
+          "name": "Nume politie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "politie",
+          "image": "assets/gals/police.png"
+        },
+        {
+          "name": "Nume restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "restaurant",
+          "image": "assets/gals/restaurant.png"
+        },
+        {
+          "name": "Nume service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "service",
+          "image": "assets/gals/service.png"
+        }
+      ]
+    },
+    {
+      "name": "Siret-Moldova",
+      "description": "Descrierea galului Siret Moldova",
+      "imgSrc": "assets/gals/siret.png",
+      "events": [
+        {
+          "name": "Evenimentul numarul #1",
+          "location": "Locatia Evenimentului numarului#1",
+          "program": "Locatia Evenimentului numarului#1",
+          "description": "Descrierea  Evenimentului numarului#1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #2",
+          "location": "Locatia Evenimentului numarului#2",
+          "program": "Locatia Evenimentului numarului#2",
+          "description": "Descrierea  Evenimentului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #2",
+          "location": "Locatia Evenimentului numarului#2",
+          "program": "Locatia Evenimentului numarului#2",
+          "description": "Descrierea  Evenimentului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #3",
+          "location": "Locatia Evenimentului numarului#3",
+          "program": "Locatia Evenimentului numarului#3",
+          "description": "Descrierea  Evenimentului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #3",
+          "location": "Locatia Evenimentului numarului#3",
+          "program": "Locatia Evenimentului numarului#3",
+          "description": "Descrierea  Evenimentului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #3",
+          "location": "Locatia Evenimentului numarului#3",
+          "program": "Locatia Evenimentului numarului#3",
+          "description": "Descrierea  Evenimentului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #4",
+          "location": "Locatia Evenimentului numarului#4",
+          "program": "Locatia Evenimentului numarului#4",
+          "description": "Descrierea  Evenimentului numarului#4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #5",
+          "location": "Locatia Evenimentului numarului#5",
+          "program": "Locatia Evenimentului numarului#5",
+          "description": "Descrierea  Evenimentului numarului#5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #6",
+          "location": "Locatia Evenimentului numarului#6",
+          "program": "Locatia Evenimentului numarului#6",
+          "description": "Descrierea  Evenimentului numarului#6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #7",
+          "location": "Locatia Evenimentului numarului#7",
+          "program": "Locatia Evenimentului numarului#7",
+          "description": "Descrierea  Evenimentului numarului#7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "objectives": [
+        {
+          "name": "Obiectivul numarul #1",
+          "location": "Locatia Obiectivului numarului#1",
+          "program": "Locatia Obiectivului numarului#1",
+          "description": "Descrierea  Obiectivului numarului#1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #2",
+          "location": "Locatia Obiectivului numarului#2",
+          "program": "Locatia Obiectivului numarului#2",
+          "description": "Descrierea  Obiectivului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #2",
+          "location": "Locatia Obiectivului numarului#2",
+          "program": "Locatia Obiectivului numarului#2",
+          "description": "Descrierea  Obiectivului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #3",
+          "location": "Locatia Obiectivului numarului#3",
+          "program": "Locatia Obiectivului numarului#3",
+          "description": "Descrierea  Obiectivului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #3",
+          "location": "Locatia Obiectivului numarului#3",
+          "program": "Locatia Obiectivului numarului#3",
+          "description": "Descrierea  Obiectivului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #3",
+          "location": "Locatia Obiectivului numarului#3",
+          "program": "Locatia Obiectivului numarului#3",
+          "description": "Descrierea  Obiectivului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #4",
+          "location": "Locatia Obiectivului numarului#4",
+          "program": "Locatia Obiectivului numarului#4",
+          "description": "Descrierea  Obiectivului numarului#4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #5",
+          "location": "Locatia Obiectivului numarului#5",
+          "program": "Locatia Obiectivului numarului#5",
+          "description": "Descrierea  Obiectivului numarului#5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #6",
+          "location": "Locatia Obiectivului numarului#6",
+          "program": "Locatia Obiectivului numarului#6",
+          "description": "Descrierea  Obiectivului numarului#6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #7",
+          "location": "Locatia Obiectivului numarului#7",
+          "program": "Locatia Obiectivului numarului#7",
+          "description": "Descrierea  Obiectivului numarului#7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "trails": [
+        {
+          "name": "Traseul numarul #",
+          "location": "Locatia Traseului numarului#",
+          "program": "Locatia Traseului numarului#",
+          "description": "Descrierea  Traseului numarului#",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #2",
+          "location": "Locatia Traseului numarului#2",
+          "program": "Locatia Traseului numarului#2",
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #2",
+          "location": "Locatia Traseului numarului#2",
+          "program": "Locatia Traseului numarului#2",
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #3",
+          "location": "Locatia Traseului numarului#3",
+          "program": "Locatia Traseului numarului#3",
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #3",
+          "location": "Locatia Traseului numarului#3",
+          "program": "Locatia Traseului numarului#3",
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #3",
+          "location": "Locatia Traseului numarului#3",
+          "program": "Locatia Traseului numarului#3",
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #4",
+          "location": "Locatia Traseului numarului#4",
+          "program": "Locatia Traseului numarului#4",
+          "description": "Descrierea  Traseului numarului#4",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #5",
+          "location": "Locatia Traseului numarului#5",
+          "program": "Locatia Traseului numarului#5",
+          "description": "Descrierea  Traseului numarului#5",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #6",
+          "location": "Locatia Traseului numarului#6",
+          "program": "Locatia Traseului numarului#6",
+          "description": "Descrierea  Traseului numarului#6",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #7",
+          "location": "Locatia Traseului numarului#7",
+          "program": "Locatia Traseului numarului#7",
+          "description": "Descrierea  Traseului numarului#7",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "utils": [
+        {
+          "name": "Nume farmacie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "farmacie",
+          "image": "assets/gals/drugstore.png"
+        },
+        {
+          "name": "Nume benzinarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "benzinarie",
+          "image": "assets/gals/gas.png"
+        },
+        {
+          "name": "Nume spital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "spital",
+          "image": "assets/gals/hospital.png"
+        },
+        {
+          "name": "Nume hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hotel",
+          "image": "assets/gals/hotel.png"
+        },
+        {
+          "name": "Nume primarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "primarie",
+          "image": "assets/gals/hall.png"
+        },
+        {
+          "name": "Nume politie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "politie",
+          "image": "assets/gals/police.png"
+        },
+        {
+          "name": "Nume restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "restaurant",
+          "image": "assets/gals/restaurant.png"
+        },
+        {
+          "name": "Nume service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "service",
+          "image": "assets/gals/service.png"
+        }
+      ]
+    },
+    {
+      "name": "Stefan cel Mare",
+      "description": "Descrierea galului Stefan cel Mare",
+      "imgSrc": "assets/gals/stefan.png",
+      "events": [
+        {
+          "name": "Evenimentul numarul #1",
+          "location": "Locatia Evenimentului numarului#1",
+          "program": "Locatia Evenimentului numarului#1",
+          "description": "Descrierea  Evenimentului numarului#1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #2",
+          "location": "Locatia Evenimentului numarului#2",
+          "program": "Locatia Evenimentului numarului#2",
+          "description": "Descrierea  Evenimentului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #2",
+          "location": "Locatia Evenimentului numarului#2",
+          "program": "Locatia Evenimentului numarului#2",
+          "description": "Descrierea  Evenimentului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #3",
+          "location": "Locatia Evenimentului numarului#3",
+          "program": "Locatia Evenimentului numarului#3",
+          "description": "Descrierea  Evenimentului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #3",
+          "location": "Locatia Evenimentului numarului#3",
+          "program": "Locatia Evenimentului numarului#3",
+          "description": "Descrierea  Evenimentului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #3",
+          "location": "Locatia Evenimentului numarului#3",
+          "program": "Locatia Evenimentului numarului#3",
+          "description": "Descrierea  Evenimentului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #4",
+          "location": "Locatia Evenimentului numarului#4",
+          "program": "Locatia Evenimentului numarului#4",
+          "description": "Descrierea  Evenimentului numarului#4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #5",
+          "location": "Locatia Evenimentului numarului#5",
+          "program": "Locatia Evenimentului numarului#5",
+          "description": "Descrierea  Evenimentului numarului#5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #6",
+          "location": "Locatia Evenimentului numarului#6",
+          "program": "Locatia Evenimentului numarului#6",
+          "description": "Descrierea  Evenimentului numarului#6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #7",
+          "location": "Locatia Evenimentului numarului#7",
+          "program": "Locatia Evenimentului numarului#7",
+          "description": "Descrierea  Evenimentului numarului#7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "objectives": [
+        {
+          "name": "Obiectivul numarul #1",
+          "location": "Locatia Obiectivului numarului#1",
+          "program": "Locatia Obiectivului numarului#1",
+          "description": "Descrierea  Obiectivului numarului#1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #2",
+          "location": "Locatia Obiectivului numarului#2",
+          "program": "Locatia Obiectivului numarului#2",
+          "description": "Descrierea  Obiectivului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #2",
+          "location": "Locatia Obiectivului numarului#2",
+          "program": "Locatia Obiectivului numarului#2",
+          "description": "Descrierea  Obiectivului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #3",
+          "location": "Locatia Obiectivului numarului#3",
+          "program": "Locatia Obiectivului numarului#3",
+          "description": "Descrierea  Obiectivului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #3",
+          "location": "Locatia Obiectivului numarului#3",
+          "program": "Locatia Obiectivului numarului#3",
+          "description": "Descrierea  Obiectivului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #3",
+          "location": "Locatia Obiectivului numarului#3",
+          "program": "Locatia Obiectivului numarului#3",
+          "description": "Descrierea  Obiectivului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #4",
+          "location": "Locatia Obiectivului numarului#4",
+          "program": "Locatia Obiectivului numarului#4",
+          "description": "Descrierea  Obiectivului numarului#4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #5",
+          "location": "Locatia Obiectivului numarului#5",
+          "program": "Locatia Obiectivului numarului#5",
+          "description": "Descrierea  Obiectivului numarului#5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #6",
+          "location": "Locatia Obiectivului numarului#6",
+          "program": "Locatia Obiectivului numarului#6",
+          "description": "Descrierea  Obiectivului numarului#6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #7",
+          "location": "Locatia Obiectivului numarului#7",
+          "program": "Locatia Obiectivului numarului#7",
+          "description": "Descrierea  Obiectivului numarului#7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "trails": [
+        {
+          "name": "Traseul numarul #",
+          "location": "Locatia Traseului numarului#",
+          "program": "Locatia Traseului numarului#",
+          "description": "Descrierea  Traseului numarului#",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #2",
+          "location": "Locatia Traseului numarului#2",
+          "program": "Locatia Traseului numarului#2",
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #2",
+          "location": "Locatia Traseului numarului#2",
+          "program": "Locatia Traseului numarului#2",
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #3",
+          "location": "Locatia Traseului numarului#3",
+          "program": "Locatia Traseului numarului#3",
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #3",
+          "location": "Locatia Traseului numarului#3",
+          "program": "Locatia Traseului numarului#3",
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #3",
+          "location": "Locatia Traseului numarului#3",
+          "program": "Locatia Traseului numarului#3",
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #4",
+          "location": "Locatia Traseului numarului#4",
+          "program": "Locatia Traseului numarului#4",
+          "description": "Descrierea  Traseului numarului#4",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #5",
+          "location": "Locatia Traseului numarului#5",
+          "program": "Locatia Traseului numarului#5",
+          "description": "Descrierea  Traseului numarului#5",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #6",
+          "location": "Locatia Traseului numarului#6",
+          "program": "Locatia Traseului numarului#6",
+          "description": "Descrierea  Traseului numarului#6",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #7",
+          "location": "Locatia Traseului numarului#7",
+          "program": "Locatia Traseului numarului#7",
+          "description": "Descrierea  Traseului numarului#7",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "utils": [
+        {
+          "name": "Nume farmacie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "farmacie",
+          "image": "assets/gals/drugstore.png"
+        },
+        {
+          "name": "Nume benzinarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "benzinarie",
+          "image": "assets/gals/gas.png"
+        },
+        {
+          "name": "Nume spital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "spital",
+          "image": "assets/gals/hospital.png"
+        },
+        {
+          "name": "Nume hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hotel",
+          "image": "assets/gals/hotel.png"
+        },
+        {
+          "name": "Nume primarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "primarie",
+          "image": "assets/gals/hall.png"
+        },
+        {
+          "name": "Nume politie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "politie",
+          "image": "assets/gals/police.png"
+        },
+        {
+          "name": "Nume restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "restaurant",
+          "image": "assets/gals/restaurant.png"
+        },
+        {
+          "name": "Nume service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "service",
+          "image": "assets/gals/service.png"
+        }
+      ]
+    },
+    {
+      "name": "Stejarii-Argintii",
+      "description": "Descrierea galului Stejarii-Argintii",
+      "imgSrc": "assets/gals/stejari.png",
+      "events": [
+        {
+          "name": "Evenimentul numarul #1",
+          "location": "Locatia Evenimentului numarului#1",
+          "program": "Locatia Evenimentului numarului#1",
+          "description": "Descrierea  Evenimentului numarului#1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #2",
+          "location": "Locatia Evenimentului numarului#2",
+          "program": "Locatia Evenimentului numarului#2",
+          "description": "Descrierea  Evenimentului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #2",
+          "location": "Locatia Evenimentului numarului#2",
+          "program": "Locatia Evenimentului numarului#2",
+          "description": "Descrierea  Evenimentului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #3",
+          "location": "Locatia Evenimentului numarului#3",
+          "program": "Locatia Evenimentului numarului#3",
+          "description": "Descrierea  Evenimentului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #3",
+          "location": "Locatia Evenimentului numarului#3",
+          "program": "Locatia Evenimentului numarului#3",
+          "description": "Descrierea  Evenimentului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #3",
+          "location": "Locatia Evenimentului numarului#3",
+          "program": "Locatia Evenimentului numarului#3",
+          "description": "Descrierea  Evenimentului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #4",
+          "location": "Locatia Evenimentului numarului#4",
+          "program": "Locatia Evenimentului numarului#4",
+          "description": "Descrierea  Evenimentului numarului#4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #5",
+          "location": "Locatia Evenimentului numarului#5",
+          "program": "Locatia Evenimentului numarului#5",
+          "description": "Descrierea  Evenimentului numarului#5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #6",
+          "location": "Locatia Evenimentului numarului#6",
+          "program": "Locatia Evenimentului numarului#6",
+          "description": "Descrierea  Evenimentului numarului#6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #7",
+          "location": "Locatia Evenimentului numarului#7",
+          "program": "Locatia Evenimentului numarului#7",
+          "description": "Descrierea  Evenimentului numarului#7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "objectives": [
+        {
+          "name": "Obiectivul numarul #1",
+          "location": "Locatia Obiectivului numarului#1",
+          "program": "Locatia Obiectivului numarului#1",
+          "description": "Descrierea  Obiectivului numarului#1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #2",
+          "location": "Locatia Obiectivului numarului#2",
+          "program": "Locatia Obiectivului numarului#2",
+          "description": "Descrierea  Obiectivului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #2",
+          "location": "Locatia Obiectivului numarului#2",
+          "program": "Locatia Obiectivului numarului#2",
+          "description": "Descrierea  Obiectivului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #3",
+          "location": "Locatia Obiectivului numarului#3",
+          "program": "Locatia Obiectivului numarului#3",
+          "description": "Descrierea  Obiectivului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #3",
+          "location": "Locatia Obiectivului numarului#3",
+          "program": "Locatia Obiectivului numarului#3",
+          "description": "Descrierea  Obiectivului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #3",
+          "location": "Locatia Obiectivului numarului#3",
+          "program": "Locatia Obiectivului numarului#3",
+          "description": "Descrierea  Obiectivului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #4",
+          "location": "Locatia Obiectivului numarului#4",
+          "program": "Locatia Obiectivului numarului#4",
+          "description": "Descrierea  Obiectivului numarului#4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #5",
+          "location": "Locatia Obiectivului numarului#5",
+          "program": "Locatia Obiectivului numarului#5",
+          "description": "Descrierea  Obiectivului numarului#5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #6",
+          "location": "Locatia Obiectivului numarului#6",
+          "program": "Locatia Obiectivului numarului#6",
+          "description": "Descrierea  Obiectivului numarului#6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #7",
+          "location": "Locatia Obiectivului numarului#7",
+          "program": "Locatia Obiectivului numarului#7",
+          "description": "Descrierea  Obiectivului numarului#7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "trails": [
+        {
+          "name": "Traseul numarul #",
+          "location": "Locatia Traseului numarului#",
+          "program": "Locatia Traseului numarului#",
+          "description": "Descrierea  Traseului numarului#",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #2",
+          "location": "Locatia Traseului numarului#2",
+          "program": "Locatia Traseului numarului#2",
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #2",
+          "location": "Locatia Traseului numarului#2",
+          "program": "Locatia Traseului numarului#2",
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #3",
+          "location": "Locatia Traseului numarului#3",
+          "program": "Locatia Traseului numarului#3",
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #3",
+          "location": "Locatia Traseului numarului#3",
+          "program": "Locatia Traseului numarului#3",
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #3",
+          "location": "Locatia Traseului numarului#3",
+          "program": "Locatia Traseului numarului#3",
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #4",
+          "location": "Locatia Traseului numarului#4",
+          "program": "Locatia Traseului numarului#4",
+          "description": "Descrierea  Traseului numarului#4",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #5",
+          "location": "Locatia Traseului numarului#5",
+          "program": "Locatia Traseului numarului#5",
+          "description": "Descrierea  Traseului numarului#5",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #6",
+          "location": "Locatia Traseului numarului#6",
+          "program": "Locatia Traseului numarului#6",
+          "description": "Descrierea  Traseului numarului#6",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #7",
+          "location": "Locatia Traseului numarului#7",
+          "program": "Locatia Traseului numarului#7",
+          "description": "Descrierea  Traseului numarului#7",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "utils": [
+        {
+          "name": "Nume farmacie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "farmacie",
+          "image": "assets/gals/drugstore.png"
+        },
+        {
+          "name": "Nume benzinarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "benzinarie",
+          "image": "assets/gals/gas.png"
+        },
+        {
+          "name": "Nume spital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "spital",
+          "image": "assets/gals/hospital.png"
+        },
+        {
+          "name": "Nume hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hotel",
+          "image": "assets/gals/hotel.png"
+        },
+        {
+          "name": "Nume primarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "primarie",
+          "image": "assets/gals/hall.png"
+        },
+        {
+          "name": "Nume politie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "politie",
+          "image": "assets/gals/police.png"
+        },
+        {
+          "name": "Nume restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "restaurant",
+          "image": "assets/gals/restaurant.png"
+        },
+        {
+          "name": "Nume service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "service",
+          "image": "assets/gals/service.png"
+        }
+      ]
+    },
+    {
+      "name": "Valuea Prutului",
+      "description": "Descrierea galului Valuea-Prutului",
+      "imgSrc": "assets/gals/prut.png",
+      "events": [
+        {
+          "name": "Evenimentul numarul #1",
+          "location": "Locatia Evenimentului numarului#1",
+          "program": "Locatia Evenimentului numarului#1",
+          "description": "Descrierea  Evenimentului numarului#1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #2",
+          "location": "Locatia Evenimentului numarului#2",
+          "program": "Locatia Evenimentului numarului#2",
+          "description": "Descrierea  Evenimentului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #2",
+          "location": "Locatia Evenimentului numarului#2",
+          "program": "Locatia Evenimentului numarului#2",
+          "description": "Descrierea  Evenimentului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #3",
+          "location": "Locatia Evenimentului numarului#3",
+          "program": "Locatia Evenimentului numarului#3",
+          "description": "Descrierea  Evenimentului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #3",
+          "location": "Locatia Evenimentului numarului#3",
+          "program": "Locatia Evenimentului numarului#3",
+          "description": "Descrierea  Evenimentului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #3",
+          "location": "Locatia Evenimentului numarului#3",
+          "program": "Locatia Evenimentului numarului#3",
+          "description": "Descrierea  Evenimentului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #4",
+          "location": "Locatia Evenimentului numarului#4",
+          "program": "Locatia Evenimentului numarului#4",
+          "description": "Descrierea  Evenimentului numarului#4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #5",
+          "location": "Locatia Evenimentului numarului#5",
+          "program": "Locatia Evenimentului numarului#5",
+          "description": "Descrierea  Evenimentului numarului#5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #6",
+          "location": "Locatia Evenimentului numarului#6",
+          "program": "Locatia Evenimentului numarului#6",
+          "description": "Descrierea  Evenimentului numarului#6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #7",
+          "location": "Locatia Evenimentului numarului#7",
+          "program": "Locatia Evenimentului numarului#7",
+          "description": "Descrierea  Evenimentului numarului#7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "objectives": [
+        {
+          "name": "Obiectivul numarul #1",
+          "location": "Locatia Obiectivului numarului#1",
+          "program": "Locatia Obiectivului numarului#1",
+          "description": "Descrierea  Obiectivului numarului#1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #2",
+          "location": "Locatia Obiectivului numarului#2",
+          "program": "Locatia Obiectivului numarului#2",
+          "description": "Descrierea  Obiectivului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #2",
+          "location": "Locatia Obiectivului numarului#2",
+          "program": "Locatia Obiectivului numarului#2",
+          "description": "Descrierea  Obiectivului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #3",
+          "location": "Locatia Obiectivului numarului#3",
+          "program": "Locatia Obiectivului numarului#3",
+          "description": "Descrierea  Obiectivului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #3",
+          "location": "Locatia Obiectivului numarului#3",
+          "program": "Locatia Obiectivului numarului#3",
+          "description": "Descrierea  Obiectivului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #3",
+          "location": "Locatia Obiectivului numarului#3",
+          "program": "Locatia Obiectivului numarului#3",
+          "description": "Descrierea  Obiectivului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #4",
+          "location": "Locatia Obiectivului numarului#4",
+          "program": "Locatia Obiectivului numarului#4",
+          "description": "Descrierea  Obiectivului numarului#4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #5",
+          "location": "Locatia Obiectivului numarului#5",
+          "program": "Locatia Obiectivului numarului#5",
+          "description": "Descrierea  Obiectivului numarului#5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #6",
+          "location": "Locatia Obiectivului numarului#6",
+          "program": "Locatia Obiectivului numarului#6",
+          "description": "Descrierea  Obiectivului numarului#6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #7",
+          "location": "Locatia Obiectivului numarului#7",
+          "program": "Locatia Obiectivului numarului#7",
+          "description": "Descrierea  Obiectivului numarului#7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "trails": [
+        {
+          "name": "Traseul numarul #",
+          "location": "Locatia Traseului numarului#",
+          "program": "Locatia Traseului numarului#",
+          "description": "Descrierea  Traseului numarului#",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #2",
+          "location": "Locatia Traseului numarului#2",
+          "program": "Locatia Traseului numarului#2",
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #2",
+          "location": "Locatia Traseului numarului#2",
+          "program": "Locatia Traseului numarului#2",
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #3",
+          "location": "Locatia Traseului numarului#3",
+          "program": "Locatia Traseului numarului#3",
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #3",
+          "location": "Locatia Traseului numarului#3",
+          "program": "Locatia Traseului numarului#3",
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #3",
+          "location": "Locatia Traseului numarului#3",
+          "program": "Locatia Traseului numarului#3",
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #4",
+          "location": "Locatia Traseului numarului#4",
+          "program": "Locatia Traseului numarului#4",
+          "description": "Descrierea  Traseului numarului#4",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #5",
+          "location": "Locatia Traseului numarului#5",
+          "program": "Locatia Traseului numarului#5",
+          "description": "Descrierea  Traseului numarului#5",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #6",
+          "location": "Locatia Traseului numarului#6",
+          "program": "Locatia Traseului numarului#6",
+          "description": "Descrierea  Traseului numarului#6",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #7",
+          "location": "Locatia Traseului numarului#7",
+          "program": "Locatia Traseului numarului#7",
+          "description": "Descrierea  Traseului numarului#7",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "utils": [
+        {
+          "name": "Nume farmacie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "farmacie",
+          "image": "assets/gals/drugstore.png"
+        },
+        {
+          "name": "Nume benzinarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "benzinarie",
+          "image": "assets/gals/gas.png"
+        },
+        {
+          "name": "Nume spital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "spital",
+          "image": "assets/gals/hospital.png"
+        },
+        {
+          "name": "Nume hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hotel",
+          "image": "assets/gals/hotel.png"
+        },
+        {
+          "name": "Nume primarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "primarie",
+          "image": "assets/gals/hall.png"
+        },
+        {
+          "name": "Nume politie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "politie",
+          "image": "assets/gals/police.png"
+        },
+        {
+          "name": "Nume restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "restaurant",
+          "image": "assets/gals/restaurant.png"
+        },
+        {
+          "name": "Nume service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "service",
+          "image": "assets/gals/service.png"
+        }
+      ]
+    },
+    {
+      "name": "Colinele Iasului",
+      "description": "Descrierea galului Colinele Iasului",
+      "imgSrc": "assets/gals/iasi.png",
+      "events": [
+        {
+          "name": "Evenimentul numarul #1",
+          "location": "Locatia Evenimentului numarului#1",
+          "program": "Locatia Evenimentului numarului#1",
+          "description": "Descrierea  Evenimentului numarului#1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #2",
+          "location": "Locatia Evenimentului numarului#2",
+          "program": "Locatia Evenimentului numarului#2",
+          "description": "Descrierea  Evenimentului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #2",
+          "location": "Locatia Evenimentului numarului#2",
+          "program": "Locatia Evenimentului numarului#2",
+          "description": "Descrierea  Evenimentului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #3",
+          "location": "Locatia Evenimentului numarului#3",
+          "program": "Locatia Evenimentului numarului#3",
+          "description": "Descrierea  Evenimentului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #3",
+          "location": "Locatia Evenimentului numarului#3",
+          "program": "Locatia Evenimentului numarului#3",
+          "description": "Descrierea  Evenimentului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #3",
+          "location": "Locatia Evenimentului numarului#3",
+          "program": "Locatia Evenimentului numarului#3",
+          "description": "Descrierea  Evenimentului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #4",
+          "location": "Locatia Evenimentului numarului#4",
+          "program": "Locatia Evenimentului numarului#4",
+          "description": "Descrierea  Evenimentului numarului#4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #5",
+          "location": "Locatia Evenimentului numarului#5",
+          "program": "Locatia Evenimentului numarului#5",
+          "description": "Descrierea  Evenimentului numarului#5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #6",
+          "location": "Locatia Evenimentului numarului#6",
+          "program": "Locatia Evenimentului numarului#6",
+          "description": "Descrierea  Evenimentului numarului#6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Evenimentul numarul #7",
+          "location": "Locatia Evenimentului numarului#7",
+          "program": "Locatia Evenimentului numarului#7",
+          "description": "Descrierea  Evenimentului numarului#7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "objectives": [
+        {
+          "name": "Obiectivul numarul #1",
+          "location": "Locatia Obiectivului numarului#1",
+          "program": "Locatia Obiectivului numarului#1",
+          "description": "Descrierea  Obiectivului numarului#1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #2",
+          "location": "Locatia Obiectivului numarului#2",
+          "program": "Locatia Obiectivului numarului#2",
+          "description": "Descrierea  Obiectivului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #2",
+          "location": "Locatia Obiectivului numarului#2",
+          "program": "Locatia Obiectivului numarului#2",
+          "description": "Descrierea  Obiectivului numarului#2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #3",
+          "location": "Locatia Obiectivului numarului#3",
+          "program": "Locatia Obiectivului numarului#3",
+          "description": "Descrierea  Obiectivului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #3",
+          "location": "Locatia Obiectivului numarului#3",
+          "program": "Locatia Obiectivului numarului#3",
+          "description": "Descrierea  Obiectivului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #3",
+          "location": "Locatia Obiectivului numarului#3",
+          "program": "Locatia Obiectivului numarului#3",
+          "description": "Descrierea  Obiectivului numarului#3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #4",
+          "location": "Locatia Obiectivului numarului#4",
+          "program": "Locatia Obiectivului numarului#4",
+          "description": "Descrierea  Obiectivului numarului#4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #5",
+          "location": "Locatia Obiectivului numarului#5",
+          "program": "Locatia Obiectivului numarului#5",
+          "description": "Descrierea  Obiectivului numarului#5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #6",
+          "location": "Locatia Obiectivului numarului#6",
+          "program": "Locatia Obiectivului numarului#6",
+          "description": "Descrierea  Obiectivului numarului#6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Obiectivul numarul #7",
+          "location": "Locatia Obiectivului numarului#7",
+          "program": "Locatia Obiectivului numarului#7",
+          "description": "Descrierea  Obiectivului numarului#7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "trails": [
+        {
+          "name": "Traseul numarul #",
+          "location": "Locatia Traseului numarului#",
+          "program": "Locatia Traseului numarului#",
+          "description": "Descrierea  Traseului numarului#",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #2",
+          "location": "Locatia Traseului numarului#2",
+          "program": "Locatia Traseului numarului#2",
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #2",
+          "location": "Locatia Traseului numarului#2",
+          "program": "Locatia Traseului numarului#2",
+          "description": "Descrierea  Traseului numarului#2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #3",
+          "location": "Locatia Traseului numarului#3",
+          "program": "Locatia Traseului numarului#3",
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #3",
+          "location": "Locatia Traseului numarului#3",
+          "program": "Locatia Traseului numarului#3",
+          "description": "Descrierea  Traseului numarului#3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #3",
+          "location": "Locatia Traseului numarului#3",
+          "program": "Locatia Traseului numarului#3",
+          "description": "Descrierea  Traseului numarului#3"
+        },
+        {
+          "name": "Traseul numarul #4",
+          "location": "Locatia Traseului numarului#4",
+          "program": "Locatia Traseului numarului#4",
+          "description": "Descrierea  Traseului numarului#4",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #5",
+          "location": "Locatia Traseului numarului#5",
+          "program": "Locatia Traseului numarului#5",
+          "description": "Descrierea  Traseului numarului#5",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #6",
+          "location": "Locatia Traseului numarului#6",
+          "program": "Locatia Traseului numarului#6",
+          "description": "Descrierea  Traseului numarului#6",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Traseul numarul #7",
+          "location": "Locatia Traseului numarului#7",
+          "program": "Locatia Traseului numarului#7",
+          "description": "Descrierea  Traseului numarului#7",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "utils": [
+        {
+          "name": "Nume farmacie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "farmacie",
+          "image": "assets/gals/drugstore.png"
+        },
+        {
+          "name": "Nume benzinarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "benzinarie",
+          "image": "assets/gals/gas.png"
+        },
+        {
+          "name": "Nume spital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "spital",
+          "image": "assets/gals/hospital.png"
+        },
+        {
+          "name": "Nume hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hotel",
+          "image": "assets/gals/hotel.png"
+        },
+        {
+          "name": "Nume primarie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "primarie",
+          "image": "assets/gals/hall.png"
+        },
+        {
+          "name": "Nume politie",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "politie",
+          "image": "assets/gals/police.png"
+        },
+        {
+          "name": "Nume restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "restaurant",
+          "image": "assets/gals/restaurant.png"
+        },
+        {
+          "name": "Nume service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "service",
+          "image": "assets/gals/service.png"
+        }
+      ]
+    }
+  ]
+}

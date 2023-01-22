@@ -1,0 +1,2965 @@
+{
+  "gals": [
+    {
+      "name": "Belcesti-Focuri",
+      "description": "Description of Belcesti-Focuri",
+      "imgSrc": "assets/gals/belcesti.png",
+      "events": [
+        {
+          "name": "Event with number #1",
+          "location": "Location of event with number #1",
+          "program": "Program of event with number #1",
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #4",
+          "location": "Location of event with number #4",
+          "program": "Program of event with number #4",
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #5",
+          "location": "Location of event with number #5",
+          "program": "Program of event with number #5",
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #6",
+          "location": "Location of event with number #6",
+          "program": "Program of event with number #6",
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #7",
+          "location": "Location of event with number #7",
+          "program": "Program of event with number #7",
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "objectives": [
+        {
+          "name": "Objective with number #1",
+          "location": "Location of objective with number #1",
+          "program": "Program of objective with number #1",
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #4",
+          "location": "Location of objective with number #4",
+          "program": "Program of objective with number #4",
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #5",
+          "location": "Location of objective with number #5",
+          "program": "Program of objective with number #5",
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #6",
+          "location": "Location of objective with number #6",
+          "program": "Program of objective with number #6",
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #7",
+          "location": "Location of objective with number #7",
+          "program": "Program of objective with number #7",
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "trails": [
+        {
+          "name": "Trail with number #",
+          "location": "Loaction of Trail with numbe #",
+          "program": "Porgram of Trail with numbe #",
+          "description": "Description of Trail with numbe #",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #4",
+          "location": "Loaction of Trail with numbe #4",
+          "program": "Porgram of Trail with numbe #4",
+          "description": "Description of Trail with numbe #4",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #5",
+          "location": "Loaction of Trail with numbe #5",
+          "program": "Porgram of Trail with numbe #5",
+          "description": "Description of Trail with numbe #5",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #6",
+          "location": "Loaction of Trail with numbe #6",
+          "program": "Porgram of Trail with numbe #6",
+          "description": "Description of Trail with numbe #6",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #7",
+          "location": "Loaction of Trail with numbe #7",
+          "program": "Porgram of Trail with numbe #7",
+          "description": "Description of Trail with numbe #7",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "utils": [
+        {
+          "name": "Name drugStore",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "drugStore",
+          "image": "assets/gals/drugstore.png"
+        },
+        {
+          "name": "Name gasStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "gasStation",
+          "image": "assets/gals/gas.png"
+        },
+        {
+          "name": "Name hospital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hospital",
+          "image": "assets/gals/hospital.png"
+        },
+        {
+          "name": "Name hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hotel",
+          "image": "assets/gals/hotel.png"
+        },
+        {
+          "name": "Name cityHall",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "cityHall",
+          "image": "assets/gals/hall.png"
+        },
+        {
+          "name": "Name policeStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "policeStation",
+          "image": "assets/gals/police.png"
+        },
+        {
+          "name": "Name restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "restaurant",
+          "image": "assets/gals/restaurant.png"
+        },
+        {
+          "name": "Name service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "service",
+          "image": "assets/gals/service.png"
+        }
+      ]
+    },
+    {
+      "name": "Codrii Pascanilor",
+      "description": "Description of Codrii Pascanilor",
+      "imgSrc": "assets/gals/pascani.png",
+      "events": [
+        {
+          "name": "Event with number #1",
+          "location": "Location of event with number #1",
+          "program": "Program of event with number #1",
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #4",
+          "location": "Location of event with number #4",
+          "program": "Program of event with number #4",
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #5",
+          "location": "Location of event with number #5",
+          "program": "Program of event with number #5",
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #6",
+          "location": "Location of event with number #6",
+          "program": "Program of event with number #6",
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #7",
+          "location": "Location of event with number #7",
+          "program": "Program of event with number #7",
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "objectives": [
+        {
+          "name": "Objective with number #1",
+          "location": "Location of objective with number #1",
+          "program": "Program of objective with number #1",
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #4",
+          "location": "Location of objective with number #4",
+          "program": "Program of objective with number #4",
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #5",
+          "location": "Location of objective with number #5",
+          "program": "Program of objective with number #5",
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #6",
+          "location": "Location of objective with number #6",
+          "program": "Program of objective with number #6",
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #7",
+          "location": "Location of objective with number #7",
+          "program": "Program of objective with number #7",
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "trails": [
+        {
+          "name": "Trail with number #",
+          "location": "Loaction of Trail with numbe #",
+          "program": "Porgram of Trail with numbe #",
+          "description": "Description of Trail with numbe #",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #4",
+          "location": "Loaction of Trail with numbe #4",
+          "program": "Porgram of Trail with numbe #4",
+          "description": "Description of Trail with numbe #4",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #5",
+          "location": "Loaction of Trail with numbe #5",
+          "program": "Porgram of Trail with numbe #5",
+          "description": "Description of Trail with numbe #5",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #6",
+          "location": "Loaction of Trail with numbe #6",
+          "program": "Porgram of Trail with numbe #6",
+          "description": "Description of Trail with numbe #6",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #7",
+          "location": "Loaction of Trail with numbe #7",
+          "program": "Porgram of Trail with numbe #7",
+          "description": "Description of Trail with numbe #7",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "utils": [
+        {
+          "name": "Name drugStore",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "drugStore",
+          "image": "assets/gals/drugstore.png"
+        },
+        {
+          "name": "Name gasStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "gasStation",
+          "image": "assets/gals/gas.png"
+        },
+        {
+          "name": "Name hospital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hospital",
+          "image": "assets/gals/hospital.png"
+        },
+        {
+          "name": "Name hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hotel",
+          "image": "assets/gals/hotel.png"
+        },
+        {
+          "name": "Name cityHall",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "cityHall",
+          "image": "assets/gals/hall.png"
+        },
+        {
+          "name": "Name policeStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "policeStation",
+          "image": "assets/gals/police.png"
+        },
+        {
+          "name": "Name restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "restaurant",
+          "image": "assets/gals/restaurant.png"
+        },
+        {
+          "name": "Name service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "service",
+          "image": "assets/gals/service.png"
+        }
+      ]
+    },
+    {
+      "name": "Dealurile Bohotinului",
+      "description": "Description of Dealurile Bohotinului",
+      "imgSrc": "assets/gals/bohotin.png",
+      "events": [
+        {
+          "name": "Event with number #1",
+          "location": "Location of event with number #1",
+          "program": "Program of event with number #1",
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #4",
+          "location": "Location of event with number #4",
+          "program": "Program of event with number #4",
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #5",
+          "location": "Location of event with number #5",
+          "program": "Program of event with number #5",
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #6",
+          "location": "Location of event with number #6",
+          "program": "Program of event with number #6",
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #7",
+          "location": "Location of event with number #7",
+          "program": "Program of event with number #7",
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "objectives": [
+        {
+          "name": "Objective with number #1",
+          "location": "Location of objective with number #1",
+          "program": "Program of objective with number #1",
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #4",
+          "location": "Location of objective with number #4",
+          "program": "Program of objective with number #4",
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #5",
+          "location": "Location of objective with number #5",
+          "program": "Program of objective with number #5",
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #6",
+          "location": "Location of objective with number #6",
+          "program": "Program of objective with number #6",
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #7",
+          "location": "Location of objective with number #7",
+          "program": "Program of objective with number #7",
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "trails": [
+        {
+          "name": "Trail with number #",
+          "location": "Loaction of Trail with numbe #",
+          "program": "Porgram of Trail with numbe #",
+          "description": "Description of Trail with numbe #",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #4",
+          "location": "Loaction of Trail with numbe #4",
+          "program": "Porgram of Trail with numbe #4",
+          "description": "Description of Trail with numbe #4",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #5",
+          "location": "Loaction of Trail with numbe #5",
+          "program": "Porgram of Trail with numbe #5",
+          "description": "Description of Trail with numbe #5",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #6",
+          "location": "Loaction of Trail with numbe #6",
+          "program": "Porgram of Trail with numbe #6",
+          "description": "Description of Trail with numbe #6",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #7",
+          "location": "Loaction of Trail with numbe #7",
+          "program": "Porgram of Trail with numbe #7",
+          "description": "Description of Trail with numbe #7",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "utils": [
+        {
+          "name": "Name drugStore",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "drugStore",
+          "image": "assets/gals/drugstore.png"
+        },
+        {
+          "name": "Name gasStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "gasStation",
+          "image": "assets/gals/gas.png"
+        },
+        {
+          "name": "Name hospital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hospital",
+          "image": "assets/gals/hospital.png"
+        },
+        {
+          "name": "Name hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hotel",
+          "image": "assets/gals/hotel.png"
+        },
+        {
+          "name": "Name cityHall",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "cityHall",
+          "image": "assets/gals/hall.png"
+        },
+        {
+          "name": "Name policeStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "policeStation",
+          "image": "assets/gals/police.png"
+        },
+        {
+          "name": "Name restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "restaurant",
+          "image": "assets/gals/restaurant.png"
+        },
+        {
+          "name": "Name service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "service",
+          "image": "assets/gals/service.png"
+        }
+      ]
+    },
+    {
+      "name": "Rediu-prajeni",
+      "description": "Description of Rediu-Prajeni",
+      "imgSrc": "assets/gals/rediu.png",
+      "events": [
+        {
+          "name": "Event with number #1",
+          "location": "Location of event with number #1",
+          "program": "Program of event with number #1",
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #4",
+          "location": "Location of event with number #4",
+          "program": "Program of event with number #4",
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #5",
+          "location": "Location of event with number #5",
+          "program": "Program of event with number #5",
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #6",
+          "location": "Location of event with number #6",
+          "program": "Program of event with number #6",
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #7",
+          "location": "Location of event with number #7",
+          "program": "Program of event with number #7",
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "objectives": [
+        {
+          "name": "Objective with number #1",
+          "location": "Location of objective with number #1",
+          "program": "Program of objective with number #1",
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #4",
+          "location": "Location of objective with number #4",
+          "program": "Program of objective with number #4",
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #5",
+          "location": "Location of objective with number #5",
+          "program": "Program of objective with number #5",
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #6",
+          "location": "Location of objective with number #6",
+          "program": "Program of objective with number #6",
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #7",
+          "location": "Location of objective with number #7",
+          "program": "Program of objective with number #7",
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "trails": [
+        {
+          "name": "Trail with number #",
+          "location": "Loaction of Trail with numbe #",
+          "program": "Porgram of Trail with numbe #",
+          "description": "Description of Trail with numbe #",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #4",
+          "location": "Loaction of Trail with numbe #4",
+          "program": "Porgram of Trail with numbe #4",
+          "description": "Description of Trail with numbe #4",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #5",
+          "location": "Loaction of Trail with numbe #5",
+          "program": "Porgram of Trail with numbe #5",
+          "description": "Description of Trail with numbe #5",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #6",
+          "location": "Loaction of Trail with numbe #6",
+          "program": "Porgram of Trail with numbe #6",
+          "description": "Description of Trail with numbe #6",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #7",
+          "location": "Loaction of Trail with numbe #7",
+          "program": "Porgram of Trail with numbe #7",
+          "description": "Description of Trail with numbe #7",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "utils": [
+        {
+          "name": "Name drugStore",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "drugStore",
+          "image": "assets/gals/drugstore.png"
+        },
+        {
+          "name": "Name gasStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "gasStation",
+          "image": "assets/gals/gas.png"
+        },
+        {
+          "name": "Name hospital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hospital",
+          "image": "assets/gals/hospital.png"
+        },
+        {
+          "name": "Name hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hotel",
+          "image": "assets/gals/hotel.png"
+        },
+        {
+          "name": "Name cityHall",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "cityHall",
+          "image": "assets/gals/hall.png"
+        },
+        {
+          "name": "Name policeStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "policeStation",
+          "image": "assets/gals/police.png"
+        },
+        {
+          "name": "Name restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "restaurant",
+          "image": "assets/gals/restaurant.png"
+        },
+        {
+          "name": "Name service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "service",
+          "image": "assets/gals/service.png"
+        }
+      ]
+    },
+    {
+      "name": "Siret-Moldova",
+      "description": "Description of Siret Moldova",
+      "imgSrc": "assets/gals/siret.png",
+      "events": [
+        {
+          "name": "Event with number #1",
+          "location": "Location of event with number #1",
+          "program": "Program of event with number #1",
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #4",
+          "location": "Location of event with number #4",
+          "program": "Program of event with number #4",
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #5",
+          "location": "Location of event with number #5",
+          "program": "Program of event with number #5",
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #6",
+          "location": "Location of event with number #6",
+          "program": "Program of event with number #6",
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #7",
+          "location": "Location of event with number #7",
+          "program": "Program of event with number #7",
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "objectives": [
+        {
+          "name": "Objective with number #1",
+          "location": "Location of objective with number #1",
+          "program": "Program of objective with number #1",
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #4",
+          "location": "Location of objective with number #4",
+          "program": "Program of objective with number #4",
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #5",
+          "location": "Location of objective with number #5",
+          "program": "Program of objective with number #5",
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #6",
+          "location": "Location of objective with number #6",
+          "program": "Program of objective with number #6",
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #7",
+          "location": "Location of objective with number #7",
+          "program": "Program of objective with number #7",
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "trails": [
+        {
+          "name": "Trail with number #",
+          "location": "Loaction of Trail with numbe #",
+          "program": "Porgram of Trail with numbe #",
+          "description": "Description of Trail with numbe #",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #4",
+          "location": "Loaction of Trail with numbe #4",
+          "program": "Porgram of Trail with numbe #4",
+          "description": "Description of Trail with numbe #4",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #5",
+          "location": "Loaction of Trail with numbe #5",
+          "program": "Porgram of Trail with numbe #5",
+          "description": "Description of Trail with numbe #5",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #6",
+          "location": "Loaction of Trail with numbe #6",
+          "program": "Porgram of Trail with numbe #6",
+          "description": "Description of Trail with numbe #6",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #7",
+          "location": "Loaction of Trail with numbe #7",
+          "program": "Porgram of Trail with numbe #7",
+          "description": "Description of Trail with numbe #7",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "utils": [
+        {
+          "name": "Name drugStore",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "drugStore",
+          "image": "assets/gals/drugstore.png"
+        },
+        {
+          "name": "Name gasStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "gasStation",
+          "image": "assets/gals/gas.png"
+        },
+        {
+          "name": "Name hospital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hospital",
+          "image": "assets/gals/hospital.png"
+        },
+        {
+          "name": "Name hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hotel",
+          "image": "assets/gals/hotel.png"
+        },
+        {
+          "name": "Name cityHall",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "cityHall",
+          "image": "assets/gals/hall.png"
+        },
+        {
+          "name": "Name policeStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "policeStation",
+          "image": "assets/gals/police.png"
+        },
+        {
+          "name": "Name restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "restaurant",
+          "image": "assets/gals/restaurant.png"
+        },
+        {
+          "name": "Name service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "service",
+          "image": "assets/gals/service.png"
+        }
+      ]
+    },
+    {
+      "name": "Stefan cel Mare",
+      "description": "Description of Stefan cel Mare",
+      "imgSrc": "assets/gals/stefan.png",
+      "events": [
+        {
+          "name": "Event with number #1",
+          "location": "Location of event with number #1",
+          "program": "Program of event with number #1",
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #4",
+          "location": "Location of event with number #4",
+          "program": "Program of event with number #4",
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #5",
+          "location": "Location of event with number #5",
+          "program": "Program of event with number #5",
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #6",
+          "location": "Location of event with number #6",
+          "program": "Program of event with number #6",
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #7",
+          "location": "Location of event with number #7",
+          "program": "Program of event with number #7",
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "objectives": [
+        {
+          "name": "Objective with number #1",
+          "location": "Location of objective with number #1",
+          "program": "Program of objective with number #1",
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #4",
+          "location": "Location of objective with number #4",
+          "program": "Program of objective with number #4",
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #5",
+          "location": "Location of objective with number #5",
+          "program": "Program of objective with number #5",
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #6",
+          "location": "Location of objective with number #6",
+          "program": "Program of objective with number #6",
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #7",
+          "location": "Location of objective with number #7",
+          "program": "Program of objective with number #7",
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "trails": [
+        {
+          "name": "Trail with number #",
+          "location": "Loaction of Trail with numbe #",
+          "program": "Porgram of Trail with numbe #",
+          "description": "Description of Trail with numbe #",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #4",
+          "location": "Loaction of Trail with numbe #4",
+          "program": "Porgram of Trail with numbe #4",
+          "description": "Description of Trail with numbe #4",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #5",
+          "location": "Loaction of Trail with numbe #5",
+          "program": "Porgram of Trail with numbe #5",
+          "description": "Description of Trail with numbe #5",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #6",
+          "location": "Loaction of Trail with numbe #6",
+          "program": "Porgram of Trail with numbe #6",
+          "description": "Description of Trail with numbe #6",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #7",
+          "location": "Loaction of Trail with numbe #7",
+          "program": "Porgram of Trail with numbe #7",
+          "description": "Description of Trail with numbe #7",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "utils": [
+        {
+          "name": "Name drugStore",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "drugStore",
+          "image": "assets/gals/drugstore.png"
+        },
+        {
+          "name": "Name gasStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "gasStation",
+          "image": "assets/gals/gas.png"
+        },
+        {
+          "name": "Name hospital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hospital",
+          "image": "assets/gals/hospital.png"
+        },
+        {
+          "name": "Name hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hotel",
+          "image": "assets/gals/hotel.png"
+        },
+        {
+          "name": "Name cityHall",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "cityHall",
+          "image": "assets/gals/hall.png"
+        },
+        {
+          "name": "Name policeStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "policeStation",
+          "image": "assets/gals/police.png"
+        },
+        {
+          "name": "Name restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "restaurant",
+          "image": "assets/gals/restaurant.png"
+        },
+        {
+          "name": "Name service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "service",
+          "image": "assets/gals/service.png"
+        }
+      ]
+    },
+    {
+      "name": "Stejarii-Argintii",
+      "description": "Description of Stejarii-Argintii",
+      "imgSrc": "assets/gals/stejari.png",
+      "events": [
+        {
+          "name": "Event with number #1",
+          "location": "Location of event with number #1",
+          "program": "Program of event with number #1",
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #4",
+          "location": "Location of event with number #4",
+          "program": "Program of event with number #4",
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #5",
+          "location": "Location of event with number #5",
+          "program": "Program of event with number #5",
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #6",
+          "location": "Location of event with number #6",
+          "program": "Program of event with number #6",
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #7",
+          "location": "Location of event with number #7",
+          "program": "Program of event with number #7",
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "objectives": [
+        {
+          "name": "Objective with number #1",
+          "location": "Location of objective with number #1",
+          "program": "Program of objective with number #1",
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #4",
+          "location": "Location of objective with number #4",
+          "program": "Program of objective with number #4",
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #5",
+          "location": "Location of objective with number #5",
+          "program": "Program of objective with number #5",
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #6",
+          "location": "Location of objective with number #6",
+          "program": "Program of objective with number #6",
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #7",
+          "location": "Location of objective with number #7",
+          "program": "Program of objective with number #7",
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "trails": [
+        {
+          "name": "Trail with number #",
+          "location": "Loaction of Trail with numbe #",
+          "program": "Porgram of Trail with numbe #",
+          "description": "Description of Trail with numbe #",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #4",
+          "location": "Loaction of Trail with numbe #4",
+          "program": "Porgram of Trail with numbe #4",
+          "description": "Description of Trail with numbe #4",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #5",
+          "location": "Loaction of Trail with numbe #5",
+          "program": "Porgram of Trail with numbe #5",
+          "description": "Description of Trail with numbe #5",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #6",
+          "location": "Loaction of Trail with numbe #6",
+          "program": "Porgram of Trail with numbe #6",
+          "description": "Description of Trail with numbe #6",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #7",
+          "location": "Loaction of Trail with numbe #7",
+          "program": "Porgram of Trail with numbe #7",
+          "description": "Description of Trail with numbe #7",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "utils": [
+        {
+          "name": "Name drugStore",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "drugStore",
+          "image": "assets/gals/drugstore.png"
+        },
+        {
+          "name": "Name gasStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "gasStation",
+          "image": "assets/gals/gas.png"
+        },
+        {
+          "name": "Name hospital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hospital",
+          "image": "assets/gals/hospital.png"
+        },
+        {
+          "name": "Name hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hotel",
+          "image": "assets/gals/hotel.png"
+        },
+        {
+          "name": "Name cityHall",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "cityHall",
+          "image": "assets/gals/hall.png"
+        },
+        {
+          "name": "Name policeStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "policeStation",
+          "image": "assets/gals/police.png"
+        },
+        {
+          "name": "Name restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "restaurant",
+          "image": "assets/gals/restaurant.png"
+        },
+        {
+          "name": "Name service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "service",
+          "image": "assets/gals/service.png"
+        }
+      ]
+    },
+    {
+      "name": "Valuea Prutului",
+      "description": "Description of Valuea-Prutului",
+      "imgSrc": "assets/gals/prut.png",
+      "events": [
+        {
+          "name": "Event with number #1",
+          "location": "Location of event with number #1",
+          "program": "Program of event with number #1",
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #4",
+          "location": "Location of event with number #4",
+          "program": "Program of event with number #4",
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #5",
+          "location": "Location of event with number #5",
+          "program": "Program of event with number #5",
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #6",
+          "location": "Location of event with number #6",
+          "program": "Program of event with number #6",
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #7",
+          "location": "Location of event with number #7",
+          "program": "Program of event with number #7",
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "objectives": [
+        {
+          "name": "Objective with number #1",
+          "location": "Location of objective with number #1",
+          "program": "Program of objective with number #1",
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #4",
+          "location": "Location of objective with number #4",
+          "program": "Program of objective with number #4",
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #5",
+          "location": "Location of objective with number #5",
+          "program": "Program of objective with number #5",
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #6",
+          "location": "Location of objective with number #6",
+          "program": "Program of objective with number #6",
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #7",
+          "location": "Location of objective with number #7",
+          "program": "Program of objective with number #7",
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "trails": [
+        {
+          "name": "Trail with number #",
+          "location": "Loaction of Trail with numbe #",
+          "program": "Porgram of Trail with numbe #",
+          "description": "Description of Trail with numbe #",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #4",
+          "location": "Loaction of Trail with numbe #4",
+          "program": "Porgram of Trail with numbe #4",
+          "description": "Description of Trail with numbe #4",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #5",
+          "location": "Loaction of Trail with numbe #5",
+          "program": "Porgram of Trail with numbe #5",
+          "description": "Description of Trail with numbe #5",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #6",
+          "location": "Loaction of Trail with numbe #6",
+          "program": "Porgram of Trail with numbe #6",
+          "description": "Description of Trail with numbe #6",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #7",
+          "location": "Loaction of Trail with numbe #7",
+          "program": "Porgram of Trail with numbe #7",
+          "description": "Description of Trail with numbe #7",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "utils": [
+        {
+          "name": "Name drugStore",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "drugStore",
+          "image": "assets/gals/drugstore.png"
+        },
+        {
+          "name": "Name gasStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "gasStation",
+          "image": "assets/gals/gas.png"
+        },
+        {
+          "name": "Name hospital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hospital",
+          "image": "assets/gals/hospital.png"
+        },
+        {
+          "name": "Name hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hotel",
+          "image": "assets/gals/hotel.png"
+        },
+        {
+          "name": "Name cityHall",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "cityHall",
+          "image": "assets/gals/hall.png"
+        },
+        {
+          "name": "Name policeStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "policeStation",
+          "image": "assets/gals/police.png"
+        },
+        {
+          "name": "Name restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "restaurant",
+          "image": "assets/gals/restaurant.png"
+        },
+        {
+          "name": "Name service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "service",
+          "image": "assets/gals/service.png"
+        }
+      ]
+    },
+    {
+      "name": "Colinele Iasului",
+      "description": "Description of Colinele Iasului",
+      "imgSrc": "assets/gals/iasi.png",
+      "events": [
+        {
+          "name": "Event with number #1",
+          "location": "Location of event with number #1",
+          "program": "Program of event with number #1",
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #2",
+          "location": "Location of event with number #2",
+          "program": "Program of event with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #3",
+          "location": "Location of event with number #3",
+          "program": "Program of event with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #4",
+          "location": "Location of event with number #4",
+          "program": "Program of event with number #4",
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #5",
+          "location": "Location of event with number #5",
+          "program": "Program of event with number #5",
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #6",
+          "location": "Location of event with number #6",
+          "program": "Program of event with number #6",
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Event with number #7",
+          "location": "Location of event with number #7",
+          "program": "Program of event with number #7",
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "objectives": [
+        {
+          "name": "Objective with number #1",
+          "location": "Location of objective with number #1",
+          "program": "Program of objective with number #1",
+          "description": "Description of event with number #1",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #2",
+          "location": "Location of objective with number #2",
+          "program": "Program of objective with number #2",
+          "description": "Description of event with number #2",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #3",
+          "location": "Location of objective with number #3",
+          "program": "Program of objective with number #3",
+          "description": "Description of event with number #3",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #4",
+          "location": "Location of objective with number #4",
+          "program": "Program of objective with number #4",
+          "description": "Description of event with number #4",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #5",
+          "location": "Location of objective with number #5",
+          "program": "Program of objective with number #5",
+          "description": "Description of event with number #5",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #6",
+          "location": "Location of objective with number #6",
+          "program": "Program of objective with number #6",
+          "description": "Description of event with number #6",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Objective with number #7",
+          "location": "Location of objective with number #7",
+          "program": "Program of objective with number #7",
+          "description": "Description of event with number #7",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "trails": [
+        {
+          "name": "Trail with number #",
+          "location": "Loaction of Trail with numbe #",
+          "program": "Porgram of Trail with numbe #",
+          "description": "Description of Trail with numbe #",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #2",
+          "location": "Loaction of Trail with numbe #2",
+          "program": "Porgram of Trail with numbe #2",
+          "description": "Description of Trail with numbe #2",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #3",
+          "location": "Loaction of Trail with numbe #3",
+          "program": "Porgram of Trail with numbe #3",
+          "description": "Description of Trail with numbe #3",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #4",
+          "location": "Loaction of Trail with numbe #4",
+          "program": "Porgram of Trail with numbe #4",
+          "description": "Description of Trail with numbe #4",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #5",
+          "location": "Loaction of Trail with numbe #5",
+          "program": "Porgram of Trail with numbe #5",
+          "description": "Description of Trail with numbe #5",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #6",
+          "location": "Loaction of Trail with numbe #6",
+          "program": "Porgram of Trail with numbe #6",
+          "description": "Description of Trail with numbe #6",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        },
+        {
+          "name": "Trail with number #7",
+          "location": "Loaction of Trail with numbe #7",
+          "program": "Porgram of Trail with numbe #7",
+          "description": "Description of Trail with numbe #7",
+          "mapDownloadUrl": "/test.kml",
+          "mapUrl": "https://www.google.com/maps/d/u/0/edit?mid=1vQOroiUuS57KLP20_3XHXfc9Ms8ZpAKL&ll=47.151575562802066%2C27.582714629360964&z=18",
+          "latitude": 47.157116,
+          "longitude": 27.586520
+        }
+      ],
+      "utils": [
+        {
+          "name": "Name drugStore",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "drugStore",
+          "image": "assets/gals/drugstore.png"
+        },
+        {
+          "name": "Name gasStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "gasStation",
+          "image": "assets/gals/gas.png"
+        },
+        {
+          "name": "Name hospital",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hospital",
+          "image": "assets/gals/hospital.png"
+        },
+        {
+          "name": "Name hotel",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "hotel",
+          "image": "assets/gals/hotel.png"
+        },
+        {
+          "name": "Name cityHall",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "cityHall",
+          "image": "assets/gals/hall.png"
+        },
+        {
+          "name": "Name policeStation",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "policeStation",
+          "image": "assets/gals/police.png"
+        },
+        {
+          "name": "Name restaurant",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "restaurant",
+          "image": "assets/gals/restaurant.png"
+        },
+        {
+          "name": "Name service",
+          "latitude": 47.157116,
+          "longitude": 27.586520,
+          "type": "service",
+          "image": "assets/gals/service.png"
+        }
+      ]
+    }
+  ]
+}
