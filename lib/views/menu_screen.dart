@@ -6,19 +6,16 @@ import 'dart:math';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:point_in_polygon/point_in_polygon.dart';
 import 'package:qr_4_all/domain/gal/gal.dart';
 import 'package:qr_4_all/domain/gals.dart';
 import 'package:geolocator/geolocator.dart';
-import 'package:qr_4_all/domain/objective/objective.dart';
 import 'package:qr_4_all/views/turistic-areas/views/objectives/objectives_screen.dart';
 import 'package:qr_4_all/views/turistic-areas/views/zones/zone.dart';
 import 'package:qr_4_all/views/turistic-areas/views/zones/zone_turistice.dart';
 
 import '../scanner.dart';
-import '../user_location.dart';
 
 class MenuScreen extends StatefulWidget {
   final bool isRo;
@@ -59,6 +56,7 @@ class _MenuScreenState extends State<MenuScreen> {
   @override
   void initState() {
     super.initState();
+    Future.delayed(Duration(seconds: 1));
     setState(() {
       setCurrentLocation();
       if (!isRo) {}
@@ -114,9 +112,9 @@ class _MenuScreenState extends State<MenuScreen> {
           position: valeaPrutuluiLL,
           infoWindow: InfoWindow(title: 'Valea Prutului')),
       const Marker(
-          markerId: MarkerId('Colinele Iasului'),
+          markerId: MarkerId('Colinele Iasilor'),
           position: iasiLL,
-          infoWindow: InfoWindow(title: 'Colinele Iasului')),
+          infoWindow: InfoWindow(title: 'Colinele Iasilor')),
     ];
 
     var homeColor = Color.fromARGB(255, 88, 130, 96);
@@ -161,7 +159,7 @@ class _MenuScreenState extends State<MenuScreen> {
                                 borderRadius: BorderRadius.circular(5.0)),
                             leading:
                                 Container(child: const Icon(Icons.home, color: Colors.white)),
-                            title: Text(AppLocalizations.of(context).mainMenu,
+                            title: Text(isRo ? 'Zone Turistice' : 'Main Menu',
                                 style: TextStyle(color: Colors.white)),
                             onTap: () {
                               Navigator.push(
@@ -196,7 +194,7 @@ class _MenuScreenState extends State<MenuScreen> {
                                 borderRadius: BorderRadius.circular(5.0)),
                             leading: const Icon(Icons.qr_code_scanner_sharp,
                                 color: Colors.white),
-                            title: Text(AppLocalizations.of(context).qrScan,
+                            title: Text(isRo ? 'Scaneaza codul QR' : 'QR code scanner',
                                 style: TextStyle(color: Colors.white)),
                             onTap: () {
                               Navigator.push(
@@ -229,7 +227,7 @@ class _MenuScreenState extends State<MenuScreen> {
                                 borderRadius: BorderRadius.circular(5.0)),
                             leading: const Icon(Icons.near_me_sharp,
                                 color: Colors.white),
-                            title: Text(AppLocalizations.of(context).nearMe,
+                            title: Text(isRo ? 'In apropierea mea' : 'Near me',
                                 style: TextStyle(color: Colors.white)),
                             onTap: () {
                               Navigator.push(
@@ -259,7 +257,30 @@ class _MenuScreenState extends State<MenuScreen> {
     );
   }
 
+  delayOpening(bool isLocationUnintialized){
+    if (isLocationUnintialized) {
+      Future.delayed(Duration(seconds: 1));
+    }
+    if (isLocationUnintialized) {
+      Future.delayed(Duration(seconds: 1));
+    }
+    if (isLocationUnintialized) {
+      Future.delayed(Duration(seconds: 1));
+    }
+    if (isLocationUnintialized) {
+      Future.delayed(Duration(seconds: 1));
+    }
+  }
+
   String getGalCode() {
+    Future.delayed(Duration(seconds: 1));
+    bool isLocationUnintialized = lat == null && lon == null;
+    delayOpening(isLocationUnintialized);
+    if (isLocationUnintialized) {
+      lat = 46.891919;
+      lon = 27.147269;
+    }
+
     double? latitude = lat;
     double? longitude = lon;
     Point currentPoint = Point(x: latitude!, y: longitude!);
@@ -449,7 +470,7 @@ class _MenuScreenState extends State<MenuScreen> {
               context,
               MaterialPageRoute(
                 builder: (context) => ZoneScreen(
-                    gal: getGal("Colinele Iasului"),
+                    gal: getGal("Colinele Iasilor"),
                     galCode: 'ci',
                     language: isRo ? 'ro' : 'en'),
               ),
@@ -1407,7 +1428,7 @@ class _MenuScreenState extends State<MenuScreen> {
               context,
               MaterialPageRoute(
                 builder: (context) => ZoneScreen(
-                    gal: getGal("Rediu-prajeni"),
+                    gal: getGal("Rediu-Prajeni"),
                     galCode: 'rp',
                     language: isRo ? 'ro' : 'en'),
               ),

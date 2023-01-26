@@ -28,9 +28,7 @@ class _CalendarScreenState extends State<CalendarScreen> {
     return Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          title: Text(AppLocalizations
-              .of(context)
-              .calendar),
+          title: Text(language == 'ro' ? 'Evenimente si festivaluri' : 'Events'),
           automaticallyImplyLeading: false,
           actions: [
             IconButton(icon: Icon(Icons.arrow_back),

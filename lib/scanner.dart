@@ -5,7 +5,6 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class QRViewExample extends StatefulWidget {
   const QRViewExample({Key? key}) : super(key: key);
@@ -22,9 +21,6 @@ class _QRViewExampleState extends State<QRViewExample> {
   @override
   void reassemble() {
     super.reassemble();
-    if (Platform.isAndroid) {
-      controller!.pauseCamera();
-    }
     controller!.resumeCamera();
   }
 
@@ -72,6 +68,7 @@ class _QRViewExampleState extends State<QRViewExample> {
   void _onQRViewCreated(QRViewController controller) {
     setState(() {
       this.controller = controller;
+      this.controller!.resumeCamera();
     });
     controller.scannedDataStream.listen((scanData) {
       setState(() {

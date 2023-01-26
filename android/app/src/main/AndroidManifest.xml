@@ -1,10 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.gal.colineleIasului.qr_4_all">
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
    <application
-        android:label="qrDemo4All"
+        android:label="QR4All"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

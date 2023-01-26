@@ -38,9 +38,7 @@ class _TrailsScreenState extends State<TrailsScreen> {
     return Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          title: Text(AppLocalizations
-              .of(context)
-              .trailList),
+          title: Text(language == 'ro' ? 'Trasee' : 'Trails'),
           automaticallyImplyLeading: false,
           actions: [
             IconButton(icon: Icon(Icons.arrow_back),

@@ -39,8 +39,8 @@ class _AboutScreenState extends State<AboutScreen> {
               ],
               borderRadius: const BorderRadius.all(Radius.circular(15.0)),
               color: Colors.lightGreen,
-              image: const DecorationImage(
-                  image: AssetImage("assets/gals/iasi.png"), fit: BoxFit.cover),
+              image: DecorationImage(
+                  image: AssetImage(gal.imgSrc.toString()), fit: BoxFit.cover),
             ),
             child: Align(
               alignment: Alignment.bottomCenter,

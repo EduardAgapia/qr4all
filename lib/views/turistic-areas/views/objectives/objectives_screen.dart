@@ -29,9 +29,7 @@ class _ObjectivesScreenState extends State<ObjectivesScreen> {
     return Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          title: Text(AppLocalizations
-              .of(context)
-              .objectives),
+          title: Text(language == 'ro' ? 'Obiective turistice' : 'Turistic objectives'),
           automaticallyImplyLeading: false,
           actions: [
             IconButton(icon: Icon(Icons.arrow_back),
